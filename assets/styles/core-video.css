@@ -1,0 +1,22 @@
+/* Video
+--------------------------------------------- */
+
+.is-style-media-boxed {
+	background-color: var(--wp--preset--color--tertiary);
+	padding: var(--wp--preset--spacing--large);
+	border-radius: 5px;
+}
+
+.is-style-media-boxed video {
+	display: block;
+	box-shadow:
+		1px 2px 2px hsl(233deg 38% 85% / 0.2),
+		2px 4px 4px hsl(233deg 38% 85% / 0.2),
+		4px 8px 8px hsl(233deg 38% 85% / 0.2),
+		8px 16px 16px hsl(233deg 38% 85% / 0.2),
+		16px 32px 32px hsl(233deg 38% 85% / 0.2);
+}
+
+.is-style-media-boxed figcaption {
+	margin-bottom: calc(var(--wp--preset--spacing--small) * -1) !important;
+}

@@ -1,0 +1,30 @@
+/* Cover styles
+--------------------------------------------- */
+
+.is-style-blur-image-less,
+.is-style-blur-image-more {
+	overflow: hidden;
+}
+
+.is-style-blur-image-less > .wp-block-cover__image-background,
+.is-style-blur-image-more > .wp-block-cover__image-background {
+	transform: scale(1.5);
+}
+
+.is-style-blur-image-less > .wp-block-cover__image-background {
+	filter: blur(25px);
+}
+
+.is-style-blur-image-more > .wp-block-cover__image-background {
+	filter: blur(75px);
+}
+
+.is-style-rounded-cover img {
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 781px) {
+	.wp-block-cover {
+		min-height: 500px !important;
+	}
+}

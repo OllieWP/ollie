@@ -1,0 +1,30 @@
+/* Separator
+--------------------------------------------- */
+
+.wp-block-separator {
+	opacity: 1;
+}
+
+.wp-block-separator:not(.is-style-dots),
+.wp-block-separator.has-background:not(.is-style-dots) {
+	border-bottom: 1px solid currentColor;
+	height: 1px;
+}
+
+.wp-block-separator.is-style-dots::before {
+	font-family: sans-serif;
+	font-size: var(--wp--preset--font-size--large);
+	letter-spacing: 10px;
+	padding-left: 10px;
+}
+
+hr.is-style-separator-dotted,
+.editor-styles-wrapper hr.is-style-separator-dotted {
+	width: 100% !important;
+	height: 1px !important;
+	border: none !important;
+	height: 1px !important;
+	background-color: none !important;
+	background: currentColor !important;
+	background: repeating-linear-gradient(90deg,currentColor,currentColor 2px,transparent 2px,transparent 7px) !important;
+}

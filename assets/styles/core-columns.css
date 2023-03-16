@@ -1,0 +1,15 @@
+/* Column
+--------------------------------------------- */
+
+.is-style-column-box-shadow {
+	box-shadow: 0px 8px 40px -20px rgb(21 14 41 / 12%);
+	transition: .4s ease;
+}
+
+.is-style-column-box-shadow:hover {
+	box-shadow: 0px 12px 60px -20px rgb(21 14 41 / 16%);
+}
+
+.wp-block-column {
+	border-radius: 5px;
+}

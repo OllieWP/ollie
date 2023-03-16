@@ -1,0 +1,189 @@
+/*
+Theme Name: Ollie
+Theme URI: olliewp.com
+Author: Mike McAlister
+Author URI: mikemcalister.com
+Description: Ollie is a brand new block-based WordPress theme built for the WordPress Site Editor. Now you can easily create beautiful, fully-customizable websites with WordPress's built-in page builder — no additional plugins or coding skills required! Ollie ships with over 50 beautifully-designed patterns, page templates, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance. Start launching blazing-fast websites today with the power of Ollie and the WordPress Site Editor!
+Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, accessibility-ready, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
+Tested up to: 6.1
+Requires PHP: 7.3
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ollie
+
+Ollie WordPress Theme, (C) 2023 Mike McAlister.
+Ollie is distributed under the terms of the GNU GPL.
+*/
+
+/* CSS Reset
+---------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: underline;
+}
+
+b,
+strong {
+	font-weight: var(--wp--custom--font-weight--semi-bold);
+}
+
+blockquote {
+	margin: 0;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ol:where(:not([class*="wp-block"])),
+ol:where(.wp-block-list),
+ul:where(:not([class*="wp-block"])),
+ul:where(.wp-block-list) {
+	padding-inline-start: var(--wp--preset--spacing--medium);
+}
+
+div[class*="wp-block-"] figcaption {
+	color: var(--wp--preset--color--secondary);
+	font-size: var(--wp--preset--font-size--x-small);
+	margin-bottom: 0;
+	margin-top: 20px;
+	text-align: center;
+}
+
+img,
+video {
+	border-radius: 5px;
+}
+
+/* Forms
+--------------------------------------------- */
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+input[type="button"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+
+input:not([type="submit"]),
+select,
+textarea,
+.wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]),
+.wp-block-post-comments-form textarea {
+	color: var(--wp--preset--color--main);
+	border-radius: 5px;
+	border: solid 1px var(--wp--preset--color--main-accent);
+	padding: .5em 1em;
+	font-size: var(--wp--preset--font-size--small);
+	width: 100%;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+	outline-color: var(--wp--preset--color--primary);
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+label {
+	width: 100%;
+	display: block;
+}
+
+::placeholder {
+	color: var(--wp--preset--color--secondary);
+	font-size: var(--wp--preset--font-size--small);
+	opacity: 0.75;
+}
+
+/* Standardize non-editable button styles
+--------------------------------------------- */
+
+input[type="button"],
+input[type="submit"],
+.wp-block-button__link,
+.is-style-wp-block-button__link,
+.wp-block-navigation__container .wp-element-button .wp-block-navigation-item__content {
+	background-color: var(--wp--preset--color--primary);
+	border: none;
+	border-radius: 5px;
+	color: var(--wp--preset--color--base);
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: var(--wp--custom--font-weight--medium);
+	padding: .5em 1em;
+	text-decoration: none;
+	white-space: normal;
+	width: auto;
+}
+
+/* Fine tune adjustments that can't be done via theme.json yet
+---------------------------------------------------------------------------- */
+
+a.more-link {
+	display: block;
+}
+
+*:not(.wp-block-code) > code {
+	background-color: var(--wp--preset--color--tertiary);
+	font-weight: var(--wp--custom--font-weight--medium);;
+	padding: 3px 8px;
+	position: relative;
+	border-radius: 3px;
+}
+
+.single .wp-block-group .wp-block-post-terms,
+.blog .wp-block-group .wp-block-post-terms {
+	margin-bottom: -8px !important;
+}
+
+.wp-block-term-description p:last-child {
+	margin-bottom: 0;
+}
+
+.dark-footer a {
+	text-decoration: none;
+}
+
+.dark-footer a:hover {
+	text-decoration: underline;
+}
+
+.remove-border-and-padding .wp-block-post-template li:last-child .wp-block-separator {
+	display: none;
+}
+
+/* Hide post meta div if no tags assigned */
+.single .wp-block-group:has(> .post-meta:empty) {
+	display: none;
+}
