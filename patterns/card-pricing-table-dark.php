@@ -2,12 +2,12 @@
 /**
  * Title: Pricing Table Card Dark
  * Slug: card-pricing-table-dark
- * Description: 
+ * Description:
  * Categories: card, pricing
  * Keywords: card, price, pricing, button, list, purchase, download
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

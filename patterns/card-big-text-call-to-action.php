@@ -2,12 +2,12 @@
 /**
  * Title: Big Text Call To Action Card
  * Slug: big-text-call-to-action-card
- * Description: 
+ * Description:
  * Categories: card, buttons, call-to-action
  * Keywords: card, button, cta, heading, call to action
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

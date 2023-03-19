@@ -2,12 +2,12 @@
 /**
  * Title: Image and Text Card
  * Slug: image-and-text-card
- * Description: 
+ * Description:
  * Categories: card
  * Keywords: card, image, text, box, content, link, button
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

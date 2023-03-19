@@ -2,12 +2,12 @@
 /**
  * Title: Hero Call To Action Buttons
  * Slug: hero-call-to-action-buttons
- * Description: 
+ * Description:
  * Categories: call-to-action, buttons, hero
  * Keywords: cta, header, buttons, heading, hero, feature, homepage
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

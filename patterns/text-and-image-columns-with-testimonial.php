@@ -2,12 +2,12 @@
 /**
  * Title: Text and Image Columns With Testimonial
  * Slug: text-and-image-columns-with-testimonial
- * Description: 
+ * Description:
  * Categories: columns, features, testimonial
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

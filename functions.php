@@ -59,9 +59,9 @@ function register_block_styles() {
 			'secondary-button' => __( 'Secondary', 'ollie' ),
 		),
 		'core/list'                      => array(
-			'list-check'         => __( 'Check', 'ollie' ),
-			'list-check-circle'  => __( 'Check Circle', 'ollie' ),
-			'list-boxed'         => __( 'Boxed', 'ollie' )
+			'list-check'        => __( 'Check', 'ollie' ),
+			'list-check-circle' => __( 'Check Circle', 'ollie' ),
+			'list-boxed'        => __( 'Boxed', 'ollie' ),
 		),
 		'core/query-pagination-next'     => array(
 			'wp-block-button__link' => __( 'Button', 'ollie' ),
@@ -154,6 +154,9 @@ function pattern_categories() {
 		),
 		'call-to-action' => array(
 			'label' => __( 'Call To Action', 'ollie' ),
+		),
+		'columns'        => array(
+			'label' => __( 'Columns', 'ollie' ),
 		),
 		'features'       => array(
 			'label' => __( 'Features', 'ollie' ),

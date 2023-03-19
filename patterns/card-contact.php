@@ -2,12 +2,12 @@
 /**
  * Title: Contact Card
  * Slug: card-contact
- * Description: 
+ * Description:
  * Categories: card
  * Keywords: card, contact, social, links, email, company
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

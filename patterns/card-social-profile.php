@@ -2,12 +2,12 @@
 /**
  * Title: Social Profile Card
  * Slug: social-profile-card
- * Description: 
+ * Description:
  * Categories: card, buttons
  * Keywords: profile, links, social, twitter, facebook, instagram, linktree, avatar, bio
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

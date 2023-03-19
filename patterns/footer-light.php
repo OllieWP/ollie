@@ -2,9 +2,9 @@
 /**
  * Title: Footer Light
  * Slug: footer-light
- * Description: 
+ * Description:
  * Categories: footer, columns
- * Keywords: 
+ * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Post Types: wp_template

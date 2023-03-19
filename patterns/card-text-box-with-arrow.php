@@ -2,12 +2,12 @@
 /**
  * Title: Text Box With Arrow Card
  * Slug: text-box-with-arrow-card
- * Description: 
+ * Description:
  * Categories: card, buttons
  * Keywords: box, text, link, arrow, icon, card
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

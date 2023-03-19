@@ -6,8 +6,8 @@
  * Categories: call-to-action, buttons, card
  * Keywords: cta, button, call to action, link
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

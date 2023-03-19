@@ -2,12 +2,12 @@
 /**
  * Title: Features With Emojis
  * Slug: features-with-emojis
- * Description: 
+ * Description:
  * Categories: features, columns
  * Keywords: features, emoji, columns, text
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

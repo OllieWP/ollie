@@ -2,12 +2,12 @@
 /**
  * Title: Blog Post Card
  * Slug: blog-post-card
- * Description: 
+ * Description:
  * Categories: card, posts
  * Keywords: card, image, text, box, content, link, button
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

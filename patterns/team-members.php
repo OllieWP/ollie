@@ -2,12 +2,12 @@
 /**
  * Title: Team Members
  * Slug: team-members
- * Description: 
+ * Description:
  * Categories: columns, testimonial
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

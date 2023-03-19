@@ -6,8 +6,8 @@
  * Categories: call-to-action, buttons, card
  * Keywords: download, button, cta, email, card
  * Viewport Width: 800
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

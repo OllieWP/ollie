@@ -2,12 +2,12 @@
 /**
  * Title: Testimonial Card
  * Slug: card-testimonial
- * Description: 
+ * Description:
  * Categories: card, testimonial
  * Keywords: testimonial, card, avatar, text, quote, review, rating
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

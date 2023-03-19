@@ -2,12 +2,12 @@
 /**
  * Title: Feature Boxes With Icon
  * Slug: feature-boxes-with-icon
- * Description: 
+ * Description:
  * Categories: features, columns
  * Keywords: features, text, icon, columns, box, call to action, cta
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

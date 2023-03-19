@@ -2,12 +2,12 @@
 /**
  * Title: Text and Call To Action Card
  * Slug: card-text-and-call-to-action
- * Description: 
+ * Description:
  * Categories: buttons, columns, testimonial, hero
  * Keywords: download, box, cta, rating, review, testimonial
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

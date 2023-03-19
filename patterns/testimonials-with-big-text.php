@@ -2,12 +2,12 @@
 /**
  * Title: Testimonials With Big Text
  * Slug: testimonials-with-big-text
- * Description: 
+ * Description:
  * Categories: testimonial, columns
  * Keywords: testimonial, review, rating, quote, heading, columns, avatar
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

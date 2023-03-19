@@ -2,12 +2,12 @@
 /**
  * Title: Testimonials With Social Links
  * Slug: testimonials-with-social-links
- * Description: 
+ * Description:
  * Categories: call-to-action, buttons, testimonial
  * Keywords: testimonial, social, review, rating, quote, columns, links
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

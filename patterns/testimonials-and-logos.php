@@ -2,12 +2,12 @@
 /**
  * Title: Testimonials and Logos
  * Slug: testimonials-and-logos
- * Description: 
+ * Description:
  * Categories: testimonial, columns
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

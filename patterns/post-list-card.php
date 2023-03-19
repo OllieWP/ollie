@@ -2,12 +2,12 @@
 /**
  * Title: Post List Card
  * Slug: post-list-card
- * Description: 
+ * Description:
  * Categories: card, posts
  * Keywords: card, posts, list, links, query, page
  * Viewport Width: 600
  * Block Types: core/query
- * Post Types: 
+ * Post Types:
  * Inserter: true
  */
 

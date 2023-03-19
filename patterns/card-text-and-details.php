@@ -2,12 +2,12 @@
 /**
  * Title: Text and Details Card
  * Slug: text-and-details-card
- * Description: 
+ * Description:
  * Categories: call-to-action, columns, hero, features
  * Keywords: table, stats, details, list, card
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

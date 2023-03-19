@@ -2,12 +2,12 @@
 /**
  * Title: FAQ
  * Slug: faq
- * Description: 
+ * Description:
  * Categories: columns, features
  * Keywords: faq, text, features
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

@@ -6,8 +6,8 @@
  * Categories: call-to-action, buttons, pages
  * Keywords: links, linktree, buttons, profile, bio
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 
