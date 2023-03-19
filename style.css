@@ -7,7 +7,7 @@ Description: Ollie is a brand new block-based WordPress theme built for the Word
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, accessibility-ready, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Tested up to: 6.1
 Requires PHP: 7.3
-Version: 0.1
+Version: 0.1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ollie
@@ -72,7 +72,7 @@ video {
 	border-radius: 5px;
 }
 
-/* Forms
+/* Standardize form styling
 --------------------------------------------- */
 
 input,
@@ -126,7 +126,7 @@ label {
 	opacity: 0.75;
 }
 
-/* Standardize non-editable button styles
+/* Standardize non-editor button styles
 --------------------------------------------- */
 
 input[type="button"],
@@ -147,38 +147,34 @@ input[type="submit"],
 	width: auto;
 }
 
-/* Fine tune adjustments that can't be done via theme.json yet
+/* Helper styles that can't be done via theme.json
 ---------------------------------------------------------------------------- */
 
 a.more-link {
 	display: block;
 }
 
+/* Inline code */
 *:not(.wp-block-code) > code {
 	background-color: var(--wp--preset--color--tertiary);
 	font-weight: var(--wp--custom--font-weight--medium);;
-	padding: 3px 8px;
+	padding: 3px 5px;
 	position: relative;
 	border-radius: 3px;
 }
 
+/* Adjust terms at bottom of posts */
 .single .wp-block-group .wp-block-post-terms,
 .blog .wp-block-group .wp-block-post-terms {
 	margin-bottom: -8px !important;
 }
 
+/* Remove margin on term description on archive pages */
 .wp-block-term-description p:last-child {
 	margin-bottom: 0;
 }
 
-.dark-footer a {
-	text-decoration: none;
-}
-
-.dark-footer a:hover {
-	text-decoration: underline;
-}
-
+/* Remove last separator on post list */
 .remove-border-and-padding .wp-block-post-template li:last-child .wp-block-separator {
 	display: none;
 }

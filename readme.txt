@@ -1,26 +1,21 @@
 === Ollie WordPress Block Theme ===
 Contributors: mmcalister
+Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, accessibility-ready, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 5.8
-Tested up to: 6.1.1
-Requires PHP: 5.6
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to: 6.2
+Requires PHP: 7.2
+Stable tag: 0.1.0
+License: GNU General Public License v3.0 (or later)
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Ollie is a brand new block-based WordPress theme built for the WordPress Site Editor. Now you can easily create beautiful, fully-customizable websites with WordPress's built-in page builder — no additional plugins or coding skills required! Ollie ships with over 50 beautifully-designed patterns, page templates, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance. Start launching blazing-fast websites today with the power of Ollie and the WordPress Site Editor! Visit https://demo.olliewp.com to see the full theme demo.
-
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
+Ollie is a beautifully-designed WordPress block theme built for the WordPress block and site editor. Now you can easily create stunning, fully-customizable websites with WordPress's built-in page builder — no additional plugins or coding skills required! Ollie ships with over 50 beautifully-designed patterns, page templates, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance. Start launching blazing-fast websites today with the power of Ollie and the WordPress Site Editor! Visit https://demo.olliewp.com to see the full theme demo.
 
 == Changelog ==
 
-= 1.0 - 1/3/23 =
-* Initial release
+= 0.1.0 - 3/20/23 =
+* Initial beta release
 
 == Copyright ==
 
