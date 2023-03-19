@@ -1,14 +1,14 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Pink",
+	"title": "Orange",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"name": "Primary",
 					"slug": "primary",
-					"color": "#ea4c89"
+					"color": "#ff7043"
 				},
 				{
 					"name": "Main",
@@ -28,12 +28,12 @@
 				{
 					"name": "Primary Accent",
 					"slug": "primary-accent",
-					"color": "#ebdce3"
+					"color": "#ffede8"
 				},
 				{
 					"name": "Tertiary",
 					"slug": "tertiary",
-					"color": "#fbf4f8"
+					"color": "#fff6f4"
 				},
 				{
 					"name": "Base",

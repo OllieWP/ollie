@@ -23,7 +23,7 @@
 				{
 					"name": "Main Accent",
 					"slug": "main-accent",
-					"color": "#d8ddff"
+					"color": "#d0ccde"
 				},
 				{
 					"name": "Primary Accent",
@@ -33,7 +33,7 @@
 				{
 					"name": "Tertiary",
 					"slug": "tertiary",
-					"color": "#fcf7f7"
+					"color": "#f3f8f8"
 				},
 				{
 					"name": "Base",
