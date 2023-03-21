@@ -3,11 +3,25 @@
 
 ![Image](https://user-images.githubusercontent.com/1415737/217930880-5d019715-f0c2-4f2f-9d24-dd466abf531b.jpg)
 
-Ollie is a modern WordPress block theme built to work seamlessly with the WordPress block editor and site editor. You can now create beautiful, fully-customizable websites with WordPress's built-in page builder — no page builder or coding skills required.
+Ollie is a modern WordPress block theme by [Mike McAlister](https://mikemcalister.com). Ollie is built to work seamlessly with the WordPress block editor and site editor, where you can create beautiful, fully-customizable websites with WordPress's built-in page builder — no page builder or coding skills required.
 
 Ollie ships with over 50 beautifully-designed patterns, page templates, block styles, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is also blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance.
 
-One of my hopes with [OllieWP.com](https://olliewp.com) and this theme is to help educate both long-time and new WordPress creators about the many new features WordPress has to offer. Please feel free to dig through the code and learn a bit more about how to make WordPress block themes.
+My goal with [OllieWP.com](https://olliewp.com) and this theme is to help educate both long-time and new WordPress creators about the many powerful, new features WordPress has to offer. Please feel free to dig through the code and learn a bit more about how to make WordPress block themes. ✌️
+
+## Table of Contents
+
+- [Getting Started with Ollie](#getting-started-with-ollie)
+- [Working with Block Themes](#working-with-block-themes)
+  - [Site Editor](#site-editor)
+  - [Patterns](#patterns)
+  - [Global Styles](#global-styles)
+  - [Template Parts](#template-parts)
+  - [Export Your Site](#export-your-site)
+- [Developer Notes](#developer-notes)
+- [License](#license)
+- [Beta Feedback](#beta-feedback)
+- [About the Creator](#about-the-creator)
 
 ## Getting Started with Ollie
 
