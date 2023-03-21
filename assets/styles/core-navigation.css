@@ -12,7 +12,7 @@
 
 /* Drop nav */
 header .wp-block-navigation .wp-block-navigation__submenu-container {
-	border: var(--wp--preset--color--base);
+	border: none !important;
 	font-size: var(--wp--preset--font-size--small);
 	line-height: var(--wp--custom--line-height--snug);
 	border-radius: 5px;
