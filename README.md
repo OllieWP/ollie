@@ -1,5 +1,5 @@
 
-# Ollie — A WordPress block theme
+# Ollie — A WordPress Block Theme
 
 ![Image](https://user-images.githubusercontent.com/1415737/217930880-5d019715-f0c2-4f2f-9d24-dd466abf531b.jpg)
 
@@ -9,18 +9,23 @@ Ollie ships with over 50 beautifully-designed patterns, page templates, block st
 
 One of my hopes with [OllieWP.com](https://olliewp.com) and this theme is to help educate both long-time and new WordPress creators about the many new features WordPress has to offer. Please feel free to dig through the code and learn a bit more about how to make WordPress block themes.
 
-- Theme Demo: [https://demo.olliewp.com](https://demo.olliewp.com)
-- Theme Download: [ollie.zip](https://github.com/OllieWP/ollie/archive/refs/heads/main.zip)
+## Getting Started with Ollie
 
-## Getting started with Ollie
+- Check out a full live demo of the Ollie theme. [View Ollie Demo](https://demo.olliewp.com)
+- Download the Ollie theme zip to install on your WordPress site. [Download Ollie Theme](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip)
+- Download a zip of the Ollie demo site that can be imported into LocalWP. [Download Ollie LocalWP Blueprint](https://github.com/OllieWP/ollie/releases/latest/download/ollie-local-blueprint.zip)
 
-Ollie is built for modern WordPress features and requires WordPress 6.0 or later. To get started, [download the theme](https://github.com/OllieWP/ollie/archive/refs/heads/main.zip) and install it into your WordPress website by going to `Appearance → Themes → Add New`.
+Ollie is built for modern WordPress features and requires WordPress 6.0 or later. To get started, [download the theme](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip) and install it into your WordPress website by going to `Appearance → Themes → Add New`.
 
-Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always do. However, as a block theme, Ollie also supports powerful new features like the site editor, paterns, and more. 
+I've also included a blueprint of the Ollie demo site that can be imported into [LocalWP](http://localwp.com). This will create a site exactly like you see on the [demo](https://demo.olliewp.com), cutting out all the setup steps. Simply [download the blueprint](https://github.com/OllieWP/ollie/releases/latest/download/ollie-local-blueprint.zip) and drag the zip file onto the LocalWP app to create the site. Use the username `ollie` and password `demo` to log in to the blueprint. 
+
+## Working with Block Themes
+
+Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the site editor, patterns, global styles, and more. 
 
 A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site — headers, footers, templates, and more.
 
-### Site editor
+### Site Editor
 
 The WordPress site editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder.
 
@@ -44,25 +49,35 @@ Global styles is powered by a `theme.json` in the root of the theme folder. This
 
 https://user-images.githubusercontent.com/1415737/226260411-f911f8aa-30ae-48c1-9ea0-0a0512b6dd73.mp4
 
-### Template parts
+### Template Parts
 
 A template part is a part of your site that appears across most or all pages. The most common template parts are for the header, footer, and sidebar of a website. Template parts let you easily make global changes to the design or markup of global site elements.
 
-### Export your site
+https://user-images.githubusercontent.com/1415737/226489486-9e5fbb46-22cc-48e7-8926-cf1b9959f5f5.mp4
+
+### Export Your Site
 
 Once you've finished building and customizing your site with the site editor, you can export a zip to install on another site. While in the site editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file.
 
 https://user-images.githubusercontent.com/1415737/226259166-d0e3f676-ebe4-4c42-86e0-f9cf175fa0bd.mp4
 
+## Developer Notes
+
+The Ollie theme works out of the box, so no build steps are required. However, I have included a Composer file that is used for linting to PHP and WordPress core standards. 
+
+- `composer run lint`
+- `composer run wpcs:scan`
+- `composer run wpcs:fix`
+
 ## License
 
-Ollie is licensed under the [GPL-2.0 license](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+Ollie is licensed under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html).
 
-## Beta feedback
+## Beta Feedback
 
 Ollie is currently in beta and looking for any and all feedback. Please [open a new issue](https://github.com/OllieWP/ollie/issues/new/choose) for bug reports, feature requsts, or general feedback.
 
-## About the creator
+## About the Creator
 Ollie was created by [Mike McAlister](https://mikemcalister.com), a code-slinging, pixel-pushing, team-building, award-winning creator from Planet Earth. 
 
 - Check out my [website](https://mikemcalister.com)
