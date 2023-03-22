@@ -11,36 +11,36 @@
 namespace Ollie;
 
 /**
- * Set up theme defaults and register various WordPress features
+ * Set up theme defaults and register various WordPress features.
  */
 function setup() {
 
 	// Make theme available for translation.
 	load_theme_textdomain( sanitize_title( __NAMESPACE__ ), get_template_directory() . '/languages' );
 
-	// Add support for block styles
+	// Add support for block styles.
 	add_theme_support( 'wp-block-styles' );
 
-	// Enqueue editor styles and fonts
+	// Enqueue editor styles and fonts.
 	add_editor_style(
 		array(
 			'./style.css',
 		)
 	);
 
-	// Remove core block patterns
+	// Remove core block patterns.
 	remove_theme_support( 'core-block-patterns' );
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
 
 
 /**
- * Enqueue styles
+ * Enqueue styles.
  */
 function enqueue_style_sheet() {
 	wp_enqueue_style( sanitize_title( __NAMESPACE__ ), get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 
-	// Add Dashicon for list block styles
+	// Add Dashicon for list block styles.
 	$current_id = get_the_ID();
 	if ( has_block( 'core/list', $current_id ) ) {
 		wp_enqueue_style( 'dashicons' );
@@ -50,7 +50,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 
 
 /**
- * Add block style variations
+ * Add block style variations.
  */
 function register_block_styles() {
 
@@ -117,16 +117,16 @@ add_action( 'init', __NAMESPACE__ . '\register_block_styles' );
 
 
 /**
- * Load custom block styles only when the block is used
+ * Load custom block styles only when the block is used.
  */
 function enqueue_custom_block_styles() {
 
-	// Scan our styles folder to locate block styles
+	// Scan our styles folder to locate block styles.
 	$files = glob( get_template_directory() . '/assets/styles/*.css' );
 
 	foreach ( $files as $file ) {
 
-		// Get the filename and core block name
+		// Get the filename and core block name.
 		$filename   = basename( $file, '.css' );
 		$block_name = str_replace( 'core-', 'core/', $filename );
 
@@ -144,7 +144,7 @@ add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
 
 
 /**
- * Register pattern categories
+ * Register pattern categories.
  */
 function pattern_categories() {
 
@@ -186,7 +186,7 @@ add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
 
 
 /**
- * Remove last separator on blog/archive if no pagination exists
+ * Remove last separator on blog/archive if no pagination exists.
  */
 function is_paginated() {
 	global $wp_query;
