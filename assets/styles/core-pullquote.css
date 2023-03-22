@@ -1,0 +1,25 @@
+/* Pullquote
+--------------------------------------------- */
+
+.wp-block-pullquote.alignleft,
+.wp-block-pullquote.alignright {
+	padding-bottom: var(--wp--preset--spacing--medium);
+}
+
+.wp-block-pullquote cite,
+.wp-block-pullquote__citation {
+	text-transform: inherit;
+}
+
+.wp-block-pullquote p:last-of-type {
+	margin-bottom: var(--wp--preset--spacing--small);
+}
+
+@media only screen and (max-width: 781px) {
+	.wp-block-pullquote.alignright,
+	.wp-block-pullquote.alignleft {
+		max-width: 100%;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+}

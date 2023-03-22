@@ -1,0 +1,49 @@
+/* Image
+--------------------------------------------- */
+
+.wp-block-post-content > .wp-block-image,
+.wp-block-post-content > .wp-block-gallery {
+	margin-top: var(--wp--preset--spacing--large);
+	margin-bottom: var(--wp--preset--spacing--large);
+}
+
+.wp-block-image.alignleft {
+	margin-bottom: var(--wp--preset--spacing--small);
+}
+
+.wp-block-image.alignright {
+	margin-bottom: var(--wp--preset--spacing--small);
+}
+
+html .is-layout-flex .wp-block-image {
+	flex-shrink: 0;
+}
+
+.wp-block-image.is-style-rounded img,
+.wp-block-image .is-style-rounded img {
+	border-radius: 10px;
+}
+
+.wp-block-image.is-style-rounded-full img,
+.wp-block-image .is-style-rounded-full img {
+	border-radius: 1000px;
+}
+
+.is-style-media-boxed {
+	background-color: var(--wp--preset--color--tertiary);
+	padding: var(--wp--preset--spacing--large);
+	border-radius: 5px;
+}
+
+.is-style-media-boxed img {
+	box-shadow:
+		1px 2px 2px hsl(233deg 38% 85% / 0.2),
+		2px 4px 4px hsl(233deg 38% 85% / 0.2),
+		4px 8px 8px hsl(233deg 38% 85% / 0.2),
+		8px 16px 16px hsl(233deg 38% 85% / 0.2),
+		16px 32px 32px hsl(233deg 38% 85% / 0.2);
+}
+
+.is-style-media-boxed figcaption {
+	margin-bottom: calc(var(--wp--preset--spacing--small) * -1) !important;
+}

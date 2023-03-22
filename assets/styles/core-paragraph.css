@@ -1,0 +1,6 @@
+/* Paragraph
+--------------------------------------------- */
+
+p.has-background {
+	padding: var(--wp--preset--spacing--small);
+}

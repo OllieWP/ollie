@@ -1,0 +1,149 @@
+/* Navigation
+--------------------------------------------- */
+
+.wp-block-page-list,
+.wp-block-navigation__container {
+	gap: 5px 25px;
+}
+
+.editor-styles-wrapper .wp-block-navigation__container > .wp-element-button {
+	padding: 0;
+}
+
+/* Drop nav */
+header .wp-block-navigation .wp-block-navigation__submenu-container {
+	border: none !important;
+	font-size: var(--wp--preset--font-size--small);
+	line-height: var(--wp--custom--line-height--snug);
+	border-radius: 5px;
+	min-width: 250px !important;
+	margin-left: calc(var(--wp--preset--spacing--medium) * -1);
+	padding: 0;
+}
+
+/* Drop nav submenu */
+header .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container {
+	margin-left: -5px;
+	margin-top: calc(var(--wp--preset--spacing--small) * -1);
+}
+
+/* Add padding to top of drop menu */
+@media only screen and (min-width: 600px) {
+	header .wp-block-navigation :where(.wp-block-navigation__submenu-container) li:first-child {
+		padding-top: var(--wp--preset--spacing--small);
+	}
+
+	/* Add padding to bottom of drop menu */
+	header .wp-block-navigation :where(.wp-block-navigation__submenu-container) li:last-child {
+		padding-bottom: var(--wp--preset--spacing--small);
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+}
+
+/* Add margin to sub menu icon */
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon {
+	margin-right: var(--wp--preset--spacing--small);
+}
+
+/* Drop nav link padding */
+header .wp-block-navigation :where(.wp-block-navigation__submenu-container) a {
+	padding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--medium) !important;
+}
+
+/* Mobile Navigation
+--------------------------------------------- */
+
+.is-menu-open.has-modal-open {
+	padding: var(--wp--preset--spacing--large) var(--wp--preset--spacing--medium) var(--wp--preset--spacing--large) var(--wp--preset--spacing--large);
+}
+
+.is-menu-open.has-modal-open .wp-block-navigation__responsive-container-content {
+	padding-top: 0 !important;
+	font-size: var(--wp--preset--font-size--medium);
+}
+
+.is-menu-open.has-modal-open .wp-block-navigation__container {
+	width: 100%;
+	gap: 0 !important;
+}
+
+.is-menu-open.has-modal-open .wp-block-navigation__container ul {
+	margin-left: 20px;
+}
+
+.is-menu-open.has-modal-open ul.wp-block-navigation__submenu-container {
+	border-radius: 0;
+	margin: 5px 0;
+}
+
+.is-menu-open.has-modal-open .wp-block-navigation__container > li {
+	width: 100%;
+	padding: 0 0;
+	position: relative;
+}
+
+.is-menu-open.has-modal-open .wp-block-navigation__container ul li a:before {
+	content: "\2014";
+	margin-right: 20px;
+	opacity: .15;
+	position: absolute;
+	left: -32px;
+}
+
+.is-menu-open.has-modal-open .wp-block-navigation__container ul li:hover a:hover:before {
+	text-decoration: none;
+}
+
+/* Adjust the first mobile menu item to prevent conflict with menu close button */
+.is-menu-open.has-modal-open .wp-block-navigation__container > li:first-child > a {
+	padding-top: 0 !important;
+	max-width: 90%;
+}
+
+/* Mobile menu sub menu */
+.is-menu-open.has-modal-open .wp-block-navigation-item .wp-block-navigation__submenu-container {
+	padding: 0 0 0 var(--wp--preset--spacing--large);
+	font-size: var(--wp--preset--font-size--base);
+	margin-left: 0;
+	width: 100% !important;
+}
+
+/* Mobile menu links */
+.is-menu-open.has-modal-open .wp-block-navigation-item__content {
+	width: 100%;
+	padding: var(--wp--preset--spacing--small) 0 !important;
+}
+
+/* Mobile menu open button */
+.wp-block-navigation__responsive-container-close,
+.wp-block-navigation__responsive-container-open {
+	padding: 4px;
+	border-radius: 3px;
+	background: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--main);
+}
+
+/* Mobile menu close button */
+.wp-block-navigation__responsive-container-close {
+	background: var(--wp--preset--color--tertiary);
+	color: var(--wp--preset--color--main);
+}
+
+.is-menu-open .wp-block-navigation__submenu-container {
+	background: var(--wp--preset--color--tertiary);
+	box-shadow: none !important;
+	padding-top: var(--wp--preset--spacing--small);
+}
+
+/* Button class on mobile */
+.is-menu-open.has-modal-open .wp-block-navigation__container .wp-element-button {
+	margin-top: var(--wp--preset--spacing--small);
+}
+
+.is-menu-open.has-modal-open .wp-block-navigation__container .wp-element-button .wp-block-navigation-item__content {
+	width: 100%;
+	text-align: center;
+	font-size: var(--wp--preset--font-size--base);
+	padding: var(--wp--preset--spacing--small) !important;
+}

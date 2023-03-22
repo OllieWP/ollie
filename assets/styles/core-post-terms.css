@@ -1,0 +1,23 @@
+/* Categories
+--------------------------------------------- */
+
+.is-style-tag-button a {
+	padding: 6px 12px;
+	border-radius: 5px;
+	background-color: var(--wp--preset--color--tertiary);
+	font-size: var(--wp--preset--font-size--x-small);
+	color: var(--wp--preset--color--primary);
+}
+
+.single .taxonomy-post_tag {
+	display: flex;
+	gap: var(--wp--preset--spacing--small);
+}
+
+.single .taxonomy-post_tag .wp-block-post-terms__separator {
+	display: none;
+}
+
+.single .post-meta:empty {
+	display: none;
+}

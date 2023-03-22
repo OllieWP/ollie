@@ -1,0 +1,81 @@
+/* List
+--------------------------------------------- */
+
+/* List styles for default unordered lists */
+.entry-content ul li,
+.entry-content ol li,
+.wp-block-post-content ul li,
+.wp-block-post-content ol li {
+	margin-bottom: var(--wp--preset--spacing--small);
+}
+
+/* .entry-content > ul li,
+.entry-content > ol li,
+.wp-block-post-content > ul li,
+.wp-block-post-content > ol li {
+	margin-bottom: var(--wp--preset--spacing--small);
+} */
+
+.entry-content ul ul,
+.entry-content ol ul,
+.wp-block-post-content ul ul,
+.wp-block-post-content ol ul {
+	margin-top: var(--wp--preset--spacing--small);
+}
+
+/* Remove paddings */
+.entry-content :not(.wp-block-group) > li:first-child {
+	padding-top: 0;
+}
+
+.entry-content :not(.wp-block-group) li:last-child {
+	padding-bottom: 0;
+}
+
+ul.is-style-list-check,
+ul.is-style-list-check ul,
+ul.is-style-list-check-circle,
+ul.is-style-list-check-circle ul {
+	padding-inline-start: 0px !important;
+	padding-left: 0;
+	list-style: none;
+}
+
+.entry-content ul.is-style-list-check,
+.entry-content ul.is-style-list-check-circle {
+	padding-inline-start: .5rem;
+}
+
+ul.is-style-list-check li,
+ul.is-style-list-check-circle li {
+	position: relative;
+	padding-left: calc(var(--wp--preset--spacing--medium) + .5rem);
+}
+
+ul.is-style-list-check li:before,
+ul.is-style-list-check-circle li:before {
+	font-family: 'Dashicons';
+	content: "\f147";
+	position: absolute;
+	left: 0;
+}
+
+ul.is-style-list-check-circle li:before {
+	content: "\f12a";
+}
+
+ul.is-style-list-check-circle li {
+	padding-left: calc(var(--wp--preset--spacing--medium) + .5rem);
+}
+
+/* Boxed list style */
+ul.is-style-list-boxed,
+ul.is-style-list-boxed.wp-block {
+	background: var(--wp--preset--color--tertiary);
+	padding: var(--wp--preset--spacing--medium) var(--wp--preset--spacing--large);
+	border-radius: 5px;
+}
+
+ul.is-style-list-boxed li:last-child {
+	margin-bottom: 0;
+}
