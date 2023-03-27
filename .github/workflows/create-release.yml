@@ -2,8 +2,7 @@ name: Create theme release
 
 on:
   release:
-    types:
-      - created
+    types: [published]
 
 jobs:
   build:
