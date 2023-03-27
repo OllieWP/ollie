@@ -53,6 +53,10 @@ Patterns are pre-designed page elements that can be used to quickly design a pag
 
 You can access Ollie's patterns via the block inserter on posts, pages, or in the site editor. 
 
+#### Creating page designs with patterns
+
+To create the pages you see on the [Ollie theme demo](https://demo.olliewp.com), simply insert Ollie's full-page patterns onto any page, and apply the No Page Title template via the editor sidebar. This template removes the default page title, which better accomodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices.
+
 https://user-images.githubusercontent.com/1415737/226257588-c2777dfc-b6af-40fd-b997-70fc78bdd88e.mp4
 
 ### Global Styles
