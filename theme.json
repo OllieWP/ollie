@@ -278,7 +278,7 @@
 							"fontFamily": "Inter",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "400 700",
+							"fontWeight": "100 700",
 							"src": [
 								"file:.\/assets\/fonts\/Inter-VariableFont_slnt,wght.woff2"
 							]
