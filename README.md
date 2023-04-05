@@ -55,7 +55,7 @@ You can access Ollie's patterns via the block inserter on posts, pages, or in th
 
 #### Creating page designs with patterns
 
-To create the pages you see on the [Ollie theme demo](https://demo.olliewp.com), simply insert Ollie's full-page patterns onto any page, and apply the No Page Title template via the editor sidebar. This template removes the default page title, which better accomodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices.
+To create the pages you see on the [Ollie theme demo](https://demo.olliewp.com), simply insert Ollie's full-page patterns onto any page, and apply the No Page Title template via the editor sidebar. This template removes the default page title, which better accommodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices.
 
 https://user-images.githubusercontent.com/1415737/226257588-c2777dfc-b6af-40fd-b997-70fc78bdd88e.mp4
 
@@ -93,7 +93,7 @@ Ollie is licensed under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3
 
 ## Beta Feedback
 
-Ollie is currently in beta and looking for any and all feedback. Please [open a new issue](https://github.com/OllieWP/ollie/issues/new/choose) for bug reports, feature requsts, or general feedback.
+Ollie is currently in beta and looking for any and all feedback. Please [open a new issue](https://github.com/OllieWP/ollie/issues/new/choose) for bug reports, feature requests, or general feedback.
 
 ## About the Creator
 Ollie was created by [Mike McAlister](https://mikemcalister.com), a code-slinging, pixel-pushing, team-building, award-winning creator from Planet Earth. 

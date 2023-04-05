@@ -126,27 +126,6 @@ label {
 	opacity: 0.75;
 }
 
-/* Standardize non-editor button styles
---------------------------------------------- */
-
-input[type="button"],
-input[type="submit"],
-.wp-block-button__link,
-.is-style-wp-block-button__link,
-.wp-block-navigation__container .wp-element-button .wp-block-navigation-item__content {
-	background-color: var(--wp--preset--color--primary);
-	border: none;
-	border-radius: 5px;
-	color: var(--wp--preset--color--base);
-	font-family: var(--wp--preset--font-family--primary);
-	font-size: var(--wp--preset--font-size--small);
-	font-weight: var(--wp--custom--font-weight--medium);
-	padding: .5em 1em;
-	text-decoration: none;
-	white-space: normal;
-	width: auto;
-}
-
 /* Helper styles that can't be done via theme.json
 ---------------------------------------------------------------------------- */
 
