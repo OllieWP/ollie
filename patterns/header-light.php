@@ -7,7 +7,7 @@
  * Keywords: header, nav, links, button
  * Viewport Width: 1500
  * Block Types: core/template-part/header
- * Post Types: wp_template
+ * Post Types:
  * Inserter: true
  */
 
