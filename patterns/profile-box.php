@@ -27,7 +27,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconBackgroundColor":"main","iconBackgroundColorValue":"#14111f","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"var:preset|spacing|medium"}}},"className":"is-style-default"} -->
-<ul class="wp-block-social-links aligncenter has-icon-background-color is-style-default" style="margin-top:var(--wp--preset--spacing--medium)"><!-- wp:social-link {"url":"https://twitter.com/ridewithollie","service":"twitter"} /-->
+<ul class="wp-block-social-links aligncenter has-icon-background-color is-style-default" style="margin-top:var(--wp--preset--spacing--medium)"><!-- wp:social-link {"url":"https://twitter.com/buildwithollie","service":"twitter"} /-->
 
 <!-- wp:social-link {"url":"https://dribbble.com/mikemcalister","service":"dribbble"} /-->
 
@@ -44,7 +44,7 @@
 <!-- /wp:button -->
 
 <!-- wp:button {"width":100,"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"className":"is-style-fill","fontSize":"base"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-base-font-size"><a class="wp-block-button__link wp-element-button" href="https://twitter.com/ridewithollie" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">Follow on Twitter</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-base-font-size"><a class="wp-block-button__link wp-element-button" href="https://twitter.com/buildwithollie" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">Follow on Twitter</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"width":100,"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"fontSize":"base"} -->

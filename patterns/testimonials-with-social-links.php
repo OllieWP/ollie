@@ -36,7 +36,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","iconBackgroundColor":"primary","iconBackgroundColorValue":"#4d34fa","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"}}}} -->
-<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"https://twitter.com/ridewithollie","service":"twitter"} /--></ul>
+<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"https://twitter.com/buildwithollie","service":"twitter"} /--></ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:group -->
 

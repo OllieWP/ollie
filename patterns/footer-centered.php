@@ -7,7 +7,7 @@
  * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
- * Post Types: wp_template
+ * Post Types:
  * Inserter: true
  */
 
@@ -26,7 +26,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://twitter.com/ridewithollie">Twitter</a></p>
+<p><a href="https://twitter.com/buildwithollie">Twitter</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -39,7 +39,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"main","iconColorValue":"#150E29","iconBackgroundColor":"base","iconBackgroundColorValue":"#fff","style":{"spacing":{"blockGap":{"top":"20px","left":"20px"}}},"className":"is-style-default","layout":{"type":"flex","justifyContent":"center"}} -->
-<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"https://twitter.com/ridewithollie","service":"twitter"} /-->
+<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"https://twitter.com/buildwithollie","service":"twitter"} /-->
 
 <!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
 

@@ -3,7 +3,9 @@
 
 @media only screen and (max-width: 599px) {
 	/* Reset height of images in the post grid at the bottom of single posts */
-	.single .wp-block-query .wp-block-post-featured-image img {
+	.single .wp-block-query .wp-block-post-featured-image,
+	.single .wp-block-query .wp-block-post-featured-image a,
+	.single .wp-block-query .wp-block-post-featured-image img{
 		height: auto !important;
 	}
 }
