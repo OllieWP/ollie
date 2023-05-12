@@ -6,7 +6,7 @@
  * Categories: card, posts
  * Keywords: card, posts, list, links, query, page
  * Viewport Width: 600
- * Block Types: core/query
+ * Block Types:
  * Post Types:
  * Inserter: true
  */
