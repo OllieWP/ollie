@@ -15,6 +15,14 @@
 			"postTypes": [
 				"post"
 			]
+		},
+		{
+			"name": "page-sidebar",
+			"title": "Page With Sidebar",
+			"postTypes": [
+				"post",
+				"page"
+			]
 		}
 	],
 	"settings": {
