@@ -80,6 +80,11 @@ function register_block_styles() {
 		'core/column'                    => array(
 			'column-box-shadow' => __( 'Box Shadow', 'ollie' ),
 		),
+		'core/post-excerpt'                    => array(
+			'excerpt-truncate-2' => __( 'Truncate 2 Lines', 'ollie' ),
+			'excerpt-truncate-3' => __( 'Truncate 3 Lines', 'ollie' ),
+			'excerpt-truncate-4' => __( 'Truncate 4 Lines', 'ollie' ),
+		),
 		'core/group'                     => array(
 			'column-box-shadow' => __( 'Box Shadow', 'ollie' ),
 		),

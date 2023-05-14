@@ -1,0 +1,24 @@
+/* Post Excerpt
+--------------------------------------------- */
+
+div[class*="is-style-excerpt-truncate-"],
+div[class*="is-style-excerpt-truncate-"] .wp-block-post-excerpt__excerpt {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.is-style-excerpt-truncate-2,
+.is-style-excerpt-truncate-2 .wp-block-post-excerpt__excerpt {
+	-webkit-line-clamp: 2;
+}
+
+.is-style-excerpt-truncate-3,
+.is-style-excerpt-truncate-3 .wp-block-post-excerpt__excerpt {
+	-webkit-line-clamp: 3;
+}
+
+.is-style-excerpt-truncate-4,
+.is-style-excerpt-truncate-4 .wp-block-post-excerpt__excerpt {
+	-webkit-line-clamp: 4;
+}
