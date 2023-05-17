@@ -3,9 +3,17 @@
 	"version": 2,
 	"customTemplates": [
 		{
-			"name": "no-title",
-			"title": "No Page Title",
+			"name": "page-no-title",
+			"title": "Page (No Title)",
 			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "page-with-sidebar",
+			"title": "Page (With Sidebar)",
+			"postTypes": [
+				"post",
 				"page"
 			]
 		},
@@ -876,11 +884,6 @@
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
-		},
-		{
-			"name": "query-default",
-			"title": "Post Loop",
-			"area": "uncategorized"
 		}
 	]
 }

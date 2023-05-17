@@ -1,3 +1,17 @@
+<?php
+/**
+ * Title: Index Default
+ * Slug: index-default
+ * Description: 
+ * Categories: 
+ * Keywords: 
+ * Viewport Width: 1280
+ * Block Types: core/query
+ * Post Types: 
+ * Inserter: false
+ */
+
+?>
 <!-- wp:query {"queryId":0,"query":{"perPage":"5","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"list"},"layout":{"type":"constrained"}} -->
 <div class="wp-block-query"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
