@@ -1,7 +1,7 @@
 {
 	"name": "olliewp/ollie",
 	"description": "A WordPress block theme by Mike McAlister",
-	"type": "library",
+	"type": "wordpress-theme",
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
