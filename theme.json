@@ -496,6 +496,23 @@
 					}
 				}
 			},
+			"core/post-excerpt": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						"color": {
+							"text": "var(--wp--preset--color--primary-accent)"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			},
 			"core/heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--primary)",

@@ -26,5 +26,5 @@ hr.is-style-separator-dotted,
 	height: 1px !important;
 	background-color: none !important;
 	background: currentColor !important;
-	background: repeating-linear-gradient(90deg,currentColor,currentColor 2px,transparent 2px,transparent 7px) !important;
+	background: repeating-linear-gradient(90deg,currentColor,currentColor 2px,transparent 2px,transparent 5px) !important;
 }
