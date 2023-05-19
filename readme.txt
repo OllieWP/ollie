@@ -2,9 +2,9 @@
 Contributors: mmcalister
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, accessibility-ready, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 5.8
-Tested up to: 6.2
+Tested up to: 6.2.1
 Requires PHP: 7.2
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,13 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Ollie is a beautifully-designed WordPress block theme built for the WordPress block and site editor. Now you can easily create stunning, fully-customizable websites with WordPress's built-in page builder — no additional plugins or coding skills required! Ollie ships with over 50 beautifully-designed patterns, page templates, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance. Start launching blazing-fast websites today with the power of Ollie and the WordPress Site Editor! Visit https://demo.olliewp.com to see the full theme demo.
 
 == Changelog ==
+
+= 0.1.3 - 5/19/23 =
+* Change Front Page template back to front-page.html for now. Still contemplating the best option here.
+* Improve styling on search results page
+* Change blog index view from list view to a grid view. 
+* Improve styling on header font sizes 
+* Add Page With Sidebar template. 
 
 = 0.1.2 - 5/10/23 =
 * Change Front Page template to Home template, which makes it a lot easier to control what shows on your homepage.
