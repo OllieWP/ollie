@@ -78,7 +78,7 @@ https://user-images.githubusercontent.com/1415737/226260411-f911f8aa-30ae-48c1-9
 
 A template part is a part of your site that appears across most or all pages. The most common template parts are for the header, footer, and sidebar of a website. Template parts let you easily make global changes to the design or markup of global site elements.
 
-https://user-images.githubusercontent.com/1415737/226489486-9e5fbb46-22cc-48e7-8926-cf1b9959f5f5.mp4
+https://github.com/OllieWP/ollie/assets/1415737/ccffbd01-0176-4c38-adf3-3ba2d5100a72
 
 ### Export Your Site
 
