@@ -1,0 +1,11 @@
+/* Query pagination 
+--------------------------------------------- */
+
+.wp-block-query-pagination-numbers a {
+	display: inline-block;
+}
+
+.wp-block-query-pagination-numbers span.page-numbers {
+	padding-left: .7em;
+	padding-right: .7em;
+}
