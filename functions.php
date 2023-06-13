@@ -80,7 +80,7 @@ function register_block_styles() {
 		'core/column'                    => array(
 			'column-box-shadow' => __( 'Box Shadow', 'ollie' ),
 		),
-		'core/post-excerpt'                    => array(
+		'core/post-excerpt'              => array(
 			'excerpt-truncate-2' => __( 'Truncate 2 Lines', 'ollie' ),
 			'excerpt-truncate-3' => __( 'Truncate 3 Lines', 'ollie' ),
 			'excerpt-truncate-4' => __( 'Truncate 4 Lines', 'ollie' ),
@@ -188,6 +188,23 @@ function pattern_categories() {
 	}
 }
 add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
+
+
+/**
+ * Determine the home.html template content based on Settings → Reading settings
+ */
+function homepage_content() {
+	$posts_page_id = get_option( 'page_for_posts' );
+
+	if ( $posts_page_id ) {
+		// If a post page is selected, show the post grid
+		echo '<!-- wp:pattern {"slug":"post-loop-grid"} /-->';
+	} else {
+		// Otherwise, show the homepage layout
+		echo '<!-- wp:pattern {"slug":"page-home"} /-->';
+	}
+}
+add_action( 'ollie_homepage', __NAMESPACE__ . '\homepage_content' );
 
 
 /**

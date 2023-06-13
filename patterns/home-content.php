@@ -2,15 +2,11 @@
 /**
  * Title: Home Content
  * Slug: home-content
- * Description: A placeholder for determining homepage content
+ * Description: A placeholder for determining home.html content.
  * Inserter: false
  */
 
-// Determine the homepage content based on Settings → Reading settings
-$posts_page_id = get_option( 'page_for_posts' );
-
-if ( $posts_page_id ) {
-	echo '<!-- wp:pattern {"slug":"post-loop-grid"} /-->';
-} else {
-	echo '<!-- wp:pattern {"slug":"page-home"} /-->';
-}
+/**
+ * Runs on home.html to determine content based on Settings → Reading settings. See homepage_content() in functions.php.
+ */
+do_action( 'ollie_homepage' );

@@ -6,8 +6,8 @@
  * Categories: card, contact
  * Keywords: author, bio, profile, user
  * Viewport Width: 800
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 

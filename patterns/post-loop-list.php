@@ -2,12 +2,12 @@
 /**
  * Title: Post Loop List
  * Slug: post-loop-list
- * Description: 
+ * Description:
  * Categories: posts
- * Keywords: 
+ * Keywords:
  * Viewport Width: 1280
  * Block Types: core/query
- * Post Types: 
+ * Post Types:
  * Inserter: true
  */
 
