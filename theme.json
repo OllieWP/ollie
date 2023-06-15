@@ -565,11 +565,6 @@
 				}
 			},
 			"core/paragraph": {
-				"spacing": {
-					"margin": {
-						"top": "0"
-					}
-				},
 				"typography": {
 					"lineHeight": "var(--wp--custom--line-height--body)"
 				}
