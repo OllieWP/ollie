@@ -1,18 +1,17 @@
 <?php
 /**
  * Title: Post Loop Grid
- * Slug: post-loop-grid
- * Description:
+ * Slug: ollie/post-loop-grid
+ * Description: This post loop grid is best used on custom pages where there is not a default post loop.
  * Categories: posts
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1280
  * Block Types: core/query
- * Post Types:
- * Inserter: true
+ * Post Types: 
+ * Inserter: True
  */
-
 ?>
-<!-- wp:query {"queryId":1,"query":{"perPage":"6","pages":"0","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true},"displayLayout":{"type":"flex","columns":3},"align":"full"} -->
+<!-- wp:query {"queryId":1,"query":{"perPage":"6","pages":"0","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"flex","columns":3},"align":"full"} -->
 <div class="wp-block-query alignfull"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide has-tertiary-background-color has-background" style="padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:post-template {"align":"wide","fontSize":"large"} -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"radius":"5px"}},"backgroundColor":"base"} -->

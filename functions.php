@@ -191,23 +191,6 @@ add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
 
 
 /**
- * Determine the home.html template content based on Settings → Reading settings
- */
-function homepage_content() {
-	$posts_page_id = get_option( 'page_for_posts' );
-
-	if ( $posts_page_id ) {
-		// If a post page is selected, show the post grid
-		echo '<!-- wp:pattern {"slug":"post-loop-grid"} /-->';
-	} else {
-		// Otherwise, show the homepage layout
-		echo '<!-- wp:pattern {"slug":"page-home"} /-->';
-	}
-}
-add_action( 'ollie_homepage', __NAMESPACE__ . '\homepage_content' );
-
-
-/**
  * Remove last separator on blog/archive if no pagination exists.
  */
 function is_paginated() {
