@@ -4,10 +4,10 @@
  * Slug: ollie/post-loop-grid
  * Description: This post loop grid is best used on custom pages where there is not a default post loop.
  * Categories: posts
- * Keywords: 
+ * Keywords: blog, posts, query, loop
  * Viewport Width: 1280
  * Block Types: core/query
- * Post Types: 
+ * Post Types:
  * Inserter: True
  */
 ?>

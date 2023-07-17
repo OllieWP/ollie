@@ -4,7 +4,7 @@
  * Slug: post-loop-grid-default
  * Description: This post loop grid is best used on index and archive pages where the loop can inheret the query from the page.
  * Categories: posts
- * Keywords:
+ * Keywords: blog, posts, query, loop
  * Viewport Width: 1280
  * Block Types: core/query
  * Post Types:
