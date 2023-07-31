@@ -200,3 +200,20 @@ function is_paginated() {
 	}
 }
 add_action( 'wp_head', __NAMESPACE__ . '\is_paginated' );
+
+
+/**
+ * Add a Sidebar template part area
+ */
+function template_part_areas( array $areas ) {
+	$areas[] = array(
+		'area'        => 'sidebar',
+		'area_tag'    => 'section',
+		'label'       => __( 'Sidebar', 'ollie' ),
+		'description' => __( 'The Sidebar template defines a page area that can be found on the Page (With Sidebar) template.', 'ollie' ),
+		'icon'        => 'sidebar'
+	);
+
+	return $areas;
+}
+add_filter( 'default_wp_template_part_areas', __NAMESPACE__ . '\template_part_areas' );
