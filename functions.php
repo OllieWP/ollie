@@ -30,6 +30,10 @@ function setup() {
 
 	// Remove core block patterns.
 	remove_theme_support( 'core-block-patterns' );
+
+	// Add settings.
+	include get_template_directory() . '/inc/settings/settings.php';
+
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
 
