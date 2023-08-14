@@ -20,12 +20,12 @@ import EmojiPicker, {
 
 
 // Import Styles.
-import blueJson from '../../../../../../styles/blue.json';
-import greenJson from '../../../../../../styles/green.json';
-import orangeJson from '../../../../../../styles/orange.json';
-import pinkJson from '../../../../../../styles/pink.json';
-import redJson from '../../../../../../styles/red.json';
-import tealJson from '../../../../../../styles/teal.json';
+import blueJson from '../../../../../../../ollie/styles/blue.json';
+import greenJson from '../../../../../../../ollie/styles/green.json';
+import orangeJson from '../../../../../../../ollie/styles/orange.json';
+import pinkJson from '../../../../../../../ollie/styles/pink.json';
+import redJson from '../../../../../../../ollie/styles/red.json';
+import tealJson from '../../../../../../../ollie/styles/teal.json';
 
 const {__} = wp.i18n;
 
