@@ -18,13 +18,14 @@ import EmojiPicker, {
 	Emoji,
 } from "emoji-picker-react";
 
+
 // Import Styles.
-import blueJson from '../../../../../../themes/ollie/styles/blue.json';
-import greenJson from '../../../../../../themes/ollie/styles/green.json';
-import orangeJson from '../../../../../../themes/ollie/styles/orange.json';
-import pinkJson from '../../../../../../themes/ollie/styles/pink.json';
-import redJson from '../../../../../../themes/ollie/styles/red.json';
-import tealJson from '../../../../../../themes/ollie/styles/teal.json';
+import blueJson from '../../../../../../styles/blue.json';
+import greenJson from '../../../../../../styles/green.json';
+import orangeJson from '../../../../../../styles/orange.json';
+import pinkJson from '../../../../../../styles/pink.json';
+import redJson from '../../../../../../styles/red.json';
+import tealJson from '../../../../../../styles/teal.json';
 
 const {__} = wp.i18n;
 

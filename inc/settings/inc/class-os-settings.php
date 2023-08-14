@@ -407,7 +407,7 @@ class Settings {
 	 */
 	public function create_child_theme( $request ) {
 		if ( $request->get_params() ) {
-			OO_Helper::create_child_theme();
+			Helper::create_child_theme();
 
 			return json_encode( [ "status" => 200, "message" => "Ok" ] );
 		}
@@ -475,7 +475,7 @@ class Settings {
 			unset( $pages['_locale'] );
 			unset( $pages['rest_route'] );
 
-			$created_pages = OO_Helper::create_pages( $pages );
+			$created_pages = Helper::create_pages( $pages );
 
 			if ( isset( $created_pages['home'] ) ) {
 				update_option( 'show_on_front', 'page' );
