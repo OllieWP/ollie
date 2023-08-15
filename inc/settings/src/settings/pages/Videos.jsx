@@ -51,7 +51,7 @@ function Videos() {
 					/>
 					<Video 
 						title={__('Site Editor 101', 'ollie')}
-						tagline={__('Learn about the Ollie dashboard and the Ollie setup wizard.', 'ollie')}
+						tagline={__('Learn how to fully customize the Ollie theme with the WordPress Site Editor.', 'ollie')}
 						videoId={'51-FInsYsGs'}
 					/>
 					<Video 

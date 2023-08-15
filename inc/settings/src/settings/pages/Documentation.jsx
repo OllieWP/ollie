@@ -6,6 +6,7 @@ import {
 import DocsIntroduction from "../components/docs/Introduction";
 import DocsBlockThemes from "../components/docs/BlockThemes";
 import DocsResources from "../components/docs/Resources";
+import GettingStarted from "../components/docs/GettingStarted";
 import {useState} from "@wordpress/element";
 
 const {__} = wp.i18n;
@@ -26,13 +27,13 @@ function Documentation() {
                             <li>
                                 <p className="ollie-doc-step-title">{__('Getting Started', 'ollie')}</p>
                                 <ul>
-                                    <li onClick={() => setActiveItem('introduction')}
-                                        className={activeItem === 'introduction' ? 'ollie-active-doc' : ''}>
-                                        <a href="#introduction">{__('Introduction', 'ollie')}</a>
-                                    </li>
                                     <li onClick={() => setActiveItem('getting-started')}
                                         className={activeItem === 'getting-started' ? 'ollie-active-doc' : ''}>
                                         <a href="#getting-started">{__('Getting Started with Ollie', 'ollie')}</a>
+                                    </li>
+									<li onClick={() => setActiveItem('ollie-dashboard')}
+                                        className={activeItem === 'ollie-dashboard' ? 'ollie-active-doc' : ''}>
+                                        <a href="#ollie-dashboard">{__('Ollie Theme Dashboard', 'ollie')}</a>
                                     </li>
                                 </ul>
                             </li>
@@ -68,7 +69,11 @@ function Documentation() {
                             <li>
                                 <p>{__('Resources', 'ollie')}</p>
                                 <ul>
-                                    <li onClick={() => setActiveItem('developer-notes')}
+									<li onClick={() => setActiveItem('ollie-youtube')}
+                                        className={activeItem === 'ollie-youtube' ? 'ollie-active-doc' : ''}>
+                                        <a href="#ollie-youtube">{__('Ollie YouTube Channel', 'ollie')}</a>
+                                    </li>
+									<li onClick={() => setActiveItem('developer-notes')}
                                         className={activeItem === 'developer-notes' ? 'ollie-active-doc' : ''}>
                                         <a href="#developer-notes">{__('Developer Notes', 'ollie')}</a>
                                     </li>
@@ -96,6 +101,7 @@ function Documentation() {
             </FlexItem>
             <FlexItem className={"ollie-setup-content ollie-setup-content-docs"}>
                 <DocsIntroduction/>
+				<GettingStarted/>
                 <DocsBlockThemes/>
                 <DocsResources/>
             </FlexItem>

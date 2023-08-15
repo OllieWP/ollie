@@ -14,7 +14,7 @@ import {
     __experimentalNavigatorButton as NavigatorButton,
     Dashicon,
 } from '@wordpress/components';
-import {Icon, chevronLeft, home, video, formatListNumbered, help} from '@wordpress/icons';
+import {Icon, chevronLeft, home, video, formatListNumbered, help, pages} from '@wordpress/icons';
 import {SettingsContext} from "../context/SettingsContext";
 
 const {__} = wp.i18n;
@@ -94,15 +94,15 @@ function SettingsPage() {
 										path="/onboarding">
 										<Icon icon={formatListNumbered}/> {__('Theme Setup', 'ollie')}
 									</NavigatorButton>
-                                    <NavigatorButton onClick={() => setActiveItem('/documentation')}
-                                                     className={activeItem === '/documentation' ? 'ollie-nav-is-active' : ''}
-                                                     path="/documentation">
-                                        <Icon icon={help}/> {__('Ollie Docs', 'ollie')}
-                                    </NavigatorButton>
                                     <NavigatorButton onClick={() => setActiveItem('/videos')}
                                                      className={activeItem === '/videos' ? 'ollie-nav-is-active' : ''}
                                                      path="/videos">
                                         <Icon icon={video}/> {__('Video Library', 'ollie')}
+                                    </NavigatorButton>
+									<NavigatorButton onClick={() => setActiveItem('/documentation')}
+                                                     className={activeItem === '/documentation' ? 'ollie-nav-is-active' : ''}
+                                                     path="/documentation">
+                                        <Icon icon={pages}/> {__('Ollie Docs', 'ollie')}
                                     </NavigatorButton>
                                 </Flex>
                             </FlexItem>

@@ -13,7 +13,7 @@ function DocsBlockThemes() {
 				videoId={'D7GUoX2XU1k'}
 			/>
 
-			<p>Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the site editor, patterns, global styles, and more.</p>
+			<p>Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the Site Editor, patterns, global styles, and more.</p>
 
 			<p>A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site — headers, footers, templates, and more.</p>
 
@@ -23,13 +23,13 @@ function DocsBlockThemes() {
 
 			<Video 
 				title={__('Site Editor 101', 'ollie')}
-				tagline={__('Learn about the Ollie dashboard and the Ollie setup wizard.', 'ollie')}
+				tagline={__('Learn how to fully customize the Ollie theme with the WordPress Site Editor.', 'ollie')}
 				videoId={'51-FInsYsGs'}
 			/>
 
-			<p>The WordPress site editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder.</p>
+			<p>The WordPress Site Editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder.</p>
 
-			<p>To edit your site via the site editor, go to <code>Appearance → Editor</code>. Here, you can create and edit templates, create menus, customize your website styles, color palette, typography, block styles, and much more. This interface is where you’ll design and build your site before exporting it later.</p>
+			<p>To edit your site via the Site Editor, go to <strong>Appearance → Editor</strong>. Here, you can create and edit templates, create menus, customize your website styles, color palette, typography, block styles, and much more. This interface is where you’ll design and build your site before exporting it later.</p>
 
 			<hr/>
 
@@ -43,9 +43,9 @@ function DocsBlockThemes() {
 
 			<p>Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor.</p>
 
-			<p>You can access Ollie’s patterns via the block inserter on posts, pages, or in the site editor.</p>
+			<p>You can access Ollie’s patterns via the block inserter on posts, pages, or in the Site Editor.</p>
 
-			<p>To create the pages you see on the <a href="https://demo.olliewp.com">Ollie theme demo</a>, simply insert Ollie’s full-page patterns onto any page, and apply the <strong>No Page Title</strong> template via the editor sidebar. This template removes the default page title, which better accommodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices.</p>
+			<p>Watch the video above to learn how to browse Ollie's patterns, how to create your own patterns, how to quickly design full pages with patterns, and more.</p>
 
 			<hr/>
 
@@ -63,15 +63,9 @@ function DocsBlockThemes() {
 
 			<hr/>
 
-			<h3 id="template-parts">Template Parts</h3>
-
-			<p>A template part is a part of your site that appears across most or all pages. The most common template parts are for the header, footer, and sidebar of a website. Template parts let you easily make global changes to the design or markup of global site elements.</p>
-
-			<hr/>
-
 			<h3 id="site-export">Export Your Site</h3>
 
-			<p>Once you’ve finished building and customizing your site with the site editor, you can export a zip to install on another site. While in the site editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file.</p>
+			<p>Once you’ve finished building and customizing your site with the Site Editor, you can export a zip to install on another site. While in the Site Editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file.</p>
         </section>
     )
 }

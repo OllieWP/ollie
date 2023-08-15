@@ -11,6 +11,14 @@ function Resources() {
 
 			<hr/>
 
+			<h3 id="ollie-youtube">Ollie YouTube Channel</h3>
+
+			<p>The Ollie YouTube channel hosts a growing collection of high-quality video tutorials around modern WordPress, block themes, Ollie features, and more. Subscribe to the channel to get notified when new videos are published!</p>
+
+			<p><a href="https://www.youtube.com/@OllieWP">Ollie YouTube Channel</a></p>
+
+			<hr/>
+			
 			<h3 id="developer-notes">Developer Notes</h3>
 
 			<p>The Ollie theme works out of the box, so no build steps are required. However, I have included a Composer file that is used for linting to PHP and WordPress core standards.</p>
@@ -35,7 +43,7 @@ function Resources() {
 
 			<hr/>
 
-			<h3 id="about-creator">About the Creator</h3>
+			<h3 id="about-creator">About the Creators</h3>
 
 			<p>Ollie was created by <a href="https://mikemcalister.com">Mike McAlister</a> and <a href="https://patrickposner.dev">Patrick Posner</a>, a team of code-slinging, pixel-pushing, award-winning creators from Planet Earth.</p>
 

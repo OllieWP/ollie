@@ -936,35 +936,6 @@ const formatListNumbered = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.cr
 
 /***/ }),
 
-/***/ "./node_modules/@wordpress/icons/build-module/library/help.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@wordpress/icons/build-module/library/help.js ***!
-  \********************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/primitives */ "@wordpress/primitives");
-/* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__);
-
-
-/**
- * WordPress dependencies
- */
-
-const help = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__.SVG, {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 24 24"
-}, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__.Path, {
-  d: "M12 4.75a7.25 7.25 0 100 14.5 7.25 7.25 0 000-14.5zM3.25 12a8.75 8.75 0 1117.5 0 8.75 8.75 0 01-17.5 0zM12 8.75a1.5 1.5 0 01.167 2.99c-.465.052-.917.44-.917 1.01V14h1.5v-.845A3 3 0 109 10.25h1.5a1.5 1.5 0 011.5-1.5zM11.25 15v1.5h1.5V15h-1.5z"
-}));
-/* harmony default export */ __webpack_exports__["default"] = (help);
-//# sourceMappingURL=help.js.map
-
-/***/ }),
-
 /***/ "./node_modules/@wordpress/icons/build-module/library/home.js":
 /*!********************************************************************!*\
   !*** ./node_modules/@wordpress/icons/build-module/library/home.js ***!
@@ -991,6 +962,35 @@ const home = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_
 }));
 /* harmony default export */ __webpack_exports__["default"] = (home);
 //# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@wordpress/icons/build-module/library/pages.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@wordpress/icons/build-module/library/pages.js ***!
+  \*********************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/primitives */ "@wordpress/primitives");
+/* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__);
+
+
+/**
+ * WordPress dependencies
+ */
+
+const pages = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__.SVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24"
+}, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__.Path, {
+  d: "M7 13.8h6v-1.5H7v1.5zM18 16V4c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2zM5.5 16V4c0-.3.2-.5.5-.5h10c.3 0 .5.2.5.5v12c0 .3-.2.5-.5.5H6c-.3 0-.5-.2-.5-.5zM7 10.5h8V9H7v1.5zm0-3.3h8V5.8H7v1.4zM20.2 6v13c0 .7-.6 1.2-1.2 1.2H8v1.5h11c1.5 0 2.7-1.2 2.7-2.8V6h-1.5z"
+}));
+/* harmony default export */ __webpack_exports__["default"] = (pages);
+//# sourceMappingURL=pages.js.map
 
 /***/ }),
 
@@ -1173,8 +1173,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/chevron-left.js");
 /* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/home.js");
 /* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/format-list-numbered.js");
-/* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/help.js");
-/* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/video.js");
+/* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/video.js");
+/* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/pages.js");
 /* harmony import */ var _context_SettingsContext__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../context/SettingsContext */ "./src/settings/context/SettingsContext.jsx");
 
 
@@ -1278,18 +1278,18 @@ function SettingsPage() {
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_icons__WEBPACK_IMPORTED_MODULE_7__["default"], {
     icon: _wordpress_icons__WEBPACK_IMPORTED_MODULE_10__["default"]
   }), " ", __('Theme Setup', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_5__.__experimentalNavigatorButton, {
-    onClick: () => setActiveItem('/documentation'),
-    className: activeItem === '/documentation' ? 'ollie-nav-is-active' : '',
-    path: "/documentation"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_icons__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    icon: _wordpress_icons__WEBPACK_IMPORTED_MODULE_11__["default"]
-  }), " ", __('Ollie Docs', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_5__.__experimentalNavigatorButton, {
     onClick: () => setActiveItem('/videos'),
     className: activeItem === '/videos' ? 'ollie-nav-is-active' : '',
     path: "/videos"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_icons__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    icon: _wordpress_icons__WEBPACK_IMPORTED_MODULE_11__["default"]
+  }), " ", __('Video Library', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_5__.__experimentalNavigatorButton, {
+    onClick: () => setActiveItem('/documentation'),
+    className: activeItem === '/documentation' ? 'ollie-nav-is-active' : '',
+    path: "/documentation"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_icons__WEBPACK_IMPORTED_MODULE_7__["default"], {
     icon: _wordpress_icons__WEBPACK_IMPORTED_MODULE_12__["default"]
-  }), " ", __('Video Library', 'ollie'))))))), activeItem === '/' && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_5__.FlexItem, {
+  }), " ", __('Ollie Docs', 'ollie'))))))), activeItem === '/' && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_5__.FlexItem, {
     isBlock: true,
     align: "start",
     className: "ollie-settings-right"
@@ -1342,33 +1342,76 @@ function DocsBlockThemes() {
     title: __('What is a block theme?', 'ollie'),
     tagline: __('Let\'s dig into block themes and learn about all of the powerful new features.', 'ollie'),
     videoId: 'D7GUoX2XU1k'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the site editor, patterns, global styles, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site \u2014 headers, footers, templates, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the Site Editor, patterns, global styles, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site \u2014 headers, footers, templates, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "site-editor"
   }, "Site Editor"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('Site Editor 101', 'ollie'),
-    tagline: __('Learn about the Ollie dashboard and the Ollie setup wizard.', 'ollie'),
+    tagline: __('Learn how to fully customize the Ollie theme with the WordPress Site Editor.', 'ollie'),
     videoId: '51-FInsYsGs'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The WordPress site editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "To edit your site via the site editor, go to ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("code", null, "Appearance \u2192 Editor"), ". Here, you can create and edit templates, create menus, customize your website styles, color palette, typography, block styles, and much more. This interface is where you\u2019ll design and build your site before exporting it later."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The WordPress Site Editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "To edit your site via the Site Editor, go to ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "Appearance \u2192 Editor"), ". Here, you can create and edit templates, create menus, customize your website styles, color palette, typography, block styles, and much more. This interface is where you\u2019ll design and build your site before exporting it later."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "patterns"
   }, "Patterns"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('Working with Patterns', 'ollie'),
     tagline: __('Design pixel-perfect pages with the growing collection of Ollie patterns.', 'ollie'),
     videoId: 'w8DehSH1_PA'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "You can access Ollie\u2019s patterns via the block inserter on posts, pages, or in the site editor."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "To create the pages you see on the ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://demo.olliewp.com"
-  }, "Ollie theme demo"), ", simply insert Ollie\u2019s full-page patterns onto any page, and apply the ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "No Page Title"), " template via the editor sidebar. This template removes the default page title, which better accommodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "You can access Ollie\u2019s patterns via the block inserter on posts, pages, or in the Site Editor."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Watch the video above to learn how to browse Ollie's patterns, how to create your own patterns, how to quickly design full pages with patterns, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "global-styles"
   }, "Global Styles"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('Global Styles', 'ollie'),
     tagline: __('Quickly and easily change your site\'s fonts, colors, and more with global styles.', 'ollie'),
     videoId: '6RavZxNFy2Y'
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Global styles is the user interface in the Site Editor where you can modify all the styles associated with your site. This could be typography, fonts, button colors, link colors, layout defaults, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Global styles is powered by a theme.json in the root of the theme folder. This configuration file lets you define site-wide and block-specific styles to be used by the global styles interface."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
-    id: "template-parts"
-  }, "Template Parts"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "A template part is a part of your site that appears across most or all pages. The most common template parts are for the header, footer, and sidebar of a website. Template parts let you easily make global changes to the design or markup of global site elements."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "site-export"
-  }, "Export Your Site"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you\u2019ve finished building and customizing your site with the site editor, you can export a zip to install on another site. While in the site editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file."));
+  }, "Export Your Site"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you\u2019ve finished building and customizing your site with the Site Editor, you can export a zip to install on another site. While in the Site Editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file."));
 }
 /* harmony default export */ __webpack_exports__["default"] = (DocsBlockThemes);
+
+/***/ }),
+
+/***/ "./src/settings/components/docs/GettingStarted.jsx":
+/*!*********************************************************!*\
+  !*** ./src/settings/components/docs/GettingStarted.jsx ***!
+  \*********************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _partials_Video__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../partials/Video */ "./src/settings/components/partials/Video.jsx");
+
+const {
+  __
+} = wp.i18n;
+
+function GettingStarted() {
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
+    id: "getting-started"
+  }, "Getting Started with Ollie"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "View a live demo of the Ollie theme. ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "https://demo.olliewp.com/"
+  }, "View Ollie Demo"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Download the Ollie theme zip to install on your WordPress site. ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip"
+  }, "Download Ollie Theme"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Download a zip of the Ollie demo site that can be imported into LocalWP. ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "https://github.com/OllieWP/ollie/releases/latest/download/ollie-local-blueprint.zip"
+  }, "Download Ollie LocalWP Blueprint")))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "There are a few ways to install Ollie on your WordPress website. The easiest way is to install it from within your WordPress admin. Go to ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "Appearance \u2192 Themes \u2192 Add New"), " and search for Ollie. "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "You can also install Ollie manually by downloading the theme and uploading it to your WordPress site. You can download Ollie for free at ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "https://olliewp.com"
+  }, "OllieWP.com"), " and also via the ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "https://github.com/OllieWP/ollie"
+  }, " GitHub repository"), "."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+    id: "ollie-dashboard"
+  }, "Ollie Theme Dashboard"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
+    title: __('Intro to Ollie', 'ollie'),
+    tagline: __('Learn about the Ollie dashboard and the Ollie setup wizard.', 'ollie'),
+    videoId: 'JZ1EgDaDAH0'
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you activate the Ollie theme, you will see a pop-up guiding you to the Ollie theme dashboard. You can also get to the dashboard by visiting ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "Appearance \u2192 Ollie"), ". This dashboard is a one-stop hub for all the resources we\u2019ve included with the Ollie theme. Here, you\u2019ll find a Welcome page with helpful links, Ollie docs, the Ollie theme setup wizard, and the video library."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+    id: "theme-setup-wizard"
+  }, "Theme Setup Wizard"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
+    title: __('Ollie Setup Wizard', 'ollie'),
+    tagline: __('Set up your site with a few clicks with the Ollie Setup Wizard.', 'ollie'),
+    videoId: 'OiO4gNDY0VQ'
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Whenever you set up a new WordPress site, there\u2019s always a dozen different tasks that you have to complete while jumping around the WordPress admin. Creating pages, designing layouts, setting up your brand assets, and a whole bunch of other stuff. "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Well, you don\u2019t have to do that anymore! The Ollie theme Setup wizard is a one-of-a-kind onboarding experience that automates all of those pesky tasks and handles them in one streamlined experience. "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The setup wizard will help you change common settings, set up your logo and brand colors, and automatically create pixel-perfect pages for you with just a few clicks. The setup wizard isn\u2019t just for new sites. You can use the wizard to quickly generate pages on existing sites as well. "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "From your WordPress dashboard, you can find the Ollie setup wizard by going to ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "Appearance \u2192 Ollie \u2192 Theme Setup"), ", or by following the pop-up upon theme activation."));
+}
+/* harmony default export */ __webpack_exports__["default"] = (GettingStarted);
 
 /***/ }),
 
@@ -1389,17 +1432,7 @@ const {
 function DocsIntroduction() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
     id: "introduction"
-  }, "Ollie Block Theme Docs"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is a modern WordPress block theme by ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://mikemcalister.com"
-  }, "Mike McAlister"), ". Ollie is built to work seamlessly with the WordPress block editor and site editor, where you can create beautiful, fully-customizable websites with WordPress\u2019s built-in page builder \u2014 no page builder or coding skills required."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie ships with over 50 beautifully-designed patterns, page templates, block styles, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is also blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "My goal with OllieWP.com and this theme is to help educate both long-time and new WordPress creators about the many powerful, new features WordPress has to offer. Please feel free to dig through the code and learn a bit more about how to make WordPress block themes. \u270C\uFE0F"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
-    id: "getting-started"
-  }, "Getting Started with Ollie"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Check out a full live demo of the Ollie theme. ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "#"
-  }, "View Ollie Demo"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Download the Ollie theme zip to install on your WordPress site. ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "#"
-  }, "Download Ollie Theme"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Download a zip of the Ollie demo site that can be imported into LocalWP. ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "#"
-  }, "Download Ollie LocalWP Blueprint")))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is built for modern WordPress features and requires WordPress 6.0 or later. To get started, download the theme and install it into your WordPress website by going to Appearance \u2192 Themes \u2192 Add New."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "I\u2019ve also included a blueprint of the Ollie demo site that can be imported into LocalWP. This will create a site exactly like you see on the demo, cutting out all the setup steps. Simply download the blueprint and drag the zip file onto the LocalWP app to create the site. Use the username ollie and password demo to log in to the blueprint."));
+  }, "Ollie Block Theme Docs"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is a WordPress block theme that integrates seamlessly with all of the powerful new site building features like the Site Editor, Patterns, Global Styles, and more. With Ollie, you can quickly and easily create beautiful, blazing-fast websites with the native WordPress site editor \u2014 no extra page builder or coding skills required."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is one of the most beautiful block themes out there, shipping with over 50 pixel-perfect patterns that you can use to quickly build out page sections or full page designs. Everything from headers, footers, sidebars, and content areas are fully customizable with a drag and drop interface."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is lightweight and blazing fast. Gone are the days of bloated WordPress websites that need a dozen plugins to look great and load fast. Ollie is fully-responsive out of the box and scores 100% across the board on performance tests."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is also super simple to setup and build with. We\u2019ve built a one-of-a-kind dashboard into the theme where you can run through the setup wizard and learn from our growing library of video tutorials."));
 }
 /* harmony default export */ __webpack_exports__["default"] = (DocsIntroduction);
 
@@ -1423,6 +1456,10 @@ function Resources() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
     id: "resources"
   }, "Resources"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the site editor, patterns, global styles, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site \u2014 headers, footers, templates, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+    id: "ollie-youtube"
+  }, "Ollie YouTube Channel"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The Ollie YouTube channel hosts a growing collection of high-quality video tutorials around modern WordPress, block themes, Ollie features, and more. Subscribe to the channel to get notified when new videos are published!"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "https://www.youtube.com/@OllieWP"
+  }, "Ollie YouTube Channel")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "developer-notes"
   }, "Developer Notes"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The Ollie theme works out of the box, so no build steps are required. However, I have included a Composer file that is used for linting to PHP and WordPress core standards."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "composer run lint"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "composer run wpcs:scan"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "composer run wpcs:fix")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "license"
@@ -1434,7 +1471,7 @@ function Resources() {
     href: "https://github.com/OllieWP/ollie/issues/new/choose"
   }, "open a new issue"), " for bug reports, feature requests, or general feedback."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "about-creator"
-  }, "About the Creator"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie was created by ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+  }, "About the Creators"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie was created by ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://mikemcalister.com"
   }, "Mike McAlister"), " and ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://patrickposner.dev"
@@ -3001,6 +3038,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_docs_Introduction__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/docs/Introduction */ "./src/settings/components/docs/Introduction.jsx");
 /* harmony import */ var _components_docs_BlockThemes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/docs/BlockThemes */ "./src/settings/components/docs/BlockThemes.jsx");
 /* harmony import */ var _components_docs_Resources__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/docs/Resources */ "./src/settings/components/docs/Resources.jsx");
+/* harmony import */ var _components_docs_GettingStarted__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/docs/GettingStarted */ "./src/settings/components/docs/GettingStarted.jsx");
+
 
 
 
@@ -3031,16 +3070,16 @@ function Documentation() {
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
     className: "ollie-doc-step-title"
   }, __('Getting Started', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
-    onClick: () => setActiveItem('introduction'),
-    className: activeItem === 'introduction' ? 'ollie-active-doc' : ''
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "#introduction"
-  }, __('Introduction', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     onClick: () => setActiveItem('getting-started'),
     className: activeItem === 'getting-started' ? 'ollie-active-doc' : ''
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "#getting-started"
-  }, __('Getting Started with Ollie', 'ollie'))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Block Themes', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+  }, __('Getting Started with Ollie', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+    onClick: () => setActiveItem('ollie-dashboard'),
+    className: activeItem === 'ollie-dashboard' ? 'ollie-active-doc' : ''
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#ollie-dashboard"
+  }, __('Ollie Theme Dashboard', 'ollie'))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Block Themes', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     onClick: () => setActiveItem('block-theme-intro'),
     className: activeItem === 'block-theme-intro' ? 'ollie-active-doc' : ''
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
@@ -3071,6 +3110,11 @@ function Documentation() {
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "#site-export"
   }, __('Export Your Site', 'ollie'))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Resources', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+    onClick: () => setActiveItem('ollie-youtube'),
+    className: activeItem === 'ollie-youtube' ? 'ollie-active-doc' : ''
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#ollie-youtube"
+  }, __('Ollie YouTube Channel', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     onClick: () => setActiveItem('developer-notes'),
     className: activeItem === 'developer-notes' ? 'ollie-active-doc' : ''
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
@@ -3097,7 +3141,7 @@ function Documentation() {
     href: "#support"
   }, __('Support', 'ollie'))))))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, {
     className: "ollie-setup-content ollie-setup-content-docs"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_docs_Introduction__WEBPACK_IMPORTED_MODULE_2__["default"], null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_docs_BlockThemes__WEBPACK_IMPORTED_MODULE_3__["default"], null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_docs_Resources__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_docs_Introduction__WEBPACK_IMPORTED_MODULE_2__["default"], null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_docs_GettingStarted__WEBPACK_IMPORTED_MODULE_5__["default"], null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_docs_BlockThemes__WEBPACK_IMPORTED_MODULE_3__["default"], null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_docs_Resources__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
 }
 /* harmony default export */ __webpack_exports__["default"] = (Documentation);
 
@@ -3372,7 +3416,7 @@ function Videos() {
     videoId: 'D7GUoX2XU1k'
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_2__.Video, {
     title: __('Site Editor 101', 'ollie'),
-    tagline: __('Learn about the Ollie dashboard and the Ollie setup wizard.', 'ollie'),
+    tagline: __('Learn how to fully customize the Ollie theme with the WordPress Site Editor.', 'ollie'),
     videoId: '51-FInsYsGs'
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_2__.Video, {
     title: __('Global Styles', 'ollie'),
