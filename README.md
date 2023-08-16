@@ -30,15 +30,8 @@ My goal with [OllieWP.com](https://olliewp.com) and this theme is to help educat
 | [View Ollie Demo](https://demo.olliewp.com)  | Check out a full live demo of the Ollie theme.  |
 | [Download Ollie Theme Zip](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip)  | Download the latest Ollie theme zip to install on your WordPress site.  |
 | [Download Ollie Child Theme Zip](https://github.com/OllieWP/ollie/releases/latest/download/ollie-child.zip)  | Download the Ollie child theme zip for customizations  |
-| [Download Ollie LocalWP Blueprint Zip](https://github.com/OllieWP/ollie/releases/latest/download/ollie-local-blueprint.zip)  | Download a zip of the Ollie demo site that can be imported into LocalWP.  |
 
 Ollie is built for modern WordPress features and requires WordPress 6.0 or later. To get started, [download the theme](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip) and install it into your WordPress website by going to `Appearance → Themes → Add New`.
-
-### Local Blueprint
-
-I've also included a blueprint of the Ollie demo site that can be imported into [LocalWP](http://localwp.com). This will create a site exactly like you see on the [demo](https://demo.olliewp.com), cutting out all the setup steps. Simply [download the blueprint](https://github.com/OllieWP/ollie/releases/latest/download/ollie-local-blueprint.zip) and drag the zip file onto the LocalWP app to create the site. 
-
-Use the username `ollie` and password `demo` to log in to the blueprint. 
 
 ## Working with Block Themes
 
