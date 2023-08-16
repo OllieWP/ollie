@@ -41,8 +41,8 @@ class Settings {
 	 */
 	public function add_menu() {
 		$settings_suffix = add_theme_page(
-			__( 'Ollie', 'ollie-onboarding' ),
-			__( 'Ollie', 'ollie-onboarding' ),
+			__( 'Ollie', 'ollie' ),
+			__( 'Ollie', 'ollie' ),
 			'manage_options',
 			'ollie',
 			array( $this, 'render_settings' )

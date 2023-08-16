@@ -10,7 +10,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Ollie is a beautifully-designed WordPress block theme built for the WordPress block and site editor. Now you can easily create stunning, fully-customizable websites with WordPress's built-in page builder — no additional plugins or coding skills required! Ollie ships with over 50 beautifully-designed patterns, page templates, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance. Start launching blazing-fast websites today with the power of Ollie and the WordPress Site Editor! Visit https://demo.olliewp.com to see the full theme demo.
+Start launching beautiful, blazing-fast websites with the WordPress Site Editor and the Ollie WordPress block theme! Ollie features over 50+ pixel-perfect pattern designs, a fully-customizable design system with Global Styles, and a one-of-a-kind theme setup wizard that creates an entire site for you in just a few clicks. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet  — no expensive page builder plugin required!
 
 == Changelog ==
 
