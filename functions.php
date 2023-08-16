@@ -204,6 +204,22 @@ add_action( 'wp_head', __NAMESPACE__ . '\is_paginated' );
 
 
 /**
+ * Conditionally output site title or logo
+ */
+function site_logo() {
+	$custom_logo = get_custom_logo();
+
+	if ( empty( $custom_logo ) ) {
+		$site_logo = '<!-- wp:site-title {"level":0,"fontSize":"base"} /-->';
+	} else {
+		$site_logo = '<!-- wp:site-logo {"width":95} /-->';
+	}
+
+	return $site_logo;
+}
+
+
+/**
  * Add a Sidebar template part area
  */
 function template_part_areas( array $areas ) {

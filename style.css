@@ -66,11 +66,6 @@ div[class*="wp-block-"] figcaption {
 	text-align: center;
 }
 
-img,
-video {
-	border-radius: 5px;
-}
-
 /* Standardize form styling
 --------------------------------------------- */
 
