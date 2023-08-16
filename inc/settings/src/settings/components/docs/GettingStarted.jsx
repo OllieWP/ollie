@@ -9,7 +9,6 @@ function GettingStarted() {
 			<ul>
 				<li><p>View a live demo of the Ollie theme. <a href="https://demo.olliewp.com/">View Ollie Demo</a></p></li>
 				<li><p>Download the Ollie theme zip to install on your WordPress site. <a href="https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip">Download Ollie Theme</a></p></li>
-				<li><p>Download a zip of the Ollie demo site that can be imported into LocalWP. <a href="https://github.com/OllieWP/ollie/releases/latest/download/ollie-local-blueprint.zip">Download Ollie LocalWP Blueprint</a></p></li>
 			</ul>
 
 			<p>There are a few ways to install Ollie on your WordPress website. The easiest way is to install it from within your WordPress admin. Go to <strong>Appearance → Themes → Add New</strong> and search for Ollie. </p>
