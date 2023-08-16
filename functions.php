@@ -18,9 +18,6 @@ function setup() {
 	// Make theme available for translation.
 	load_theme_textdomain( sanitize_title( __NAMESPACE__ ), get_template_directory() . '/languages' );
 
-	// Add support for block styles.
-	add_theme_support( 'wp-block-styles' );
-
 	// Enqueue editor styles and fonts.
 	add_editor_style(
 		array(
@@ -30,6 +27,10 @@ function setup() {
 
 	// Remove core block patterns.
 	remove_theme_support( 'core-block-patterns' );
+
+	// Add settings.
+	include get_template_directory() . '/inc/settings/settings.php';
+
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
 
@@ -200,3 +201,36 @@ function is_paginated() {
 	}
 }
 add_action( 'wp_head', __NAMESPACE__ . '\is_paginated' );
+
+
+/**
+ * Conditionally output site title or logo
+ */
+function site_logo() {
+	$custom_logo = get_custom_logo();
+
+	if ( empty( $custom_logo ) ) {
+		$site_logo = '<!-- wp:site-title {"level":0,"fontSize":"base"} /-->';
+	} else {
+		$site_logo = '<!-- wp:site-logo {"width":95} /-->';
+	}
+
+	return $site_logo;
+}
+
+
+/**
+ * Add a Sidebar template part area
+ */
+function template_part_areas( array $areas ) {
+	$areas[] = array(
+		'area'        => 'sidebar',
+		'area_tag'    => 'section',
+		'label'       => __( 'Sidebar', 'ollie' ),
+		'description' => __( 'The Sidebar template defines a page area that can be found on the Page (With Sidebar) template.', 'ollie' ),
+		'icon'        => 'sidebar'
+	);
+
+	return $areas;
+}
+add_filter( 'default_wp_template_part_areas', __NAMESPACE__ . '\template_part_areas' );
