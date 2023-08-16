@@ -4,15 +4,20 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 6.3
 Requires PHP: 7.2
-Stable tag: 0.1.4
+Stable tag: 1.0.0
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Ollie is a beautifully-designed WordPress block theme built for the WordPress block and site editor. Now you can easily create stunning, fully-customizable websites with WordPress's built-in page builder — no additional plugins or coding skills required! Ollie ships with over 50 beautifully-designed patterns, page templates, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance. Start launching blazing-fast websites today with the power of Ollie and the WordPress Site Editor! Visit https://demo.olliewp.com to see the full theme demo.
+Start launching beautiful, blazing-fast websites with the WordPress Site Editor and the Ollie WordPress block theme! Ollie features over 50+ pixel-perfect pattern designs, a fully-customizable design system with Global Styles, and a one-of-a-kind theme setup wizard that creates an entire site for you in just a few clicks. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet  — no expensive page builder plugin required!
 
 == Changelog ==
+
+= 1.0.0 - 8/16/23 =
+* Initial public release 
+* Add Ollie Dashboard and Setup Wizard (Appearance → Ollie)
+* Fix block spacing for WordPress 6.3 
 
 = 0.1.4 - 7/17/23 =
 * Remove home.html template in favor of traditional set up. Using home.html had benefits, but required users to employ workarounds to get the homepage and blog settings working as expected. Now, to create a homepage layout, choose any page, apply the No Title page template, and add one of the full page patterns found in the pattern modal.
