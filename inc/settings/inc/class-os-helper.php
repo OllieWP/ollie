@@ -49,41 +49,6 @@ class Helper {
 	}
 
 	/**
-	 * Create child theme for Ollie.
-	 *
-	 * @return void
-	 */
-	public static function create_child_theme() {
-		// Prepare directories.
-		$child_theme_file_dir = OS_PATH . '/inc/child-theme';
-		$ollie_dir            = get_template_directory();
-		$ollie_child_dir      = str_replace( '/themes/ollie', '/themes/ollie-child', $ollie_dir );
-
-		// Create directory.
-		if ( ! file_exists( $ollie_child_dir ) ) {
-			wp_mkdir_p( $ollie_child_dir );
-		}
-
-		// Copy CSS file.
-		if ( ! copy( $child_theme_file_dir . '/style.css', $ollie_child_dir . '/style.css' ) ) {
-			error_log( 'Failed to copy style.css.' );
-		}
-
-		// Copy screenshot.
-		if ( ! copy( $child_theme_file_dir . '/screenshot.png', $ollie_child_dir . '/screenshot.png' ) ) {
-			error_log( 'Failed to copy screenshot.png.' );
-		}
-
-		// Copy functions.php file.
-		if ( ! copy( $child_theme_file_dir . '/functions.php', $ollie_child_dir . '/functions.php' ) ) {
-			error_log( 'Failed to copy functions.php.' );
-		}
-
-		// Activate child theme.
-		switch_theme( 'ollie-child' );
-	}
-
-	/**
 	 * Create pages in WordPress.
 	 *
 	 * @param array $pages given list of pages.

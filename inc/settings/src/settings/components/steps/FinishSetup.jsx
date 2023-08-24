@@ -15,20 +15,7 @@ const {__} = wp.i18n;
 
 function FinishSetup() {
     const {pageStart, setActiveItem} = useContext(SettingsContext);
-    const [childThemeCreated, setChildThemeCreated] = useState(false);
 
-    const createChildTheme = () => {
-        apiFetch({
-            path: '/ollie/v1/create-child-theme',
-            method: 'POST',
-        });
-
-        setChildThemeCreated(true);
-
-        setTimeout(function () {
-            setChildThemeCreated(false);
-        }, 4000);
-    }
 
     const completeOnboarding = () => {
         apiFetch({
@@ -87,28 +74,6 @@ function FinishSetup() {
 								path="/documentation">
 									{__('View Ollie Docs', 'ollie')}
 							</NavigatorButton>
-                        </FlexItem>
-                    </Flex>
-                    <Flex className="ollie-setting-field">
-                        <FlexItem>
-                            <label for="child-theme">{__('Create Child Theme', 'ollie')}</label>
-                            <p>{__('Do you want to activate a child theme where you can further customize the Ollie theme code?', 'ollie')}</p>
-                        </FlexItem>
-                        <FlexItem>
-                            <Button onClick={createChildTheme}
-                                    className="ollie-wizard-button"
-                                    variant="secondary">{__('Create and Activate', 'ollie')}</Button>
-                            {childThemeCreated &&
-                                <Animate type="slide-in" options={{origin: 'top'}}>
-                                    {() => (
-                                        <Notice status="success" isDismissible={false}>
-                                            <p>
-                                                {__('Child theme created and activated.', 'ollie')}
-                                            </p>
-                                        </Notice>
-                                    )}
-                                </Animate>
-                            }
                         </FlexItem>
                     </Flex>
                 </div>
