@@ -93,15 +93,6 @@ class Settings {
 				$args['onboarding_complete'] = $ollie_settings['onboarding_complete'];
 			}
 
-			// Checking permalink structure.
-			$permalinks = get_option( 'permalink_structure' );
-
-			if ( empty( $permalinks ) ) {
-				$args['permalink_structure'] = 'plain';
-			} else {
-				$args['permalink_structure'] = 'postname';
-			}
-
 			// Adjust homepage display based on WP settings.
 			$front = get_option( 'show_on_front' );
 
@@ -377,17 +368,6 @@ class Settings {
 						update_option( 'show_on_front', 'page' );
 						update_option( 'page_on_front', $options['home_id'] );
 						update_option( 'page_for_posts', $options['blog_id'] );
-						break;
-				}
-			}
-
-			if ( isset( $options['permalink_structure'] ) ) {
-				switch ( $options['permalink_structure'] ) {
-					case 'postname':
-						update_option( 'permalink_structure', '/%postname%/' );
-						break;
-					case 'plain':
-						update_option( 'permalink_structure', '' );
 						break;
 				}
 			}

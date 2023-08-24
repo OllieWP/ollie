@@ -58,26 +58,6 @@ function SiteSetup() {
                         />
                     </FlexItem>
                 </Flex>
-                <Flex className="ollie-setting-field">
-                    <FlexItem>
-                        <label for="site-permalinks">{__('URL Style', 'ollie')}</label>
-                        <p>{__('Choose between descriptive permalinks or number-based permalinks.', 'ollie')}</p>
-                    </FlexItem>
-                    <FlexItem>
-                        <RadioControl
-                            className="ollie-permalink-radio"
-                            id="homepage-display"
-                            selected={settings.permalink_structure}
-                            options={[
-                                {label: 'Post Name', value: 'postname'},
-                                {label: 'Plain', value: 'plain'},
-                            ]}
-                            onChange={(value) => {
-                                updateSetting("permalink_structure", value);
-                            }}
-                        />
-                    </FlexItem>
-                </Flex>
             </div>
         </section>
     )

@@ -7,7 +7,6 @@ function SettingsContextProvider(props) {
     const defaultSettings = {
         site_title: options.site_title,
         site_tagline: options.site_tagline,
-        permalink_structure: options.permalink_structure,
         homepage_display: options.homepage_display,
         home_id: options.home_id,
         blog_id: options.blog_id,
