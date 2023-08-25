@@ -181,7 +181,7 @@ function BrandSetup() {
 				<Flex className="ollie-setting-field">
 					<FlexItem>
 						<label for="brand-color">{__('Brand Color', 'ollie')}</label>
-						<p>{__('Add your brand color to be used as the main accent color on your site.', 'ollie')}</p>
+						<p>{__('Use the accent color above, or add your brand color to be used as the main accent color on your site.', 'ollie')}</p>
 					</FlexItem>
 					<FlexItem>
 						{palettes[style] ?

@@ -74,7 +74,7 @@ function Videos() {
 						videoId={'sp3gZha1gRY'}
 					/>
 					<Video 
-						title={__('Desgin a Hero Header', 'ollie')}
+						title={__('Design a Hero Header', 'ollie')}
 						tagline={__('Follow along as we design a hero header in the WordPress block editor.', 'ollie')}
 						videoId={'Y7JjG1PhLHc'}
 					/>
