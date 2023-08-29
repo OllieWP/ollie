@@ -91,6 +91,7 @@ function register_block_styles() {
 		),
 		'core/separator'                 => array(
 			'separator-dotted' => __( 'Dotted', 'ollie' ),
+			'separator-thin' => __( 'Thin', 'ollie' ),
 		),
 		'core/image'                     => array(
 			'rounded-full' => __( 'Rounded Full', 'ollie' ),

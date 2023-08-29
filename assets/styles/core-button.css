@@ -23,8 +23,6 @@
 	background: var(--wp--preset--color--tertiary);
 	color: var(--wp--preset--color--primary);
 	font-size: var(--wp--preset--font-size--small);
-	padding: .5em 1em;
-
 }
 
 .is-style-secondary-button:hover .wp-element-button,
