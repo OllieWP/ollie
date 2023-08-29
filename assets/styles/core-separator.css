@@ -29,6 +29,6 @@ hr.is-style-separator-dotted,
 	background: repeating-linear-gradient(90deg,currentColor,currentColor 2px,transparent 2px,transparent 5px) !important;
 }
 
-.wp-block-separator.is-style-separator-thin {
-	border: none;
+.is-style-separator-thin {
+	border: none !important;
 }
