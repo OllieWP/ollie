@@ -92,14 +92,13 @@ class Helper {
 	 * @return object The modified theme JSON data.
 	 */
 	public function set_theme_styles( $theme_json ) {
-		$settings = get_option( 'ollie' );
+		$settings    = get_option( 'ollie' );
+		$ollie_style = json_decode( file_get_contents( get_template_directory() . '/styles/blue.json' ) );
 
-		// Exit early if no style defined.
-		if ( ! isset( $settings['style'] ) ) {
-			return $theme_json;
+		if ( isset( $settings['style'] ) ) {
+			$ollie_style = json_decode( file_get_contents( get_template_directory() . '/styles/' . $settings['style'] . '.json' ) );
 		}
 
-		$ollie_style   = json_decode( file_get_contents( get_template_directory() . '/styles/' . $settings['style'] . '.json' ) );
 		$ollie_palette = $ollie_style->settings->color->palette;
 
 		// Change brand color.
