@@ -3,7 +3,6 @@ import {
     Flex,
     FlexItem,
     TextControl,
-    RadioControl,
 } from '@wordpress/components';
 import {SettingsContext} from "../../context/SettingsContext";
 
@@ -13,6 +12,14 @@ function SiteSetup() {
     const {settings, updateSetting, pageStart} = useContext(SettingsContext);
 
     useEffect(() => {
+        if (settings.site_title === undefined) {
+            updateSetting("site_title", options.site_title);
+        }
+
+        if (settings.site_tagline === undefined) {
+            updateSetting("site_tagline", options.site_tagline);
+        }
+
         // Set focus.
         pageStart.current.focus();
     }, []);
