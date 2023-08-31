@@ -93,7 +93,7 @@ class Helper {
 	 */
 	public function set_theme_styles( $theme_json ) {
 		$settings    = get_option( 'ollie' );
-		$ollie_style = json_decode( file_get_contents( get_template_directory() . '/styles/purple.json' ) );
+		$ollie_style = json_decode( file_get_contents( get_template_directory() . '/theme.json' ) );
 
 		if ( isset( $settings['style'] ) ) {
 			$ollie_style = json_decode( file_get_contents( get_template_directory() . '/styles/' . $settings['style'] . '.json' ) );
