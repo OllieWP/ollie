@@ -1,11 +1,6 @@
 /* Navigation
 --------------------------------------------- */
 
-.wp-block-page-list,
-.wp-block-navigation__container {
-	gap: 5px 25px;
-}
-
 .editor-styles-wrapper .wp-block-navigation__container > .wp-element-button {
 	padding: 0;
 }
