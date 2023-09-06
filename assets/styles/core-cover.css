@@ -22,9 +22,3 @@
 .is-style-rounded-cover img {
 	border-radius: 5px;
 }
-
-@media only screen and (max-width: 781px) {
-	.wp-block-cover {
-		min-height: 500px !important;
-	}
-}
