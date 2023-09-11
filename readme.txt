@@ -75,3 +75,8 @@ https://stocksnap.io/photo/woman-glasses-7RKWHUXLMQ
 https://stocksnap.io/photo/smiling-woman-KS92MVGSXY
 https://stocksnap.io/photo/male-professional-6QXAIH13O6
 https://stocksnap.io/photo/rocketship-spaceship-IETQP9ZADV
+
+Other assets: 
+
+- The Inter font is available via the SIL Open Font License 1.1: https://github.com/rsms/inter/blob/master/LICENSE.txt
+- Icons available from Iconnoir via the MIT License: https://github.com/iconoir-icons/iconoir/blob/main/LICENSE
