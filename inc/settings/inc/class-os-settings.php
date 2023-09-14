@@ -64,7 +64,7 @@ class Settings {
 
 		wp_enqueue_media();
 
-		wp_enqueue_script( 'ollie-onboarding-settings', OS_URL . '/build/index.js', array(
+		wp_enqueue_script( 'ollie-onboarding-settings', OLLIE_SETTINGS_URL . '/build/index.js', array(
 			'wp-api',
 			'wp-components',
 			'wp-plugins',
@@ -75,17 +75,17 @@ class Settings {
 			'wp-data',
 			'wp-i18n',
 			'wp-block-editor'
-		), OS_VERSION, true );
+		), OLLIE_SETTINGS_VERSION, true );
 
 		$ollie_settings = get_option( 'ollie' );
 
 		if ( 'appearance_page_ollie' === $screen->base ) {
 			$args = array(
 				'screen'              => 'settings',
-				'version'             => OS_VERSION,
+				'version'             => OLLIE_SETTINGS_VERSION,
 				'dashboard_link'      => esc_url( admin_url() ),
 				'home_link'           => esc_url( home_url() ),
-				'logo'                => OS_URL . '/assets/ollie-logo.svg',
+				'logo'                => OLLIE_SETTINGS_URL . '/assets/ollie-logo.svg',
 				'site_title'          => get_option( 'blogname' ),
 				'site_tagline'        => get_option( 'blogdescription' ),
 				'onboarding_complete' => false,
@@ -112,14 +112,14 @@ class Settings {
 
 			// Make the blocks translatable.
 			if ( function_exists( 'wp_set_script_translations' ) ) {
-				wp_set_script_translations( 'ollie-onboarding-settings', 'ollie-data', OS_PATH . '/languages' );
+				wp_set_script_translations( 'ollie-onboarding-settings', 'ollie-data', OLLIE_SETTINGS_PATH . '/languages' );
 			}
 
-			wp_enqueue_style( 'ollie-onboarding-settings-style', OS_URL . '/build/index.css', array( 'wp-components' ) );
+			wp_enqueue_style( 'ollie-onboarding-settings-style', OLLIE_SETTINGS_URL . '/build/index.css', array( 'wp-components' ) );
 		} else {
 			$args = array(
 				'screen'          => in_array( $pagenow, [ 'themes.php', 'plugins.php' ] ) ? 'modal' : '',
-				'logo'            => OS_URL . '/assets/ollie-logo.svg',
+				'logo'            => OLLIE_SETTINGS_URL . '/assets/ollie-logo.svg',
 				'onboarding_link' => esc_url( admin_url() ) . 'themes.php?page=ollie',
 				'skip_onboarding' => false,
 			);
@@ -132,7 +132,7 @@ class Settings {
 
 			// Make the blocks translatable.
 			if ( function_exists( 'wp_set_script_translations' ) ) {
-				wp_set_script_translations( 'ollie-onboarding-settings', 'ollie-data', OS_PATH . '/languages' );
+				wp_set_script_translations( 'ollie-onboarding-settings', 'ollie-data', OLLIE_SETTINGS_PATH . '/languages' );
 			}
 		}
 	}
