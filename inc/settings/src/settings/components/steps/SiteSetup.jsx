@@ -35,7 +35,7 @@ function SiteSetup() {
                 </Flex>
                 <Flex className="ollie-setting-field">
                     <FlexItem>
-                        <label for="site-title">{__('Site Title', 'ollie')}</label>
+                        <label htmlFor="site-title">{__('Site Title', 'ollie')}</label>
                         <p>{__('Name of your website or brand', 'ollie')}</p>
                     </FlexItem>
                     <FlexItem>
@@ -51,7 +51,7 @@ function SiteSetup() {
                 </Flex>
                 <Flex className="ollie-setting-field">
                     <FlexItem>
-                        <label for="site-tagline">{__('Site Tagline', 'ollie')}</label>
+                        <label htmlFor="site-tagline">{__('Site Tagline', 'ollie')}</label>
                         <p>{__('In a few words, explain what the site is about', 'ollie')}</p>
                     </FlexItem>
                     <FlexItem>

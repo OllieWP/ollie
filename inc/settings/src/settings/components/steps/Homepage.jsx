@@ -84,7 +84,7 @@ function Homepage() {
                 </Flex>
                 <Flex className="ollie-setting-field">
                     <FlexItem>
-                        <label for="homepage-display">{__('Your homepage displays', 'ollie')}</label>
+                        <label htmlFor="homepage-display">{__('Your homepage displays', 'ollie')}</label>
                         <p>{__('Choose what kind of homepage you\'d like to start with. We\'ll help you edit it after setup.', 'ollie')}</p>
                     </FlexItem>
                     <FlexItem>

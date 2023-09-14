@@ -44,7 +44,7 @@ function FinishSetup() {
                     </Flex>
                     <Flex className="ollie-setting-field">
                         <FlexItem>
-                            <label for="view-site">{__('View Your Site', 'ollie')}</label>
+                            <label htmlFor="view-site">{__('View Your Site', 'ollie')}</label>
                             <p>{__('Open your site to check out the live front-end view.', 'ollie')}</p>
                         </FlexItem>
                         <FlexItem>
@@ -54,7 +54,7 @@ function FinishSetup() {
                     </Flex>
                     <Flex className="ollie-setting-field">
                         <FlexItem>
-                            <label for="edit-homepage">{__('Edit Your Homepage', 'ollie')}</label>
+                            <label htmlFor="edit-homepage">{__('Edit Your Homepage', 'ollie')}</label>
                             <p>{__('Go to the Site Editor to view and edit your homepage and customize your site.', 'ollie')}</p>
                         </FlexItem>
                         <FlexItem>
@@ -63,7 +63,7 @@ function FinishSetup() {
                     </Flex>
                     <Flex className="ollie-setting-field">
                         <FlexItem>
-                            <label for="view-docs">{__('View Ollie Docs', 'ollie')}</label>
+                            <label htmlFor="view-docs">{__('View Ollie Docs', 'ollie')}</label>
                             <p>{__('Watch tutorial videos and read through the docs to learn how to build beautiful websites with Ollie.', 'ollie')}</p>
                         </FlexItem>
                         <FlexItem>

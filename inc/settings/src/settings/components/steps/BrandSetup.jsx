@@ -180,7 +180,7 @@ function BrandSetup() {
 				</Flex>
 				<Flex className="ollie-setting-field">
 					<FlexItem>
-						<label for="brand-color">{__('Brand Color', 'ollie')}</label>
+						<label htmlFor="brand-color">{__('Brand Color', 'ollie')}</label>
 						<p>{__('Use the accent color above, or add your brand color to be used as the main accent color on your site.', 'ollie')}</p>
 					</FlexItem>
 					<FlexItem>
@@ -211,7 +211,7 @@ function BrandSetup() {
 				</Flex>
 				<Flex className="ollie-setting-field">
 					<FlexItem>
-						<label for="site-logo">{__('Logo', 'ollie')}</label>
+						<label htmlFor="site-logo">{__('Logo', 'ollie')}</label>
 						<p>{__('Choose an image to be used for your Site Logo. Your site title will be used if no logo is set.', 'ollie')}</p>
 					</FlexItem>
 					<FlexItem>
@@ -229,7 +229,7 @@ function BrandSetup() {
 				</Flex>
 				<Flex className="ollie-setting-field">
 					<FlexItem>
-						<label for="site-icon">{__('Site Icon', 'ollie')}</label>
+						<label htmlFor="site-icon">{__('Site Icon', 'ollie')}</label>
 						<p>{__('Select a small, square icon to display in your browser tab.', 'ollie')}</p>
 					</FlexItem>
 					<FlexItem>
