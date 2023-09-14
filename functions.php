@@ -15,9 +15,6 @@ namespace Ollie;
  */
 function setup() {
 
-	// Make theme available for translation.
-	load_theme_textdomain( sanitize_title( __NAMESPACE__ ), get_template_directory() . '/languages' );
-
 	// Enqueue editor styles and fonts.
 	add_editor_style(
 		array(
