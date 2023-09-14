@@ -435,11 +435,11 @@ class Settings {
 
 			if ( isset( $created_pages['home'] ) ) {
 				update_option( 'show_on_front', 'page' );
-				update_option( 'page_on_front', $created_pages['home'] );
+				update_option( 'page_on_front', absint( $created_pages['home'] ) );
 			}
 
 			if ( isset( $created_pages['blog'] ) ) {
-				update_option( 'page_for_posts', $created_pages['blog'] );
+				update_option( 'page_for_posts', absint( $created_pages['blog'] ) );
 			}
 
 			return json_encode( [ "status" => 200, "pages" => $created_pages, "message" => "Ok" ] );
