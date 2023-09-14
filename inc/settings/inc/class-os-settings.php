@@ -401,12 +401,7 @@ class Settings {
 	 */
 	public function skip_onboarding( $request ) {
 		if ( $request->get_params() ) {
-			$options = get_option( 'ollie' );
-
-			// If no ollie settings exist, create them.
-			if ( ! is_array( $options ) ) {
-				$options = [];
-			}
+			$options = (array) get_option( 'ollie', [] );
 
 			// Set skip onboarding to true and update.
 			$options['skip_onboarding'] = true;
