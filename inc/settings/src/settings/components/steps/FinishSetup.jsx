@@ -48,7 +48,7 @@ function FinishSetup() {
                             <p>{__('Open your site to check out the live front-end view.', 'ollie')}</p>
                         </FlexItem>
                         <FlexItem>
-                            <Button id="view-site" isSecondary href={options.home_link}
+                            <Button id="view-site" isSecondary href={ollie_options.home_link}
                                     target="_blank">{__('View Your Site', 'ollie')}</Button>
                         </FlexItem>
                     </Flex>
@@ -58,7 +58,7 @@ function FinishSetup() {
                             <p>{__('Go to the Site Editor to view and edit your homepage and customize your site.', 'ollie')}</p>
                         </FlexItem>
                         <FlexItem>
-                            <Button id="edit-homepage" isSecondary href={options.dashboard_link + 'site-editor.php'}>{__('Edit Homepage', 'ollie')}</Button>
+                            <Button id="edit-homepage" isSecondary href={ollie_options.dashboard_link + 'site-editor.php'}>{__('Edit Homepage', 'ollie')}</Button>
                         </FlexItem>
                     </Flex>
                     <Flex className="ollie-setting-field">

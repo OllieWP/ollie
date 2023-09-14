@@ -13,11 +13,11 @@ function SiteSetup() {
 
     useEffect(() => {
         if (settings.site_title === undefined) {
-            updateSetting("site_title", options.site_title);
+            updateSetting("site_title", ollie_options.site_title);
         }
 
         if (settings.site_tagline === undefined) {
-            updateSetting("site_tagline", options.site_tagline);
+            updateSetting("site_tagline", ollie_options.site_tagline);
         }
 
         // Set focus.

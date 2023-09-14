@@ -18,14 +18,14 @@ function OnboardingModal() {
 
             // Maybe redirect to onboarding.
             if (!skip) {
-                window.location.href = options.onboarding_link;
+                window.location.href = ollie_options.onboarding_link;
 				setSkipOnboarding(true);
             }
         });
     };
 
     useEffect(() => {
-        if (options.skip_onboarding) {
+        if (ollie_options.skip_onboarding) {
             setSkipOnboarding(true);
         }
 

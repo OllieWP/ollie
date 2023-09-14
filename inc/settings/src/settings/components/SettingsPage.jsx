@@ -37,12 +37,12 @@ function SettingsPage() {
                     <Flex direction="column" align="start" justify="flex-start" gap="0"
                           className={"ollie-nav-container"}>
                         <div className={"ollie-back-to-dash"}>
-                            <a href={options.dashboard_link}><Dashicon
+                            <a href={ollie_options.dashboard_link}><Dashicon
                                 icon="wordpress"/> {__('Back to Dashboard', 'ollie')}</a>
                         </div>
                         <Flex align="start" gap="0" className="ollie-menu-container">
                             <FlexItem className="ollie-back-button">
-                                <a href={options.dashboard_link} aria-label="Navigate to the Dashboard"><Icon
+                                <a href={ollie_options.dashboard_link} aria-label="Navigate to the Dashboard"><Icon
                                     icon={chevronLeft}/></a>
                             </FlexItem>
                             <FlexItem>
@@ -89,7 +89,7 @@ function SettingsPage() {
 										onClick={() => setActiveItem('/onboarding')}
 										className={({
 											'ollie-nav-is-active': activeItem === '/onboarding',
-											'ollie-onboarding-finished': options.onboarding_complete,
+											'ollie-onboarding-finished': ollie_options.onboarding_complete,
 										})}
 										path="/onboarding">
 										<Icon icon={formatListNumbered}/> {__('Theme Setup', 'ollie')}

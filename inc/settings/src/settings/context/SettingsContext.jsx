@@ -5,11 +5,11 @@ export const SettingsContext = createContext();
 
 function SettingsContextProvider(props) {
     const defaultSettings = {
-        site_title: options.site_title,
-        site_tagline: options.site_tagline,
-        homepage_display: options.homepage_display,
-        home_id: options.home_id,
-        blog_id: options.blog_id,
+        site_title: ollie_options.site_title,
+        site_tagline: ollie_options.site_tagline,
+        homepage_display: ollie_options.homepage_display,
+        home_id: ollie_options.home_id,
+        blog_id: ollie_options.blog_id,
         site_icon: '',
         brand_color: '#4D34FA',
         style: 'blue',
