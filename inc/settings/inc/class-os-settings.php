@@ -58,6 +58,8 @@ class Settings {
 	 * @return void
 	 */
 	public function add_settings_scripts() {
+		global $pagenow;
+
 		$screen = get_current_screen();
 
 		wp_enqueue_media();
@@ -116,7 +118,7 @@ class Settings {
 			wp_enqueue_style( 'ollie-onboarding-settings-style', OS_URL . '/build/index.css', array( 'wp-components' ) );
 		} else {
 			$args = array(
-				'screen'          => 'modal',
+				'screen'          => in_array( $pagenow, [ 'themes.php', 'plugins.php' ] ) ? 'modal' : '',
 				'logo'            => OS_URL . '/assets/ollie-logo.svg',
 				'onboarding_link' => esc_url( admin_url() ) . 'themes.php?page=ollie',
 				'skip_onboarding' => false,
