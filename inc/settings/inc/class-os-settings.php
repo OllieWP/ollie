@@ -334,20 +334,20 @@ class Settings {
 	public function save_settings( $request ) {
 		if ( $request->get_params() ) {
 			$options = $request->get_params();
-			update_option( 'ollie', $options );
+			update_option( 'ollie', $this->sanitize_options_array( $options ) );
 
 			// Update core options.
 			if ( isset( $options['site_title'] ) ) {
-				update_option( 'blogname', $options['site_title'] );
+				update_option( 'blogname', sanitize_text_field( $options['site_title'] ) );
 			}
 
 			if ( isset( $options['site_tagline'] ) ) {
-				update_option( 'blogdescription', $options['site_tagline'] );
+				update_option( 'blogdescription', sanitize_text_field( $options['site_tagline'] ) );
 			}
 
 			// Update logo.
 			if ( isset( $options['site_logo'] ) ) {
-				update_option( 'site_logo', $options['site_logo'] );
+				update_option( 'site_logo', absint( $options['site_logo'] ) );
 			}
 
 			// Set up the homepage.
@@ -360,8 +360,8 @@ class Settings {
 					case 'page':
 						// Update options for homepage + blog page.
 						update_option( 'show_on_front', 'page' );
-						update_option( 'page_on_front', $options['home_id'] );
-						update_option( 'page_for_posts', $options['blog_id'] );
+						update_option( 'page_on_front', absint( $options['home_id'] ) );
+						update_option( 'page_for_posts', absint( $options['blog_id'] ) );
 						break;
 				}
 			}
@@ -369,7 +369,7 @@ class Settings {
 			return json_encode( [ "status" => 200, "message" => "Ok" ] );
 		}
 
-		return json_encode( [ "status" => 400, "message" => "Could not dave settings" ] );
+		return json_encode( [ "status" => 400, "message" => "Could not save settings" ] );
 	}
 
 	/**
