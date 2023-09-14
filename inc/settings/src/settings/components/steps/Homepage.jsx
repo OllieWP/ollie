@@ -12,8 +12,8 @@ const {__} = wp.i18n;
 
 function Homepage() {
     const {settings, updateSetting, pageStart} = useContext(SettingsContext);
-    const [homePath, setHomePath] = useState(location.protocol + '//' + location.host);
-    const [blogPath, setBlogPath] = useState(location.protocol + '//' + location.host);
+    const [homePath, setHomePath] = useState(ollie_options.home_link);
+    const [blogPath, setBlogPath] = useState(ollie_options.home_link);
     const [homeDisplay, setHomeDisplay] = useState('page');
     const [homePathChanged, setHomePathChanged] = useState(false);
     const [blogPathChanged, setBlogPathChanged] = useState(false);
@@ -101,12 +101,12 @@ function Homepage() {
 
                                 if (value === 'page') {
                                     // We need to update blog and home path now.
-                                    setHomePath(location.protocol + '//' + location.host + '/' + pages.find(page => page.id === parseInt(settings.home_id)).slug);
-                                    setBlogPath(location.protocol + '//' + location.host + '/' + pages.find(page => page.id === parseInt(settings.blog_id)).slug);
+                                    setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(settings.home_id)).slug);
+                                    setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(settings.blog_id)).slug);
 
                                 } else {
-                                    setHomePath(location.protocol + '//' + location.host);
-                                    setBlogPath(location.protocol + '//' + location.host);
+                                    setHomePath(ollie_options.home_link);
+                                    setBlogPath(ollie_options.home_link);
 
                                     setBlogPathChanged(false);
                                     setHomePathChanged(false);
@@ -131,7 +131,7 @@ function Homepage() {
                                                     setBlogPathChanged(false);
 
                                                     // Update path.
-                                                    setHomePath(location.protocol + '//' + location.host + '/' + pages.find(page => page.id === parseInt(value)).slug);
+                                                    setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(value)).slug);
                                                 }}
                                             />
                                         }
@@ -150,7 +150,7 @@ function Homepage() {
                                                     setHomePathChanged(false);
 
                                                     // Update path.
-                                                    setBlogPath(location.protocol + '//' + location.host + '/' + pages.find(page => page.id === parseInt(value)).slug);
+                                                    setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(value)).slug);
                                                 }}
                                             />
                                         }
