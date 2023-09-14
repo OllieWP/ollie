@@ -381,7 +381,7 @@ class Settings {
 	 */
 	public function complete_onboarding( $request ) {
 		if ( $request->get_params() ) {
-			$options                        = get_option( 'ollie' );
+			$options                        = get_option( 'ollie', [] );
 			$options['onboarding_complete'] = true;
 
 			update_option( 'ollie', $options );
