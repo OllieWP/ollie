@@ -16,11 +16,7 @@ namespace Ollie;
 function setup() {
 
 	// Enqueue editor styles and fonts.
-	add_editor_style(
-		array(
-			'./style.css',
-		)
-	);
+	add_editor_style( get_stylesheet_uri() );
 
 	// Remove core block patterns.
 	remove_theme_support( 'core-block-patterns' );
