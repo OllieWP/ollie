@@ -81,8 +81,8 @@ class Settings {
 			$args = array(
 				'screen'              => 'settings',
 				'version'             => OS_VERSION,
-				'dashboard_link'      => admin_url(),
-				'home_link'           => home_url(),
+				'dashboard_link'      => esc_url( admin_url() ),
+				'home_link'           => esc_url( home_url() ),
 				'logo'                => OS_URL . '/assets/ollie-logo.svg',
 				'site_title'          => get_option( 'blogname' ),
 				'site_tagline'        => get_option( 'blogdescription' ),
@@ -118,7 +118,7 @@ class Settings {
 			$args = array(
 				'screen'          => 'modal',
 				'logo'            => OS_URL . '/assets/ollie-logo.svg',
-				'onboarding_link' => admin_url() . 'themes.php?page=ollie',
+				'onboarding_link' => esc_url( admin_url() ) . 'themes.php?page=ollie',
 				'skip_onboarding' => false,
 			);
 
