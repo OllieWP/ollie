@@ -473,4 +473,40 @@ class Settings {
 
 		return json_encode( [ "status" => 400, "message" => "Could not set logo" ] );
 	}
+
+	/**
+	 * Sanitize options array before saving to database.
+	 * 
+	 * @param array $options User-submitted options.
+	 * 
+	 * @return array Sanitized array of options.
+	 */
+	private function sanitize_options_array( array $options = [] ) {
+		$sanitized_options = [];
+
+		foreach ( $options as $key => $value ) {
+			switch( $key ) {
+				case 'site_logo':
+					$sanitized_options[ $key ] = absint( $value );
+					break;
+				case 'site_title':
+					$sanitized_options[ $key ] = sanitize_text_field( $value );
+					break;
+				case 'site_tagline':
+					$sanitized_options[ $key ] = sanitize_text_field( $value );
+					break;
+				case 'skip_onboarding':
+					$sanitized_options[ $key ] = (bool) $value;
+					break;
+				case 'onboarding_complete':
+					$sanitized_options[ $key ] = (bool) $value;
+					break;
+				default:
+					$sanitized_options[ $key ] = sanitize_text_field( $value );
+					break;
+			}
+		}
+
+		return $sanitized_options;
+	}
 }
