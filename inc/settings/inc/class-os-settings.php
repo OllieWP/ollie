@@ -270,7 +270,7 @@ class Settings {
 			'methods'             => 'POST',
 			'callback'            => [ $this, 'save_settings' ],
 			'permission_callback' => function () {
-				return current_user_can( 'manage_options' );
+				return current_user_can( 'manage_options' ) && current_user_can( 'edit_theme_options' );
 			},
 		) );
 
@@ -278,7 +278,7 @@ class Settings {
 			'methods'             => 'POST',
 			'callback'            => [ $this, 'complete_onboarding' ],
 			'permission_callback' => function () {
-				return current_user_can( 'manage_options' );
+				return current_user_can( 'edit_theme_options' );
 			},
 		) );
 
@@ -286,7 +286,7 @@ class Settings {
 			'methods'             => 'POST',
 			'callback'            => [ $this, 'skip_onboarding' ],
 			'permission_callback' => function () {
-				return current_user_can( 'manage_options' );
+				return current_user_can( 'edit_theme_options' );
 			},
 		) );
 
@@ -302,7 +302,7 @@ class Settings {
 			'methods'             => 'POST',
 			'callback'            => [ $this, 'set_logo' ],
 			'permission_callback' => function () {
-				return current_user_can( 'manage_options' );
+				return current_user_can( 'edit_theme_options' );
 			},
 		) );
 
@@ -310,7 +310,7 @@ class Settings {
 			'methods'             => 'POST',
 			'callback'            => [ $this, 'create_pages' ],
 			'permission_callback' => function () {
-				return current_user_can( 'manage_options' );
+				return current_user_can( 'publish_pages' );
 			},
 		) );
 	}
