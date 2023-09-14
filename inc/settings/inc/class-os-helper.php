@@ -65,10 +65,10 @@ class Helper {
 				$page_id = wp_insert_post(
 					array(
 						'post_author'  => 1,
-						'post_title'   => ucwords( $page_slug ),
-						'post_name'    => $page_slug,
+						'post_title'   => ucwords( sanitize_title( $page_slug ) ),
+						'post_name'    => sanitize_title( $page_slug ),
 						'post_status'  => 'publish',
-						'post_content' => '<!-- wp:pattern {"slug":"page-' . $page_slug . '"} /-->',
+						'post_content' => '<!-- wp:pattern {"slug":"page-' . sanitize_title( $page_slug ) . '"} /-->',
 						'post_type'    => 'page',
 					)
 				);
@@ -92,7 +92,7 @@ class Helper {
 	 * @return object The modified theme JSON data.
 	 */
 	public function set_theme_styles( $theme_json ) {
-		$settings    = get_option( 'ollie' );
+		$settings    = get_option( 'ollie', [] );
 		$ollie_style = json_decode( file_get_contents( get_template_directory() . '/theme.json' ) );
 
 		if ( isset( $settings['style'] ) ) {
