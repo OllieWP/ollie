@@ -657,6 +657,10 @@ p {
 			}
 		}
 
+		.ollie-wizard-progress-4 {
+			display: none;
+		}
+
 		section {
 			border: solid 1px var(--border-color);
 			padding: 50px;
@@ -823,6 +827,9 @@ p {
 
 	.ollie-setting-intro {
 		padding-bottom: 35px;
+		@media (min-width: 1500px) {
+			max-width: 65%;
+		}
 		p {
 			max-width: 600px;
 		}

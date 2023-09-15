@@ -86,8 +86,6 @@ class Settings {
 				'dashboard_link'      => esc_url( admin_url() ),
 				'home_link'           => esc_url( home_url() ),
 				'logo'                => OLLIE_SETTINGS_URL . '/assets/ollie-logo.svg',
-				'site_title'          => get_option( 'blogname' ),
-				'site_tagline'        => get_option( 'blogdescription' ),
 				'onboarding_complete' => false,
 			);
 
@@ -336,15 +334,6 @@ class Settings {
 			$options = $request->get_params();
 			update_option( 'ollie', $this->sanitize_options_array( $options ) );
 
-			// Update core options.
-			if ( isset( $options['site_title'] ) ) {
-				update_option( 'blogname', sanitize_text_field( $options['site_title'] ) );
-			}
-
-			if ( isset( $options['site_tagline'] ) ) {
-				update_option( 'blogdescription', sanitize_text_field( $options['site_tagline'] ) );
-			}
-
 			// Update logo.
 			if ( isset( $options['site_logo'] ) ) {
 				update_option( 'site_logo', absint( $options['site_logo'] ) );
@@ -483,12 +472,6 @@ class Settings {
 			switch( $key ) {
 				case 'site_logo':
 					$sanitized_options[ $key ] = absint( $value );
-					break;
-				case 'site_title':
-					$sanitized_options[ $key ] = sanitize_text_field( $value );
-					break;
-				case 'site_tagline':
-					$sanitized_options[ $key ] = sanitize_text_field( $value );
 					break;
 				case 'skip_onboarding':
 					$sanitized_options[ $key ] = (bool) $value;

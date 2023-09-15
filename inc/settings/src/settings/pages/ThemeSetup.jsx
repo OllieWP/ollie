@@ -1,7 +1,6 @@
 import {Button, __experimentalSpacer as Spacer, FlexItem, Flex} from "@wordpress/components";
 import {Wizard, Steps, Step, Navigation} from "react-wizr";
 import Welcome from "../components/steps/Welcome";
-import SiteSetup from "../components/steps/SiteSetup";
 import BrandSetup from "../components/steps/BrandSetup";
 import Homepage from "../components/steps/Homepage";
 import CreatePages from "../components/steps/CreatePages";
@@ -98,22 +97,18 @@ function ThemeSetup() {
                         </li>
                         <li className={`${currentStep === 1 ? "is-active-step" : ""}`}
                             onClick={() => setCurrentStep(1)}>
-                            {__('Site Settings', 'ollie')}
+                            {__('Your Brand', 'ollie')}
                         </li>
                         <li className={`${currentStep === 2 ? "is-active-step" : ""}`}
                             onClick={() => setCurrentStep(2)}>
-                            {__('Your Brand', 'ollie')}
+                            {__('Create Pages', 'ollie')}
                         </li>
                         <li className={`${currentStep === 3 ? "is-active-step" : ""}`}
                             onClick={() => setCurrentStep(3)}>
-                            {__('Create Pages', 'ollie')}
+                            {__('Homepage & Blog', 'ollie')}
                         </li>
                         <li className={`${currentStep === 4 ? "is-active-step" : ""}`}
                             onClick={() => setCurrentStep(4)}>
-                            {__('Homepage & Blog', 'ollie')}
-                        </li>
-                        <li className={`${currentStep === 5 ? "is-active-step" : ""}`}
-                            onClick={() => setCurrentStep(5)}>
                             {__('Finish', 'ollie')}
                         </li>
                     </ul>
@@ -135,18 +130,15 @@ function ThemeSetup() {
                             <Welcome/>
                         </Step>
                         <Step id="second">
-                            <SiteSetup/>
-                        </Step>
-                        <Step id="third">
                             <BrandSetup/>
                         </Step>
-                        <Step id="fourth">
+                        <Step id="third">
                             <CreatePages/>
                         </Step>
-                        <Step id="fifth">
+                        <Step id="fourth">
                             <Homepage/>
                         </Step>
-                        <Step id="sixth">
+                        <Step id="fifth">
                             <FinishSetup/>
                         </Step>
                     </Steps>
@@ -169,7 +161,6 @@ function ThemeSetup() {
                                         <FlexItem className={`${currentStep === 2 ? "is-active-step" : ""}`}/>
                                         <FlexItem className={`${currentStep === 3 ? "is-active-step" : ""}`}/>
                                         <FlexItem className={`${currentStep === 4 ? "is-active-step" : ""}`}/>
-                                        <FlexItem className={`${currentStep === 5 ? "is-active-step" : ""}`}/>
                                     </Flex>
                                 </FlexItem>
                                 <FlexItem

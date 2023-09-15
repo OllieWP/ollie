@@ -136,7 +136,7 @@ function BrandSetup() {
 				<Flex className="ollie-setting-intro">
 					<FlexItem>
 						<h2 ref={pageStart}>{__('Your Brand', 'ollie')}</h2>
-						<p>{__('Next, let\'s customize the colors on your site to match your brand. ', 'ollie')}</p>
+						<p>{__('First, let\'s choose a color palette for your site and then add some branding. All settings are optional!', 'ollie')}</p>
 					</FlexItem>
 				</Flex>
 				<Flex className="ollie-setting-field">
