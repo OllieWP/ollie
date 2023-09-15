@@ -569,6 +569,9 @@ p {
   background: none;
   border: solid 2px #9ca5cd;
 }
+.ollie-settings-container .ollie-setup-content .ollie-wizard-progress-4 {
+  display: none;
+}
 .ollie-settings-container .ollie-setup-content section {
   border: solid 1px var(--border-color);
   padding: 50px;
@@ -731,6 +734,11 @@ p {
 }
 .ollie-setting-fields .ollie-setting-intro {
   padding-bottom: 35px;
+}
+@media (min-width: 1500px) {
+  .ollie-setting-fields .ollie-setting-intro {
+    max-width: 65%;
+  }
 }
 .ollie-setting-fields .ollie-setting-intro p {
   max-width: 600px;
