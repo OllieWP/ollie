@@ -3,7 +3,7 @@
  * Title: FAQ
  * Slug: faq
  * Description:
- * Categories: columns, features
+ * Categories: ollie/features
  * Keywords: faq, text, features
  * Viewport Width: 1500
  * Block Types:

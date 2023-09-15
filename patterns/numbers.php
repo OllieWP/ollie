@@ -3,7 +3,7 @@
  * Title: Numbers
  * Slug: numbers
  * Description:
- * Categories: columns, features
+ * Categories: ollie/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

@@ -3,7 +3,7 @@
  * Title: Lead Magnet Card
  * Slug: lead-magnet-card
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
- * Categories: call-to-action, buttons, card
+ * Categories: ollie/call-to-action, ollie/card
  * Keywords: download, button, cta, email, card
  * Viewport Width: 800
  * Block Types:

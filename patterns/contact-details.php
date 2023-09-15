@@ -3,7 +3,7 @@
  * Title: Contact Details
  * Slug: contact-details
  * Description: Contact details with call to action buttons and a testimonial
- * Categories: columns, testimonial, call-to-action, buttons, hero
+ * Categories: ollie/testimonial, ollie/call-to-action, ollie/hero
  * Keywords: contact, testimonial, about, columns, ratings, email, phone
  * Viewport Width: 1500
  * Block Types:

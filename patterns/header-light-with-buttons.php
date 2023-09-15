@@ -3,7 +3,7 @@
  * Title: Header Light With Buttons
  * Slug: header-light-with-buttons
  * Description: Header with nav and social icons
- * Categories: header, buttons
+ * Categories: header
  * Keywords: header, nav, links, button
  * Viewport Width: 1500
  * Block Types: core/template-part/header

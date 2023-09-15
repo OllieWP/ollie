@@ -16,7 +16,7 @@ namespace Ollie;
 function setup() {
 
 	// Enqueue editor styles and fonts.
-	add_editor_style( get_stylesheet_uri() );
+	add_editor_style( 'style.css' );
 
 	// Remove core block patterns.
 	remove_theme_support( 'core-block-patterns' );
@@ -149,31 +149,28 @@ add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
 function pattern_categories() {
 
 	$block_pattern_categories = array(
-		'card'           => array(
+		'ollie/card'           => array(
 			'label' => __( 'Cards', 'ollie' ),
 		),
-		'call-to-action' => array(
+		'ollie/call-to-action' => array(
 			'label' => __( 'Call To Action', 'ollie' ),
 		),
-		'columns'        => array(
-			'label' => __( 'Columns', 'ollie' ),
-		),
-		'features'       => array(
+		'ollie/features'       => array(
 			'label' => __( 'Features', 'ollie' ),
 		),
-		'hero'           => array(
+		'ollie/hero'           => array(
 			'label' => __( 'Hero', 'ollie' ),
 		),
-		'pages'          => array(
+		'ollie/pages'          => array(
 			'label' => __( 'Pages', 'ollie' ),
 		),
-		'posts'          => array(
+		'ollie/posts'          => array(
 			'label' => __( 'Posts', 'ollie' ),
 		),
-		'pricing'        => array(
+		'ollie/pricing'        => array(
 			'label' => __( 'Pricing', 'ollie' ),
 		),
-		'testimonial'    => array(
+		'ollie/testimonial'    => array(
 			'label' => __( 'Testimonials', 'ollie' ),
 		),
 	);

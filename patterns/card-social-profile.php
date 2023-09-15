@@ -3,7 +3,7 @@
  * Title: Social Profile Card
  * Slug: social-profile-card
  * Description:
- * Categories: card, buttons
+ * Categories: ollie/card
  * Keywords: profile, links, social, twitter, facebook, instagram, linktree, avatar, bio
  * Viewport Width: 600
  * Block Types:

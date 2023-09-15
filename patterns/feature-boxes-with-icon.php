@@ -3,7 +3,7 @@
  * Title: Feature Boxes With Icon
  * Slug: feature-boxes-with-icon
  * Description:
- * Categories: features, columns
+ * Categories: ollie/features
  * Keywords: features, text, icon, columns, box, call to action, cta
  * Viewport Width: 1500
  * Block Types:

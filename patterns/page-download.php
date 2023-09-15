@@ -3,7 +3,7 @@
  * Title: Download Page
  * Slug: page-download
  * Description: A full page design for a Download page
- * Categories: pages
+ * Categories: ollie/pages
  * Keywords: page, layout, design, template, download
  * Viewport Width: 1500
  * Inserter: true

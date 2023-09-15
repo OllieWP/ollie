@@ -3,7 +3,7 @@
  * Title: Footer
  * Slug: footer
  * Description:
- * Categories: footer, columns
+ * Categories: footer
  * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer

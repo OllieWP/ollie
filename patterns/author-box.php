@@ -3,7 +3,7 @@
  * Title: Author Box
  * Slug: author-box
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
- * Categories: card, contact
+ * Categories: ollie/card
  * Keywords: author, bio, profile, user
  * Viewport Width: 800
  * Block Types:

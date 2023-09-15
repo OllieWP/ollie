@@ -3,7 +3,7 @@
  * Title: Call To Action Card
  * Slug: card-call-to-action
  * Description:
- * Categories: card, call-to-action, buttons
+ * Categories: ollie/card, ollie/call-to-action
  * Keywords: card, download, box, link, button, cta, call to action
  * Viewport Width: 600
  * Block Types:

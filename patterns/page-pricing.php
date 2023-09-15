@@ -3,7 +3,7 @@
  * Title: Pricing Page
  * Slug: page-pricing
  * Description: A full page design for a Pricing page
- * Categories: pages
+ * Categories: ollie/pages, ollie/pricing
  * Keywords: page, layout, design, template, pricing
  * Viewport Width: 1500
  * Inserter: true

@@ -3,7 +3,7 @@
  * Title: Text and Image Columns With Testimonial
  * Slug: text-and-image-columns-with-testimonial
  * Description:
- * Categories: columns, features, testimonial
+ * Categories: ollie/features, ollie/testimonial
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

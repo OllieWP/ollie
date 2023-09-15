@@ -3,7 +3,7 @@
  * Title: Single Testimonial
  * Slug: single-testimonial
  * Description:
- * Categories: testimonial, features, card
+ * Categories: ollie/testimonial, ollie/features, ollie/card
  * Keywords: testimonial, text, review, rating, avatar, card
  * Viewport Width: 600
  * Block Types:

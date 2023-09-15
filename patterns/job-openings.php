@@ -3,7 +3,7 @@
  * Title: Job Openings
  * Slug: job-openings
  * Description: Show job openings and a call to action button
- * Categories: features, call-to-action, buttons
+ * Categories: ollie/features, ollie/call-to-action
  * Keywords: employment, hiring, job, apply
  * Viewport Width: 1500
  * Block Types:

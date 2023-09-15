@@ -3,7 +3,7 @@
  * Title: Post List Card
  * Slug: post-list-card
  * Description:
- * Categories: card, posts
+ * Categories: ollie/card, ollie/posts
  * Keywords: card, posts, list, links, query, page
  * Viewport Width: 600
  * Block Types:

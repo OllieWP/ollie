@@ -3,7 +3,7 @@
  * Title: Team Members
  * Slug: team-members
  * Description:
- * Categories: columns, testimonial
+ * Categories: ollie/testimonial, ollie/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

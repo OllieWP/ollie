@@ -3,7 +3,7 @@
  * Title: Testimonials With Big Text
  * Slug: testimonials-with-big-text
  * Description:
- * Categories: testimonial, columns
+ * Categories: ollie/testimonial
  * Keywords: testimonial, review, rating, quote, heading, columns, avatar
  * Viewport Width: 1500
  * Block Types:

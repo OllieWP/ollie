@@ -3,7 +3,7 @@
  * Title: Text and Details Card
  * Slug: text-and-details-card
  * Description:
- * Categories: call-to-action, columns, hero, features
+ * Categories: ollie/call-to-action, ollie/hero, ollie/features, ollie/card
  * Keywords: table, stats, details, list, card
  * Viewport Width: 1500
  * Block Types:

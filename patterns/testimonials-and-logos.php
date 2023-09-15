@@ -3,7 +3,7 @@
  * Title: Testimonials and Logos
  * Slug: testimonials-and-logos
  * Description:
- * Categories: testimonial, columns
+ * Categories: ollie/testimonial
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

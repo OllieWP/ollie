@@ -3,7 +3,7 @@
  * Title: Text Box With Arrow Card Accent
  * Slug: text-box-with-arrow-card-accent
  * Description:
- * Categories: card, buttons
+ * Categories: ollie/card, ollie/call-to-action
  * Keywords: box, text, link, arrow, icon, card
  * Viewport Width: 600
  * Block Types:

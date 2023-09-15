@@ -3,7 +3,7 @@
  * Title: Text and Call To Action Card
  * Slug: card-text-and-call-to-action
  * Description:
- * Categories: buttons, columns, testimonial, hero
+ * Categories: ollie/testimonial, ollie/hero, ollie/card, ollie/call-to-action
  * Keywords: download, box, cta, rating, review, testimonial
  * Viewport Width: 1500
  * Block Types:

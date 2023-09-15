@@ -3,7 +3,7 @@
  * Title: Pricing Table
  * Slug: pricing-table
  * Description:
- * Categories: pricing, columns, buttons
+ * Categories: ollie/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
  * Block Types:

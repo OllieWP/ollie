@@ -3,8 +3,8 @@
  * Title: Post Loop List
  * Slug: post-loop-list
  * Description:
- * Categories: posts
- * Keywords:
+ * Categories: ollie/posts
+ * Keywords: blog, posts, query, loop
  * Viewport Width: 1280
  * Block Types: core/query
  * Post Types:

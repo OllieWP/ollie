@@ -3,7 +3,7 @@
  * Title: Blog Post Columns Single
  * Slug: blog-post-columns-single
  * Description:
- * Categories: columns, posts
+ * Categories: ollie/posts
  * Keywords: blog, posts, query, pages
  * Viewport Width: 1500
  * Block Types:

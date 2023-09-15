@@ -3,7 +3,7 @@
  * Title: Big Text Call To Action Card
  * Slug: big-text-call-to-action-card
  * Description:
- * Categories: card, buttons, call-to-action
+ * Categories: ollie/card, ollie/call-to-action
  * Keywords: card, button, cta, heading, call to action
  * Viewport Width: 600
  * Block Types:

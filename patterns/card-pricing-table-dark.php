@@ -3,7 +3,7 @@
  * Title: Pricing Table Card Dark
  * Slug: card-pricing-table-dark
  * Description:
- * Categories: card, pricing
+ * Categories: ollie/card, ollie/pricing
  * Keywords: card, price, pricing, button, list, purchase, download
  * Viewport Width: 600
  * Block Types:

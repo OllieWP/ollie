@@ -3,7 +3,7 @@
  * Title: Hero Call To Action Buttons
  * Slug: hero-call-to-action-buttons
  * Description:
- * Categories: call-to-action, buttons, hero
+ * Categories: ollie/call-to-action, ollie/hero
  * Keywords: cta, header, buttons, heading, hero, feature, homepage
  * Viewport Width: 1500
  * Block Types:

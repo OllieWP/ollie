@@ -3,7 +3,7 @@
  * Title: Features With Emojis
  * Slug: features-with-emojis
  * Description:
- * Categories: features, columns
+ * Categories: ollie/features
  * Keywords: features, emoji, columns, text
  * Viewport Width: 1500
  * Block Types:
