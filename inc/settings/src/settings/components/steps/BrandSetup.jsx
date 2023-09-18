@@ -10,7 +10,6 @@ import {
 } from '@wordpress/components';
 import {SettingsContext} from "../../context/SettingsContext";
 import {CustomMediaUpload} from "../partials/CustomMediaUpload";
-import {CustomLogoUpload} from "../partials/CustomLogoUpload";
 import browserIcon from '../../assets/images/browser-icon.svg';
 
 import EmojiPicker, {
@@ -20,6 +19,7 @@ import EmojiPicker, {
 
 
 // Import Styles.
+import purpleJson from '../../../../../../../ollie/theme.json';
 import blueJson from '../../../../../../../ollie/styles/blue.json';
 import greenJson from '../../../../../../../ollie/styles/green.json';
 import orangeJson from '../../../../../../../ollie/styles/orange.json';
@@ -31,7 +31,6 @@ const {__} = wp.i18n;
 
 function BrandSetup() {
 	const {settings, updateSetting, pageStart} = useContext(SettingsContext);
-	const [siteLogo, setSiteLogo] = useState(false);
 	const [palettes, setPalettes] = useState({});
 	const [brandColor, setBrandColor] = useState();
 	const [style, setStyle] = useState('standard');
@@ -40,6 +39,14 @@ function BrandSetup() {
 
 	const loadStyles = () => {
 		// Restructure styles for color palette component.
+		let purpleStyle = [];
+
+		purpleJson.settings.color.palette.forEach(function (item) {
+			item.name = item.slug;
+			delete item.slug;
+			purpleStyle.push(item);
+		});
+		
 		let blueStyle = [];
 
 		blueJson.settings.color.palette.forEach(function (item) {
@@ -90,6 +97,7 @@ function BrandSetup() {
 
 		setPalettes(
 			{
+				'purple': purpleStyle,
 				'blue': blueStyle,
 				'green': greenStyle,
 				'orange': orangeStyle,
@@ -121,10 +129,6 @@ function BrandSetup() {
 			setStyle(settings.style);
 		}
 
-		if (settings.site_logo) {
-			setSiteLogo(settings.site_logo);
-		}
-
 		if (settings.site_icon) {
 			setSiteIcon(settings.site_icon);
 		}
@@ -150,6 +154,7 @@ function BrandSetup() {
 							label="Styles"
 							value={style}
 							options={[
+								{label: 'Purple', value: 'purple'},
 								{label: 'Blue', value: 'blue'},
 								{label: 'Green', value: 'green'},
 								{label: 'Orange', value: 'orange'},
@@ -207,24 +212,6 @@ function BrandSetup() {
 								}
 							</>
 						}
-					</FlexItem>
-				</Flex>
-				<Flex className="ollie-setting-field">
-					<FlexItem>
-						<label htmlFor="site-logo">{__('Logo', 'ollie')}</label>
-						<p>{__('Choose an image to be used for your Site Logo. Your site title will be used if no logo is set.', 'ollie')}</p>
-					</FlexItem>
-					<FlexItem>
-						<div className={"site-logo-preview"}>
-							<CustomLogoUpload
-								labelId="site-logo"
-								mediaId={siteLogo}
-								onMediaSelected={(value) => {
-									updateSetting("site_logo", value);
-									setSiteLogo(value);
-								}}
-							/>
-						</div>
 					</FlexItem>
 				</Flex>
 				<Flex className="ollie-setting-field">
