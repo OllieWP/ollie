@@ -96,7 +96,12 @@ class Helper {
 		$ollie_style = json_decode( file_get_contents( get_template_directory() . '/theme.json' ) );
 
 		if ( isset( $settings['style'] ) ) {
-			$ollie_style = json_decode( file_get_contents( get_template_directory() . '/styles/' . $settings['style'] . '.json' ) );
+			
+			if ( 'purple' === $settings['style'] ) {
+				$ollie_style = json_decode( file_get_contents( get_template_directory() . '/theme.json' ) );
+			} else {
+				$ollie_style = json_decode( file_get_contents( get_template_directory() . '/styles/' . $settings['style'] . '.json' ) );
+			}
 		}
 
 		$ollie_palette = $ollie_style->settings->color->palette;
