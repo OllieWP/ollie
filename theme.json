@@ -133,7 +133,7 @@
 				{
 					"name": "Purple",
 					"slug": "purple",
-					"gradient": "linear-gradient(135deg, #4D34FA, #DE34FA)"
+					"gradient": "linear-gradient(135deg, #4D34FA, #ad34fa)"
 				},
 				{
 					"name": "Blue",
