@@ -30,6 +30,10 @@
 	margin-top: var(--wp--preset--spacing--large);
 }
 
+.wp-block-comments .wp-block-group:empty {
+	display: none;
+}
+
 /* Comment Author Avatar
 --------------------------------------------- */
 
