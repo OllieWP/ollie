@@ -1338,31 +1338,31 @@ const {
 function DocsBlockThemes() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
     id: "block-theme-intro"
-  }, "Working with Block Themes"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
+  }, __('Working with Block Themes', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('What is a block theme?', 'ollie'),
     tagline: __('Let\'s dig into block themes and learn about all of the powerful new features.', 'ollie'),
     videoId: 'D7GUoX2XU1k'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the Site Editor, patterns, global styles, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site \u2014 headers, footers, templates, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the Site Editor, patterns, global styles, and more.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site — headers, footers, templates, and more.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "site-editor"
-  }, "Site Editor"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
+  }, __('Site Editor', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('Site Editor 101', 'ollie'),
     tagline: __('Learn how to fully customize the Ollie theme with the WordPress Site Editor.', 'ollie'),
     videoId: '51-FInsYsGs'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The WordPress Site Editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "To edit your site via the Site Editor, go to ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "Appearance \u2192 Editor"), ". Here, you can create and edit templates, create menus, customize your website styles, color palette, typography, block styles, and much more. This interface is where you\u2019ll design and build your site before exporting it later."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('The WordPress Site Editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('To edit your site via the Site Editor, go to <strong>Appearance → Editor</strong>. Here, you can create and edit templates, create menus, customize your website styles, color palette, typography, block styles, and much more. This interface is where you’ll design and build your site before exporting it later.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "patterns"
-  }, "Patterns"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
+  }, __('Patterns', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('Working with Patterns', 'ollie'),
     tagline: __('Design pixel-perfect pages with the growing collection of Ollie patterns.', 'ollie'),
     videoId: 'w8DehSH1_PA'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "You can access Ollie\u2019s patterns via the block inserter on posts, pages, or in the Site Editor."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Watch the video above to learn how to browse Ollie's patterns, how to create your own patterns, how to quickly design full pages with patterns, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('You can access Ollie’s patterns via the block inserter on posts, pages, or in the Site Editor.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Watch the video above to learn how to browse Ollie\'s patterns, how to create your own patterns, how to quickly design full pages with patterns, and more.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "global-styles"
-  }, "Global Styles"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
+  }, __('Global Styles', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('Global Styles', 'ollie'),
     tagline: __('Quickly and easily change your site\'s fonts, colors, and more with global styles.', 'ollie'),
     videoId: '6RavZxNFy2Y'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Global styles is the user interface in the Site Editor where you can modify all the styles associated with your site. This could be typography, fonts, button colors, link colors, layout defaults, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Global styles is powered by a theme.json in the root of the theme folder. This configuration file lets you define site-wide and block-specific styles to be used by the global styles interface."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Global styles is the user interface in the Site Editor where you can modify all the styles associated with your site. This could be typography, fonts, button colors, link colors, layout defaults, and more.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Global styles is powered by a theme.json in the root of the theme folder. This configuration file lets you define site-wide and block-specific styles to be used by the global styles interface.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "site-export"
-  }, "Export Your Site"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you\u2019ve finished building and customizing your site with the Site Editor, you can export a zip to install on another site. While in the Site Editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file."));
+  }, __('Export Your Site', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Once you’ve finished building and customizing your site with the Site Editor, you can export a zip to install on another site. While in the Site Editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file.', 'ollie')));
 }
 /* harmony default export */ __webpack_exports__["default"] = (DocsBlockThemes);
 
@@ -1387,27 +1387,27 @@ const {
 function GettingStarted() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
     id: "getting-started"
-  }, "Getting Started with Ollie"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "View a live demo of the Ollie theme. ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+  }, __('Getting Started with Ollie', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('View a live demo of the Ollie theme.', 'ollie'), ' ', (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://demo.olliewp.com/"
-  }, "View Ollie Demo"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Download the Ollie theme zip to install on your WordPress site. ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+  }, __('View Ollie Demo', 'ollie')))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Download the Ollie theme zip to install on your WordPress site.', 'ollie'), ' ', (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip"
-  }, "Download Ollie Theme")))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "There are a few ways to install Ollie on your WordPress website. The easiest way is to install it from within your WordPress admin. Go to ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "Appearance \u2192 Themes \u2192 Add New"), " and search for Ollie. "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "You can also install Ollie manually by downloading the theme and uploading it to your WordPress site. You can download Ollie for free at ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+  }, __('Download Ollie Theme', 'ollie'))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('There are a few ways to install Ollie on your WordPress website. The easiest way is to install it from within your WordPress admin. Go to', 'ollie'), ' ', (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, __('Appearance → Themes → Add New', 'ollie')), __(' and search for Ollie.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('You can also install Ollie manually by downloading the theme and uploading it to your WordPress site. You can download Ollie for free at', 'ollie'), ' ', (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://olliewp.com"
-  }, "OllieWP.com"), " and also via the ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+  }, __('OllieWP.com', 'ollie')), __(' and also via the', 'ollie'), ' ', (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://github.com/OllieWP/ollie"
-  }, " GitHub repository"), "."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }, __('GitHub repository', 'ollie')), "."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "ollie-dashboard"
-  }, "Ollie Theme Dashboard"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
+  }, __('Ollie Theme Dashboard', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('Intro to Ollie', 'ollie'),
     tagline: __('Learn about the Ollie dashboard and the Ollie setup wizard.', 'ollie'),
     videoId: 'JZ1EgDaDAH0'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you activate the Ollie theme, you will see a pop-up guiding you to the Ollie theme dashboard. You can also get to the dashboard by visiting ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "Appearance \u2192 Ollie"), ". This dashboard is a one-stop hub for all the resources we\u2019ve included with the Ollie theme. Here, you\u2019ll find a Welcome page with helpful links, Ollie docs, the Ollie theme setup wizard, and the video library."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Once you activate the Ollie theme, you will see a pop-up guiding you to the Ollie theme dashboard. You can also get to the dashboard by visiting', 'ollie'), ' ', (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, __('Appearance → Ollie', 'ollie')), __('. This dashboard is a one-stop hub for all the resources we’ve included with the Ollie theme. Here, you’ll find a Welcome page with helpful links, Ollie docs, the Ollie theme setup wizard, and the video library.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "theme-setup-wizard"
-  }, "Theme Setup Wizard"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
+  }, __('Theme Setup Wizard', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_partials_Video__WEBPACK_IMPORTED_MODULE_1__.Video, {
     title: __('Ollie Setup Wizard', 'ollie'),
     tagline: __('Set up your site with a few clicks with the Ollie Setup Wizard.', 'ollie'),
     videoId: 'OiO4gNDY0VQ'
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Whenever you set up a new WordPress site, there\u2019s always a dozen different tasks that you have to complete while jumping around the WordPress admin. Creating pages, designing layouts, setting up your brand assets, and a whole bunch of other stuff. "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Well, you don\u2019t have to do that anymore! The Ollie theme Setup wizard is a one-of-a-kind onboarding experience that automates all of those pesky tasks and handles them in one streamlined experience. "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The setup wizard will help you change common settings, set up your logo and brand colors, and automatically create pixel-perfect pages for you with just a few clicks. The setup wizard isn\u2019t just for new sites. You can use the wizard to quickly generate pages on existing sites as well. "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "From your WordPress dashboard, you can find the Ollie setup wizard by going to ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "Appearance \u2192 Ollie \u2192 Theme Setup"), ", or by following the pop-up upon theme activation."));
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Whenever you set up a new WordPress site, there’s always a dozen different tasks that you have to complete while jumping around the WordPress admin. Creating pages, designing layouts, setting up your brand assets, and a whole bunch of other stuff.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Well, you don’t have to do that anymore! The Ollie theme Setup wizard is a one-of-a-kind onboarding experience that automates all of those pesky tasks and handles them in one streamlined experience.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('The setup wizard will help you change common settings, set up your logo and brand colors, and automatically create pixel-perfect pages for you with just a few clicks. The setup wizard isn’t just for new sites. You can use the wizard to quickly generate pages on existing sites as well.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('From your WordPress dashboard, you can find the Ollie setup wizard by going to', 'ollie'), ' ', (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, __('Appearance → Ollie → Theme Setup', 'ollie')), __(', or by following the pop-up upon theme activation.', 'ollie')));
 }
 /* harmony default export */ __webpack_exports__["default"] = (GettingStarted);
 
@@ -1430,7 +1430,7 @@ const {
 function DocsIntroduction() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
     id: "introduction"
-  }, "Ollie Block Theme Docs"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is a WordPress block theme that integrates seamlessly with all of the powerful new site building features like the Site Editor, Patterns, Global Styles, and more. With Ollie, you can quickly and easily create beautiful, blazing-fast websites with the native WordPress site editor \u2014 no extra page builder or coding skills required."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is one of the most beautiful block themes out there, shipping with over 50 pixel-perfect patterns that you can use to quickly build out page sections or full page designs. Everything from headers, footers, sidebars, and content areas are fully customizable with a drag and drop interface."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is lightweight and blazing fast. Gone are the days of bloated WordPress websites that need a dozen plugins to look great and load fast. Ollie is fully-responsive out of the box and scores 100% across the board on performance tests."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is also super simple to setup and build with. We\u2019ve built a one-of-a-kind dashboard into the theme where you can run through the setup wizard and learn from our growing library of video tutorials."));
+  }, __('Ollie Block Theme Docs', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Ollie is a WordPress block theme that integrates seamlessly with all of the powerful new site building features like the Site Editor, Patterns, Global Styles, and more. With Ollie, you can quickly and easily create beautiful, blazing-fast websites with the native WordPress site editor — no extra page builder or coding skills required.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Ollie is one of the most beautiful block themes out there, shipping with over 50 pixel-perfect patterns that you can use to quickly build out page sections or full page designs. Everything from headers, footers, sidebars, and content areas are fully customizable with a drag and drop interface.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Ollie is lightweight and blazing fast. Gone are the days of bloated WordPress websites that need a dozen plugins to look great and load fast. Ollie is fully-responsive out of the box and scores 100% across the board on performance tests.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Ollie is also super simple to setup and build with. We’ve built a one-of-a-kind dashboard into the theme where you can run through the setup wizard and learn from our growing library of video tutorials.', 'ollie')));
 }
 /* harmony default export */ __webpack_exports__["default"] = (DocsIntroduction);
 
@@ -1453,49 +1453,63 @@ const {
 function Resources() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
     id: "resources"
-  }, "Resources"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the site editor, patterns, global styles, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site \u2014 headers, footers, templates, and more."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }, __('Resources', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the site editor, patterns, global styles, and more.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site — headers, footers, templates, and more.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "ollie-youtube"
-  }, "Ollie YouTube Channel"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The Ollie YouTube channel hosts a growing collection of high-quality video tutorials around modern WordPress, block themes, Ollie features, and more. Subscribe to the channel to get notified when new videos are published!"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://www.youtube.com/@OllieWP"
-  }, "Ollie YouTube Channel")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }, __('Ollie YouTube Channel', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('The Ollie YouTube channel hosts a growing collection of high-quality video tutorials around modern WordPress, block themes, Ollie features, and more. %s to get notified when new videos are published!', 'ollie'), `<a href="https://www.youtube.com/@OllieWP">${__('Subscribe to the channel', 'ollie')}</a>`)
+    }
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "developer-notes"
-  }, "Developer Notes"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "The Ollie theme works out of the box, so no build steps are required. However, I have included a Composer file that is used for linting to PHP and WordPress core standards."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "composer run lint"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "composer run wpcs:scan"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "composer run wpcs:fix")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }, __('Developer Notes', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('The Ollie theme works out of the box, so no build steps are required. However, I have included a Composer file that is used for linting to PHP and WordPress core standards.', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('composer run lint', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('composer run wpcs:scan', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('composer run wpcs:fix', 'ollie')))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "license"
-  }, "License"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is licensed under the ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://www.gnu.org/licenses/gpl-3.0.html"
-  }, "GPL-3.0 license.")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }, __('License', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Ollie is licensed under the %s.', 'ollie'), `<a href="https://www.gnu.org/licenses/gpl-3.0.html">${__('GPL-3.0 license', 'ollie')}</a>`)
+    }
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "feedback"
-  }, "Feedback"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie is a new theme built on bleeding edge features in WordPress, so we're always looking for feedback. Please ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://github.com/OllieWP/ollie/issues/new/choose"
-  }, "open a new issue"), " for bug reports, feature requests, or general feedback."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }, __('Feedback', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Ollie is a new theme built on bleeding edge features in WordPress, so we\'re always looking for feedback. %s for bug reports, feature requests, or general feedback.', 'ollie'), `<a href="https://github.com/OllieWP/ollie/issues/new/choose">${__('Please open a new issue', 'ollie')}</a>`)
+    }
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "about-creator"
-  }, "About the Creators"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Ollie was created by ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://mikemcalister.com"
-  }, "Mike McAlister"), " and ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://patrickposner.dev"
-  }, "Patrick Posner"), ", a team of code-slinging, pixel-pushing, award-winning creators from Planet Earth."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "Check out Mike's ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://mikemcalister.com"
-  }, "website")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "Find Mike on ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://twitter.com/mikemcalister"
-  }, "Twitter")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "Read Mike's writings at ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://olliewp.com"
-  }, "Ollie"), " and ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://liftoffcourse.com"
-  }, "Liftoff"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "Check out Patricks's ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://patrickposner.dev/"
-  }, "website")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "Find Patrick on ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://twitter.com/patrickposner_"
-  }, "Twitter")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, "Read Patrick's writings on ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://patrickposner.dev/blog/"
-  }, "his website"), " and ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://simplystatic.com/tutorials/"
-  }, "Simply Static"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+  }, __('About the Creators', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Ollie was created by %s and %s, a team of code-slinging, pixel-pushing, award-winning creators from Planet Earth.', 'ollie'), `<a href="https://mikemcalister.com">${__('Mike McAlister', 'ollie')}</a>`, `<a href="https://patrickposner.dev">${__('Patrick Posner', 'ollie')}</a>`)
+    }
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Check out %s', 'ollie'), `<a href="https://mikemcalister.com">${__('Mike\'s website', 'ollie')}</a>`)
+    }
+  })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Find Mike on %s', 'ollie'), `<a href="https://twitter.com/mikemcalister">${__('Twitter', 'ollie')}</a>`)
+    }
+  })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Read Mike\'s writings at %s and %s', 'ollie'), `<a href="https://olliewp.com">${__('Ollie', 'ollie')}</a>`, `<a href="https://liftoffcourse.com">${__('Liftoff', 'ollie')}</a>`)
+    }
+  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Check out %s', 'ollie'), `<a href="https://patrickposner.dev/">${__('Patrick\'s website', 'ollie')}</a>`)
+    }
+  })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Find Patrick on %s', 'ollie'), `<a href="https://twitter.com/patrickposner_">${__('Twitter', 'ollie')}</a>`)
+    }
+  })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Read his writings on %s and %s', 'ollie'), `<a href="https://patrickposner.dev/blog/">${__('his website', 'ollie')}</a>`, `<a href="https://simplystatic.com/tutorials/">${__('Simply Static', 'ollie')}</a>`)
+    }
+  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
     id: "support"
-  }, "Support"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Got a question about the Ollie theme or want to report a bug? ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://github.com/OllieWP/ollie/issues/new/choose"
-  }, "Submit an issue"), " to the ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "https://github.com/OllieWP/ollie/"
-  }, "Ollie GitHub repo"), " where we can track and fix the issue for you."));
+  }, __('Support', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    dangerouslySetInnerHTML: {
+      __html: sprintf(__('Got a question about the Ollie theme or want to report a bug? %s to the %s where we can track and fix the issue for you.', 'ollie'), `<a href="https://github.com/OllieWP/ollie/issues/new/choose">${__('Submit an issue', 'ollie')}</a>`, `<a href="https://github.com/OllieWP/ollie/">${__('Ollie GitHub repo', 'ollie')}</a>`)
+    }
+  }));
 }
 /* harmony default export */ __webpack_exports__["default"] = (Resources);
 
@@ -1576,94 +1590,6 @@ function Confetti() {
     }
   });
 }
-
-/***/ }),
-
-/***/ "./src/settings/components/partials/CustomLogoUpload.jsx":
-/*!***************************************************************!*\
-  !*** ./src/settings/components/partials/CustomLogoUpload.jsx ***!
-  \***************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   CustomLogoUpload: function() { return /* binding */ CustomLogoUpload; }
-/* harmony export */ });
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
-/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
-/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/api-fetch */ "@wordpress/api-fetch");
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_3__);
-
-
-
-
-
-const {
-  __
-} = wp.i18n;
-function CustomLogoUpload(props) {
-  const [logoUrl, setLogoUrl] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)('');
-  const getLogoUrl = () => {
-    _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_3___default()({
-      path: '/ollie/v1/site-logo',
-      method: 'GET'
-    }).then(logo => {
-      setLogoUrl(logo);
-    });
-  };
-  const changeLogoUrl = url => {
-    _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_3___default()({
-      path: '/ollie/v1/site-logo',
-      method: 'POST',
-      data: {
-        logo: url
-      }
-    }).then(() => {
-      setLogoUrl(url);
-    });
-  };
-  (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    getLogoUrl();
-  }, []);
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUpload, {
-    onSelect: media => {
-      props.onMediaSelected(media.id);
-      changeLogoUrl(media.url);
-    },
-    type: "image",
-    value: props.id,
-    render: ({
-      open
-    }) => {
-      if (props.mediaId) {
-        return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Flex, {
-          gap: "20px",
-          direction: "column"
-        }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
-          isSecondary: true,
-          onClick: () => {
-            props.onMediaSelected(null);
-          }
-        }, __('Remove Image', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.FlexItem, {
-          className: "ollie-upload-preview"
-        }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-          src: logoUrl
-        }))));
-      }
-      return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
-        id: props.labelId,
-        isSecondary: true,
-        onClick: open
-      }, __('Select Image', 'ollie'));
-    }
-  });
-}
-
 
 /***/ }),
 
@@ -1969,16 +1895,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _context_SettingsContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../context/SettingsContext */ "./src/settings/context/SettingsContext.jsx");
 /* harmony import */ var _partials_CustomMediaUpload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../partials/CustomMediaUpload */ "./src/settings/components/partials/CustomMediaUpload.jsx");
-/* harmony import */ var _partials_CustomLogoUpload__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../partials/CustomLogoUpload */ "./src/settings/components/partials/CustomLogoUpload.jsx");
-/* harmony import */ var _assets_images_browser_icon_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/browser-icon.svg */ "./src/settings/assets/images/browser-icon.svg");
-/* harmony import */ var emoji_picker_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! emoji-picker-react */ "./node_modules/emoji-picker-react/dist/emoji-picker-react.esm.js");
+/* harmony import */ var _assets_images_browser_icon_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/browser-icon.svg */ "./src/settings/assets/images/browser-icon.svg");
+/* harmony import */ var emoji_picker_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! emoji-picker-react */ "./node_modules/emoji-picker-react/dist/emoji-picker-react.esm.js");
+/* harmony import */ var _ollie_theme_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../../../../ollie/theme.json */ "../../theme.json");
 /* harmony import */ var _ollie_styles_blue_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../../../../ollie/styles/blue.json */ "../../styles/blue.json");
 /* harmony import */ var _ollie_styles_green_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../../../../ollie/styles/green.json */ "../../styles/green.json");
 /* harmony import */ var _ollie_styles_orange_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../../../../ollie/styles/orange.json */ "../../styles/orange.json");
 /* harmony import */ var _ollie_styles_pink_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../../../../../ollie/styles/pink.json */ "../../styles/pink.json");
 /* harmony import */ var _ollie_styles_red_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../../../../ollie/styles/red.json */ "../../styles/red.json");
 /* harmony import */ var _ollie_styles_teal_json__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../../../../../ollie/styles/teal.json */ "../../styles/teal.json");
-
 
 
 
@@ -1994,6 +1919,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 const {
   __
 } = wp.i18n;
@@ -2003,7 +1929,6 @@ function BrandSetup() {
     updateSetting,
     pageStart
   } = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_SettingsContext__WEBPACK_IMPORTED_MODULE_2__.SettingsContext);
-  const [siteLogo, setSiteLogo] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   const [palettes, setPalettes] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)({});
   const [brandColor, setBrandColor] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)();
   const [style, setStyle] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)('standard');
@@ -2011,6 +1936,12 @@ function BrandSetup() {
   const [isModalOpen, setModalOpen] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   const loadStyles = () => {
     // Restructure styles for color palette component.
+    let purpleStyle = [];
+    _ollie_theme_json__WEBPACK_IMPORTED_MODULE_6__.settings.color.palette.forEach(function (item) {
+      item.name = item.slug;
+      delete item.slug;
+      purpleStyle.push(item);
+    });
     let blueStyle = [];
     _ollie_styles_blue_json__WEBPACK_IMPORTED_MODULE_7__.settings.color.palette.forEach(function (item) {
       item.name = item.slug;
@@ -2048,6 +1979,7 @@ function BrandSetup() {
       tealStyle.push(item);
     });
     setPalettes({
+      'purple': purpleStyle,
       'blue': blueStyle,
       'green': greenStyle,
       'orange': orangeStyle,
@@ -2073,9 +2005,6 @@ function BrandSetup() {
     if (settings.style) {
       setStyle(settings.style);
     }
-    if (settings.site_logo) {
-      setSiteLogo(settings.site_logo);
-    }
     if (settings.site_icon) {
       setSiteIcon(settings.site_icon);
     }
@@ -2086,7 +2015,7 @@ function BrandSetup() {
     className: "ollie-setting-intro"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
     ref: pageStart
-  }, __('Your Brand', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Next, let\'s customize the colors on your site to match your brand. ', 'ollie')))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
+  }, __('Your Brand', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('First, let\'s choose a color palette for your site and then add some branding. All settings are optional!', 'ollie')))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
     className: "ollie-setting-field"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
     htmlFor: "ollie-color-palette"
@@ -2095,6 +2024,9 @@ function BrandSetup() {
     label: "Styles",
     value: style,
     options: [{
+      label: 'Purple',
+      value: 'purple'
+    }, {
       label: 'Blue',
       value: 'blue'
     }, {
@@ -2148,19 +2080,6 @@ function BrandSetup() {
   })))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
     className: "ollie-setting-field"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
-    htmlFor: "site-logo"
-  }, __('Logo', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Choose an image to be used for your Site Logo. Your site title will be used if no logo is set.', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "site-logo-preview"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_partials_CustomLogoUpload__WEBPACK_IMPORTED_MODULE_4__.CustomLogoUpload, {
-    labelId: "site-logo",
-    mediaId: siteLogo,
-    onMediaSelected: value => {
-      updateSetting("site_logo", value);
-      setSiteLogo(value);
-    }
-  })))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
-    className: "ollie-setting-field"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
     htmlFor: "site-icon"
   }, __('Site Icon', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Select a small, square icon to display in your browser tab.', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
     gap: "0",
@@ -2178,14 +2097,14 @@ function BrandSetup() {
   }, __('Choose Emoji', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("small", null, __('Alternatively, you can choose an emoji as a site icon.', 'ollie')), isModalOpen && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Modal, {
     title: __('Choose an emoji as your site icon.', 'ollie'),
     onRequestClose: closeModal
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(emoji_picker_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(emoji_picker_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
     onEmojiClick: onSelectEmoji,
     autoFocusSearch: false,
     previewConfig: {
       defaultCaption: __('Choose an emoji as your site icon.', 'ollie'),
       defaultEmoji: "1f389"
     },
-    emojiStyle: emoji_picker_react__WEBPACK_IMPORTED_MODULE_6__.EmojiStyle.NATIVE
+    emojiStyle: emoji_picker_react__WEBPACK_IMPORTED_MODULE_5__.EmojiStyle.NATIVE
   })))), siteIcon ? (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "ollie-site-icon-wrap"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -2194,7 +2113,7 @@ function BrandSetup() {
     src: siteIcon,
     alt: __('Site Icon', 'ollie')
   })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: _assets_images_browser_icon_svg__WEBPACK_IMPORTED_MODULE_5__["default"]
+    src: _assets_images_browser_icon_svg__WEBPACK_IMPORTED_MODULE_4__["default"]
   })) : ''))));
 }
 /* harmony default export */ __webpack_exports__["default"] = (BrandSetup);
@@ -2607,77 +2526,6 @@ function Homepage() {
 
 /***/ }),
 
-/***/ "./src/settings/components/steps/SiteSetup.jsx":
-/*!*****************************************************!*\
-  !*** ./src/settings/components/steps/SiteSetup.jsx ***!
-  \*****************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
-/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _context_SettingsContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../context/SettingsContext */ "./src/settings/context/SettingsContext.jsx");
-
-
-
-
-const {
-  __
-} = wp.i18n;
-function SiteSetup() {
-  const {
-    settings,
-    updateSetting,
-    pageStart
-  } = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_SettingsContext__WEBPACK_IMPORTED_MODULE_2__.SettingsContext);
-  (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    if (settings.site_title === undefined) {
-      updateSetting("site_title", ollie_options.site_title);
-    }
-    if (settings.site_tagline === undefined) {
-      updateSetting("site_tagline", ollie_options.site_tagline);
-    }
-
-    // Set focus.
-    pageStart.current.focus();
-  }, []);
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "ollie-setting-fields"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
-    className: "ollie-setting-intro"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
-    ref: pageStart
-  }, __('Site Settings', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Let\'s start with the basics and set up a few important site-wide settings. All settings in this wizard are optional.', 'ollie')))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
-    className: "ollie-setting-field"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
-    htmlFor: "site-title"
-  }, __('Site Title', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Name of your website or brand', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.TextControl, {
-    id: "site-title",
-    value: settings.site_title,
-    placeholder: __('Ollie Site', 'ollie'),
-    onChange: value => {
-      updateSetting("site_title", value);
-    }
-  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
-    className: "ollie-setting-field"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
-    htmlFor: "site-tagline"
-  }, __('Site Tagline', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('In a few words, explain what the site is about', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.TextControl, {
-    id: "site-tagline",
-    value: settings.site_tagline,
-    placeholder: __('This is my cool website', 'ollie'),
-    onChange: value => {
-      updateSetting("site_tagline", value);
-    }
-  })))));
-}
-/* harmony default export */ __webpack_exports__["default"] = (SiteSetup);
-
-/***/ }),
-
 /***/ "./src/settings/components/steps/Welcome.jsx":
 /*!***************************************************!*\
   !*** ./src/settings/components/steps/Welcome.jsx ***!
@@ -2761,15 +2609,12 @@ __webpack_require__.r(__webpack_exports__);
 const SettingsContext = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createContext)();
 function SettingsContextProvider(props) {
   const defaultSettings = {
-    site_title: ollie_options.site_title,
-    site_tagline: ollie_options.site_tagline,
     homepage_display: ollie_options.homepage_display,
     home_id: ollie_options.home_id,
     blog_id: ollie_options.blog_id,
     site_icon: '',
     brand_color: '#4D34FA',
-    style: 'blue',
-    site_logo: ''
+    style: 'blue'
   };
   const [settingsSaved, setSettingsSaved] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   const [settings, setSettings] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(defaultSettings);
@@ -3120,16 +2965,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_wizr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-wizr */ "./node_modules/react-wizr/lib/index.js");
 /* harmony import */ var _components_steps_Welcome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/steps/Welcome */ "./src/settings/components/steps/Welcome.jsx");
-/* harmony import */ var _components_steps_SiteSetup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/steps/SiteSetup */ "./src/settings/components/steps/SiteSetup.jsx");
-/* harmony import */ var _components_steps_BrandSetup__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/steps/BrandSetup */ "./src/settings/components/steps/BrandSetup.jsx");
-/* harmony import */ var _components_steps_Homepage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/steps/Homepage */ "./src/settings/components/steps/Homepage.jsx");
-/* harmony import */ var _components_steps_CreatePages__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/steps/CreatePages */ "./src/settings/components/steps/CreatePages.jsx");
-/* harmony import */ var _components_steps_FinishSetup__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/steps/FinishSetup */ "./src/settings/components/steps/FinishSetup.jsx");
-/* harmony import */ var _assets_images_icon_check_active_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/images/icon-check-active.svg */ "./src/settings/assets/images/icon-check-active.svg");
-/* harmony import */ var _context_SettingsContext__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../context/SettingsContext */ "./src/settings/context/SettingsContext.jsx");
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @wordpress/api-fetch */ "@wordpress/api-fetch");
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_11__);
-
+/* harmony import */ var _components_steps_BrandSetup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/steps/BrandSetup */ "./src/settings/components/steps/BrandSetup.jsx");
+/* harmony import */ var _components_steps_Homepage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/steps/Homepage */ "./src/settings/components/steps/Homepage.jsx");
+/* harmony import */ var _components_steps_CreatePages__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/steps/CreatePages */ "./src/settings/components/steps/CreatePages.jsx");
+/* harmony import */ var _components_steps_FinishSetup__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/steps/FinishSetup */ "./src/settings/components/steps/FinishSetup.jsx");
+/* harmony import */ var _assets_images_icon_check_active_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/images/icon-check-active.svg */ "./src/settings/assets/images/icon-check-active.svg");
+/* harmony import */ var _context_SettingsContext__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../context/SettingsContext */ "./src/settings/context/SettingsContext.jsx");
+/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @wordpress/api-fetch */ "@wordpress/api-fetch");
+/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_10__);
 
 
 
@@ -3152,7 +2995,7 @@ function ThemeSetup() {
     currentStep,
     setCurrentStep,
     selectedPages
-  } = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_SettingsContext__WEBPACK_IMPORTED_MODULE_10__.SettingsContext);
+  } = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_SettingsContext__WEBPACK_IMPORTED_MODULE_9__.SettingsContext);
   const [themeSettingsSaved, setThemeSettingsSaved] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   const startRef = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   const setSavingThemeSettings = goToNextStep => {
@@ -3166,7 +3009,7 @@ function ThemeSetup() {
   const createPages = goToNextStep => {
     // Create pages via Rest API.
     if (selectedPages.length > 0) {
-      _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_11___default()({
+      _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_10___default()({
         path: '/ollie/v1/create-pages',
         method: 'POST',
         data: selectedPages
@@ -3226,18 +3069,15 @@ function ThemeSetup() {
   }, __('Get Started', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     className: `${currentStep === 1 ? "is-active-step" : ""}`,
     onClick: () => setCurrentStep(1)
-  }, __('Site Settings', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+  }, __('Your Brand', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     className: `${currentStep === 2 ? "is-active-step" : ""}`,
     onClick: () => setCurrentStep(2)
-  }, __('Your Brand', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+  }, __('Create Pages', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     className: `${currentStep === 3 ? "is-active-step" : ""}`,
     onClick: () => setCurrentStep(3)
-  }, __('Create Pages', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+  }, __('Homepage & Blog', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     className: `${currentStep === 4 ? "is-active-step" : ""}`,
     onClick: () => setCurrentStep(4)
-  }, __('Homepage & Blog', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
-    className: `${currentStep === 5 ? "is-active-step" : ""}`,
-    onClick: () => setCurrentStep(5)
   }, __('Finish', 'ollie'))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, {
     className: "ollie-setup-content"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Wizard, {
@@ -3256,15 +3096,13 @@ function ThemeSetup() {
     id: "first"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_Welcome__WEBPACK_IMPORTED_MODULE_3__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Step, {
     id: "second"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_SiteSetup__WEBPACK_IMPORTED_MODULE_4__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Step, {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_BrandSetup__WEBPACK_IMPORTED_MODULE_4__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Step, {
     id: "third"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_BrandSetup__WEBPACK_IMPORTED_MODULE_5__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Step, {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_CreatePages__WEBPACK_IMPORTED_MODULE_6__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Step, {
     id: "fourth"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_CreatePages__WEBPACK_IMPORTED_MODULE_7__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Step, {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_Homepage__WEBPACK_IMPORTED_MODULE_5__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Step, {
     id: "fifth"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_Homepage__WEBPACK_IMPORTED_MODULE_6__["default"], null)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Step, {
-    id: "sixth"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_FinishSetup__WEBPACK_IMPORTED_MODULE_8__["default"], null))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Navigation, {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_steps_FinishSetup__WEBPACK_IMPORTED_MODULE_7__["default"], null))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_wizr__WEBPACK_IMPORTED_MODULE_2__.Navigation, {
     render: ({
       activeStepIndex,
       goToNextStep,
@@ -3283,7 +3121,7 @@ function ThemeSetup() {
       variant: "primary",
       onClick: goToPrevStep
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-      src: _assets_images_icon_check_active_svg__WEBPACK_IMPORTED_MODULE_9__["default"]
+      src: _assets_images_icon_check_active_svg__WEBPACK_IMPORTED_MODULE_8__["default"]
     }), " ", __('Saved!', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
       className: `ollie-wizard-progress ollie-wizard-progress-${activeStepIndex}`,
       justify: "center"
@@ -3295,8 +3133,6 @@ function ThemeSetup() {
       className: `${currentStep === 3 ? "is-active-step" : ""}`
     }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, {
       className: `${currentStep === 4 ? "is-active-step" : ""}`
-    }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, {
-      className: `${currentStep === 5 ? "is-active-step" : ""}`
     }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, {
       className: activeStepIndex < totalSteps - 1 ? "ollie-setup-step" : "ollie-hide-step"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Button, {
@@ -33201,6 +33037,17 @@ module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/theme.json
 
 "use strict";
 module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/theme.json","version":2,"title":"Teal","settings":{"color":{"palette":[{"name":"Primary","slug":"primary","color":"#2292ab"},{"name":"Main","slug":"main","color":"#14111f"},{"name":"Secondary","slug":"secondary","color":"#636381"},{"name":"Main Accent","slug":"main-accent","color":"#d0ccde"},{"name":"Primary Accent","slug":"primary-accent","color":"#d4e8ec"},{"name":"Tertiary","slug":"tertiary","color":"#f1f7f8"},{"name":"Base","slug":"base","color":"#fff"}]}}}');
+
+/***/ }),
+
+/***/ "../../theme.json":
+/*!************************!*\
+  !*** ../../theme.json ***!
+  \************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/theme.json","version":2,"customTemplates":[{"name":"page-no-title","title":"Page (No Title)","postTypes":["page"]},{"name":"page-with-sidebar","title":"Page (With Sidebar)","postTypes":["post","page"]},{"name":"single-wide-featured-image","title":"Single (Wide Featured Image)","postTypes":["post"]}],"settings":{"appearanceTools":true,"color":{"defaultDuotone":false,"defaultGradients":false,"defaultPalette":false,"duotone":[{"name":"Blue","slug":"blue","colors":["#462CFF","#ECE8FF"]},{"name":"Pink","slug":"Pink","colors":["#F22AAA","#FFDBF0"]},{"name":"Green","slug":"green","colors":["#196A64","#E0FFFD"]},{"name":"Yellow","slug":"yellow","colors":["#4B420D","#FFE465"]},{"name":"Red","slug":"red","colors":["#33120B","#FF756B"]},{"name":"Teal","slug":"teal","colors":["#233938","#67EBFF"]},{"name":"Orange","slug":"orange","colors":["#31210D","#FFA15B"]},{"name":"Punchy","slug":"punchy","colors":["#00007e","#6aff7e"]},{"name":"Blueberry","slug":"blueberry","colors":["#7f02d3","#00dbfe"]},{"name":"Lime","slug":"lime","colors":["#02794c","#fbf01a"]},{"name":"Sunset","slug":"sunset","colors":["#FF3253","#FFDC53"]},{"name":"Grayscale","slug":"grayscale","colors":["#000","#fff"]}],"gradients":[{"name":"Purple","slug":"purple","gradient":"linear-gradient(135deg, #4D34FA, #DE34FA)"},{"name":"Blue","slug":"blue","gradient":"linear-gradient(135deg, #0057FF, #31B5FF)"},{"name":"Pink","slug":"pink","gradient":"linear-gradient(135deg, #FF007A, #FF81BD)"},{"name":"Black","slug":"black","gradient":"linear-gradient(135deg, #14111E, #4B4462)"},{"name":"Heat","slug":"heat","gradient":"linear-gradient(135deg, #F32758, #FFC581)"}],"palette":[{"name":"Primary","slug":"primary","color":"#4d34fa"},{"name":"Main","slug":"main","color":"#14111f"},{"name":"Secondary","slug":"secondary","color":"#636381"},{"name":"Main Accent","slug":"main-accent","color":"#d0ccde"},{"name":"Primary Accent","slug":"primary-accent","color":"#e4e1fe"},{"name":"Tertiary","slug":"tertiary","color":"#f6f6fc"},{"name":"Base","slug":"base","color":"#fff"}],"link":true,"customDuotone":false},"custom":{"fontWeight":{"thin":100,"extra-light":200,"light":300,"regular":400,"medium":500,"semi-bold":600,"bold":700,"extra-bold":800,"black":900},"lineHeight":{"none":1,"tight":1.1,"snug":1.2,"normal":1.5,"relaxed":1.625,"loose":2,"body":"calc(1px + 2ex + 7px)"}},"layout":{"contentSize":"740px","wideSize":"1260px"},"spacing":{"spacingSizes":[{"name":"Small","size":"clamp(.5rem, 2.5vw, 1rem)","slug":"small"},{"name":"Medium","size":"clamp(1.5rem, 4vw, 2rem)","slug":"medium"},{"name":"Large","size":"clamp(2rem, 5vw, 3rem)","slug":"large"},{"name":"Extra Large","size":"clamp(3rem, 7vw, 5rem)","slug":"x-large"},{"name":"2xl","size":"clamp(4rem, 9vw, 7rem)","slug":"xx-large"},{"name":"3xl","size":"clamp(5rem, 12vw, 9rem)","slug":"xxx-large"},{"name":"4xl","size":"clamp(6rem, 14vw, 13rem)","slug":"xxxx-large"}],"units":["px","em","rem","vh","vw","%"],"blockGap":true,"padding":true,"margin":true},"typography":{"dropCap":false,"fluid":true,"fontFamilies":[{"fontFamily":"Inter, sans-serif","name":"Inter","slug":"primary","fontFace":[{"fontDisplay":"block","fontFamily":"Inter","fontStretch":"normal","fontStyle":"normal","fontWeight":"100 700","src":["file:./assets/fonts/Inter-VariableFont_slnt,wght.woff2"]}]},{"fontFamily":"monospace","name":"Monospace","slug":"monospace"}],"fontSizes":[{"fluid":{"min":".9rem","max":"1rem"},"size":"1rem","slug":"x-small","name":"Extra Small"},{"fluid":{"min":"1rem","max":"1.2rem"},"size":"1.2rem","slug":"small"},{"fluid":{"min":"1.13rem","max":"1.3rem"},"size":"1.3rem","slug":"base","name":"Base"},{"fluid":{"min":"1.3rem","max":"1.6rem"},"size":"1.6rem","slug":"medium"},{"fluid":{"min":"1.5rem","max":"2rem"},"size":"2rem","slug":"large"},{"fluid":{"min":"2rem","max":"2.8rem"},"size":"2.8rem","slug":"x-large"},{"fluid":{"min":"2.6rem","max":"3.75rem"},"size":"3.75rem","slug":"xx-large","name":"2xl"},{"fluid":{"min":"3rem","max":"4.8rem"},"size":"4.8rem","slug":"xxx-large","name":"3xl"}],"lineHeight":true},"useRootPaddingAwareAlignments":true},"styles":{"blocks":{"core/query-title":{"typography":{"lineHeight":"var(--wp--custom--line-height--tight)"}},"core/calendar":{"typography":{"fontSize":"var(--wp--preset--font-size--small)"}},"core/code":{"border":{"radius":"5px","width":"0px"},"color":{"background":"var(--wp--preset--color--tertiary)","text":"var(--wp--preset--color--main)"},"spacing":{"padding":{"top":"var(--wp--preset--spacing--medium)","right":"var(--wp--preset--spacing--medium)","bottom":"var(--wp--preset--spacing--medium)","left":"var(--wp--preset--spacing--medium)"}},"typography":{"fontFamily":"var(--wp--preset--font-family--monospace)","fontSize":"var(--wp--preset--font-size--small)"}},"core/columns":{"spacing":{"margin":{"bottom":"0px"}}},"core/comment-author-name":{"typography":{"lineHeight":"var(--wp--custom--line-height--normal)","fontWeight":"var(--wp--custom--font-weight--semi-bold)"},"elements":{"link":{"typography":{"textDecoration":"none","fontSize":"var(--wp--preset--font-size--base)"}}}},"core/comment-content":{"spacing":{"margin":{"top":"20px !important"}}},"core/comment-date":{"typography":{"fontSize":"var(--wp--preset--font-size--small)","lineHeight":"var(--wp--custom--line-height--normal)"},"elements":{"link":{"typography":{"textDecoration":"none"}}}},"core/comment-edit-link":{"typography":{"fontSize":"var(--wp--preset--font-size--small)","lineHeight":"var(--wp--custom--line-height--normal)"}},"core/comment-reply-link":{"typography":{"fontSize":"var(--wp--preset--font-size--small)"}},"core/comments-title":{"typography":{"fontSize":"var(--wp--preset--font-size--large)","lineHeight":"var(--wp--custom--line-height--body)"},"spacing":{"margin":{"top":"0px","bottom":"var(--wp--preset--spacing--large)"}}},"core/post-comments-form":{"elements":{"heading":{"spacing":{"margin":{"top":"0px","bottom":"var(--wp--preset--spacing--small) !important"}},"typography":{"fontSize":"var(--wp--preset--font-size--large)"}}}},"core/cover":{"spacing":{"padding":{"top":"var(--wp--preset--spacing--large)","right":"var(--wp--preset--spacing--large)","bottom":"var(--wp--preset--spacing--large)","left":"var(--wp--preset--spacing--large)"}}},"core/post-excerpt":{"elements":{"link":{"typography":{"textDecoration":"none"},"color":{"text":"var(--wp--preset--color--primary-accent)"},":hover":{"typography":{"textDecoration":"underline"}}}}},"core/read-more":{"elements":{"link":{"spacing":{"margin":{"top":"200px","bottom":"200px"}}}}},"core/navigation":{"typography":{"fontWeight":"var(--wp--custom--font-weight--medium)"},"elements":{"link":{"typography":{"textDecoration":"none"},"color":{"text":"var(--wp--preset--color--primary-accent)"},":hover":{"typography":{"textDecoration":"underline"},"color":{"text":"var(--wp--preset--color--base)"}},":focus":{"typography":{"textDecoration":"none"},"color":{"text":"var(--wp--preset--color--base)"}},":active":{"typography":{"textDecoration":"none"},"color":{"text":"var(--wp--preset--color--base)"}}}}},"core/paragraph":{"typography":{"lineHeight":"var(--wp--custom--line-height--body)"}},"core/post-template":{"elements":{"h2":{"typography":{"fontSize":"var(--wp--preset--font-size--medium)","lineHeight":"var(--wp--custom--line-height--body)"}}}},"core/post-terms":{"elements":{"link":{"typography":{"textDecoration":"none"}}}},"core/post-title":{"typography":{"fontSize":"var(--wp--preset--font-size--xx-large)","lineHeight":"var(--wp--custom--line-height--body)"},"elements":{"link":{"typography":{"textDecoration":"none"},":hover":{"typography":{"textDecoration":"underline"}}}}},"core/preformatted":{"border":{"radius":"5px"},"color":{"background":"var(--wp--preset--color--tertiary)","text":"var(--wp--preset--color--main)"},"spacing":{"padding":{"top":"var(--wp--preset--spacing--medium)","right":"var(--wp--preset--spacing--medium)","bottom":"var(--wp--preset--spacing--medium)","left":"var(--wp--preset--spacing--medium)"}},"typography":{"fontFamily":"var(--wp--preset--font-family--monospace)","fontSize":"var(--wp--preset--font-size--small)"}},"core/pullquote":{"elements":{"cite":{"typography":{"fontSize":"var(--wp--preset--font-size--small)"},"color":{"text":"var(--wp--preset--color--secondary)"},"spacing":{"margin":{"top":"10px"}}}},"border":{"radius":"0","style":"solid","width":"5px 0 0 0 !important","color":"var(--wp--preset--color--primary)"},"spacing":{"padding":{"top":"var(--wp--preset--spacing--medium)","right":"0","bottom":"0","left":"0"}},"typography":{"lineHeight":"var(--wp--custom--line-height--normal)","fontSize":"var(--wp--preset--font-size--medium)","fontWeight":"var(--wp--custom--font-weight--medium)"}},"core/query-pagination":{"elements":{"link":{"border":{"radius":"5px","width":"0"},"color":{"background":"var(--wp--preset--color--primary)","text":"var(--wp--preset--color--base)"},"spacing":{"padding":{"top":".5em","right":"1em","bottom":".5em","left":"1em"}},"typography":{"fontSize":"var(--wp--preset--font-size--small)","fontWeight":"var(--wp--custom--font-weight--medium)","textDecoration":"none"},":hover":{"color":{"background":"var(--wp--preset--color--primary)","text":"var(--wp--preset--color--base)"},"typography":{"textDecoration":"underline"}}}}},"core/quote":{"elements":{"cite":{"typography":{"fontSize":"var(--wp--preset--font-size--small)"},"color":{"text":"var(--wp--preset--color--secondary)"},"spacing":{"margin":{"top":"10px"}}}},"border":{"radius":"0","style":"solid","width":"0 0 0 5px !important","color":"var(--wp--preset--color--primary)"},"spacing":{"padding":{"left":"var(--wp--preset--spacing--large)","right":"var(--wp--preset--spacing--large)"}},"typography":{"lineHeight":"var(--wp--custom--line-height--normal)","fontSize":"var(--wp--preset--font-size--medium)","fontWeight":"var(--wp--custom--font-weight--medium)"}},"core/search":{"css":".wp-block-search__button-inside .wp-block-search__inside-wrapper { border: none }"},"core/spacer":{"spacing":{"margin":{"top":"0 !important"}}},"core/separator":{"color":{"text":"var(--wp--preset--color--main)"},"typography":{"fontSize":"var(--wp--preset--font-size--large)"}},"core/site-tagline":{"spacing":{"margin":{"bottom":"20px"}},"typography":{"fontSize":"var(--wp--preset--font-size--small)"}},"core/site-title":{"typography":{"fontSize":"var(--wp--preset--font-size--medium)","fontWeight":"var(--wp--custom--font-weight--semi-bold)","lineHeight":"var(--wp--custom--line-height--none)"},"elements":{"link":{"typography":{"textDecoration":"none"}}}},"core/table":{"typography":{"fontSize":"var(--wp--preset--font-size--small)"}},"core/template-part":{"spacing":{"margin":{"top":"0px !important"}}}},"color":{"background":"var(--wp--preset--color--base)","text":"var(--wp--preset--color--main)"},"elements":{"button":{"border":{"radius":"5px","width":"0"},"color":{"background":"var(--wp--preset--color--primary)","text":"var(--wp--preset--color--base)"},"spacing":{"padding":{"top":".5em","right":"1em","bottom":".5em","left":"1em"}},"typography":{"fontSize":"var(--wp--preset--font-size--small)","fontWeight":"var(--wp--custom--font-weight--medium)"},":hover":{"color":{"background":"var(--wp--preset--color--primary)","text":"var(--wp--preset--color--base)"},"typography":{"textDecoration":"underline"}}},"h1":{"typography":{"fontSize":"var(--wp--preset--font-size--xx-large)"}},"h2":{"typography":{"fontSize":"var(--wp--preset--font-size--x-large)"}},"h3":{"typography":{"fontSize":"var(--wp--preset--font-size--large)"}},"h4":{"typography":{"fontSize":"var(--wp--preset--font-size--medium)"}},"h5":{"typography":{"fontSize":"var(--wp--preset--font-size--base)"}},"h6":{"typography":{"fontSize":"var(--wp--preset--font-size--small)"}},"heading":{"typography":{"fontFamily":"var(--wp--preset--font-family--primary)","fontWeight":"var(--wp--custom--font-weight--medium)","lineHeight":"var(--wp--custom--line-height--body)"}},"link":{"color":{"text":"var(--wp--preset--color--main)"}}},"spacing":{"blockGap":"var(--wp--preset--spacing--medium)","padding":{"top":"0","right":"var(--wp--preset--spacing--medium)","bottom":"0","left":"var(--wp--preset--spacing--medium)"}},"typography":{"fontFamily":"var(--wp--preset--font-family--primary)","fontSize":"var(--wp--preset--font-size--base)","fontWeight":"var(--wp--custom--font-weight--regular)","lineHeight":"var(--wp--custom--line-height--body)"}},"templateParts":[{"name":"header","title":"Header","area":"header"},{"name":"footer","title":"Footer","area":"footer"},{"name":"sidebar","title":"Sidebar","area":"sidebar"}]}');
 
 /***/ })
 
