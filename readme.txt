@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 6.3
 Requires PHP: 7.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,16 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Start launching beautiful, blazing-fast websites with the WordPress Site Editor and the Ollie WordPress block theme! Ollie features over 50+ pixel-perfect pattern designs, a fully-customizable design system with Global Styles, and a one-of-a-kind theme setup wizard that creates an entire site for you in just a few clicks. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet  — no expensive page builder plugin required!
 
 == Changelog ==
+
+= 1.0.2 - 9/18/23 =
+* Prepare theme for wp.org release
+* Prefix pattern categories 
+* Update theme screenshot
+* Remove site title, tagline, and logo upload from dashboard wizard
+* Add additional license info in readme.txt
+* Fix navigation spacing 
+* Update blog to two column layout
+* Under the hood improvements for security and performance
 
 = 1.0.1 - 8/21/23 =
 * Remove site logo conditional in header patterns and revert to site title by default
