@@ -33,14 +33,17 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
  */
 function enqueue_style_sheet() {
 	wp_enqueue_style( sanitize_title( __NAMESPACE__ ), get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
-
-	// Add Dashicon for list block styles.
-	$current_id = get_the_ID();
-	if ( has_block( 'core/list', $current_id ) ) {
-		wp_enqueue_style( 'dashicons' );
-	}
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
+
+
+/**
+ * Add Dashicons for use with block styles.
+ */
+function enqueue_block_dashicons() {
+	wp_enqueue_style( 'dashicons' );
+}
+add_action( 'enqueue_block_assets',  __NAMESPACE__ . '\enqueue_block_dashicons' );
 
 
 /**
