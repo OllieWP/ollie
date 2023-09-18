@@ -108,7 +108,7 @@ class Helper {
 
 		// Change brand color.
 		if ( isset( $settings['brand_color'] ) && $settings['brand_color'] != '' ) {
-			$ollie_palette[0]->color = $settings['brand_color'];
+			$ollie_palette[0]->color = wp_strip_all_tags( $settings['brand_color'] );
 		}
 
 		// Convert values for the filter.
