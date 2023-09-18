@@ -116,7 +116,7 @@ class Settings {
 			wp_enqueue_style( 'ollie-onboarding-settings-style', OLLIE_SETTINGS_URL . '/build/index.css', array( 'wp-components' ) );
 		} else {
 			$args = array(
-				'screen'          => in_array( $pagenow, [ 'themes.php', 'plugins.php' ] ) ? 'modal' : '',
+				'screen'          => in_array( $screen->id, [ 'themes' ] ) ? 'modal' : '',
 				'logo'            => OLLIE_SETTINGS_URL . '/assets/ollie-logo.svg',
 				'onboarding_link' => esc_url( admin_url() ) . 'themes.php?page=ollie',
 				'skip_onboarding' => false,
@@ -152,8 +152,8 @@ class Settings {
 	 * @return void
 	 */
 	public function render_modal() {
-		global $pagenow;
-		if ( ( 'themes.php' == $pagenow ) || ( 'plugins.php' == $pagenow ) ) {
+		$currentScreen = get_current_screen();
+		if( $currentScreen->id === "themes" ) {
 			?>
             <div id="ollie-modal"></div>
             <style>
@@ -334,11 +334,6 @@ class Settings {
 			$options = $request->get_params();
 			update_option( 'ollie', $this->sanitize_options_array( $options ) );
 
-			// Update logo.
-			if ( isset( $options['site_logo'] ) ) {
-				update_option( 'site_logo', absint( $options['site_logo'] ) );
-			}
-
 			// Set up the homepage.
 			if ( isset( $options['homepage_display'] ) ) {
 				switch ( $options['homepage_display'] ) {
@@ -433,15 +428,6 @@ class Settings {
 	}
 
 	/**
-	 * Get site logo via Rest API.
-	 *
-	 * @return false|mixed|null
-	 */
-	public function get_logo() {
-		return wp_get_attachment_url( get_option( 'site_logo' ) );
-	}
-
-	/**
 	 * Update site logo via REST API.
 	 *
 	 * @param object $request given request.
@@ -470,9 +456,6 @@ class Settings {
 
 		foreach ( $options as $key => $value ) {
 			switch( $key ) {
-				case 'site_logo':
-					$sanitized_options[ $key ] = absint( $value );
-					break;
 				case 'skip_onboarding':
 					$sanitized_options[ $key ] = (bool) $value;
 					break;
