@@ -2356,6 +2356,14 @@ function FinishSetup() {
   }, __('Edit Homepage', 'ollie')))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
     className: "ollie-setting-field"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
+    htmlFor: "edit-hheader"
+  }, __('Edit Your Header', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Go to the Site Editor to edit your header and add a navigation menu.', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Button, {
+    id: "edit-homepage",
+    isSecondary: true,
+    href: ollie_options.dashboard_link + 'site-editor.php?postType=wp_template_part&postId=ollie%2F%2Fheader&categoryId=header&categoryType=wp_template_part'
+  }, __('Edit Header/Nav', 'ollie')))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.Flex, {
+    className: "ollie-setting-field"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
     htmlFor: "view-docs"
   }, __('View Ollie Docs', 'ollie')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, __('Watch tutorial videos and read through the docs to learn how to build beautiful websites with Ollie.', 'ollie'))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.FlexItem, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.__experimentalNavigatorButton, {
     id: "view-docs",

@@ -61,6 +61,15 @@ function FinishSetup() {
                             <Button id="edit-homepage" isSecondary href={ollie_options.dashboard_link + 'site-editor.php'}>{__('Edit Homepage', 'ollie')}</Button>
                         </FlexItem>
                     </Flex>
+					<Flex className="ollie-setting-field">
+                        <FlexItem>
+                            <label htmlFor="edit-hheader">{__('Edit Your Header', 'ollie')}</label>
+                            <p>{__('Go to the Site Editor to edit your header and add a navigation menu.', 'ollie')}</p>
+                        </FlexItem>
+                        <FlexItem>
+                            <Button id="edit-homepage" isSecondary href={ollie_options.dashboard_link + 'site-editor.php?postType=wp_template_part&postId=ollie%2F%2Fheader&categoryId=header&categoryType=wp_template_part'}>{__('Edit Header/Nav', 'ollie')}</Button>
+                        </FlexItem>
+                    </Flex>
                     <Flex className="ollie-setting-field">
                         <FlexItem>
                             <label htmlFor="view-docs">{__('View Ollie Docs', 'ollie')}</label>
