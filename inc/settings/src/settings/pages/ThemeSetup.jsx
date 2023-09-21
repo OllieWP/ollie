@@ -14,7 +14,6 @@ const {__} = wp.i18n;
 
 function ThemeSetup() {
     const {
-        updateSetting,
         saveSettings,
         currentStep,
         setCurrentStep,

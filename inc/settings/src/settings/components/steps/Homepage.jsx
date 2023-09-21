@@ -14,11 +14,9 @@ function Homepage() {
     const {settings, updateSetting, pageStart} = useContext(SettingsContext);
     const [homePath, setHomePath] = useState(ollie_options.home_link);
     const [blogPath, setBlogPath] = useState(ollie_options.home_link);
-    const [homeDisplay, setHomeDisplay] = useState('page');
-    const [homePathChanged, setHomePathChanged] = useState(false);
-    const [blogPathChanged, setBlogPathChanged] = useState(false);
-    const [homeId, setHomeId] = useState(0);
-    const [blogId, setBlogId] = useState(0);
+    const [homeDisplay, setHomeDisplay] = useState(ollie_options.homepage_display);
+    const [homeId, setHomeId] = useState(ollie_options.home_id);
+    const [blogId, setBlogId] = useState(ollie_options.blog_id);
     const [fetchedPages, setFetchedPages] = useState();
 
     const pages = useSelect(
@@ -58,18 +56,6 @@ function Homepage() {
         // Set focus.
         pageStart.current.focus();
 
-        if (settings.home_id && pages) {
-            setHomeId(settings.home_id);
-        }
-
-        if (settings.blog_id && pages) {
-            setBlogId(settings.blog_id);
-        }
-
-        if (settings.homepage_display) {
-            setHomeDisplay(settings.homepage_display);
-        }
-
         setFetchedPages(pages);
     }, [settings, pages]);
 
@@ -101,17 +87,17 @@ function Homepage() {
 
                                 if (value === 'page') {
                                     // We need to update blog and home path now.
-                                    setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(settings.home_id)).slug);
-                                    setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(settings.blog_id)).slug);
+                                    if (homeId) {
+                                        setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(homeId)).slug);
+                                    }
 
+                                    if (blogId) {
+                                        setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(blogId)).slug);
+                                    }
                                 } else {
                                     setHomePath(ollie_options.home_link);
                                     setBlogPath(ollie_options.home_link);
-
-                                    setBlogPathChanged(false);
-                                    setHomePathChanged(false);
                                 }
-
                             }}
                         />
                         <Flex className="ollie-homepage-select" gap="15px">
@@ -121,14 +107,11 @@ function Homepage() {
                                         {pages &&
                                             <SelectControl
                                                 label={__('Select homepage', 'content-protector')}
-                                                value={homeId}
+                                                value={settings.home_id}
                                                 options={getSelectablePages()}
                                                 onChange={(value) => {
                                                     setHomeId(value);
                                                     updateSetting("home_id", value);
-
-                                                    setHomePathChanged(true);
-                                                    setBlogPathChanged(false);
 
                                                     // Update path.
                                                     setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(value)).slug);
@@ -140,14 +123,11 @@ function Homepage() {
                                         {pages &&
                                             <SelectControl
                                                 label={__('Select blog page', 'content-protector')}
-                                                value={blogId}
+                                                value={settings.blog_id}
                                                 options={getSelectablePages()}
                                                 onChange={(value) => {
                                                     setBlogId(value);
                                                     updateSetting("blog_id", value);
-
-                                                    setBlogPathChanged(true);
-                                                    setHomePathChanged(false);
 
                                                     // Update path.
                                                     setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(value)).slug);
@@ -161,8 +141,7 @@ function Homepage() {
                     </FlexItem>
                 </Flex>
             </div>
-            <HomepagePreview home_path={homePath} blog_path={blogPath} home_path_changed={homePathChanged}
-                             blog_path_changed={blogPathChanged} homepage_display={homeDisplay}/>
+            <HomepagePreview home_path={homePath} blog_path={blogPath} homepage_display={homeDisplay}/>
         </section>
     )
 }

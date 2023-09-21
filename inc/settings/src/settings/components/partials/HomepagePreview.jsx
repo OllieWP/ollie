@@ -30,15 +30,7 @@ export default function HomepagePreview(props) {
             changeIframeDisplay('blog');
         }
 
-        if (props.home_path_changed) {
-            changeIframeDisplay('homepage');
-        }
-
-        if (props.blog_path_changed) {
-            changeIframeDisplay('blog');
-        }
-
-    }, [props.homepage_display, props.home_path, props.home_path_changed, props.blog_path_changed, , props.blog_path]);
+    }, [props.homepage_display, props.home_path, props.blog_path]);
 
     const handleIframeLoad = () => {
         setIsIframeLoaded(true);
