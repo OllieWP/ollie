@@ -4,7 +4,7 @@
 	"customTemplates": [
 		{
 			"name": "page-no-title",
-			"title": "Page (No Title)",
+			"title": "Page (Full Width, No Title)",
 			"postTypes": [
 				"page"
 			]
@@ -15,13 +15,6 @@
 			"postTypes": [
 				"post",
 				"page"
-			]
-		},
-		{
-			"name": "single-wide-featured-image",
-			"title": "Single (Wide Featured Image)",
-			"postTypes": [
-				"post"
 			]
 		}
 	],
