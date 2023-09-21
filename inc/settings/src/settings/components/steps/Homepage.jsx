@@ -11,13 +11,14 @@ import HomepagePreview from "../partials/HomepagePreview"
 const {__} = wp.i18n;
 
 function Homepage() {
-    const {settings, updateSetting, pageStart} = useContext(SettingsContext);
+    const {settings, updateSetting, pageStart } = useContext(SettingsContext);
     const [homePath, setHomePath] = useState(ollie_options.home_link);
     const [blogPath, setBlogPath] = useState(ollie_options.home_link);
     const [homeDisplay, setHomeDisplay] = useState(ollie_options.homepage_display);
     const [homeId, setHomeId] = useState(ollie_options.home_id);
     const [blogId, setBlogId] = useState(ollie_options.blog_id);
     const [fetchedPages, setFetchedPages] = useState();
+    const [showPreview, setShowPreview] = useState(false);
 
     const pages = useSelect(
         (select) => {
@@ -113,24 +114,11 @@ function Homepage() {
                                                     setHomeId(value);
                                                     updateSetting("home_id", value);
 
-                                                    // Update path.
-                                                    setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(value)).slug);
-                                                }}
-                                            />
-                                        }
-                                    </div>
-                                    <div className={"page-selector"}>
-                                        {pages &&
-                                            <SelectControl
-                                                label={__('Select blog page', 'content-protector')}
-                                                value={settings.blog_id}
-                                                options={getSelectablePages()}
-                                                onChange={(value) => {
-                                                    setBlogId(value);
-                                                    updateSetting("blog_id", value);
+                                                    setShowPreview(true);
 
                                                     // Update path.
-                                                    setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(value)).slug);
+                                                    setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(value)).slug);
+                                                    setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(blogId)).slug);
                                                 }}
                                             />
                                         }
@@ -141,7 +129,10 @@ function Homepage() {
                     </FlexItem>
                 </Flex>
             </div>
-            <HomepagePreview home_path={homePath} blog_path={blogPath} homepage_display={homeDisplay}/>
+            { showPreview &&
+                <HomepagePreview home_path={homePath} blog_path={blogPath} homepage_display={homeDisplay}/>
+            }
+
         </section>
     )
 }
