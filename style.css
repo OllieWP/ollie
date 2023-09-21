@@ -42,10 +42,6 @@ strong {
 	font-weight: var(--wp--custom--font-weight--semi-bold);
 }
 
-blockquote {
-	margin: 0;
-}
-
 ol,
 ul {
 	padding: 0;
