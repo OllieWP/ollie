@@ -16,7 +16,7 @@ export default function HomepagePreview(props) {
     const [displayToggle, showDisplayToggle] = useState(false);
     const [currentPath, setCurrentPath] = useState(props.home_path);
     const [iFrameDisplay, setIframeDisplay] = useState('homepage');
-
+    const [showBlogToggle, setShowBlogToggle] = useState(false);
 
     // Fade in the iframe each time the src is updated.
     useEffect(() => {
@@ -30,7 +30,11 @@ export default function HomepagePreview(props) {
             changeIframeDisplay('blog');
         }
 
-    }, [props.homepage_display, props.home_path, props.blog_path]);
+        if (props.blog_id > 0) {
+            setShowBlogToggle(true);
+        }
+
+    }, [props.homepage_display, props.home_path, props.blog_path, props.blog_id]);
 
     const handleIframeLoad = () => {
         setIsIframeLoaded(true);
@@ -93,10 +97,12 @@ export default function HomepagePreview(props) {
                                 className={iFrameDisplay === 'homepage' ? 'ollie-iframe-button-active' : ''}>
                             {__('Homepage', 'ollie')}
                         </Button>
-                        <Button onClick={() => changeIframeDisplay('blog')}
-                                className={iFrameDisplay === 'blog' ? 'ollie-iframe-button-active' : ''}>
-                            {__('Blog', 'ollie')}
-                        </Button>
+                        {showBlogToggle &&
+                            <Button onClick={() => changeIframeDisplay('blog')}
+                                    className={iFrameDisplay === 'blog' ? 'ollie-iframe-button-active' : ''}>
+                                {__('Blog', 'ollie')}
+                            </Button>
+                        }
                     </div>
                 </div>
             }

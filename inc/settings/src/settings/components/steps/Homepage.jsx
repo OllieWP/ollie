@@ -130,7 +130,7 @@ function Homepage() {
                 </Flex>
             </div>
             { showPreview &&
-                <HomepagePreview home_path={homePath} blog_path={blogPath} homepage_display={homeDisplay}/>
+                <HomepagePreview home_path={homePath} blog_path={blogPath} blog_id={blogId} homepage_display={homeDisplay}/>
             }
 
         </section>
