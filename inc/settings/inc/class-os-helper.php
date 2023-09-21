@@ -65,7 +65,7 @@ class Helper {
 				$page_id = wp_insert_post(
 					array(
 						'post_author'  => 1,
-						'post_title'   => ucwords( sanitize_title( $page_slug ) ),
+						'post_title'   => 'Ollie ' . ucwords( sanitize_title( $page_slug ) ),
 						'post_name'    => sanitize_title( $page_slug ),
 						'post_status'  => 'publish',
 						'post_content' => '<!-- wp:pattern {"slug":"page-' . sanitize_title( $page_slug ) . '"} /-->',

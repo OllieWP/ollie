@@ -153,7 +153,7 @@ class Settings {
 	 */
 	public function render_modal() {
 		$currentScreen = get_current_screen();
-		if( $currentScreen->id === "themes" ) {
+		if ( $currentScreen->id === "themes" ) {
 			?>
             <div id="ollie-modal"></div>
             <style>
@@ -288,22 +288,6 @@ class Settings {
 			},
 		) );
 
-		register_rest_route( 'ollie/v1', '/site-logo', array(
-			'methods'             => 'GET',
-			'callback'            => [ $this, 'get_logo' ],
-			'permission_callback' => function () {
-				return current_user_can( 'manage_options' );
-			},
-		) );
-
-		register_rest_route( 'ollie/v1', '/site-logo', array(
-			'methods'             => 'POST',
-			'callback'            => [ $this, 'set_logo' ],
-			'permission_callback' => function () {
-				return current_user_can( 'edit_theme_options' );
-			},
-		) );
-
 		register_rest_route( 'ollie/v1', '/create-pages', array(
 			'methods'             => 'POST',
 			'callback'            => [ $this, 'create_pages' ],
@@ -412,15 +396,6 @@ class Settings {
 
 			$created_pages = Helper::create_pages( $pages );
 
-			if ( isset( $created_pages['home'] ) ) {
-				update_option( 'show_on_front', 'page' );
-				update_option( 'page_on_front', absint( $created_pages['home'] ) );
-			}
-
-			if ( isset( $created_pages['blog'] ) ) {
-				update_option( 'page_for_posts', absint( $created_pages['blog'] ) );
-			}
-
 			return json_encode( [ "status" => 200, "pages" => $created_pages, "message" => "Ok" ] );
 		}
 
@@ -428,34 +403,17 @@ class Settings {
 	}
 
 	/**
-	 * Update site logo via REST API.
-	 *
-	 * @param object $request given request.
-	 *
-	 * @return string
-	 */
-	public function set_logo( $request ) {
-		if ( $request->get_params() ) {
-			$data = $request->get_params();
-
-			return $data['logo'];
-		}
-
-		return json_encode( [ "status" => 400, "message" => "Could not set logo" ] );
-	}
-
-	/**
 	 * Sanitize options array before saving to database.
-	 * 
+	 *
 	 * @param array $options User-submitted options.
-	 * 
+	 *
 	 * @return array Sanitized array of options.
 	 */
 	private function sanitize_options_array( array $options = [] ) {
 		$sanitized_options = [];
 
 		foreach ( $options as $key => $value ) {
-			switch( $key ) {
+			switch ( $key ) {
 				case 'skip_onboarding':
 					$sanitized_options[ $key ] = (bool) $value;
 					break;

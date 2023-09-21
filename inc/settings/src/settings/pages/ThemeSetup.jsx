@@ -40,17 +40,6 @@ function ThemeSetup() {
                 path: '/ollie/v1/create-pages',
                 method: 'POST',
                 data: selectedPages,
-            }).then((response) => {
-                response = JSON.parse(response);
-
-                // Update home id and blog id if page exist.
-                if (response.pages.home) {
-                    updateSetting("home_id", response.pages.home);
-                }
-
-                if (response.pages.blog) {
-                    updateSetting("blog_id", response.pages.blog);
-                }
             });
         }
 
@@ -67,7 +56,7 @@ function ThemeSetup() {
         switch (text) {
             case 0:
                 return __('Start Setup', 'ollie');
-            case 3:
+            case 2:
                 return __('Create Pages and Continue', 'ollie');
             case 4:
                 return __('Save and Finish', 'ollie');
@@ -144,7 +133,7 @@ function ThemeSetup() {
                     </Steps>
                     <Navigation
                         render={({activeStepIndex, goToNextStep, goToPrevStep, totalSteps}) => (
-                            <Flex {...(activeStepIndex == 0 || activeStepIndex == 5 ? {
+                            <Flex {...(activeStepIndex == 0 || activeStepIndex == 4 ? {
                                 'tabIndex': '-1',
                                 'className': 'ollie-hide-step',
                                 'aria-hidden': 'true'
@@ -167,7 +156,7 @@ function ThemeSetup() {
                                     className={activeStepIndex < totalSteps - 1 ? "ollie-setup-step" : "ollie-hide-step"}>
                                     <Button className="ollie-wizard-back-button" variant="link"
                                             onClick={goToPrevStep}>{__('Go Back', 'ollie')}</Button>
-                                    {activeStepIndex === 3 ?
+                                    {activeStepIndex === 2 ?
                                         <Button onClick={() => createPages(goToNextStep)}
                                                 className="ollie-wizard-button"
                                                 variant="primary">

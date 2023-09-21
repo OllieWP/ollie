@@ -17,7 +17,7 @@ function SettingsContextProvider(props) {
     const [settings, setSettings] = useState(defaultSettings);
     const [activeItem, setActiveItem] = useState({activeItem: "/"});
     const [currentStep, setCurrentStep] = useState(0);
-    const [selectedPages, setSelectedPages] = useState(['home', 'blog']);
+    const [selectedPages, setSelectedPages] = useState([]);
     const pageStart = useRef(null);
     const getSettings = () => {
         apiFetch({path: '/ollie/v1/settings'}).then((options) => {
