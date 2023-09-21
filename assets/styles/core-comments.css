@@ -34,6 +34,10 @@
 	display: none;
 }
 
+.wp-block-comments .wp-block-group:empty + .comment-respond {
+	margin-top: 0;
+}
+
 /* Comment Author Avatar
 --------------------------------------------- */
 
