@@ -2,15 +2,14 @@
 /**
  * Title: Pricing Table Card
  * Slug: pricing-table-card
- * Description:
+ * Description: 
  * Categories: ollie/card, ollie/pricing
  * Keywords: card, price, pricing, button, list, purchase, download
  * Viewport Width: 600
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px","color":"#e2e2ef","width":"1px"}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-border-color has-base-background-color has-background" style="border-color:#e2e2ef;border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal"},"fontSize":"base"} -->
@@ -39,14 +38,14 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"small"} -->
+<div class="wp-block-group has-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p><strong>✓</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Block pattern collection</p>
+<p>Publishing Suite</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -60,7 +59,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Live editing via the Site Editor</p>
+<p>Advanced Tools</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -74,7 +73,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Fully-responsive templates</p>
+<p>Priority Support</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -88,7 +87,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Blazing-fast performance</p>
+<p>Blazing-Fast Performance</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

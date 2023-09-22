@@ -2,15 +2,14 @@
 /**
  * Title: Pricing Table With Testimonials
  * Slug: pricing-table-with-testimonials
- * Description:
+ * Description: 
  * Categories: ollie/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|x-large"}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-tertiary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
@@ -34,8 +33,8 @@
 <p class="has-primary-font-family has-x-large-font-size" style="font-style:normal;font-weight:500">$9</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"secondary","fontSize":"small","fontFamily":"primary"} -->
-<p class="has-secondary-color has-text-color has-primary-font-family has-small-font-size" style="margin-top:1.4rem">per month</p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"secondary","fontSize":"x-small","fontFamily":"primary"} -->
+<p class="has-secondary-color has-text-color has-primary-font-family has-x-small-font-size" style="margin-top:1.4rem">per month</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -44,8 +43,8 @@
 <h4 class="wp-block-heading">Beginner</h4>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size">Great for beginners who want to give Ollie a trial run and see if it fits their workflow.</p>
+<!-- wp:paragraph {"textColor":"secondary","fontSize":"x-small"} -->
+<p class="has-secondary-color has-text-color has-x-small-font-size">Great for beginners who want to give your product a trial run and see if it fits their workflow.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -55,14 +54,14 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"small"} -->
-<div class="wp-block-group has-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"x-small"} -->
+<div class="wp-block-group has-x-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p><strong>✓</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Block pattern collection</p>
+<p>Publishing Suite</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -76,7 +75,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Live editing via the Site Editor</p>
+<p>Advanced Tools</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -90,7 +89,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Fully-responsive templates</p>
+<p>Priority Support</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -104,7 +103,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Blazing-fast performance</p>
+<p>Blazing-Fast Performance</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -116,8 +115,8 @@
 <p class="has-primary-font-family has-x-large-font-size" style="font-style:normal;font-weight:500">$29</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"main-accent","fontSize":"small","fontFamily":"primary"} -->
-<p class="has-main-accent-color has-text-color has-primary-font-family has-small-font-size" style="margin-top:1.4rem">per month</p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"main-accent","fontSize":"x-small","fontFamily":"primary"} -->
+<p class="has-main-accent-color has-text-color has-primary-font-family has-x-small-font-size" style="margin-top:1.4rem">per month</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -126,8 +125,8 @@
 <h4 class="wp-block-heading">Professional</h4>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size">Great for professionals who are building a lot of WordPress websites and need all the tools.</p>
+<!-- wp:paragraph {"textColor":"main-accent","fontSize":"x-small"} -->
+<p class="has-main-accent-color has-text-color has-x-small-font-size">Great for professionals who are building a lot of WordPress websites and need all the tools.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -137,8 +136,8 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"small"} -->
-<div class="wp-block-group has-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"x-small"} -->
+<div class="wp-block-group has-x-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p><strong>✓</strong></p>
 <!-- /wp:paragraph -->
@@ -158,7 +157,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>All-access pattern library</p>
+<p>Video Course</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -172,7 +171,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Powerful pro blocks collection</p>
+<p>Private Coaching</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -186,7 +185,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Priority customer support</p>
+<p>Access to Slack</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -200,21 +199,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Access to Slack community</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:separator {"backgroundColor":"secondary","className":"is-style-separator-dotted"} -->
-<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
-<!-- /wp:separator -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>✓</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Online workshops</p>
+<p>Online Workshops</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -226,8 +211,8 @@
 <p class="has-primary-font-family has-x-large-font-size" style="font-style:normal;font-weight:500">$19</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"secondary","fontSize":"small","fontFamily":"primary"} -->
-<p class="has-secondary-color has-text-color has-primary-font-family has-small-font-size" style="margin-top:1.4rem">per month</p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"secondary","fontSize":"x-small","fontFamily":"primary"} -->
+<p class="has-secondary-color has-text-color has-primary-font-family has-x-small-font-size" style="margin-top:1.4rem">per month</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -236,8 +221,8 @@
 <h4 class="wp-block-heading">Essential</h4>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size">Great for folks who are just getting started and only need the basic features and support.</p>
+<!-- wp:paragraph {"textColor":"secondary","fontSize":"x-small"} -->
+<p class="has-secondary-color has-text-color has-x-small-font-size">Great for folks who are just getting started and only need the basic features and support.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -247,14 +232,14 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"small"} -->
-<div class="wp-block-group has-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"x-small"} -->
+<div class="wp-block-group has-x-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p><strong>✓</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Block pattern collection</p>
+<p>Publishing Suite</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -268,7 +253,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Live editing via the Site Editor</p>
+<p>Advanced Tools</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -282,7 +267,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Fully-responsive templates</p>
+<p>Priority Support</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -296,7 +281,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Blazing-fast performance</p>
+<p>Blazing-Fast Performance</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -311,7 +296,7 @@
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"color":"#e3e3ea","width":"1px"}},"backgroundColor":"base","className":"is-style-column-box-shadow"} -->
 <div class="wp-block-column is-style-column-box-shadow has-border-color has-base-background-color has-background" style="border-color:#e3e3ea;border-width:1px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":57,"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-2.webp" alt="" class="wp-image-57" width="60" height="60"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/avatar-2.webp" alt="" class="wp-image-57" style="width:60px;height:60px" width="60" height="60"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -329,7 +314,7 @@
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"color":"#e3e3ea","width":"1px"}},"backgroundColor":"base","className":"is-style-column-box-shadow"} -->
 <div class="wp-block-column is-style-column-box-shadow has-border-color has-base-background-color has-background" style="border-color:#e3e3ea;border-width:1px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":62,"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-7.webp" alt="" class="wp-image-62" width="60" height="60"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/avatar-7.webp" alt="" class="wp-image-62" style="width:60px;height:60px" width="60" height="60"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->

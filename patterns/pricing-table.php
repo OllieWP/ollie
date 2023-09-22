@@ -2,15 +2,14 @@
 /**
  * Title: Pricing Table
  * Slug: pricing-table
- * Description:
+ * Description: 
  * Categories: ollie/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xxx-large","bottom":"var:preset|spacing|xxx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|x-large"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xxx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xxx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
@@ -55,14 +54,14 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"small"} -->
+<div class="wp-block-group has-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p><strong>✓</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Block pattern collection</p>
+<p>Publishing Suite</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -76,7 +75,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Live editing via the Site Editor</p>
+<p>Advanced Tools</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -90,7 +89,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Fully-responsive templates</p>
+<p>Priority Support</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -137,8 +136,8 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"small"} -->
+<div class="wp-block-group has-small-font-size"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p><strong>✓</strong></p>
 <!-- /wp:paragraph -->
@@ -158,7 +157,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>All-access pattern library</p>
+<p>Video Course</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -172,7 +171,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Powerful pro blocks collection</p>
+<p>Private Coaching</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -186,7 +185,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Priority customer support</p>
+<p>Access to Slack</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
