@@ -1,6 +1,10 @@
 /* Pullquote
 --------------------------------------------- */
 
+.wp-block-pullquote {
+	padding-top: 0;
+}
+
 .wp-block-pullquote.alignleft,
 .wp-block-pullquote.alignright {
 	padding-bottom: var(--wp--preset--spacing--medium);
