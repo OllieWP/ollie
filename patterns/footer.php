@@ -7,7 +7,6 @@
  * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
- * Post Types:
  * Inserter: true
  */
 ?>
