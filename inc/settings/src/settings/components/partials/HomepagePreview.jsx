@@ -25,16 +25,9 @@ export default function HomepagePreview(props) {
         if (props.homepage_display === 'page') {
             showDisplayToggle(true);
             changeIframeDisplay('homepage');
-        } else {
-            showDisplayToggle(false);
-            changeIframeDisplay('blog');
         }
 
-        if (props.blog_id > 0) {
-            setShowBlogToggle(true);
-        }
-
-    }, [props.homepage_display, props.home_path, props.blog_path, props.blog_id]);
+    }, [props.homepage_display, props.home_path]);
 
     const handleIframeLoad = () => {
         setIsIframeLoaded(true);
@@ -45,8 +38,6 @@ export default function HomepagePreview(props) {
 
         if (page === 'homepage') {
             setCurrentPath(props.home_path);
-        } else {
-            setCurrentPath(props.blog_path);
         }
     };
 
@@ -90,22 +81,6 @@ export default function HomepagePreview(props) {
 
     return (
         <div className="ollie-homepage-iframe-outer">
-            {displayToggle &&
-                <div className="ollie-homepage-iframe-toggle">
-                    <div class="ollie-homepage-iframe-buttons">
-                        <Button onClick={() => changeIframeDisplay('homepage')}
-                                className={iFrameDisplay === 'homepage' ? 'ollie-iframe-button-active' : ''}>
-                            {__('Homepage', 'ollie')}
-                        </Button>
-                        {showBlogToggle &&
-                            <Button onClick={() => changeIframeDisplay('blog')}
-                                    className={iFrameDisplay === 'blog' ? 'ollie-iframe-button-active' : ''}>
-                                {__('Blog', 'ollie')}
-                            </Button>
-                        }
-                    </div>
-                </div>
-            }
             <div className="ollie-homepage-iframe-container" ref={setIframeContainer}>
                 <img src={BrowserHeader}/>
                 <iframe

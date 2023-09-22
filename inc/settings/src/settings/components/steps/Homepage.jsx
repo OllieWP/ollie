@@ -11,12 +11,9 @@ import HomepagePreview from "../partials/HomepagePreview"
 const {__} = wp.i18n;
 
 function Homepage() {
-    const {settings, updateSetting, pageStart } = useContext(SettingsContext);
+    const {settings, updateSetting, pageStart} = useContext(SettingsContext);
     const [homePath, setHomePath] = useState(ollie_options.home_link);
-    const [blogPath, setBlogPath] = useState(ollie_options.home_link);
     const [homeDisplay, setHomeDisplay] = useState(ollie_options.homepage_display);
-    const [homeId, setHomeId] = useState(ollie_options.home_id);
-    const [blogId, setBlogId] = useState(ollie_options.blog_id);
     const [fetchedPages, setFetchedPages] = useState();
     const [showPreview, setShowPreview] = useState(false);
 
@@ -57,6 +54,15 @@ function Homepage() {
         // Set focus.
         pageStart.current.focus();
 
+        // Prepare iframe preview.
+        if (ollie_options.homepage_display === 'posts') {
+            setShowPreview(true);
+        } else {
+            if (ollie_options.home_id) {
+                setShowPreview(true);
+            }
+        }
+
         setFetchedPages(pages);
     }, [settings, pages]);
 
@@ -66,7 +72,7 @@ function Homepage() {
                 <Flex className="ollie-setting-intro">
                     <FlexItem>
                         <h2 ref={pageStart}>{__('Homepage and Blog', 'ollie')}</h2>
-                        <p>{__('Select which pages you\'d like to assign as your homepage and blog page. You can use the pages we just created in the last step.', 'ollie')}</p>
+                        <p>{__('Select which pages you\'d like to assign as your homepage. You can use the pages we just created in the last step.', 'ollie')}</p>
                     </FlexItem>
                 </Flex>
                 <Flex className="ollie-setting-field">
@@ -83,21 +89,22 @@ function Homepage() {
                                 {label: 'A custom page', value: 'page'},
                             ]}
                             onChange={(value) => {
+                                // Disable preview.
+                                setShowPreview(false);
+
+                                // Update settings.
                                 setHomeDisplay(value);
                                 updateSetting("homepage_display", value);
 
+                                // Set iframe path.
                                 if (value === 'page') {
-                                    // We need to update blog and home path now.
-                                    if (homeId) {
-                                        setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(homeId)).slug);
-                                    }
-
-                                    if (blogId) {
-                                        setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(blogId)).slug);
+                                    if (ollie_options.home_id) {
+                                        setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(ollie_options.home_id)).slug);
                                     }
                                 } else {
-                                    setHomePath(ollie_options.home_link);
-                                    setBlogPath(ollie_options.home_link);
+                                    if (ollie_options.blog_id) {
+                                        setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(ollie_options.blog_id)).slug);
+                                    }
                                 }
                             }}
                         />
@@ -108,17 +115,17 @@ function Homepage() {
                                         {pages &&
                                             <SelectControl
                                                 label={__('Select homepage', 'content-protector')}
-                                                value={settings.home_id}
+                                                value={ollie_options.home_id}
                                                 options={getSelectablePages()}
                                                 onChange={(value) => {
-                                                    setHomeId(value);
+                                                    // Disable preview.
+                                                    setShowPreview(false);
+
+                                                    // Update settings.
                                                     updateSetting("home_id", value);
 
-                                                    setShowPreview(true);
-
-                                                    // Update path.
+                                                    // Set iframe path.
                                                     setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(value)).slug);
-                                                    setBlogPath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(blogId)).slug);
                                                 }}
                                             />
                                         }
@@ -129,8 +136,8 @@ function Homepage() {
                     </FlexItem>
                 </Flex>
             </div>
-            { showPreview &&
-                <HomepagePreview home_path={homePath} blog_path={blogPath} blog_id={blogId} homepage_display={homeDisplay}/>
+            {showPreview &&
+                <HomepagePreview home_path={homePath} homepage_display={homeDisplay}/>
             }
 
         </section>

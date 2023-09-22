@@ -329,14 +329,12 @@ class Settings {
 						// Update options for homepage + blog page.
 						update_option( 'show_on_front', 'page' );
 						update_option( 'page_on_front', absint( $options['home_id'] ) );
-						update_option( 'page_for_posts', absint( $options['blog_id'] ) );
 						break;
 				}
-			} elseif ( isset( $options['home_id'] ) && isset( $options['blog_id'] ) ) {
+			} elseif ( isset( $options['home_id'] ) ) {
 				// Update options for homepage + blog page.
 				update_option( 'show_on_front', 'page' );
 				update_option( 'page_on_front', absint( $options['home_id'] ) );
-				update_option( 'page_for_posts', absint( $options['blog_id'] ) );
 			}
 
 			return json_encode( [ "status" => 200, "message" => "Ok" ] );

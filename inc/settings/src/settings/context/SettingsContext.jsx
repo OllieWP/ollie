@@ -7,7 +7,6 @@ function SettingsContextProvider(props) {
     const defaultSettings = {
         homepage_display: ollie_options.homepage_display,
         home_id: ollie_options.home_id,
-        blog_id: ollie_options.blog_id,
         site_icon: '',
         brand_color: '#4D34FA',
         style: 'blue',
