@@ -7,6 +7,7 @@
  * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
+ * Post Types:
  * Inserter: true
  */
 ?>
@@ -115,21 +116,21 @@
 
 <!-- wp:group {"align":"wide"} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|main-accent"}}}},"textColor":"main-accent","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group has-main-accent-color has-text-color has-link-color"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2023 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<div class="wp-block-group has-main-accent-color has-text-color has-link-color"><!-- wp:paragraph {"fontSize":"x-small"} -->
+<p class="has-x-small-font-size">© 2023 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"small"} -->
-<div class="wp-block-group has-small-font-size"><!-- wp:paragraph -->
-<p><a href="https://olliewp.com">Download</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="https://olliewp.com">Visit Ollie</a></p>
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"x-small"} -->
+<div class="wp-block-group has-x-small-font-size"><!-- wp:paragraph -->
+<p>Download</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://mikemcalister.com">Visit Mike</a></p>
+<p>Visit Ollie</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Visit Mike</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
