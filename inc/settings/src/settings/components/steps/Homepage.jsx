@@ -61,6 +61,7 @@ function Homepage() {
         } else {
             if (ollie_options.home_id) {
                 setShowPreview(true);
+                setSelectedPage(ollie_options.home_id);
             }
         }
 
@@ -101,8 +102,6 @@ function Homepage() {
                                 if (value === 'page') {
                                     if (selectedPage) {
                                         setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(selectedPage)).slug);
-                                    } else if (ollie_options.home_id) {
-                                        setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(ollie_options.home_id)).slug);
                                     }
                                 } else {
                                     if (ollie_options.blog_id) {
