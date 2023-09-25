@@ -4,15 +4,19 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 6.3
 Requires PHP: 7.2
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Start launching beautiful, blazing-fast websites with the WordPress Site Editor and the Ollie WordPress block theme! Ollie features over 50+ pixel-perfect pattern designs, a fully-customizable design system with Global Styles, and a one-of-a-kind theme setup wizard that creates an entire site for you in just a few clicks. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet  — no expensive page builder plugin required!
+Start launching beautiful, blazing-fast websites with the WordPress Site Editor and the Ollie WordPress block theme! Ollie features over 50+ pixel-perfect pattern designs, a fully-customizable design system with Global Styles, and a one-of-a-kind theme setup wizard that creates an entire site for you in just a few clicks. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet  — no expensive page builder plugin required! Check out the full Ollie demo at https://demo.olliewp.com.
 
 == Changelog ==
+
+= 1.0.4 - 9/25/23 =
+* Refactor dashboard views
+* Remove unused styles
 
 = 1.0.3 - 9/22/23 =
 * Clean up footer patterns
