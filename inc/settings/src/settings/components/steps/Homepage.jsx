@@ -15,7 +15,6 @@ function Homepage() {
     const [homePath, setHomePath] = useState(ollie_options.home_link);
     const [homeDisplay, setHomeDisplay] = useState(ollie_options.homepage_display);
     const [fetchedPages, setFetchedPages] = useState();
-    const [showPreview, setShowPreview] = useState(false);
     const [selectedPage, setSelectedPage] = useState(ollie_options.home_id);
 
     const pages = useSelect(
@@ -55,16 +54,6 @@ function Homepage() {
         // Set focus.
         pageStart.current.focus();
 
-        // Prepare iframe preview.
-        if (ollie_options.homepage_display === 'posts') {
-            setShowPreview(true);
-        } else {
-            if (ollie_options.home_id) {
-                setShowPreview(true);
-                setSelectedPage(ollie_options.home_id);
-            }
-        }
-
         setFetchedPages(pages);
     }, [settings, pages]);
 
@@ -91,9 +80,6 @@ function Homepage() {
                                 {label: 'A custom page', value: 'page'},
                             ]}
                             onChange={(value) => {
-                                // Disable preview.
-                                setShowPreview(false);
-
                                 // Update settings.
                                 setHomeDisplay(value);
                                 updateSetting("homepage_display", value);
@@ -102,6 +88,8 @@ function Homepage() {
                                 if (value === 'page') {
                                     if (selectedPage) {
                                         setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(selectedPage)).slug);
+                                    } else if (ollie_options.home_id) {
+                                        setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(ollie_options.home_id)).slug);
                                     }
                                 } else {
                                     if (ollie_options.blog_id) {
@@ -122,9 +110,7 @@ function Homepage() {
                                                 value={selectedPage}
                                                 options={getSelectablePages()}
                                                 onChange={(value) => {
-                                                    // Disable preview.
-                                                    setShowPreview(false);
-
+                                                    // Set page in state.
                                                     setSelectedPage(value);
 
                                                     // Update settings.
@@ -142,10 +128,7 @@ function Homepage() {
                     </FlexItem>
                 </Flex>
             </div>
-            {showPreview &&
-                <HomepagePreview home_path={homePath} homepage_display={homeDisplay}/>
-            }
-
+            <HomepagePreview iframe_path={homePath}/>
         </section>
     )
 }

@@ -1,46 +1,27 @@
 import {flushSync} from "react-dom";
 import {useState, useRef, useLayoutEffect, useEffect} from "@wordpress/element";
-import {Button} from "@wordpress/components";
 import BrowserHeader from "../../assets/images/browser.svg";
 
 const {__} = wp.i18n;
 
 export default function HomepagePreview(props) {
-
     const iframeRef = useRef(null);
     const [iframeContainer, setIframeContainer] = useState(null);
     const [iframeStyle, setIframeStyle] = useState({});
     const deviceWidth = 1600;
-
     const [isIframeLoaded, setIsIframeLoaded] = useState(false);
-    const [displayToggle, showDisplayToggle] = useState(false);
-    const [currentPath, setCurrentPath] = useState(props.home_path);
-    const [iFrameDisplay, setIframeDisplay] = useState('homepage');
-    const [showBlogToggle, setShowBlogToggle] = useState(false);
+    const [currentPath, setCurrentPath] = useState(props.iframe_path);
 
     // Fade in the iframe each time the src is updated.
     useEffect(() => {
         setIsIframeLoaded(false);
+        setCurrentPath(props.iframe_path);
 
-        if (props.homepage_display === 'page') {
-            showDisplayToggle(true);
-            changeIframeDisplay('homepage');
-        }
-
-    }, [props.homepage_display, props.home_path]);
+    }, [props.iframe_path]);
 
     const handleIframeLoad = () => {
         setIsIframeLoaded(true);
     };
-
-    const changeIframeDisplay = (page) => {
-        setIframeDisplay(page);
-
-        if (page === 'homepage') {
-            setCurrentPath(props.home_path);
-        }
-    };
-
 
     useLayoutEffect(() => {
         const adjustSize = () => {
