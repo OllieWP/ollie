@@ -16,6 +16,7 @@ function Homepage() {
     const [homeDisplay, setHomeDisplay] = useState(ollie_options.homepage_display);
     const [fetchedPages, setFetchedPages] = useState();
     const [showPreview, setShowPreview] = useState(false);
+    const [selectedPage, setSelectedPage] = useState(ollie_options.home_id);
 
     const pages = useSelect(
         (select) => {
@@ -98,12 +99,16 @@ function Homepage() {
 
                                 // Set iframe path.
                                 if (value === 'page') {
-                                    if (ollie_options.home_id) {
+                                    if (selectedPage) {
+                                        setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(selectedPage)).slug);
+                                    } else if (ollie_options.home_id) {
                                         setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(ollie_options.home_id)).slug);
                                     }
                                 } else {
                                     if (ollie_options.blog_id) {
                                         setHomePath(ollie_options.home_link + '/' + pages.find(page => page.id === parseInt(ollie_options.blog_id)).slug);
+                                    } else {
+                                        setHomePath(ollie_options.home_link);
                                     }
                                 }
                             }}
@@ -115,11 +120,13 @@ function Homepage() {
                                         {pages &&
                                             <SelectControl
                                                 label={__('Select homepage', 'content-protector')}
-                                                value={ollie_options.home_id}
+                                                value={selectedPage}
                                                 options={getSelectablePages()}
                                                 onChange={(value) => {
                                                     // Disable preview.
                                                     setShowPreview(false);
+
+                                                    setSelectedPage(value);
 
                                                     // Update settings.
                                                     updateSetting("home_id", value);
