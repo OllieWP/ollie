@@ -1,22 +1,12 @@
 import {useState, useEffect, useContext} from "@wordpress/element";
 import {
-	Button,
 	Flex,
 	FlexItem,
 	ColorPalette,
 	SelectControl, 
 	ColorIndicator,
-	Modal,
 } from '@wordpress/components';
 import {SettingsContext} from "../../context/SettingsContext";
-import {CustomMediaUpload} from "../partials/CustomMediaUpload";
-import browserIcon from '../../assets/images/browser-icon.svg';
-
-import EmojiPicker, {
-	EmojiStyle,
-	Emoji,
-} from "emoji-picker-react";
-
 
 // Import Styles.
 import purpleJson from '../../../../../../../ollie/theme.json';
@@ -34,8 +24,6 @@ function BrandSetup() {
 	const [palettes, setPalettes] = useState({});
 	const [brandColor, setBrandColor] = useState();
 	const [style, setStyle] = useState('standard');
-	const [siteIcon, setSiteIcon] = useState(false);
-	const [isModalOpen, setModalOpen] = useState(false);
 
 	const loadStyles = () => {
 		// Restructure styles for color palette component.
@@ -108,14 +96,6 @@ function BrandSetup() {
 		);
 	}
 
-	const openModal = () => setModalOpen(true);
-	const closeModal = () => setModalOpen(false);
-	const onSelectEmoji = (emojiData) => {
-		updateSetting("site_icon", emojiData.getImageUrl());
-		setSiteIcon(emojiData.getImageUrl());
-		closeModal();
-	}
-
 	useEffect(() => {
 		// Set focus.
 		pageStart.current.focus();
@@ -127,10 +107,6 @@ function BrandSetup() {
 
 		if (settings.style) {
 			setStyle(settings.style);
-		}
-
-		if (settings.site_icon) {
-			setSiteIcon(settings.site_icon);
 		}
 	}, [settings]);
 
@@ -212,54 +188,6 @@ function BrandSetup() {
 								}
 							</>
 						}
-					</FlexItem>
-				</Flex>
-				<Flex className="ollie-setting-field">
-					<FlexItem>
-						<label htmlFor="site-icon">{__('Site Icon', 'ollie')}</label>
-						<p>{__('Select a small, square icon to display in your browser tab.', 'ollie')}</p>
-					</FlexItem>
-					<FlexItem>
-						<Flex gap="0" direction="column" className="ollie-setting-button-column">
-							<FlexItem>
-								<CustomMediaUpload
-									labelId="site-icon"
-									onMediaSelected={(value) => {
-										updateSetting("site_icon", value);
-										setSiteIcon(value);
-									}}
-								/>
-								<small>{__('Upload a small image icon to use as a site icon.', 'ollie')}</small>
-							</FlexItem>
-							<FlexItem>
-								<Button variant="secondary" onClick={openModal}>
-									{__('Choose Emoji', 'ollie')}
-								</Button>
-								<small>{__('Alternatively, you can choose an emoji as a site icon.', 'ollie')}</small>
-								{isModalOpen && (
-									<Modal title={__('Choose an emoji as your site icon.', 'ollie')}
-										onRequestClose={closeModal}>
-										<EmojiPicker
-											onEmojiClick={onSelectEmoji}
-											autoFocusSearch={false}
-											previewConfig={{
-												defaultCaption: __('Choose an emoji as your site icon.', 'ollie'),
-												defaultEmoji: "1f389"
-											}}
-											emojiStyle={EmojiStyle.NATIVE}
-										/>
-									</Modal>
-								)}
-							</FlexItem>
-						</Flex>
-						{siteIcon ? (
-							<div className="ollie-site-icon-wrap">
-								<div className="ollie-site-icon-box">
-									<img src={siteIcon} alt={__('Site Icon', 'ollie')}/>
-								</div>
-								<img src={browserIcon} />
-							</div>
-						) : ''}
 					</FlexItem>
 				</Flex>
 			</div>

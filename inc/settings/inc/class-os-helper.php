@@ -29,25 +29,10 @@ class Helper {
 	 * @return void
 	 */
 	public function __construct() {
-		add_action( 'wp_head', array( $this, 'add_favicon' ) );
 		add_filter( 'wp_theme_json_data_theme', array( $this, 'set_theme_styles' ) );
 	}
 
-	/**
-	 * Add favicon.
-	 *
-	 * @return void
-	 */
-	public function add_favicon() {
-		$options = get_option( 'ollie' );
-		?>
-
-		<?php if ( isset( $options['site_icon'] ) && $options['site_icon'] != '' ): ?>
-            <link rel="shortcut icon" href="<?php echo esc_url( $options['site_icon'] ); ?>">
-		<?php endif; ?>
-		<?php
-	}
-
+	
 	/**
 	 * Create pages in WordPress.
 	 *
