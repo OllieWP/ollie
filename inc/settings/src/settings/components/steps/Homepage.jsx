@@ -62,8 +62,8 @@ function Homepage() {
             <div className="ollie-setting-fields">
                 <Flex className="ollie-setting-intro">
                     <FlexItem>
-                        <h2 ref={pageStart}>{__('Homepage and Blog', 'ollie')}</h2>
-                        <p>{__('Select which pages you\'d like to assign as your homepage. You can use the pages we just created in the last step.', 'ollie')}</p>
+                        <h2 ref={pageStart}>{__('Homepage', 'ollie')}</h2>
+                        <p>{__('Select which page you\'d like to use as your homepage. You can use the pages we just created in the last step.', 'ollie')}</p>
                     </FlexItem>
                 </Flex>
                 <Flex className="ollie-setting-field">

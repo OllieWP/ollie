@@ -93,7 +93,7 @@ function ThemeSetup() {
                         </li>
                         <li className={`${currentStep === 3 ? "is-active-step" : ""}`}
                             onClick={() => setCurrentStep(3)}>
-                            {__('Homepage & Blog', 'ollie')}
+                            {__('Homepage', 'ollie')}
                         </li>
                         <li className={`${currentStep === 4 ? "is-active-step" : ""}`}
                             onClick={() => setCurrentStep(4)}>
