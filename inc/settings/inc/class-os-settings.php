@@ -35,6 +35,7 @@ class Settings {
 		// Admin notice.
 		add_action( 'admin_notices', array( $this, 'display_activation_notice' ) );
 		add_action( 'wp_ajax_dismiss_theme_activation_notice', array( $this, 'dismiss_notice' ) );
+		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_notice_scripts' ) );
 	}
 
 	/**
@@ -62,8 +63,21 @@ class Settings {
 	 * Set a transient for the theme activation notice
 	 * @return void
 	 */
-	function dismiss_notice() {
+	public function dismiss_notice() {
 		set_transient( 'ollie_activation_notice', true, YEAR_IN_SECONDS );
+	}
+
+	/**
+	 * Enqueue scripts for the admin notice.
+	 * @return void
+	 */
+	public function enqueue_notice_scripts() {
+		$screen = get_current_screen();
+
+		// Only load the script on the Themes page
+		if ( $screen->base === 'themes' ) {
+			wp_enqueue_script( 'ollie-activation-notice', get_template_directory_uri() . '/assets/js/notice.js', array( 'jquery' ), null, true );
+		}
 	}
 
 	/**
@@ -81,7 +95,6 @@ class Settings {
 		);
 
 		add_action( "admin_print_scripts-{$settings_suffix}", array( $this, 'add_settings_scripts' ) );
-		add_action( 'admin_print_scripts', array( $this, 'add_settings_scripts' ) );
 	}
 
 	/**
@@ -90,26 +103,24 @@ class Settings {
 	 * @return void
 	 */
 	public function add_settings_scripts() {
-		global $pagenow;
-
 		$screen = get_current_screen();
 
-		wp_enqueue_media();
-
-		wp_enqueue_script( 'ollie-onboarding-settings', OLLIE_SETTINGS_URL . '/build/index.js', array(
-			'wp-api',
-			'wp-components',
-			'wp-plugins',
-			'wp-edit-post',
-			'wp-edit-site',
-			'wp-element',
-			'wp-api-fetch',
-			'wp-data',
-			'wp-i18n',
-			'wp-block-editor'
-		), OLLIE_SETTINGS_VERSION, true );
-
 		if ( 'appearance_page_ollie' === $screen->base ) {
+			wp_enqueue_media();
+
+			wp_enqueue_script( 'ollie-onboarding-settings', OLLIE_SETTINGS_URL . '/build/index.js', array(
+				'wp-api',
+				'wp-components',
+				'wp-plugins',
+				'wp-edit-post',
+				'wp-edit-site',
+				'wp-element',
+				'wp-api-fetch',
+				'wp-data',
+				'wp-i18n',
+				'wp-block-editor'
+			), OLLIE_SETTINGS_VERSION, true );
+
 			$args = array(
 				'version'             => OLLIE_SETTINGS_VERSION,
 				'dashboard_link'      => esc_url( admin_url() ),
@@ -139,11 +150,6 @@ class Settings {
 			}
 
 			wp_enqueue_style( 'ollie-onboarding-settings-style', OLLIE_SETTINGS_URL . '/build/index.css', array( 'wp-components' ) );
-		}
-
-		// Only load the script on the Themes page
-		if ( $screen->base === 'themes' ) {
-			wp_enqueue_script( 'ollie-activation-notice', get_template_directory_uri() . '/assets/js/notice.js', array( 'jquery' ), null, true );
 		}
 	}
 
