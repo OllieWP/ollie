@@ -22,7 +22,6 @@
     "@wordpress/scripts": "^26.6.0"
   },
   "dependencies": {
-    "emoji-picker-react": "^4.4.9",
     "react-canvas-confetti": "^1.4.0",
     "react-modal-video": "^2.0.1",
     "react-wizr": "^2.5.1"

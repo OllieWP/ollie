@@ -31,7 +31,39 @@ class Settings {
 	public function __construct() {
 		add_action( 'admin_menu', array( $this, 'add_menu' ) );
 		add_action( 'rest_api_init', array( $this, 'rest_api_init' ) );
-		add_action( 'admin_footer', array( $this, 'render_modal' ) );
+
+		// Admin notice.
+		add_action( 'admin_notices', array( $this, 'display_activation_notice' ) );
+		add_action( 'wp_ajax_dismiss_theme_activation_notice', array( $this, 'dismiss_notice' ) );
+	}
+
+	/**
+	 * Display an admin notice on the Themes page
+	 * @return void
+	 */
+	public function display_activation_notice() {
+		$notice_transient = 'ollie_activation_notice';
+		$current_screen   = get_current_screen();
+
+		// Only show the notice on the theme page and if not dismissed
+		if ( $current_screen && $current_screen->base === 'themes' && ! get_transient( $notice_transient ) ) {
+			$title   = __( 'Welcome to the Ollie Block Theme!', 'ollie' );
+			$message = sprintf( __( 'We\'ve put together a helpful <a href="%s"><b>Theme Dashboard</b></a> (Appearance → Ollie) to help you learn about Ollie, set up your theme, view the docs, and more.', 'ollie' ), esc_url( admin_url( 'themes.php?page=ollie' ) ) );
+
+			printf(
+				'<div id="ollie-activation-notice" class="notice notice-success is-dismissible"><h2 style="margin-bottom: .5em">%s</h2><p style="margin-bottom: 1em">%s</p></div>',
+				esc_html( $title ),
+				$message
+			);
+		}
+	}
+
+	/**
+	 * Set a transient for the theme activation notice
+	 * @return void
+	 */
+	function dismiss_notice() {
+		set_transient( 'ollie_activation_notice', true, YEAR_IN_SECONDS );
 	}
 
 	/**
@@ -77,21 +109,14 @@ class Settings {
 			'wp-block-editor'
 		), OLLIE_SETTINGS_VERSION, true );
 
-		$ollie_settings = get_option( 'ollie' );
-
 		if ( 'appearance_page_ollie' === $screen->base ) {
 			$args = array(
-				'screen'              => 'settings',
 				'version'             => OLLIE_SETTINGS_VERSION,
 				'dashboard_link'      => esc_url( admin_url() ),
 				'home_link'           => esc_url( home_url() ),
 				'logo'                => OLLIE_SETTINGS_URL . '/assets/ollie-logo.svg',
 				'onboarding_complete' => false,
 			);
-
-			if ( isset( $ollie_settings['onboarding_complete'] ) ) {
-				$args['onboarding_complete'] = $ollie_settings['onboarding_complete'];
-			}
 
 			// Adjust homepage display based on WP settings.
 			$front = get_option( 'show_on_front' );
@@ -114,29 +139,16 @@ class Settings {
 			}
 
 			wp_enqueue_style( 'ollie-onboarding-settings-style', OLLIE_SETTINGS_URL . '/build/index.css', array( 'wp-components' ) );
-		} else {
-			$args = array(
-				'screen'          => in_array( $screen->id, [ 'themes' ] ) ? 'modal' : '',
-				'logo'            => OLLIE_SETTINGS_URL . '/assets/ollie-logo.svg',
-				'onboarding_link' => esc_url( admin_url() ) . 'themes.php?page=ollie',
-				'skip_onboarding' => false,
-			);
+		}
 
-			if ( isset( $ollie_settings['skip_onboarding'] ) ) {
-				$args['skip_onboarding'] = $ollie_settings['skip_onboarding'];
-			}
-
-			wp_localize_script( 'ollie-onboarding-settings', 'ollie_options', $args );
-
-			// Make the blocks translatable.
-			if ( function_exists( 'wp_set_script_translations' ) ) {
-				wp_set_script_translations( 'ollie-onboarding-settings', 'ollie-data', OLLIE_SETTINGS_PATH . '/languages' );
-			}
+		// Only load the script on the Themes page
+		if ( $screen->base === 'themes' ) {
+			wp_enqueue_script( 'ollie-activation-notice', get_template_directory_uri() . '/assets/js/notice.js', array( 'jquery' ), null, true );
 		}
 	}
 
 	/**
-	 * Render Ollie onboarding settings.
+	 * Render Ollie settings.
 	 *
 	 * @return void
 	 */
@@ -144,110 +156,6 @@ class Settings {
 		?>
         <div id="ollie-onboarding"></div>
 		<?php
-	}
-
-	/**
-	 * Render Ollie onboarding modal.
-	 *
-	 * @return void
-	 */
-	public function render_modal() {
-		$currentScreen = get_current_screen();
-		if ( $currentScreen->id === "themes" ) {
-			?>
-            <div id="ollie-modal"></div>
-            <style>
-                @keyframes OllieFadeIn {
-                    0% {
-                        opacity: 0;
-                    }
-                    100% {
-                        opacity: 1;
-                    }
-                }
-
-                .ollie-modal-background {
-                    background: rgba(93, 93, 111, 0.7);
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    z-index: 9991;
-                    animation: OllieFadeIn .5s;
-                }
-
-                .ollie-modal-content {
-                    background: white;
-                    padding: 50px;
-                    position: fixed;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    max-width: 440px;
-                    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-                    z-index: 99;
-                    border-radius: 3px;
-                }
-
-                .ollie-modal-close {
-                    background: none;
-                    border: none;
-                    padding: 0;
-                    position: absolute;
-                    right: 20px;
-                    top: 20px;
-                }
-
-                .ollie-modal-close:hover {
-                    cursor: pointer;
-                    opacity: .6;
-                }
-
-                .ollie-modal-content img {
-                    max-width: 300px;
-                    margin: 0 auto 35px auto;
-                    display: block;
-                }
-
-                .ollie-modal-content h2 {
-                    text-align: center;
-                    font-size: 2.2em;
-                }
-
-                .ollie-modal-content p {
-                    margin: 25px auto;
-                    font-size: 16px;
-                    text-align: center;
-                }
-
-                .ollie-modal-content .ollie-modal-inner button {
-                    padding: 15px 20px;
-                    transition: 0.3s ease;
-                    background: #3858e9;
-                    color: white;
-                    border: none;
-                    cursor: pointer;
-                    border-radius: 2px;
-                    font-size: 16px;
-                }
-
-                .ollie-modal-content .ollie-modal-inner button:hover {
-                    background: #2145e6;
-                }
-
-                .ollie-modal-content button.ollie-modal-skip {
-                    background: none;
-                    color: #3c434a;
-                }
-
-                .ollie-modal-content button.ollie-modal-skip:hover {
-                    text-decoration: underline;
-                    background: none;
-                }
-            </style>
-			<?php
-		}
 	}
 
 	/**
