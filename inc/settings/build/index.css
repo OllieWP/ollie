@@ -41,7 +41,7 @@ div#wpcontent {
   }
 }
 
-.settings-error.notice.notice-warning {
+.appearance_page_ollie .notice {
   display: none;
 }
 
