@@ -2,9 +2,9 @@
 /**
  * Title: Footer Centered
  * Slug: footer-centered
- * Description: 
+ * Description:
  * Categories: footer
- * Keywords: 
+ * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true

@@ -2,9 +2,9 @@
 /**
  * Title: Footer Light
  * Slug: footer-light
- * Description: 
+ * Description:
  * Categories: footer
- * Keywords: 
+ * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true

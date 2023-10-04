@@ -2,12 +2,12 @@
 /**
  * Title: Pricing Table With Testimonials
  * Slug: pricing-table-with-testimonials
- * Description: 
+ * Description:
  * Categories: ollie/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>

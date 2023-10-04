@@ -2,12 +2,12 @@
 /**
  * Title: Blog Post Columns
  * Slug: blog-post-columns
- * Description: 
+ * Description:
  * Categories: ollie/posts
  * Keywords: blog, posts, query, pages
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>
