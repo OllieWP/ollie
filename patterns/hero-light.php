@@ -2,12 +2,12 @@
 /**
  * Title: Hero Light
  * Slug: hero-light
- * Description: 
+ * Description:
  * Categories: ollie/call-to-action, ollie/hero
  * Keywords: cta, call to action, buttons, homepage, header, hero, heading, screenshot
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>

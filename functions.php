@@ -20,10 +20,6 @@ function setup() {
 
 	// Remove core block patterns.
 	remove_theme_support( 'core-block-patterns' );
-
-	// Add settings.
-	include get_template_directory() . '/inc/settings/settings.php';
-
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
 
@@ -43,7 +39,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 function enqueue_block_dashicons() {
 	wp_enqueue_style( 'dashicons' );
 }
-add_action( 'enqueue_block_assets',  __NAMESPACE__ . '\enqueue_block_dashicons' );
+add_action( 'enqueue_block_assets', __NAMESPACE__ . '\enqueue_block_dashicons' );
 
 
 /**
@@ -87,7 +83,7 @@ function register_block_styles() {
 		),
 		'core/separator'                 => array(
 			'separator-dotted' => __( 'Dotted', 'ollie' ),
-			'separator-thin' => __( 'Thin', 'ollie' ),
+			'separator-thin'   => __( 'Thin', 'ollie' ),
 		),
 		'core/image'                     => array(
 			'rounded-full' => __( 'Rounded Full', 'ollie' ),
@@ -206,7 +202,7 @@ function template_part_areas( array $areas ) {
 		'area_tag'    => 'section',
 		'label'       => __( 'Sidebar', 'ollie' ),
 		'description' => __( 'The Sidebar template defines a page area that can be found on the Page (With Sidebar) template.', 'ollie' ),
-		'icon'        => 'sidebar'
+		'icon'        => 'sidebar',
 	);
 
 	return $areas;

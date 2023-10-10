@@ -2,9 +2,9 @@
 /**
  * Title: Footer Light
  * Slug: footer-light
- * Description: 
+ * Description:
  * Categories: footer
- * Keywords: 
+ * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true
@@ -22,13 +22,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","iconBackgroundColor":"main","iconBackgroundColorValue":"#14111f","style":{"spacing":{"blockGap":{"top":"20px","left":"20px"}}},"className":"is-style-default","layout":{"type":"flex","justifyContent":"left"}} -->
-<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"https://twitter.com/buildwithollie","service":"twitter"} /-->
+<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"#","service":"twitter"} /-->
 
-<!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
+<!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
-<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
 
-<!-- wp:social-link {"url":"https://facebook.com","service":"facebook"} /--></ul>
+<!-- wp:social-link {"url":"#","service":"facebook"} /--></ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:column -->
 

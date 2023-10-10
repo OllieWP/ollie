@@ -1,18 +1,35 @@
 === Ollie WordPress Block Theme ===
-Contributors: mmcalister
+Contributors: mmcalister, patrickposner
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 5.8
 Tested up to: 6.3
 Requires PHP: 7.2
-Stable tag: 1.0.4
+Stable tag: 1.0.9
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Start launching beautiful, blazing-fast websites with the WordPress Site Editor and the Ollie WordPress block theme! Ollie features over 50+ pixel-perfect pattern designs, a fully-customizable design system with Global Styles, and a one-of-a-kind theme setup wizard that creates an entire site for you in just a few clicks. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet  — no expensive page builder plugin required! Check out the full Ollie demo at https://demo.olliewp.com.
+Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 50 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with Global Styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
 
 == Changelog ==
+
+= 1.0.9 - 10/4/23 =
+* Update theme description to remove reference to onboarding wizard
+* Add Patrick Posner as a contributor
+
+= 1.0.8 - 10/4/23 =
+* Update screenshot
+
+= 1.0.7 - 10/2/23 =
+* Remove Ollie onboarding wizard in favor of plugin implementation in the coming weeks
+
+= 1.0.6 - 9/27/23 =
+* Replace social icon links with placeholder links
+
+= 1.0.5 - 9/27/23 =
+* Remove activation modal and replace it with core admin notice 
+* Remove site icon setting from onboarding
 
 = 1.0.4 - 9/25/23 =
 * Refactor dashboard views
@@ -84,16 +101,18 @@ GNU General Public License for more details.
 
 All media licensed under Creative Commons Zero (CC0) https://creativecommons.org/publicdomain/zero/1.0/
 
-https://stocksnap.io/photo/skateboarder-sidewalk-NH8J97NEVN
-https://stocksnap.io/photo/skateboarder-shoes-BTZE6FHZIV
-https://stocksnap.io/photo/girl-longboard-DSN5GES7FM
-https://stocksnap.io/photo/computer-laptop-FBXB2DA8O7
-https://stocksnap.io/photo/people-man-A3WDGDTBI6
-https://stocksnap.io/photo/urban-fashion-TQAKNY0XO2
-https://stocksnap.io/photo/woman-glasses-7RKWHUXLMQ
-https://stocksnap.io/photo/smiling-woman-KS92MVGSXY
-https://stocksnap.io/photo/male-professional-6QXAIH13O6
-https://stocksnap.io/photo/rocketship-spaceship-IETQP9ZADV
+skateboarding.webp  - https://stocksnap.io/photo/skateboarder-sidewalk-NH8J97NEVN
+computer-hands.webp - https://stocksnap.io/photo/computer-laptop-FBXB2DA8O7
+avatar-1.webp       - https://stocksnap.io/photo/people-man-A3WDGDTBI6
+avatar-2.webp       - https://stocksnap.io/photo/urban-fashion-TQAKNY0XO2
+avatar-3.webp       - https://stocksnap.io/photo/woman-glasses-7RKWHUXLMQ
+avatar-4.webp       - https://stocksnap.io/photo/smiling-woman-KS92MVGSXY
+avatar-5.webp       - https://stocksnap.io/photo/male-professional-6QXAIH13O6
+avatar-7.webp       - https://stocksnap.io/photo/woman-business-LERRJPTMHP
+rocket.webp         - https://stocksnap.io/photo/rocketship-spaceship-IETQP9ZADV
+
+logo-1.webp, logo-2.webp, logo-3.webp, logo-4.webp, logo-5.webp - created by Mike McAlister and available via CC0.
+All images in /inc/settings/build/images/ created by Mike McAlister and available via CC0. 
 
 Other assets: 
 

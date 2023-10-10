@@ -2,12 +2,12 @@
 /**
  * Title: Pricing Table
  * Slug: pricing-table
- * Description: 
+ * Description:
  * Categories: ollie/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>
