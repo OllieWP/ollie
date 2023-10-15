@@ -186,8 +186,7 @@
 					"color": "#fff"
 				}
 			],
-			"link": true,
-			"customDuotone": false
+			"link": true
 		},
 		"custom": {
 			"fontWeight": {
