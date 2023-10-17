@@ -1,8 +1,8 @@
 /* Pullquote
 --------------------------------------------- */
 
-.wp-block-pullquote {
-	padding-top: 0;
+.wp-block-pullquote blockquote {
+	margin: 0;
 }
 
 .wp-block-pullquote.alignleft,
@@ -10,13 +10,12 @@
 	padding-bottom: var(--wp--preset--spacing--medium);
 }
 
-.wp-block-pullquote cite,
-.wp-block-pullquote__citation {
-	text-transform: inherit;
+.wp-block-pullquote p {
+	margin-block-start: var(--wp--preset--spacing--medium);
 }
 
-.wp-block-pullquote p:last-of-type {
-	margin-bottom: var(--wp--preset--spacing--small);
+.wp-block-pullquote cite {
+	display: block;
 }
 
 @media only screen and (max-width: 781px) {

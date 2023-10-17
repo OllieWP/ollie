@@ -9,13 +9,6 @@
 	margin-bottom: var(--wp--preset--spacing--small);
 }
 
-/* .entry-content > ul li,
-.entry-content > ol li,
-.wp-block-post-content > ul li,
-.wp-block-post-content > ol li {
-	margin-bottom: var(--wp--preset--spacing--small);
-} */
-
 .entry-content ul ul,
 .entry-content ol ul,
 .wp-block-post-content ul ul,
