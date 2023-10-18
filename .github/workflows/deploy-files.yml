@@ -3,7 +3,7 @@ name: Deploy theme to Ollie demo
 on:
   push:
     branches:
-      - main
+      - develop
 
 jobs:
     deploy_job:
