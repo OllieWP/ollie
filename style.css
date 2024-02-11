@@ -152,3 +152,8 @@ a.more-link {
 .single .wp-block-group:has(> .post-meta:empty) {
 	display: none;
 }
+
+/* Make the image responsive */
+.entry-content img {
+  max-width: 100%;
+}
