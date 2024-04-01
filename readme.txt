@@ -14,6 +14,9 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 
 == Changelog ==
 
+= 1.1.1 - 1/23/24 =
+* Fix tag wrapping on single post template
+
 = 1.1.0 - 10/14/23 =
 * Remove custom duotone limitation 
 * Improve patterns for use in child themes 
