@@ -15,7 +15,9 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 == Changelog ==
 
 = 1.1.1 - 1/23/24 =
+* Switch main font to Mona Sans
 * Fix tag wrapping on single post template
+* Add active class style in navigation
 
 = 1.1.0 - 10/14/23 =
 * Remove custom duotone limitation 
@@ -124,5 +126,5 @@ All images in /inc/settings/build/images/ created by Mike McAlister and availabl
 
 Other assets: 
 
-- The Inter font is available via the SIL Open Font License 1.1: https://github.com/rsms/inter/blob/master/LICENSE.txt
+- The Mona Sans font is available via the SIL Open Font License 1.1: https://github.com/github/mona-sans/blob/main/LICENSE
 - Icons available from Iconnoir via the MIT License: https://github.com/iconoir-icons/iconoir/blob/main/LICENSE

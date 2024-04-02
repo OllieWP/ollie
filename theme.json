@@ -176,7 +176,7 @@
 				"thin": 100,
 				"extra-light": 200,
 				"light": 300,
-				"regular": 400,
+				"regular": 425,
 				"medium": 500,
 				"semi-bold": 600,
 				"bold": 700,
@@ -252,18 +252,18 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "Inter, sans-serif",
-					"name": "Inter",
+					"fontFamily": "Mona Sans, sans-serif",
+					"name": "Mona Sans",
 					"slug": "primary",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Inter",
+							"fontFamily": "Mona Sans",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "100 700",
 							"src": [
-								"file:.\/assets\/fonts\/Inter-VariableFont_slnt,wght.woff2"
+								"file:.\/assets\/fonts\/Mona-Sans.woff2"
 							]
 						}
 					]
@@ -277,7 +277,7 @@
 			"fontSizes": [
 				{
 					"fluid": {
-						"min": ".9rem",
+						"min": ".85rem",
 						"max": "1rem"
 					},
 					"size": "1rem",
@@ -286,18 +286,18 @@
 				},
 				{
 					"fluid": {
-						"min": "1rem",
-						"max": "1.2rem"
+						"min": ".9rem",
+						"max": "1.1rem"
 					},
-					"size": "1.2rem",
+					"size": "1.1rem",
 					"slug": "small"
 				},
 				{
 					"fluid": {
-						"min": "1.13rem",
-						"max": "1.3rem"
+						"min": "1rem",
+						"max": "1.2rem"
 					},
-					"size": "1.3rem",
+					"size": "1.2rem",
 					"slug": "base",
 					"name": "Base"
 				},
@@ -328,18 +328,18 @@
 				{
 					"fluid": {
 						"min": "2.6rem",
-						"max": "3.75rem"
+						"max": "3.2rem"
 					},
-					"size": "3.75rem",
+					"size": "3.2rem",
 					"slug": "xx-large",
 					"name": "2xl"
 				},
 				{
 					"fluid": {
-						"min": "3rem",
-						"max": "4.8rem"
+						"min": "3.2rem",
+						"max": "3.8rem"
 					},
-					"size": "4.8rem",
+					"size": "3.8rem",
 					"slug": "xxx-large",
 					"name": "3xl"
 				}
@@ -825,7 +825,7 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--primary)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)",
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold)",
 					"lineHeight": "var(--wp--custom--line-height--body)"
 				}
 			},
