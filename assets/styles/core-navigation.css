@@ -5,7 +5,7 @@
 	padding: 0;
 }
 
-.wp-block-navigation__container .current-menu-item {
+.wp-block-navigation__container .current-menu-item > a {
 	text-decoration: underline;
 }
 
