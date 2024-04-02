@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+.wp-block-navigation__container .current-menu-item {
+	text-decoration: underline;
+}
+
 /* Drop nav */
 header .wp-block-navigation .wp-block-navigation__submenu-container {
 	border: none !important;
