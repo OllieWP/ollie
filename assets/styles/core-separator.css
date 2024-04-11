@@ -30,5 +30,5 @@ hr.is-style-separator-dotted,
 }
 
 .is-style-separator-thin {
-	border: none !important;
+	border-top: 1px !important;
 }
