@@ -259,9 +259,9 @@
 						{
 							"fontDisplay": "block",
 							"fontFamily": "Mona Sans",
-							"fontStretch": "normal",
+							"fontStretch": "75% 125%",
 							"fontStyle": "normal",
-							"fontWeight": "100 700",
+							"fontWeight": "200 900",
 							"src": [
 								"file:.\/assets\/fonts\/Mona-Sans.woff2"
 							]
@@ -333,15 +333,6 @@
 					"size": "3.2rem",
 					"slug": "xx-large",
 					"name": "2xl"
-				},
-				{
-					"fluid": {
-						"min": "3.2rem",
-						"max": "3.8rem"
-					},
-					"size": "3.8rem",
-					"slug": "xxx-large",
-					"name": "3xl"
 				}
 			],
 			"lineHeight": true
@@ -733,7 +724,8 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "var(--wp--custom--font-weight--semi-bold)",
-					"lineHeight": "var(--wp--custom--line-height--none)"
+					"lineHeight": "var(--wp--custom--line-height--none)",
+					"letterSpacing": "0"
 				},
 				"elements": {
 					"link": {
@@ -825,7 +817,7 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--primary)",
-					"fontWeight": "var(--wp--custom--font-weight--semi-bold)",
+					"fontWeight": "var(--wp--custom--font-weight--bold)",
 					"lineHeight": "var(--wp--custom--line-height--body)"
 				}
 			},
@@ -856,7 +848,8 @@
 			"name": "page-no-title",
 			"title": "Page (Full Width, No Title)",
 			"postTypes": [
-				"page"
+				"page",
+				"ollie_pattern"
 			]
 		},
 		{
