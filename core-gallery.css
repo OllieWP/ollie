@@ -1,0 +1,10 @@
+/* Caption
+--------------------------------------------- */
+
+.wp-block-gallery figcaption.blocks-gallery-caption {
+	margin-top: 0;
+}
+
+.ollie-avatar-row > figure:not(:first-child) {
+	margin-left: -10px !important;
+}
