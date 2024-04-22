@@ -47,3 +47,7 @@ html .is-layout-flex .wp-block-image {
 .is-style-media-boxed figcaption {
 	margin-bottom: calc(var(--wp--preset--spacing--small) * -1) !important;
 }
+
+.ollie-avatar-row > figure:not(:first-child) {
+	margin-left: -10px !important;
+}
