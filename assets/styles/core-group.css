@@ -1,0 +1,23 @@
+/* Group
+--------------------------------------------- */
+
+.is-style-background-blur {
+	backdrop-filter: blur(10px);
+}
+
+/* Improvements for row group */
+@media (max-width: 781px) {
+	.row-stack-mobile {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+
+	.row-stack-mobile > * {
+		flex-basis: 100%;
+	}
+}
+
+.row-stack-mobile > .wp-block-buttons,
+.ollie-no-shrink {
+	flex-shrink: 0;
+}

@@ -152,3 +152,13 @@ a.more-link {
 .single .wp-block-group:has(> .post-meta:empty) {
 	display: none;
 }
+
+.row-logos > figure {
+	flex-shrink: 1 !important;
+}
+
+@media (max-width: 781px) {
+	/* .row-logos {
+		flex-wrap: wrap !important;
+	} */
+}

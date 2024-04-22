@@ -80,6 +80,7 @@ function register_block_styles() {
 		),
 		'core/group'                     => array(
 			'column-box-shadow' => __( 'Box Shadow', 'ollie' ),
+			'background-blur' => __( 'Background Blur', 'ollie' ),
 		),
 		'core/separator'                 => array(
 			'separator-dotted' => __( 'Dotted', 'ollie' ),
