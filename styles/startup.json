@@ -172,8 +172,11 @@
 			"core/post-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--expanded)",
-					"fontSize": "var(--wp--preset--font-size--x-large)"
+					"fontSize": "var(--wp--preset--font-size--x-large) !important"
 				}
+			},
+			"core/details": {
+				"css": ".wp-block-details summary { font-weight: var(--wp--custom--font-weight--semi-bold) }"
 			}
 		},
 		"elements": {
