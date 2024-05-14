@@ -158,7 +158,7 @@ a.more-link {
 }
 
 @media (max-width: 781px) {
-	/* .row-logos {
-		flex-wrap: wrap !important;
-	} */
+	.ollie-hide-on-mobile {
+		display: none;
+	}
 }
