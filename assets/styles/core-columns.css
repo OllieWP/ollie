@@ -10,6 +10,9 @@
 	box-shadow: 0px 12px 60px -20px rgb(21 14 41 / 16%);
 }
 
-.wp-block-column {
-	border-radius: 5px;
+/* Helper class to swap order on mobile */
+@media (max-width: 781px) {
+	.ollie-swap-order {
+		flex-direction: column-reverse;
+	}
 }
