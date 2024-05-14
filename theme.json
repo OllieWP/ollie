@@ -293,7 +293,7 @@
 						{
 							"fontDisplay": "block",
 							"fontFamily": "Mona Sans Condensed",
-							"fontStretch": "75%",
+							"fontStretch": "94%",
 							"fontStyle": "normal",
 							"fontWeight": "200 900",
 							"src": [
@@ -855,7 +855,7 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--primary)",
-					"fontWeight": "var(--wp--custom--font-weight--bold)",
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold)",
 					"lineHeight": "var(--wp--custom--line-height--body)"
 				}
 			},
