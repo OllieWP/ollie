@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 781px) {
-	.wp-block-cover {
+	.wp-block-cover:not(.has-aspect-ratio) {
 		min-height: 430px !important;
 	}
 }
