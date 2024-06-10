@@ -30,3 +30,7 @@
 .ollie-no-shrink {
 	flex-shrink: 0;
 }
+
+.wp-block-group.ollie-sticky-top {
+	top: calc(20px + var(--wp-admin--admin-bar--position-offset, 0px))
+}
