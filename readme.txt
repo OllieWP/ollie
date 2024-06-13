@@ -1,10 +1,10 @@
 === Ollie WordPress Block Theme ===
-Contributors: mmcalister, patrickposner
+Contributors: mmcalister, patrickposner, buildwithollie
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 5.8
-Tested up to: 6.3
+Tested up to: 6.6
 Requires PHP: 7.2
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -18,6 +18,8 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 * Switch main font to Mona Sans
 * Fix tag wrapping on single post template
 * Add active class style in navigation
+* Remove Dashicons dependency
+* Add new style variations: Creator, Startup, Studio
 
 = 1.1.0 - 10/14/23 =
 * Remove custom duotone limitation 

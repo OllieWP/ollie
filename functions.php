@@ -34,15 +34,6 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 
 
 /**
- * Add Dashicons for use with block styles.
- */
-function enqueue_block_dashicons() {
-	wp_enqueue_style( 'dashicons' );
-}
-add_action( 'enqueue_block_assets', __NAMESPACE__ . '\enqueue_block_dashicons' );
-
-
-/**
  * Add block style variations.
  */
 function register_block_styles() {
