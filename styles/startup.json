@@ -110,10 +110,10 @@
 				},
 				{
 					"fluid": {
-						"min": "3.84rem",
-						"max": "5.7rem"
+						"min": "3.46rem",
+						"max": "4.25rem"
 					},
-					"size": "5.7rem",
+					"size": "4rem",
 					"slug": "xx-large",
 					"name": "Extra Extra Large"
 				}
@@ -169,12 +169,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/post-title": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--expanded)",
-					"fontSize": "var(--wp--preset--font-size--x-large) !important"
-				}
-			},
 			"core/details": {
 				"css": ".wp-block-details summary { font-weight: var(--wp--custom--font-weight--semi-bold) }"
 			}
