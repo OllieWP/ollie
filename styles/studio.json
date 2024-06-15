@@ -47,69 +47,6 @@
 				}
 			]
 		},
-		"typography": {
-			"fontSizes": [
-				{
-					"fluid": {
-						"min": ".85rem",
-						"max": "1rem"
-					},
-					"size": "1rem",
-					"slug": "x-small",
-					"name": "Extra Small"
-				},
-				{
-					"fluid": {
-						"min": ".9rem",
-						"max": "1.1rem"
-					},
-					"size": "1.1rem",
-					"slug": "small"
-				},
-				{
-					"fluid": {
-						"min": "1rem",
-						"max": "1.2rem"
-					},
-					"size": "1.2rem",
-					"slug": "base",
-					"name": "Base"
-				},
-				{
-					"fluid": {
-						"min": "1.5rem",
-						"max": "1.8rem"
-					},
-					"size": "1.8rem",
-					"slug": "medium"
-				},
-				{
-					"fluid": {
-						"min": "1.8rem",
-						"max": "2.7rem"
-					},
-					"size": "2.7rem",
-					"slug": "large"
-				},
-				{
-					"fluid": {
-						"min": "2.5rem",
-						"max": "4rem"
-					},
-					"size": "4rem",
-					"slug": "x-large"
-				},
-				{
-					"fluid": {
-						"min": "3.5rem",
-						"max": "5rem"
-					},
-					"size": "5rem",
-					"slug": "xx-large",
-					"name": "2xl"
-				}
-			]
-		},
 		"spacing": {
 			"spacingSizes": [
 				{

@@ -52,73 +52,6 @@
 				}
 			]
 		},
-		"typography": {
-			"fontSizes": [
-				{
-					"fluid": {
-						"min": ".8rem",
-						"max": ".9rem"
-					},
-					"size": ".9rem",
-					"slug": "x-small",
-					"name": "Extra Small"
-				},
-				{
-					"fluid": {
-						"min": ".9rem",
-						"max": "1rem"
-					},
-					"size": "1rem",
-					"slug": "small",
-					"name": "Small"
-				},
-				{
-					"fluid": {
-						"min": "1rem",
-						"max": "1.13rem"
-					},
-					"size": "1.13rem",
-					"slug": "base",
-					"name": "Base"
-				},
-				{
-					"fluid": {
-						"min": "1.4rem",
-						"max": "1.69rem"
-					},
-					"size": "1.69rem",
-					"slug": "medium",
-					"name": "Medium"
-				},
-				{
-					"fluid": {
-						"min": "1.96rem",
-						"max": "2.53rem"
-					},
-					"size": "2.53rem",
-					"slug": "large",
-					"name": "Large"
-				},
-				{
-					"fluid": {
-						"min": "2.74rem",
-						"max": "3.8rem"
-					},
-					"size": "3.8rem",
-					"slug": "x-large",
-					"name": "Extra Large"
-				},
-				{
-					"fluid": {
-						"min": "3.46rem",
-						"max": "4.25rem"
-					},
-					"size": "4rem",
-					"slug": "xx-large",
-					"name": "Extra Extra Large"
-				}
-			]
-		},
 		"spacing": {
 			"spacingSizes": [
 				{
@@ -184,44 +117,10 @@
 					}
 				}
 			},
-			"h1": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)"
-				}
-			},
-			"h2": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
-				}
-			},
-			"h3": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)"
-				}
-			},
-			"h4": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--base)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)"
-				}
-			},
-			"h5": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)"
-				}
-			},
-			"h6": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)"
-				}
-			},
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--expanded)",
-					"fontWeight": "var(--wp--custom--font-weight--regular)",
+					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"lineHeight": "var(--wp--custom--line-height--snug)",
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
