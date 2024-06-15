@@ -2,12 +2,12 @@
 /**
  * Title: Blog Post Columns
  * Slug: blog-post-columns
- * Description:
+ * Description: 
  * Categories: ollie/posts
  * Keywords: blog, posts, query, pages
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
@@ -17,8 +17,8 @@
 <p class="has-text-align-center has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Latest and Greatest</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Read our latest blog articles</h2>
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Read our latest blog articles</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
