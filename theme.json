@@ -164,6 +164,16 @@
 					"color": "#f6f6fc"
 				},
 				{
+					"name": "Border Light",
+					"slug": "border-light",
+					"color": "#DADEE3"
+				},
+				{
+					"name": "Border Dark",
+					"slug": "border-dark",
+					"color": "#444B57"
+				},
+				{
 					"name": "Base",
 					"slug": "base",
 					"color": "#fff"
