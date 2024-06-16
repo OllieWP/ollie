@@ -6,12 +6,14 @@
  * Categories: ollie/pages, ollie/features
  * Keywords: page, layout, design, template, features
  * Viewport Width: 1500
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
 <!-- wp:pattern {"slug":"card-text-and-call-to-action"} /-->
 
-<!-- wp:pattern {"slug":"feature-boxes-with-icon"} /-->
+<!-- wp:pattern {"slug":"ollie/feature-boxes"} /-->
 
 <!-- wp:pattern {"slug":"features-with-emojis"} /-->
 

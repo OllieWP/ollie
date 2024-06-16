@@ -10,16 +10,18 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 50 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with Global Styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
+Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 50 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with global styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
 
 == Changelog ==
 
 = 1.1.1 - 1/23/24 =
 * Switch main font to Mona Sans
+* Add new style variations: Creator, Startup, Studio
+* Remove Dashicons dependency
 * Fix tag wrapping on single post template
 * Add active class style in navigation
-* Remove Dashicons dependency
-* Add new style variations: Creator, Startup, Studio
+* Improve pattern typography for new style variations
+
 
 = 1.1.0 - 10/14/23 =
 * Remove custom duotone limitation 

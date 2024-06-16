@@ -6,12 +6,14 @@
  * Categories: ollie/pages
  * Keywords: page, layout, design, template, home
  * Viewport Width: 1500
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
 <!-- wp:pattern {"slug":"hero-call-to-action-buttons"} /-->
 
-<!-- wp:pattern {"slug":"feature-boxes-with-icon"} /-->
+<!-- wp:pattern {"slug":"ollie/feature-boxes"} /-->
 
 <!-- wp:pattern {"slug":"text-and-image-columns-with-icons"} /-->
 
