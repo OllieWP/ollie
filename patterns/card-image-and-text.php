@@ -18,9 +18,9 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Image and Text Card</h4>
-<!-- /wp:heading -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Image and Text Card</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>I love using WordPress but traditionally it has been hard to design in. Not any more! Now, I can quickly build full page designs with beautiful patterns!</p>

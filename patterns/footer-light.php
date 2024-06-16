@@ -2,20 +2,21 @@
 /**
  * Title: Footer Light
  * Slug: footer-light
- * Description:
+ * Description: 
  * Categories: footer
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
+ * Post Types: wp_template
  * Inserter: true
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0px"},"blockGap":"var:preset|spacing|large"},"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"backgroundColor":"tertiary","textColor":"main","className":"dark-footer","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull dark-footer has-main-color has-tertiary-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Ride with Ollie</h4>
-<!-- /wp:heading -->
+<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="font-style:normal;font-weight:600">Ride with Ollie</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required. Download for free today!</p>

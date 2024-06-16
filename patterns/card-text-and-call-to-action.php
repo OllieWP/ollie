@@ -2,15 +2,14 @@
 /**
  * Title: Text and Call To Action Card
  * Slug: card-text-and-call-to-action
- * Description:
+ * Description: 
  * Categories: ollie/testimonial, ollie/hero, ollie/card, ollie/call-to-action
  * Keywords: download, box, cta, rating, review, testimonial
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xxx-large","bottom":"var:preset|spacing|xxx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-tertiary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xxx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xxx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
@@ -55,9 +54,9 @@
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"backgroundColor":"main"} -->
 <div class="wp-block-column is-vertically-aligned-center has-main-background-color has-background"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","right":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}},"border":{"radius":"5px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide has-primary-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-large)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"base"} -->
-<h4 class="wp-block-heading has-base-color has-text-color">Download Ollie</h4>
-<!-- /wp:heading -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
+<p class="has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Download Ollie</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
 <p class="has-primary-accent-color has-text-color">Version 1.0</p>
