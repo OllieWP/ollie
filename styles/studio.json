@@ -46,53 +46,6 @@
 					"color": "#fff"
 				}
 			]
-		},
-		"spacing": {
-			"spacingSizes": [
-				{
-					"name": "Small",
-					"size": "clamp(.5rem, 2.5vw, 1rem)",
-					"slug": "small"
-				},
-				{
-					"name": "Medium",
-					"size": "clamp(1.5rem, 4vw, 2rem)",
-					"slug": "medium"
-				},
-				{
-					"name": "Large",
-					"size": "clamp(2rem, 5vw, 3rem)",
-					"slug": "large"
-				},
-				{
-					"name": "Extra Large",
-					"size": "clamp(3rem, 7vw, 5rem)",
-					"slug": "x-large"
-				},
-				{
-					"name": "2xl",
-					"size": "clamp(4rem, 9vw, 7rem)",
-					"slug": "xx-large"
-				},
-				{
-					"name": "3xl",
-					"size": "clamp(5rem, 12vw, 9rem)",
-					"slug": "xxx-large"
-				},
-				{
-					"name": "4xl",
-					"size": "clamp(6rem, 14vw, 13rem)",
-					"slug": "xxxx-large"
-				}
-			],
-			"units": [
-				"px",
-				"em",
-				"rem",
-				"vh",
-				"vw",
-				"%"
-			]
 		}
 	},
 	"styles": {
@@ -114,43 +67,13 @@
 					}
 				}
 			},
-			"h4": {
-				"typography": {
-					"fontWeight": "var(--wp--custom--font-weight--extra-bold)"
-				}
-			},
-			"h5": {
-				"typography": {
-					"fontWeight": "var(--wp--custom--font-weight--extra-bold)"
-				}
-			},
-			"h6": {
-				"typography": {
-					"fontWeight": "var(--wp--custom--font-weight--extra-bold)"
-				}
-			},
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--primary)",
 					"fontWeight": "var(--wp--custom--font-weight--extra-bold)",
-					"lineHeight": "var(--wp--custom--line-height--tight)"
+					"lineHeight": "var(--wp--custom--line-height--snug)"
 				}
 			}
-		},
-		"spacing": {
-			"blockGap": "var(--wp--preset--spacing--medium)",
-			"padding": {
-				"top": "0",
-				"right": "var(--wp--preset--spacing--medium)",
-				"bottom": "0",
-				"left": "var(--wp--preset--spacing--medium)"
-			}
-		},
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--primary)",
-			"fontSize": "var(--wp--preset--font-size--base)",
-			"fontWeight": "var(--wp--custom--font-weight--regular)",
-			"lineHeight": "var(--wp--custom--line-height--body)"
 		}
 	}
 }

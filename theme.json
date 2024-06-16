@@ -475,6 +475,9 @@
 					}
 				}
 			},
+			"core/details": {
+				"css": ".wp-block-details summary { font-weight: var(--wp--custom--font-weight--semi-bold) }"
+			},
 			"core/post-comments-form": {
 				"elements": {
 					"heading": {
