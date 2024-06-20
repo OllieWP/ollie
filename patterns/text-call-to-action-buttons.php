@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text Call To Action Buttons
- * Slug: text-call-to-action-buttons
+ * Slug: ollie/text-call-to-action-buttons
  * Description: A call to action with text and a button.
  * Categories: ollie/call-to-action, ollie/hero
  * Keywords: cta, call to action, buttons, heading

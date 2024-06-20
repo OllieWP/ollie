@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Contact Card
- * Slug: card-contact
+ * Slug: ollie/card-contact
  * Description: 
  * Categories: ollie/card
  * Keywords: card, contact, social, links, email, company

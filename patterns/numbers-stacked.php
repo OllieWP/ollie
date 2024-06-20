@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Numbers Stacked
- * Slug: numbers-stacked
+ * Slug: ollie/numbers-stacked
  * Description: Display impressive numbers with a short description
  * Categories: ollie/features
  * Keywords: numbers, stats, text, values, count

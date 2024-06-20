@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Social Profile Card
- * Slug: social-profile-card
+ * Slug: ollie/social-profile-card
  * Description: 
  * Categories: ollie/card
  * Keywords: profile, links, social, twitter, facebook, instagram, linktree, avatar, bio

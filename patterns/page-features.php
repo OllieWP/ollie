@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Features Page
- * Slug: page-features
+ * Slug: ollie/page-features
  * Description: A full page design for a Features page
  * Categories: ollie/pages, ollie/features
  * Keywords: page, layout, design, template, features
@@ -11,10 +11,10 @@
  * Inserter: true
  */
 ?>
-<!-- wp:pattern {"slug":"card-text-and-call-to-action"} /-->
+<!-- wp:pattern {"slug":"ollie/card-text-and-call-to-action"} /-->
 
 <!-- wp:pattern {"slug":"ollie/feature-boxes"} /-->
 
-<!-- wp:pattern {"slug":"features-with-emojis"} /-->
+<!-- wp:pattern {"slug":"ollie/features-with-emojis"} /-->
 
-<!-- wp:pattern {"slug":"testimonial-highlight"} /-->
+<!-- wp:pattern {"slug":"ollie/testimonial-highlight"} /-->

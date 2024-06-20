@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Centered
- * Slug: footer-centered
+ * Slug: ollie/footer-centered
  * Description:
  * Categories: footer
  * Keywords:

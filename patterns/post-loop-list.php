@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post Loop List
- * Slug: post-loop-list
+ * Slug: ollie/post-loop-list
  * Description: 
  * Categories: ollie/posts
  * Keywords: blog, posts, query, loop

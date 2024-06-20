@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text and Details Card
- * Slug: text-and-details-card
+ * Slug: ollie/text-and-details-card
  * Description: 
  * Categories: ollie/call-to-action, ollie/hero, ollie/features, ollie/card
  * Keywords: table, stats, details, list, card

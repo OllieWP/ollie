@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header Dark With Buttons
- * Slug: header-dark-with-buttons
+ * Slug: ollie/header-dark-with-buttons
  * Description: Header with nav and social icons
  * Categories: header
  * Keywords: header, nav, links, button

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Big Text Call To Action Card
- * Slug: big-text-call-to-action-card
+ * Slug: ollie/big-text-call-to-action-card
  * Description: 
  * Categories: ollie/card, ollie/call-to-action
  * Keywords: card, button, cta, heading, call to action

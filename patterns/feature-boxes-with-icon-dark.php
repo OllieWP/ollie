@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Feature Boxes Dark
- * Slug: feature-boxes-with-icon-dark
+ * Slug: ollie/feature-boxes-with-icon-dark
  * Description: 
  * Categories: ollie/features
  * Keywords: text, features, columns, icon, cta, button, call to action, box

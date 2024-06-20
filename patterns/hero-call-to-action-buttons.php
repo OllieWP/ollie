@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Hero Call To Action Buttons
- * Slug: hero-call-to-action-buttons
+ * Slug: ollie/hero-call-to-action-buttons
  * Description: 
  * Categories: ollie/call-to-action, ollie/hero
  * Keywords: cta, header, buttons, heading, hero, feature, homepage

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Profile Box
- * Slug: profile-box
+ * Slug: ollie/profile-box
  * Description: A profile box with an avatar, links to social media, and buttons
  * Categories: ollie/call-to-action, ollie/pages
  * Keywords: links, linktree, buttons, profile, bio

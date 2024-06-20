@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text Box Card
- * Slug: text-box-with-arrow-card
+ * Slug: ollie/text-box-with-arrow-card
  * Description: 
  * Categories: ollie/card, ollie/call-to-action
  * Keywords: box, text, link, arrow, icon, card

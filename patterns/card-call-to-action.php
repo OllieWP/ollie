@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call To Action Card
- * Slug: card-call-to-action
+ * Slug: ollie/card-call-to-action
  * Description: 
  * Categories: ollie/card, ollie/call-to-action
  * Keywords: card, download, box, link, button, cta, call to action

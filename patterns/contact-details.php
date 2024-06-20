@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Contact Details
- * Slug: contact-details
+ * Slug: ollie/contact-details
  * Description: Contact details with call to action buttons and a testimonial
  * Categories: ollie/testimonial, ollie/call-to-action, ollie/hero
  * Keywords: contact, testimonial, about, columns, ratings, email, phone

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Pricing Table Card Dark
- * Slug: card-pricing-table-dark
+ * Slug: ollie/card-pricing-table-dark
  * Description: 
  * Categories: ollie/card, ollie/pricing
  * Keywords: card, price, pricing, button, list, purchase, download

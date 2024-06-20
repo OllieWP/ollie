@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: FAQ
- * Slug: faq
+ * Slug: ollie/faq
  * Description: 
  * Categories: ollie/features
  * Keywords: faq, text, features

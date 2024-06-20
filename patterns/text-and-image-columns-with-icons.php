@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text and Image Columns With Icons
- * Slug: text-and-image-columns-with-icons
+ * Slug: ollie/text-and-image-columns-with-icons
  * Description: 
  * Categories: ollie/features
  * Keywords: cta, call, to, action, button

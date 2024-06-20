@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Team Members
- * Slug: team-members
+ * Slug: ollie/team-members
  * Description:
  * Categories: ollie/testimonial, ollie/features
  * Keywords: cta, call, to, action, button

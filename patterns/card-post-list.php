@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post List Card
- * Slug: post-list-card
+ * Slug: ollie/post-list-card
  * Description: 
  * Categories: ollie/card, ollie/posts
  * Keywords: card, posts, list, links, query, page

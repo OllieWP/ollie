@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text Call To Action
- * Slug: text-call-to-action
+ * Slug: ollie/text-call-to-action
  * Description: A call to action with text and a button.
  * Categories: ollie/call-to-action, ollie/hero
  * Keywords: cta, call to action, buttons, heading

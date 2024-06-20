@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Details Card
- * Slug: details-card
+ * Slug: ollie/details-card
  * Description: 
  * Categories: ollie/card
  * Keywords: card, table, list, info, details

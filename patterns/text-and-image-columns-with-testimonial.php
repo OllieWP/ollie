@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text and Image Columns With Testimonial
- * Slug: text-and-image-columns-with-testimonial
+ * Slug: ollie/text-and-image-columns-with-testimonial
  * Description: 
  * Categories: ollie/features, ollie/testimonial
  * Keywords: cta, call, to, action, button

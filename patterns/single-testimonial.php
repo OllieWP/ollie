@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Single Testimonial
- * Slug: single-testimonial
+ * Slug: ollie/single-testimonial
  * Description:
  * Categories: ollie/testimonial, ollie/features, ollie/card
  * Keywords: testimonial, text, review, rating, avatar, card

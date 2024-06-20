@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header Light
- * Slug: header-light
+ * Slug: ollie/header-light
  * Description: Header with nav and social icons
  * Categories: header
  * Keywords: header, nav, links, button
@@ -15,6 +15,6 @@
 <div class="wp-block-group alignfull has-tertiary-background-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:site-title {"fontSize":"medium"} /-->
 
-<!-- wp:navigation {"ref":170,"textColor":"main","overlayBackgroundColor":"base","overlayTextColor":"main","layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"20px"}},"fontSize":"small"} /--></div>
+<!-- wp:navigation {"ref":170,"textColor":"main","overlayBackgroundColor":"base","overlayTextColor":"main","layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"20px"}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

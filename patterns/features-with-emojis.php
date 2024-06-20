@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Features With Emojis
- * Slug: features-with-emojis
+ * Slug: ollie/features-with-emojis
  * Description:
  * Categories: ollie/features
  * Keywords: features, emoji, columns, text

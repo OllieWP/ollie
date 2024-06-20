@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Hero Dark
- * Slug: hero-dark
+ * Slug: ollie/hero-dark
  * Description: 
  * Categories: ollie/call-to-action, ollie/hero
  * Keywords: cta, header, buttons, heading, hero, feature, homepage

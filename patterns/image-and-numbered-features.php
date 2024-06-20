@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Image and Numbered Features
- * Slug: image-and-numbered-features
+ * Slug: ollie/image-and-numbered-features
  * Description: 
  * Categories: ollie/features
  * Keywords: number, list, features, bullet

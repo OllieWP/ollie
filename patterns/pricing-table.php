@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Pricing Table
- * Slug: pricing-table
+ * Slug: ollie/pricing-table
  * Description: 
  * Categories: ollie/pricing
  * Keywords: cta, button, call to action, purchase

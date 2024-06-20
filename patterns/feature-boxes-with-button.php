@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Feature Boxes With Button
- * Slug: feature-boxes-with-button
+ * Slug: ollie/feature-boxes-with-button
  * Description: 
  * Categories: ollie/features
  * Keywords: cta, button, call to action, features, icon, box

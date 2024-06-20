@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Blog Post Card
- * Slug: blog-post-card
+ * Slug: ollie/blog-post-card
  * Description:
  * Categories: ollie/card, ollie/posts
  * Keywords: card, image, text, box, content, link, button

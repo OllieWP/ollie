@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonials With Social Links
- * Slug: testimonials-with-social-links
+ * Slug: ollie/testimonials-with-social-links
  * Description:
  * Categories: ollie/call-to-action, ollie/testimonial
  * Keywords: testimonial, social, review, rating, quote, columns, links

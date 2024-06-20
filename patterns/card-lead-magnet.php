@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Lead Magnet Card
- * Slug: lead-magnet-card
+ * Slug: ollie/lead-magnet-card
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
  * Categories: ollie/call-to-action, ollie/card
  * Keywords: download, button, cta, email, card

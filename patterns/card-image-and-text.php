@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Image and Text Card
- * Slug: image-and-text-card
+ * Slug: ollie/image-and-text-card
  * Description: 
  * Categories: ollie/card
  * Keywords: card, image, text, box, content, link, button

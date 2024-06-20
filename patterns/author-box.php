@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Author Box
- * Slug: author-box
+ * Slug: ollie/author-box
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
  * Categories: ollie/card
  * Keywords: author, bio, profile, user

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Pricing Table With Testimonials
- * Slug: pricing-table-with-testimonials
+ * Slug: ollie/pricing-table-with-testimonials
  * Description: 
  * Categories: ollie/pricing
  * Keywords: cta, button, call to action, purchase

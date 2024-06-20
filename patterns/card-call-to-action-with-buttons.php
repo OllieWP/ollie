@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call To Action Card With Buttons
- * Slug: call-to-action-card-with-buttons
+ * Slug: ollie/call-to-action-card-with-buttons
  * Description: A call to action with text and a button.
  * Categories: ollie/call-to-action, ollie/card
  * Keywords: cta, button, call to action, link

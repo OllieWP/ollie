@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header Light With Buttons
- * Slug: header-light-with-buttons
+ * Slug: ollie/header-light-with-buttons
  * Description: Header with nav and social icons
  * Categories: header
  * Keywords: header, nav, links, button

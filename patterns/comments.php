@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Comments
- * Slug: post-comments
+ * Slug: ollie/post-comments
  * Description: A list of comments for a post.
  * Categories: ollie/posts
  * Keywords: blog, posts, query

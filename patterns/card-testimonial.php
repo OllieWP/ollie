@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonial Card
- * Slug: card-testimonial
+ * Slug: ollie/card-testimonial
  * Description:
  * Categories: ollie/card, ollie/testimonial
  * Keywords: testimonial, card, avatar, text, quote, review, rating

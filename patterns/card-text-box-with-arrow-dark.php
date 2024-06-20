@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text Box Card Dark
- * Slug: text-box-with-arrow-card-dark
+ * Slug: ollie/text-box-with-arrow-card-dark
  * Description: 
  * Categories: ollie/card, ollie/call-to-action
  * Keywords: box, text, link, arrow, icon, card
