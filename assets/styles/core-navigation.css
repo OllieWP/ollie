@@ -37,7 +37,6 @@ header .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-na
 	/* Add padding to bottom of drop menu */
 	header .wp-block-navigation :where(.wp-block-navigation__submenu-container) li:last-child {
 		padding-bottom: var(--wp--preset--spacing--small);
-		border-radius: 5px;
 	}
 }
 
@@ -47,7 +46,8 @@ header .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-na
 }
 
 /* Drop nav link padding */
-header .wp-block-navigation :where(.wp-block-navigation__submenu-container) a {
+header .wp-block-navigation :where(.wp-block-navigation__submenu-container) a,
+header .wp-block-navigation :where(.wp-block-navigation__submenu-container) .wp-block-navigation-submenu__toggle {
 	padding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--medium) !important;
 }
 

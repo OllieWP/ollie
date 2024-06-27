@@ -15,4 +15,7 @@
 	.ollie-swap-order {
 		flex-direction: column-reverse;
 	}
+	.ollie-row-reverse {
+		flex-direction: row-reverse;
+	}
 }
