@@ -14,10 +14,11 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 
 == Changelog ==
 
-= 1.1.1 - 1/23/24 =
+= 1.1.1 - 6/27/24 =
 * Switch main font to Mona Sans
+* Adjust typography scale for new font
 * Add new style variations: Creator, Startup, Studio
-* Remove Dashicons dependency
+* Remove Dashicons dependency and rework list styles
 * Fix tag wrapping on single post template
 * Add active class style in navigation
 * Improve pattern typography for new style variations
