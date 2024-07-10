@@ -153,6 +153,10 @@ a.more-link {
 	display: none;
 }
 
+.wp-block-group:empty:has(+ .comment-respond) {
+	display: none;
+}
+
 .row-logos > figure {
 	flex-shrink: 1 !important;
 }
