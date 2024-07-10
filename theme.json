@@ -532,34 +532,12 @@
 				},
 				"elements": {
 					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
 						"color": {
 							"text": "var(--wp--preset--color--primary-accent)"
 						},
 						":hover": {
 							"typography": {
 								"textDecoration": "underline"
-							},
-							"color": {
-								"text": "var(--wp--preset--color--base)"
-							}
-						},
-						":focus": {
-							"typography": {
-								"textDecoration": "none"
-							},
-							"color": {
-								"text": "var(--wp--preset--color--base)"
-							}
-						},
-						":active": {
-							"typography": {
-								"textDecoration": "none"
-							},
-							"color": {
-								"text": "var(--wp--preset--color--base)"
 							}
 						}
 					}
