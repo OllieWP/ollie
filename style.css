@@ -56,6 +56,11 @@ div[class*="wp-block-"] figcaption {
 	text-align: center;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 /* Standardize form styling
 --------------------------------------------- */
 
