@@ -591,10 +591,6 @@
 				}
 			},
 			"core/post-title": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)",
-					"lineHeight": "var(--wp--custom--line-height--body)"
-				},
 				"elements": {
 					"link": {
 						"typography": {
@@ -757,7 +753,7 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontSize": "var(--wp--preset--font-size--base)",
 					"fontWeight": "var(--wp--custom--font-weight--semi-bold)",
 					"lineHeight": "var(--wp--custom--line-height--none)",
 					"letterSpacing": "0"
