@@ -31,12 +31,6 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
-a,
-a:focus,
-a:hover {
-	text-decoration: underline;
-}
-
 b,
 strong {
 	font-weight: var(--wp--custom--font-weight--semi-bold);
