@@ -12,7 +12,7 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0px"}}},"backgroundColor":"tertiary","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-tertiary-background-color has-background" style="margin-top:0px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
-<div class="wp-block-group alignwide"><!-- wp:site-title {"fontSize":"medium"} /-->
+<div class="wp-block-group alignwide"><!-- wp:site-title /-->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary-accent","textColor":"primary"} -->
