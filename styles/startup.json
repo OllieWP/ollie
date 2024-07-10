@@ -1,0 +1,78 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Startup",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#454DFF"
+				},
+				{
+					"name": "Main",
+					"slug": "main",
+					"color": "#171A1F"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#405C7A"
+				},
+				{
+					"name": "Main Accent",
+					"slug": "main-accent",
+					"color": "#B6C7D9"
+				},
+				{
+					"name": "Primary Accent",
+					"slug": "primary-accent",
+					"color": "#DBDDFF"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#F8F7F9"
+				},
+				{
+					"name": "Border Light",
+					"slug": "border-light",
+					"color": "#DADEE3"
+				},
+				{
+					"name": "Border Dark",
+					"slug": "border-dark",
+					"color": "#444B57"
+				},
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#fff"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"spacing": {
+					"padding": {
+						"top": ".6em",
+						"right": "1.4em",
+						"bottom": ".6em",
+						"left": "1.4em"
+					}
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--expanded)",
+					"fontWeight": "var(--wp--custom--font-weight--medium)",
+					"lineHeight": "var(--wp--custom--line-height--snug)",
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			}
+		}
+	}
+}

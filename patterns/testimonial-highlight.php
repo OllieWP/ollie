@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonial Highlight
- * Slug: testimonial-highlight
+ * Slug: ollie/testimonial-highlight
  * Description:
  * Categories: ollie/testimonial
  * Keywords: testimonial, review, rating, case study, text, heading

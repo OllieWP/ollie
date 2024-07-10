@@ -13,6 +13,7 @@
 .single .taxonomy-post_tag.is-style-term-button {
 	display: flex;
 	gap: var(--wp--preset--spacing--small);
+	flex-wrap: wrap;
 }
 
 .single .taxonomy-post_tag.is-style-term-button .wp-block-post-terms__separator {

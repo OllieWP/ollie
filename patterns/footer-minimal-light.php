@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Footer Minimal Light
- * Slug: footer-minimal-light
- * Description:
+ * Slug: ollie/footer-minimal-light
+ * Description: 
  * Categories: footer
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true
@@ -15,7 +15,7 @@
 <div class="wp-block-group alignwide"><!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"textColor":"main"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2023 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<p class="has-small-font-size">© 2024 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

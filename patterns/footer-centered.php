@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Footer Centered
- * Slug: footer-centered
- * Description:
+ * Slug: ollie/footer-centered
+ * Description: 
  * Categories: footer
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true
@@ -33,7 +33,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main-accent","fontSize":"x-small"} -->
-<p class="has-text-align-center has-main-accent-color has-text-color has-x-small-font-size">© 2023 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<p class="has-text-align-center has-main-accent-color has-text-color has-x-small-font-size">© 2024 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"main","iconColorValue":"#150E29","iconBackgroundColor":"base","iconBackgroundColorValue":"#fff","style":{"spacing":{"blockGap":{"top":"20px","left":"20px"}}},"className":"is-style-default","layout":{"type":"flex","justifyContent":"center"}} -->

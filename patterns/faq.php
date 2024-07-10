@@ -1,16 +1,15 @@
 <?php
 /**
  * Title: FAQ
- * Slug: faq
- * Description:
+ * Slug: ollie/faq
+ * Description: 
  * Categories: ollie/features
  * Keywords: faq, text, features
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|x-large"}},"className":"feature-boxes","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull feature-boxes" style="margin-top:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
@@ -91,13 +90,13 @@
 <div class="wp-block-group alignwide has-tertiary-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"constrained","wideSize":"700px"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":58,"width":76,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-3.webp" alt="" class="wp-image-58" width="76"/></figure>
+<div class="wp-block-group"><!-- wp:image {"id":58,"width":"76px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
+<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/avatar-3.webp" alt="" class="wp-image-58" style="width:76px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:500">Still have questions?</p>
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Still have questions?</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

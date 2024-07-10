@@ -1,28 +1,30 @@
 <?php
 /**
  * Title: Homepage
- * Slug: page-home
+ * Slug: ollie/page-home
  * Description: A full page design for a Homepage
  * Categories: ollie/pages
  * Keywords: page, layout, design, template, home
  * Viewport Width: 1500
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
-<!-- wp:pattern {"slug":"hero-call-to-action-buttons"} /-->
+<!-- wp:pattern {"slug":"ollie/hero-call-to-action-buttons"} /-->
 
-<!-- wp:pattern {"slug":"feature-boxes-with-icon"} /-->
+<!-- wp:pattern {"slug":"ollie/feature-boxes"} /-->
 
-<!-- wp:pattern {"slug":"text-and-image-columns-with-icons"} /-->
+<!-- wp:pattern {"slug":"ollie/text-and-image-columns-with-icons"} /-->
 
-<!-- wp:pattern {"slug":"numbers"} /-->
+<!-- wp:pattern {"slug":"ollie/numbers"} /-->
 
-<!-- wp:pattern {"slug":"testimonials-and-logos"} /-->
+<!-- wp:pattern {"slug":"ollie/testimonials-and-logos"} /-->
 
-<!-- wp:pattern {"slug":"text-and-image-columns-with-testimonial"} /-->
+<!-- wp:pattern {"slug":"ollie/text-and-image-columns-with-testimonial"} /-->
 
-<!-- wp:pattern {"slug":"pricing-table"} /-->
+<!-- wp:pattern {"slug":"ollie/pricing-table"} /-->
 
-<!-- wp:pattern {"slug":"blog-post-columns"} /-->
+<!-- wp:pattern {"slug":"ollie/blog-post-columns"} /-->
 
-<!-- wp:pattern {"slug":"text-call-to-action"} /-->
+<!-- wp:pattern {"slug":"ollie/text-call-to-action"} /-->

@@ -1,16 +1,15 @@
 <?php
 /**
  * Title: Feature Boxes With Button
- * Slug: feature-boxes-with-button
- * Description:
+ * Slug: ollie/feature-boxes-with-button
+ * Description: 
  * Categories: ollie/features
  * Keywords: cta, button, call to action, features, icon, box
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|xxx-large","bottom":"var:preset|spacing|xxx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|x-large"}},"className":"feature-boxes","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull feature-boxes" style="margin-top:0px;padding-top:var(--wp--preset--spacing--xxx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xxx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
@@ -35,9 +34,9 @@
 <p class="has-primary-color has-text-color has-medium-font-size">★</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"base"} -->
-<h3 class="wp-block-heading has-base-font-size">Customize with clicks, not code</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="font-style:normal;font-weight:600">Customize with clicks, not code</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Add your splash of colors, pick your header, choose your favorite font — all with a few quick clicks. No coding skills required.</p>
@@ -57,9 +56,9 @@
 <p class="has-primary-color has-text-color has-medium-font-size">★</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"base"} -->
-<h3 class="wp-block-heading has-base-font-size">Pixel perfect responsive design</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="font-style:normal;font-weight:600">Pixel perfect responsive design</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Your website deserves to look pixel-perfect on every device. Ollie ensures your entire design scales down gracefully automagically.</p>
@@ -79,9 +78,9 @@
 <p class="has-primary-color has-text-color has-medium-font-size">★</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"base"} -->
-<h3 class="wp-block-heading has-base-font-size">Blazing fast performance</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="font-style:normal;font-weight:600">Blazing fast performance</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">We obsess over performance so you don't have to. Ollie is super lightweight and scores top marks on Google PageSpeed Insights.</p>
@@ -103,9 +102,9 @@
 <p class="has-primary-color has-text-color has-medium-font-size">★</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"base"} -->
-<h3 class="wp-block-heading has-base-font-size">Build with beautiful patterns</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="font-style:normal;font-weight:600">Build with beautiful patterns</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Creating unique designs has never been easier. Ollie's growing pattern library puts expertly designed patterns at your fingertips.</p>
@@ -125,9 +124,9 @@
 <p class="has-primary-color has-text-color has-medium-font-size">★</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"base"} -->
-<h3 class="wp-block-heading has-base-font-size">Gorgeous typography</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="font-style:normal;font-weight:600">Gorgeous typography</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Finely-crafted typography that makes your content shine and automatically scales down to the perfect size on every device.</p>
@@ -147,9 +146,9 @@
 <p class="has-primary-color has-text-color has-medium-font-size">★</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"base"} -->
-<h3 class="wp-block-heading has-base-font-size">Launch quicker</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="font-style:normal;font-weight:600">Launch quicker</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Ollie launches with built-in pattern designs, page templates, style variations and more so you can get your site launched quickly.</p>

@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Footer Light
- * Slug: footer-light
- * Description:
+ * Slug: ollie/footer-light
+ * Description: 
  * Categories: footer
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true
@@ -13,9 +13,9 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0px"},"blockGap":"var:preset|spacing|large"},"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"backgroundColor":"tertiary","textColor":"main","className":"dark-footer","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull dark-footer has-main-color has-tertiary-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Ride with Ollie</h4>
-<!-- /wp:heading -->
+<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="font-style:normal;font-weight:600">Ride with Ollie</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required. Download for free today!</p>
@@ -111,12 +111,12 @@
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"40px"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
 <div class="wp-block-group alignwide has-secondary-color has-text-color has-link-color" style="padding-top:40px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size">© 2023 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>© 2024 <strong>·</strong> Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"x-small"} -->
-<div class="wp-block-group has-x-small-font-size"><!-- wp:paragraph -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"small"} -->
+<div class="wp-block-group has-small-font-size"><!-- wp:paragraph -->
 <p>Download</p>
 <!-- /wp:paragraph -->
 

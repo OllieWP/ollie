@@ -1,30 +1,31 @@
 <?php
 /**
  * Title: Profile Box
- * Slug: profile-box
+ * Slug: ollie/profile-box
  * Description: A profile box with an avatar, links to social media, and buttons
  * Categories: ollie/call-to-action, ollie/pages
  * Keywords: links, linktree, buttons, profile, bio
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","right":"var:preset|spacing|large","left":"var:preset|spacing|large"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-tertiary-background-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:image {"align":"center","id":57,"width":132,"height":132,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
-<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-2.webp" alt="" class="wp-image-57" width="132" height="132"/></figure>
+<div class="wp-block-group alignfull has-tertiary-background-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:image {"id":57,"width":"132px","height":"132px","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-rounded-full"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/avatar-2.webp" alt="" class="wp-image-57" style="width:132px;height:132px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="wp-block-heading has-text-align-center">Sandra Voyager</h3>
-<!-- /wp:heading -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
+<p class="has-text-align-center has-medium-font-size" style="font-style:normal;font-weight:600">Sandra Voyager</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
 <p class="has-text-align-center has-secondary-color has-text-color">Use this page as a LinkTree alternative. Link your social media accounts to this page so your followers can find all of your important links.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
 <!-- wp:social-links {"iconBackgroundColor":"main","iconBackgroundColorValue":"#14111f","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"var:preset|spacing|medium"}}},"className":"is-style-default"} -->
 <ul class="wp-block-social-links aligncenter has-icon-background-color is-style-default" style="margin-top:var(--wp--preset--spacing--medium)"><!-- wp:social-link {"url":"#","service":"twitter"} /-->

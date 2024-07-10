@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Job Openings
- * Slug: job-openings
+ * Slug: ollie/job-openings
  * Description: Show job openings and a call to action button
  * Categories: ollie/features, ollie/call-to-action
  * Keywords: employment, hiring, job, apply

@@ -1,22 +1,21 @@
 <?php
 /**
  * Title: Numbers Stacked
- * Slug: numbers-stacked
+ * Slug: ollie/numbers-stacked
  * Description: Display impressive numbers with a short description
  * Categories: ollie/features
  * Keywords: numbers, stats, text, values, count
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xxx-large","bottom":"var:preset|spacing|xxx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|large"}},"backgroundColor":"primary","textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-base-color has-primary-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xxx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xxx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
-<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-x-large-font-size">50+ Patterns</h3>
+<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size">50+ Patterns</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
@@ -25,8 +24,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
-<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-x-large-font-size">5+ Layouts</h3>
+<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size">5+ Layouts</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
@@ -37,8 +36,8 @@
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
-<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-x-large-font-size">1000+ Hours</h3>
+<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size">1000+ Hours</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
@@ -47,8 +46,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
-<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-x-large-font-size">200+ Ratings</h3>
+<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size">200+ Ratings</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->

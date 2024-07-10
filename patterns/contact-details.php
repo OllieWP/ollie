@@ -1,16 +1,15 @@
 <?php
 /**
  * Title: Contact Details
- * Slug: contact-details
+ * Slug: ollie/contact-details
  * Description: Contact details with call to action buttons and a testimonial
  * Categories: ollie/testimonial, ollie/call-to-action, ollie/hero
  * Keywords: contact, testimonial, about, columns, ratings, email, phone
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"var:preset|spacing|xxx-large","bottom":"var:preset|spacing|xxx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}}},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xxx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xxx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"},"margin":{"top":"0px","bottom":"0px"}}}} -->
@@ -65,9 +64,9 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","right":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"5px"}},"backgroundColor":"main","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide has-main-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-large)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"base"} -->
-<h4 class="wp-block-heading has-base-color has-text-color">Contact Us</h4>
-<!-- /wp:heading -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
+<p class="has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Contact Us</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"className":"is-style-logos-only","layout":{"type":"flex"}} -->
 <ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->

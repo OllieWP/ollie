@@ -5,14 +5,14 @@ Author: Mike McAlister
 Author URI: mikemcalister.com
 Description: Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 50 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with Global Styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
-Tested up to: 6.3
+Tested up to: 6.6
 Requires PHP: 7.3
-Version: 1.1.0
+Version: 1.1.2
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ollie
 
-Ollie WordPress Theme, (C) 2023 Mike McAlister.
+Ollie WordPress Theme, (C) 2024 Mike McAlister.
 Ollie is distributed under the terms of the GNU GPL.
 */
 
@@ -151,4 +151,18 @@ a.more-link {
 /* Hide post meta div if no tags assigned */
 .single .wp-block-group:has(> .post-meta:empty) {
 	display: none;
+}
+
+.wp-block-group:empty:has(+ .comment-respond) {
+	display: none;
+}
+
+.row-logos > figure {
+	flex-shrink: 1 !important;
+}
+
+@media (max-width: 781px) {
+	.ollie-hide-on-mobile {
+		display: none;
+	}
 }

@@ -1,22 +1,21 @@
 <?php
 /**
  * Title: Call To Action Card
- * Slug: card-call-to-action
- * Description:
+ * Slug: ollie/card-call-to-action
+ * Description: 
  * Categories: ollie/card, ollie/call-to-action
  * Keywords: card, download, box, link, button, cta, call to action
  * Viewport Width: 600
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"base"} -->
-<h4 class="wp-block-heading has-base-color has-text-color">Download Ollie</h4>
-<!-- /wp:heading -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
+<p class="has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Download Ollie</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
 <p class="has-primary-accent-color has-text-color">Version 1.0</p>

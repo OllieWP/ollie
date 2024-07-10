@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Pricing Table
- * Slug: pricing-table
- * Description:
+ * Slug: ollie/pricing-table
+ * Description: 
  * Categories: ollie/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
@@ -29,8 +29,8 @@
 <!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"color":"#ebebf2","width":"1px"}},"backgroundColor":"base","className":"is-style-column-box-shadow"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow has-border-color has-base-background-color has-background" style="border-color:#ebebf2;border-width:1px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal"},"fontSize":"base"} -->
-<div class="wp-block-group has-base-font-size"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"xx-large","fontFamily":"primary"} -->
-<p class="has-primary-font-family has-xx-large-font-size" style="font-style:normal;font-weight:500">$19</p>
+<div class="wp-block-group has-base-font-size"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large","fontFamily":"primary"} -->
+<p class="has-primary-font-family has-x-large-font-size" style="font-style:normal;font-weight:500">$19</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"secondary","fontSize":"small","fontFamily":"primary"} -->
@@ -39,9 +39,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Essential Package</h4>
-<!-- /wp:heading -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Essential Package</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
 <p class="has-secondary-color has-text-color has-small-font-size">Great for folks who are just getting started and only need the basic features and support.</p>
@@ -111,8 +111,8 @@
 
 <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}}},"backgroundColor":"main","textColor":"base"} -->
 <div class="wp-block-column is-vertically-aligned-top has-base-color has-main-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal"},"fontSize":"base"} -->
-<div class="wp-block-group has-base-font-size"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"xx-large","fontFamily":"primary"} -->
-<p class="has-primary-font-family has-xx-large-font-size" style="font-style:normal;font-weight:500">$29</p>
+<div class="wp-block-group has-base-font-size"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large","fontFamily":"primary"} -->
+<p class="has-primary-font-family has-x-large-font-size" style="font-style:normal;font-weight:500">$29</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"main-accent","fontSize":"small","fontFamily":"primary"} -->
@@ -121,9 +121,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Professional Package</h4>
-<!-- /wp:heading -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Professional Package</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
 <p class="has-main-accent-color has-text-color has-small-font-size">Great for professionals who are building a lot of WordPress websites and need all the tools.</p>

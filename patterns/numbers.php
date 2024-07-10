@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Numbers
- * Slug: numbers
+ * Slug: ollie/numbers
  * Description:
  * Categories: ollie/features
  * Keywords: cta, call, to, action, button

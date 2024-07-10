@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Blog Post Columns Single
- * Slug: blog-post-columns-single
+ * Slug: ollie/blog-post-columns-single
  * Description:
  * Categories: ollie/posts
  * Keywords: blog, posts, query, pages

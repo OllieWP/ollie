@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Post Loop Grid Default
- * Slug: post-loop-grid-default
+ * Slug: ollie/post-loop-grid-default
  * Description: This post loop grid is best used on index and archive pages where the loop can inherit the query from the page.
  * Categories: ollie/posts
  * Keywords: blog, posts, query, loop
  * Viewport Width: 1280
  * Block Types: core/query
- * Post Types:
+ * Post Types: 
  * Inserter: false
  */
 ?>
@@ -22,7 +22,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"typography":{"textDecoration":"none","fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} /-->
+<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"typography":{"textDecoration":"none"}},"fontSize":"medium"} /-->
 
 <!-- wp:post-excerpt {"moreText":"","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"className":"is-style-excerpt-truncate-3","fontSize":"small"} /-->
 

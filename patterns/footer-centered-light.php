@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Footer Centered Light
- * Slug: footer-centered-light
- * Description:
+ * Slug: ollie/footer-centered-light
+ * Description: 
  * Categories: footer
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true
@@ -33,7 +33,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-x-small-font-size">© 2023 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-x-small-font-size">© 2024 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","iconBackgroundColor":"main","iconBackgroundColorValue":"#14111f","style":{"spacing":{"blockGap":{"top":"20px","left":"20px"}}},"className":"is-style-default","layout":{"type":"flex","justifyContent":"center"}} -->

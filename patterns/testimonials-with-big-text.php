@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonials With Big Text
- * Slug: testimonials-with-big-text
+ * Slug: ollie/testimonials-with-big-text
  * Description:
  * Categories: ollie/testimonial
  * Keywords: testimonial, review, rating, quote, heading, columns, avatar
