@@ -197,10 +197,9 @@
 				"none": 1,
 				"tight": 1.1,
 				"snug": 1.2,
-				"normal": 1.5,
+				"body": 1.5,
 				"relaxed": 1.625,
-				"loose": 2,
-				"body": "calc(1px + 2ex + 7px)"
+				"loose": 2
 			}
 		},
 		"layout": {
@@ -430,7 +429,7 @@
 			},
 			"core/comment-author-name": {
 				"typography": {
-					"lineHeight": "var(--wp--custom--line-height--normal)",
+					"lineHeight": "var(--wp--custom--line-height--body)",
 					"fontWeight": "var(--wp--custom--font-weight--semi-bold)"
 				},
 				"elements": {
@@ -452,7 +451,7 @@
 			"core/comment-date": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
-					"lineHeight": "var(--wp--custom--line-height--normal)"
+					"lineHeight": "var(--wp--custom--line-height--body)"
 				},
 				"elements": {
 					"link": {
@@ -465,7 +464,7 @@
 			"core/comment-edit-link": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
-					"lineHeight": "var(--wp--custom--line-height--normal)"
+					"lineHeight": "var(--wp--custom--line-height--body)"
 				}
 			},
 			"core/comment-reply-link": {
@@ -544,9 +543,6 @@
 				}
 			},
 			"core/paragraph": {
-				"typography": {
-					"lineHeight": "var(--wp--custom--line-height--body)"
-				},
 				"css": "&.has-background { padding: var(--wp--preset--spacing--small) }"
 			},
 			"core/post-template": {
@@ -630,7 +626,7 @@
 					}
 				},
 				"typography": {
-					"lineHeight": "var(--wp--custom--line-height--normal)",
+					"lineHeight": "var(--wp--custom--line-height--body)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)"
 				}
@@ -696,7 +692,7 @@
 					}
 				},
 				"typography": {
-					"lineHeight": "var(--wp--custom--line-height--normal)",
+					"lineHeight": "var(--wp--custom--line-height--body)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)"
 				}
@@ -795,12 +791,14 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)"
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"lineHeight": "var(--wp--custom--line-height--snug)"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"lineHeight": "var(--wp--custom--line-height--snug)"
 				}
 			},
 			"h3": {
