@@ -1,18 +1,21 @@
 /* Image
 --------------------------------------------- */
 
-.wp-block-post-content > .wp-block-image,
-.wp-block-post-content > .wp-block-gallery {
-	margin-top: var(--wp--preset--spacing--large);
-	margin-bottom: var(--wp--preset--spacing--large);
-}
-
 .wp-block-image.alignleft {
 	margin-bottom: var(--wp--preset--spacing--small);
 }
 
 .wp-block-image.alignright {
 	margin-bottom: var(--wp--preset--spacing--small);
+}
+
+@media only screen and (max-width: 600px) {
+	.is-layout-flow .wp-block-image.alignleft,
+	.is-layout-flow .wp-block-image.alignright {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 html .is-layout-flex .wp-block-image {
