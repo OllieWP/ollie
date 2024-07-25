@@ -22,7 +22,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Customer happiness as at the core of our business model. If our customers aren't succeeding, we're not succeeding. See what they're saying below.</p>
+<p class="has-text-align-center">Customer happiness is at the core of our business model. If our customers aren't succeeding, we're not succeeding. See what they're saying below.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
