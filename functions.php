@@ -47,12 +47,6 @@ function register_block_styles() {
 			'list-check-circle' => __( 'Check Circle', 'ollie' ),
 			'list-boxed'        => __( 'Boxed', 'ollie' ),
 		),
-		'core/query-pagination-next'     => array(
-			'wp-block-button__link' => __( 'Button', 'ollie' ),
-		),
-		'core/query-pagination-previous' => array(
-			'wp-block-button__link' => __( 'Button', 'ollie' ),
-		),
 		'core/code'                      => array(
 			'dark-code' => __( 'Dark', 'ollie' ),
 		),
