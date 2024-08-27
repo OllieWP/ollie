@@ -206,6 +206,51 @@
 			"contentSize": "740px",
 			"wideSize": "1260px"
 		},
+		"shadow": {
+			"defaultPresets": false,
+            "presets": [
+                {
+                    "name": "Extra Large Dark",
+                    "slug": "extra-large-dark",
+                    "shadow": "0px 536px 150px 0px rgba(20, 17, 31, 0.00), 0px 343px 137px 0px rgba(20, 17, 31, 0.01), 0px 193px 116px 0px rgba(20, 17, 31, 0.05), 0px 86px 86px 0px rgba(20, 17, 31, 0.09), 0px 21px 47px 0px rgba(20, 17, 31, 0.10)"
+                },
+				{
+                    "name": "Large Dark",
+                    "slug": "large-dark",
+                    "shadow": "0px 219px 61px 0px rgba(20, 17, 31, 0.00), 0px 140px 56px 0px rgba(20, 17, 31, 0.01), 0px 79px 47px 0px rgba(20, 17, 31, 0.05), 0px 35px 35px 0px rgba(20, 17, 31, 0.09), 0px 9px 19px 0px rgba(20, 17, 31, 0.10)"
+                },
+				{
+                    "name": "Medium Dark",
+                    "slug": "Medium-dark",
+                    "shadow": "0px 66px 18px 0px rgba(20, 17, 31, 0.00), 0px 42px 17px 0px rgba(20, 17, 31, 0.01), 0px 24px 14px 0px rgba(20, 17, 31, 0.05), 0px 10px 10px 0px rgba(20, 17, 31, 0.09), 0px 3px 6px 0px rgba(20, 17, 31, 0.10)"
+                },
+				{
+                    "name": "Small Dark",
+                    "slug": "small-dark",
+                    "shadow": "0px 16px 4px 0px rgba(20, 17, 31, 0.00), 0px 10px 4px 0px rgba(20, 17, 31, 0.01), 0px 6px 3px 0px rgba(20, 17, 31, 0.05), 0px 3px 3px 0px rgba(20, 17, 31, 0.09), 0px 1px 1px 0px rgba(20, 17, 31, 0.10)"
+                },
+				{
+                    "name": "Extra Large Light",
+                    "slug": "extra-large-light",
+                    "shadow": "0px 536px 150px 0px rgba(20, 17, 31, 0.00), 0px 343px 137px 0px rgba(20, 17, 31, 0.01), 0px 193px 116px 0px rgba(20, 17, 31, 0.03), 0px 86px 86px 0px rgba(20, 17, 31, 0.04), 0px 21px 47px 0px rgba(20, 17, 31, 0.05)"
+                },
+				{
+                    "name": "Large Light",
+                    "slug": "large-light",
+                    "shadow": "0px 219px 61px 0px rgba(20, 17, 31, 0.00), 0px 140px 56px 0px rgba(20, 17, 31, 0.01), 0px 79px 47px 0px rgba(20, 17, 31, 0.03), 0px 35px 35px 0px rgba(20, 17, 31, 0.04), 0px 9px 19px 0px rgba(20, 17, 31, 0.05)"
+                },
+				{
+                    "name": "Medium Light",
+                    "slug": "medium-light",
+                    "shadow": "0px 69px 19px 0px rgba(20, 17, 31, 0.00), 0px 44px 18px 0px rgba(20, 17, 31, 0.01), 0px 25px 15px 0px rgba(20, 17, 31, 0.03), 0px 11px 11px 0px rgba(20, 17, 31, 0.04), 0px 3px 6px 0px rgba(20, 17, 31, 0.05)"
+                },
+				{
+                    "name": "Small Light",
+                    "slug": "small-light",
+                    "shadow": "0px 16px 5px 0px rgba(20, 17, 31, 0.00), 0px 10px 4px 0px rgba(20, 17, 31, 0.01), 0px 6px 4px 0px rgba(20, 17, 31, 0.02), 0px 3px 3px 0px rgba(20, 17, 31, 0.03), 0px 1px 1px 0px rgba(20, 17, 31, 0.05)"
+                }
+            ]
+        },
 		"spacing": {
 			"spacingSizes": [
 				{
@@ -618,8 +663,7 @@
 							"width": "0"
 						},
 						"color": {
-							"background": "var(--wp--preset--color--primary)",
-							"text": "var(--wp--preset--color--base)"
+							"background": "var(--wp--preset--color--base)"
 						},
 						"spacing": {
 							"padding": {
@@ -635,10 +679,6 @@
 							"textDecoration": "none"
 						},
 						":hover": {
-							"color": {
-								"background": "var(--wp--preset--color--primary)",
-								"text": "var(--wp--preset--color--base)"
-							},
 							"typography": {
 								"textDecoration": "underline"
 							}
