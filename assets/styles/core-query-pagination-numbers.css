@@ -1,6 +1,12 @@
 /* Query pagination
 --------------------------------------------- */
 
+.wp-block-query-pagination-previous,
+.wp-block-query-pagination-next,
+.wp-block-query-pagination-numbers {
+	margin: 0 !important;
+}
+
 .wp-block-query-pagination-numbers a {
 	display: inline-block;
 }
