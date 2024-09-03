@@ -91,7 +91,6 @@ textarea,
 	border: solid 1px var(--wp--preset--color--main-accent);
 	padding: .5em 1em;
 	font-size: var(--wp--preset--font-size--small);
-	width: 100%;
 }
 
 input:focus-visible,
