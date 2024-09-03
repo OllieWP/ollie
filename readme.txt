@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 6.6
 Requires PHP: 7.2
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,9 +14,14 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 
 == Changelog ==
 
+= 1.1.6 - 9/3/24 =
+* Remove template restriction on headers
+* Remove default full width on form inputs
+
 = 1.1.5 - 8/20/24 =
 * Add box shadow support
 * Fix image paths in patterns for child themes
+* Clean up pagination styles
 
 = 1.1.4 - 7/23/24 =
 * Add style improvements for images on mobile
