@@ -81,12 +81,15 @@ ul.is-style-list-check-circle li {
 
 /* Boxed list style */
 ul.is-style-list-boxed,
-ul.is-style-list-boxed.wp-block {
+ol.is-style-list-boxed,
+ul.is-style-list-boxed.wp-block,
+ol.is-style-list-boxed.wp-block {
 	background: var(--wp--preset--color--tertiary);
 	padding: var(--wp--preset--spacing--medium) var(--wp--preset--spacing--large);
 	border-radius: 5px;
 }
 
-ul.is-style-list-boxed li:last-child {
+ul.is-style-list-boxed li:last-child,
+ol.is-style-list-boxed li:last-child {
 	margin-bottom: 0;
 }
