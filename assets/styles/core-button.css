@@ -21,12 +21,12 @@
 .is-style-secondary-button .wp-element-button,
 .wp-block.is-style-secondary-button .wp-element-button {
 	background: var(--wp--preset--color--tertiary);
-	color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--main);
 	font-size: var(--wp--preset--font-size--small);
 }
 
 .is-style-secondary-button:hover .wp-element-button,
 .wp-block.is-style-secondary-button:hover .wp-element-button {
 	background: var(--wp--preset--color--tertiary);
-	color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--main);
 }
