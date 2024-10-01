@@ -28,14 +28,15 @@
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"color":"#e3e3ea","width":"1px"}},"className":"is-style-column-box-shadow"} -->
-<div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow has-border-color" style="border-color:#e3e3ea;border-width:1px;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:paragraph {"fontSize":"small"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|large"}}} -->
+<div class="wp-block-column is-vertically-aligned-top is-style-default"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"primary-accent","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-primary-accent-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Wow, I really can't believe how powerful the WordPress Site Editor is combined with Ollie. I don't even need my page builder plugin anymore! Everything I need is built right in and ready for me at the beginning of every project.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":59,"width":"60px","height":"60px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-4.webp" alt="" class="wp-image-59" style="width:60px;height:60px"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/avatar-4.webp" alt="" class="wp-image-59" style="width:60px;height:60px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -48,40 +49,16 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
-<!-- /wp:column -->
+<!-- /wp:group -->
 
-<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"color":"#e3e3ea","width":"1px"}},"className":"is-style-column-box-shadow"} -->
-<div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow has-border-color" style="border-color:#e3e3ea;border-width:1px;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">I love using WordPress but traditionally it has been hard to design in. Not any more! I can quickly build out page sections or full page designs with Ollie patterns. Saves me so much time!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":33080,"width":"60px","height":"60px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-1.webp" alt="" class="wp-image-33080" style="width:60px;height:60px"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>Bill Glacier</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size">Marketer</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"color":"#e3e3ea","width":"1px"}},"className":"is-style-column-box-shadow"} -->
-<div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow has-border-color" style="border-color:#e3e3ea;border-width:1px;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:paragraph {"fontSize":"small"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"primary-accent","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-primary-accent-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">I create a lot of landing pages, and the Site Editor and Ollie have been huge for this. I can choose from a pre-designed landing page, customize my brand colors, and I'm ready to launch.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":33082,"width":"60px","height":"60px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-5.webp" alt="" class="wp-image-33082" style="width:60px;height:60px"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/avatar-5.webp" alt="" class="wp-image-33082" style="width:60px;height:60px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -94,16 +71,40 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"color":"#e3e3ea","width":"1px"}},"className":"is-style-column-box-shadow"} -->
-<div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow has-border-color" style="border-color:#e3e3ea;border-width:1px;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:paragraph {"fontSize":"small"} -->
+<!-- wp:column {"verticalAlignment":"top","className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|large"}}} -->
+<div class="wp-block-column is-vertically-aligned-top is-style-default"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"primary-accent","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-primary-accent-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">I love using WordPress but traditionally it has been hard to design in. Not any more! I can quickly build out page sections or full page designs with Ollie patterns. Saves me so much time!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":33080,"width":"60px","height":"60px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
+<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/avatar-1.webp" alt="" class="wp-image-33080" style="width:60px;height:60px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p><strong>Bill Glacier</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size">Marketer</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"primary-accent","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-primary-accent-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">I was skeptical about all the changes going on in WordPress, but now that I've seen how powerful it can be, I'm convinced. Ollie made it super easy to get started with the "new" WordPress.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":33083,"width":"60px","height":"60px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded-full"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-2.webp" alt="" class="wp-image-33083" style="width:60px;height:60px"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-rounded-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/avatar-2.webp" alt="" class="wp-image-33083" style="width:60px;height:60px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -116,6 +117,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
@@ -126,24 +128,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-<div class="wp-block-group alignwide"><!-- wp:image {"id":2039,"width":"auto","height":"24px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"unset"}}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/logo-1.webp" alt="" class="wp-image-2039" style="width:auto;height:24px"/></figure>
+<div class="wp-block-group alignwide"><!-- wp:image {"id":2039,"width":"122px","height":"auto","sizeSlug":"full","linkDestination":"none","style":{"color":{}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/logo-1.webp" alt="" class="wp-image-2039" style="width:122px;height:auto"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":2041,"width":"auto","height":"30px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/logo-2.webp" alt="" class="wp-image-2041" style="width:auto;height:30px"/></figure>
+<!-- wp:image {"id":2041,"width":"148px","height":"auto","sizeSlug":"full","linkDestination":"none","style":{"color":{}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/logo-2.webp" alt="" class="wp-image-2041" style="width:148px;height:auto"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":2042,"width":"auto","height":"26px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/logo-3.webp" alt="" class="wp-image-2042" style="width:auto;height:26px"/></figure>
+<!-- wp:image {"id":2042,"width":"139px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/logo-3.webp" alt="" class="wp-image-2042" style="width:139px;height:auto"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":2043,"width":"auto","height":"28px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/logo-4.webp" alt="" class="wp-image-2043" style="width:auto;height:28px"/></figure>
+<!-- wp:image {"id":2044,"width":"150px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/logo-6.webp" alt="" class="wp-image-2044" style="width:150px;height:auto"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":2044,"width":"auto","height":"28px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/logo-6.webp" alt="" class="wp-image-2044" style="width:auto;height:28px"/></figure>
+<!-- wp:image {"id":2043,"width":"151px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/logo-4.webp" alt="" class="wp-image-2043" style="width:151px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

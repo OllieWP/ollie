@@ -6,11 +6,10 @@
  * Categories: ollie/features, ollie/call-to-action
  * Keywords: employment, hiring, job, apply
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"var:preset|spacing|xxx-large","bottom":"var:preset|spacing|xxx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|x-large"}},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xxx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xxx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
@@ -35,7 +34,7 @@
 <p style="font-style:normal;font-weight:600">Product Designer</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"textColor":"secondary","layout":{"type":"constrained"},"fontSize":"small"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"textColor":"secondary","fontSize":"small","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-secondary-color has-text-color has-small-font-size"><!-- wp:paragraph -->
 <p>Full Time · Remote</p>
 <!-- /wp:paragraph --></div>
@@ -43,13 +42,13 @@
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button">Apply →</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"main","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}}} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background has-link-color wp-element-button">Apply →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"backgroundColor":"main-accent","className":"is-style-separator-dotted"} -->
+<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"main-accent"} -->
 <hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
@@ -67,13 +66,13 @@
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button">Apply →</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"main","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background wp-element-button">Apply →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"backgroundColor":"main-accent","className":"is-style-separator-dotted"} -->
+<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"main-accent"} -->
 <hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
@@ -91,13 +90,13 @@
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button">Apply →</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"main","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background wp-element-button">Apply →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"backgroundColor":"main-accent","className":"is-style-separator-dotted"} -->
+<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"main-accent"} -->
 <hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
@@ -115,8 +114,8 @@
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button">Apply →</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"main","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background wp-element-button">Apply →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

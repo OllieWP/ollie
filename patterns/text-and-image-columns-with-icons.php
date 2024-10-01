@@ -30,12 +30,12 @@
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button">View Ollie Patterns</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">View Ollie Patterns</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"main-accent","className":"is-style-separator-dotted"} -->
+<!-- wp:separator {"className":"is-style-separator-dotted","style":{"spacing":{"margin":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"main-accent"} -->
 <hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:var(--wp--preset--spacing--large)"/>
 <!-- /wp:separator -->
 
@@ -43,7 +43,7 @@
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color">★</p>
+<p class="has-primary-color has-text-color"><strong>✴</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
@@ -55,7 +55,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color">★</p>
+<p class="has-primary-color has-text-color"><strong>✴</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
@@ -68,8 +68,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/computer-hands.webp","id":33151,"dimRatio":0,"isDark":false,"style":{"color":{"duotone":["#462CFF","#ECE8FF"]},"dimensions":{"aspectRatio":"1"}},"className":"is-style-rounded-cover"} -->
-<div class="wp-block-cover is-light is-style-rounded-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-33151" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/computer-hands.webp" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/computer-hands.webp","id":33151,"dimRatio":0,"isDark":false,"className":"is-style-rounded-cover","style":{"color":{"duotone":["#462CFF","#ECE8FF"]},"dimensions":{"aspectRatio":"1"}}} -->
+<div class="wp-block-cover is-light is-style-rounded-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-33151" alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/patterns/images/computer-hands.webp" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…"} -->
 <p class="has-text-align-center"></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>

@@ -28,13 +28,13 @@
 <p class="has-text-align-center has-secondary-color has-text-color">The future of WordPress site building is here. Are you ready?</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"base"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-base-color has-primary-background-color has-text-color has-background wp-element-button">Get Started Today</a></div>
+<!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Get Started Today</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"backgroundColor":"base","textColor":"primary","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button">See Our Features</a></div>
+<!-- wp:button {"backgroundColor":"base","textColor":"main","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}}} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background has-link-color wp-element-button">See Our Features</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

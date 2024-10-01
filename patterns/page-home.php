@@ -11,9 +11,9 @@
  * Inserter: true
  */
 ?>
-<!-- wp:pattern {"slug":"ollie/hero-call-to-action-buttons"} /-->
+<!-- wp:pattern {"slug":"ollie/hero-text-image-and-logos"} /-->
 
-<!-- wp:pattern {"slug":"ollie/feature-boxes"} /-->
+<!-- wp:pattern {"slug":"ollie/large-text-and-text-boxes"} /-->
 
 <!-- wp:pattern {"slug":"ollie/text-and-image-columns-with-icons"} /-->
 
