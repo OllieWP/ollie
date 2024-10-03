@@ -166,7 +166,7 @@
 				{
 					"name": "Border Light",
 					"slug": "border-light",
-					"color": "#DADEE3"
+					"color": "#e2e6ea"
 				},
 				{
 					"name": "Border Dark",
@@ -247,7 +247,7 @@
 				{
                     "name": "Small Light",
                     "slug": "small-light",
-                    "shadow": "0px 16px 5px 0px rgba(20, 17, 31, 0.00), 0px 10px 4px 0px rgba(20, 17, 31, 0.01), 0px 6px 4px 0px rgba(20, 17, 31, 0.02), 0px 3px 3px 0px rgba(20, 17, 31, 0.03), 0px 1px 1px 0px rgba(20, 17, 31, 0.05)"
+                    "shadow": "0px 16px 5px 0px rgba(20, 17, 31, 0.00), 0px 10px 4px 0px rgba(20, 17, 31, 0.00), 0px 6px 4px 0px rgba(20, 17, 31, 0.02), 0px 3px 3px 0px rgba(20, 17, 31, 0.03), 0px 1px 1px 0px rgba(20, 17, 31, 0.03)"
                 }
             ]
         },
@@ -555,9 +555,6 @@
 				},
 				"elements": {
 					"link": {
-						"color": {
-							"text": "var(--wp--preset--color--primary-accent)"
-						},
 						":hover": {
 							"typography": {
 								"textDecoration": "underline"
@@ -773,14 +770,14 @@
 					"width": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--primary)",
+					"background": "var(--wp--preset--color--main)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
 					"padding": {
-						"top": ".5em",
+						"top": ".6em",
 						"right": "1em",
-						"bottom": ".5em",
+						"bottom": ".6em",
 						"left": "1em"
 					}
 				},
@@ -790,7 +787,7 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--primary)",
+						"background": "var(--wp--preset--color--main)",
 						"text": "var(--wp--preset--color--base)"
 					},
 					"typography": {
@@ -865,7 +862,8 @@
 			"title": "Page (Full Width, No Title)",
 			"postTypes": [
 				"page",
-				"ollie_pattern"
+				"ollie_pattern",
+				"post"
 			]
 		},
 		{
