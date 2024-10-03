@@ -6,7 +6,7 @@
 }
 
 .wp-block-navigation__container .current-menu-item > a,
-.wp-block-navigation__container .has-child:hover {
+.wp-block-navigation__container .has-child button:hover {
 	text-decoration: underline;
 }
 
@@ -20,11 +20,13 @@ header .wp-block-navigation .wp-block-navigation__submenu-container {
 	margin-left: calc(var(--wp--preset--spacing--medium) * -1);
 	padding: 0;
 	z-index: 20 !important;
+	border-radius: 5px;
+	box-shadow: var(--wp--preset--shadow--small-light);
 }
 
 /* Drop nav submenu */
 header .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container {
-	margin-left: -5px;
+	margin-left: 0;
 	margin-top: calc(var(--wp--preset--spacing--small) * -1);
 	top: 0 !important;
 }
@@ -33,11 +35,15 @@ header .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-na
 @media only screen and (min-width: 600px) {
 	header .wp-block-navigation :where(.wp-block-navigation__submenu-container) li:first-child {
 		padding-top: var(--wp--preset--spacing--small);
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
 	}
 
 	/* Add padding to bottom of drop menu */
 	header .wp-block-navigation :where(.wp-block-navigation__submenu-container) li:last-child {
 		padding-bottom: var(--wp--preset--spacing--small);
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
 	}
 }
 
