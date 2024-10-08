@@ -4,7 +4,6 @@
 .wp-block-button.is-style-outline .wp-block-button__link {
 	border: none;
 	background-color: transparent;
-	color: var(--wp--preset--color--main);
 	outline: 2px solid currentColor;
 	outline-offset: -2px;
 	padding: .5em 1em;
