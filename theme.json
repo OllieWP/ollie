@@ -570,8 +570,7 @@
 				"elements": {
 					"h2": {
 						"typography": {
-							"fontSize": "var(--wp--preset--font-size--medium)",
-							"lineHeight": "var(--wp--custom--line-height--body)"
+							"fontSize": "var(--wp--preset--font-size--medium)"
 						}
 					}
 				}
