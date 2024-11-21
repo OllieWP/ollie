@@ -17,8 +17,8 @@
 <p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Built For The Future</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
-<p class="has-large-font-size" style="font-style:normal;font-weight:600">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></p>
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.3"}},"fontSize":"large"} -->
+<p class="has-large-font-size" style="font-style:normal;font-weight:600;line-height:1.3">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

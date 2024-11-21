@@ -18,7 +18,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size">Design faster and publish sooner</h2>
+<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Design faster and publish sooner with Ollie</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
