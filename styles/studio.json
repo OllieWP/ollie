@@ -70,7 +70,7 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--primary)",
-					"fontWeight": "var(--wp--custom--font-weight--extra-bold)",
+					"fontWeight": "800",
 					"lineHeight": "var(--wp--custom--line-height--snug)"
 				}
 			}
