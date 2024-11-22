@@ -29,8 +29,8 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|large"}}} -->
-<div class="wp-block-column is-vertically-aligned-top is-style-default"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"primary-accent","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-border-color has-primary-accent-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
+<div class="wp-block-column is-vertically-aligned-top is-style-default"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-border-light-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">Wow, I really can't believe how powerful the WordPress Site Editor is combined with Ollie. I don't even need my page builder plugin anymore! Everything I need is built right in and ready for me at the beginning of every project.</p>
 <!-- /wp:paragraph -->
 
@@ -51,8 +51,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"primary-accent","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-border-color has-primary-accent-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-border-light-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">I create a lot of landing pages, and the Site Editor and Ollie have been huge for this. I can choose from a pre-designed landing page, customize my brand colors, and I'm ready to launch.</p>
 <!-- /wp:paragraph -->
 
@@ -75,8 +75,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top","className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|large"}}} -->
-<div class="wp-block-column is-vertically-aligned-top is-style-default"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"primary-accent","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-border-color has-primary-accent-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
+<div class="wp-block-column is-vertically-aligned-top is-style-default"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-border-light-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">I love using WordPress but traditionally it has been hard to design in. Not any more! I can quickly build out page sections or full page designs with Ollie patterns. Saves me so much time!</p>
 <!-- /wp:paragraph -->
 
@@ -97,8 +97,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"primary-accent","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-border-color has-primary-accent-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-border-light-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size">I was skeptical about all the changes going on in WordPress, but now that I've seen how powerful it can be, I'm convinced. Ollie made it super easy to get started with the "new" WordPress.</p>
 <!-- /wp:paragraph -->
 
