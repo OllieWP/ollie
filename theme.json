@@ -192,6 +192,17 @@
 			"link": true
 		},
 		"custom": {
+			"fontWeight": {
+				"thin": 100,
+				"extra-light": 200,
+				"light": 300,
+				"regular": 425,
+				"medium": 500,
+				"semi-bold": 600,
+				"bold": 700,
+				"extra-bold": 800,
+				"black": 900
+			},
 			"lineHeight": {
 				"none": 1,
 				"tight": 1.1,
