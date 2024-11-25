@@ -17,7 +17,7 @@
 <p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Ollie</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
+<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
 <h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Design faster and publish sooner with Ollie</h2>
 <!-- /wp:heading -->
 

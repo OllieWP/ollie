@@ -19,8 +19,8 @@
 <p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">WordPress Reimagined</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"className":"has-secondary-font-family","style":{"typography":{"fontSize":"4rem"}}} -->
-<h1 class="wp-block-heading has-text-align-center has-secondary-font-family" style="font-size:4rem">Build your site with clicks, not code.</h1>
+<!-- wp:heading {"textAlign":"center","className":"has-secondary-font-family","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-secondary-font-family has-x-large-font-size">Design faster and publish sooner with Ollie</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
