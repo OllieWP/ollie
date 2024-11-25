@@ -134,49 +134,59 @@
 			],
 			"palette": [
 				{
-					"name": "Primary",
-					"slug": "primary",
-					"color": "#4d34fa"
-				},
-				{
-					"name": "Main",
+					"name": "Contrast",
 					"slug": "main",
 					"color": "#14111f"
 				},
 				{
-					"name": "Secondary",
-					"slug": "secondary",
-					"color": "#636381"
-				},
-				{
-					"name": "Main Accent",
+					"name": "Contrast Accent",
 					"slug": "main-accent",
 					"color": "#d0ccde"
-				},
-				{
-					"name": "Primary Accent",
-					"slug": "primary-accent",
-					"color": "#e4e1fe"
-				},
-				{
-					"name": "Tertiary",
-					"slug": "tertiary",
-					"color": "#f6f6fc"
-				},
-				{
-					"name": "Border Light",
-					"slug": "border-light",
-					"color": "#dde1e5"
-				},
-				{
-					"name": "Border Dark",
-					"slug": "border-dark",
-					"color": "#444B57"
 				},
 				{
 					"name": "Base",
 					"slug": "base",
 					"color": "#fff"
+				},
+				{
+					"name": "Base Accent",
+					"slug": "secondary",
+					"color": "#636381"
+				},
+				{
+					"name": "Tint",
+					"slug": "tertiary",
+					"color": "#f6f6fc"
+				},
+				{
+					"name": "Border Base",
+					"slug": "border-light",
+					"color": "#dde1e5"
+				},
+				{
+					"name": "Border Contrast",
+					"slug": "border-dark",
+					"color": "#444B57"
+				},
+				{
+					"name": "Brand",
+					"slug": "primary",
+					"color": "#4d34fa"
+				},
+				{
+					"name": "Brand Accent",
+					"slug": "primary-accent",
+					"color": "#e4e1fe"
+				},
+				{
+					"name": "Brand Alt",
+					"slug": "brand-alt",
+					"color": "#4d34fa"
+				},
+				{
+					"name": "Brand Alt Accent",
+					"slug": "brand-alt-accent",
+					"color": "#e4e1fe"
 				}
 			],
 			"link": true
@@ -344,6 +354,23 @@
 					]
 				},
 				{
+					"fontFamily": "Mona Sans Narrow, sans-serif",
+					"name": "Mona Sans Narrow",
+					"slug": "narrow",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans Narrow",
+							"fontStretch": "75%",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [
+								"file:./assets/fonts/Mona-Sans.woff2"
+							]
+						}
+					]
+				},
+				{
 					"fontFamily": "monospace",
 					"name": "Monospace",
 					"slug": "monospace"
@@ -379,7 +406,7 @@
 				},
 				{
 					"fluid": {
-						"min": "1.365rem",
+						"min": "1.414rem",
 						"max": "1.65rem"
 					},
 					"size": "1.65rem",
@@ -388,7 +415,7 @@
 				},
 				{
 					"fluid": {
-						"min": "1.75rem",
+						"min": "1.999rem",
 						"max": "2.75rem"
 					},
 					"size": "2.75rem",
@@ -397,7 +424,7 @@
 				},
 				{
 					"fluid": {
-						"min": "2.425rem",
+						"min": "2.827rem",
 						"max": "3.5rem"
 					},
 					"size": "3.5rem",
@@ -406,7 +433,7 @@
 				},
 				{
 					"fluid": {
-						"min": "3.25rem",
+						"min": "3.998rem",
 						"max": "4.3875rem"
 					},
 					"size": "4.3875rem",
