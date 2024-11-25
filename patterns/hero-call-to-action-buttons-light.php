@@ -11,13 +11,13 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|medium","margin":{"top":"0","bottom":"0"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Hero","categories":["ollie/hero"],"patternName":"ollie/hero-call-to-action-buttons-light"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|medium","margin":{"top":"0","bottom":"0"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
 <p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Ollie</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size">Design faster and publish sooner</h2>
+<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Design faster and publish sooner with Ollie</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
