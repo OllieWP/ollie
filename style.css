@@ -164,4 +164,8 @@ a.more-link {
 	.ollie-hide-on-mobile {
 		display: none;
 	}
+
+	.ollie-unstick-mobile {
+		position: static;
+	}
 }

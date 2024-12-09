@@ -314,6 +314,7 @@
 		"typography": {
 			"dropCap": false,
 			"fluid": true,
+			"writingMode": true,
 			"fontFamilies": [
 				{
 					"fontFamily": "Mona Sans, sans-serif",
