@@ -79,6 +79,7 @@ input[type="submit"],
 input[type="text"],
 textarea {
 	-webkit-appearance: none;
+	appearance: none;
 }
 
 input:not([type="submit"]),
