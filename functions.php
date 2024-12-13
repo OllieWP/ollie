@@ -39,9 +39,6 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 function register_block_styles() {
 
 	$block_styles = array(
-		'core/button'                    => array(
-			'secondary-button' => __( 'Secondary', 'ollie' ),
-		),
 		'core/list'                      => array(
 			'list-check'        => __( 'Check', 'ollie' ),
 			'list-check-circle' => __( 'Check Circle', 'ollie' ),
