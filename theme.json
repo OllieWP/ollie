@@ -134,14 +134,34 @@
 			],
 			"palette": [
 				{
+					"name": "Brand",
+					"slug": "primary",
+					"color": "#5344F4"
+				},
+				{
+					"name": "Brand Accent",
+					"slug": "primary-accent",
+					"color": "#DDDAFB"
+				},
+				{
+					"name": "Brand Alt",
+					"slug": "primary-alt",
+					"color": "#DEC9FF"
+				},
+				{
+					"name": "Brand Alt Accent",
+					"slug": "primary-alt-accent",
+					"color": "#575094"
+				},
+				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#14111f"
+					"color": "#1E1E26"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#d0ccde"
+					"color": "#d4d4ec"
 				},
 				{
 					"name": "Base",
@@ -151,42 +171,22 @@
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#636381"
+					"color": "#5F5F82"
 				},
 				{
 					"name": "Tint",
 					"slug": "tertiary",
-					"color": "#f6f6fc"
+					"color": "#f8f7fc"
 				},
 				{
 					"name": "Border Base",
 					"slug": "border-light",
-					"color": "#dde1e5"
+					"color": "#E3E3F0"
 				},
 				{
 					"name": "Border Contrast",
 					"slug": "border-dark",
-					"color": "#444B57"
-				},
-				{
-					"name": "Brand",
-					"slug": "primary",
-					"color": "#4d34fa"
-				},
-				{
-					"name": "Brand Accent",
-					"slug": "primary-accent",
-					"color": "#e4e1fe"
-				},
-				{
-					"name": "Brand Alt",
-					"slug": "brand-alt",
-					"color": "#4d34fa"
-				},
-				{
-					"name": "Brand Alt Accent",
-					"slug": "brand-alt-accent",
-					"color": "#e4e1fe"
+					"color": "#4E4E60"
 				}
 			],
 			"link": true

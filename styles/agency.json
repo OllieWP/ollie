@@ -1,10 +1,30 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 2,
+	"version": 3,
 	"title": "Agency",
 	"settings": {
 		"color": {
 			"palette": [
+				{
+					"name": "Brand",
+					"slug": "primary",
+					"color": "#495148"
+				},
+				{
+					"name": "Brand Accent",
+					"slug": "primary-accent",
+					"color": "#CCD6CB"
+				},
+				{
+					"name": "Brand Alt",
+					"slug": "primary-alt",
+					"color": "#CEF453"
+				},
+				{
+					"name": "Brand Alt Accent",
+					"slug": "primary-alt-accent",
+					"color": "#4D5042"
+				},
 				{
 					"name": "Contrast",
 					"slug": "main",
@@ -39,26 +59,6 @@
 					"name": "Border Contrast",
 					"slug": "border-dark",
 					"color": "#444B57"
-				},
-				{
-					"name": "Brand",
-					"slug": "primary",
-					"color": "#495148"
-				},
-				{
-					"name": "Brand Accent",
-					"slug": "primary-accent",
-					"color": "#CCD6CB"
-				},
-				{
-					"name": "Brand Alt",
-					"slug": "primary-alt",
-					"color": "#CEF453"
-				},
-				{
-					"name": "Brand Alt Accent",
-					"slug": "primary-alt-accent",
-					"color": "#4D5042"
 				}
 			]
 		},
