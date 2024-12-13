@@ -7,7 +7,7 @@
 	"styles": {
 		"color": {
 			"background": "var(--wp--preset--color--tertiary)",
-			"text": "var(--wp--preset--color--contrast)"
+			"text": "var(--wp--preset--color--main)"
 		}
 	}
 }
