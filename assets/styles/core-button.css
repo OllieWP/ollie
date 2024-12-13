@@ -5,27 +5,10 @@
 	border: none;
 	background-color: transparent;
 	outline: 2px solid currentColor;
-	outline-offset: -2px;
-	padding: .5em 1em;
+	outline-offset: -3.5px;
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link:hover {
 	color: var(--wp--preset--color--main) !important;
 	outline-color: var(--wp--preset--color--main);
-}
-
-/* Button - Secondary Style
---------------------------------------------- */
-
-.is-style-secondary-button .wp-element-button,
-.wp-block.is-style-secondary-button .wp-element-button {
-	background: var(--wp--preset--color--tertiary);
-	color: var(--wp--preset--color--main);
-	font-size: var(--wp--preset--font-size--small);
-}
-
-.is-style-secondary-button:hover .wp-element-button,
-.wp-block.is-style-secondary-button:hover .wp-element-button {
-	background: var(--wp--preset--color--tertiary);
-	color: var(--wp--preset--color--main);
 }
