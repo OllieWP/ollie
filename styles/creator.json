@@ -6,6 +6,26 @@
 		"color": {
 			"palette": [
 				{
+					"name": "Brand",
+					"slug": "primary",
+					"color": "#5A20FF"
+				},
+				{
+					"name": "Brand Accent",
+					"slug": "primary-accent",
+					"color": "#E2D8FF"
+				},
+				{
+					"name": "Brand Alt",
+					"slug": "primary-alt",
+					"color": "#E3D0FF"
+				},
+				{
+					"name": "Brand Alt Accent",
+					"slug": "primary-alt-accent",
+					"color": "#2E2738"
+				},
+				{
 					"name": "Contrast",
 					"slug": "main",
 					"color": "#1E0E2E"
@@ -39,26 +59,6 @@
 					"name": "Border Contrast",
 					"slug": "border-dark",
 					"color": "#473856"
-				},
-				{
-					"name": "Brand",
-					"slug": "primary",
-					"color": "#5A20FF"
-				},
-				{
-					"name": "Brand Accent",
-					"slug": "primary-accent",
-					"color": "#E2D8FF"
-				},
-				{
-					"name": "Brand Alt",
-					"slug": "primary-alt",
-					"color": "#E3D0FF"
-				},
-				{
-					"name": "Brand Alt Accent",
-					"slug": "primary-alt-accent",
-					"color": "#2E2738"
 				}
 			]
 		}
