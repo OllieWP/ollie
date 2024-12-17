@@ -19,8 +19,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"main","fontSize":"x-small"} -->
-<div class="wp-block-button has-custom-font-size has-x-small-font-size"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background wp-element-button">Download Now</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-light","fontSize":"x-small"} -->
+<div class="wp-block-button has-custom-font-size is-style-button-light has-x-small-font-size"><a class="wp-block-button__link wp-element-button">Download Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

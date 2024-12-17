@@ -20,8 +20,8 @@
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Download Now</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"backgroundColor":"tertiary","textColor":"main","style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-main-color has-tertiary-background-color has-text-color has-background has-link-color wp-element-button">Learn More</a></div>
+<!-- wp:button {"className":"is-style-secondary-button"} -->
+<div class="wp-block-button is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Learn More</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></header>

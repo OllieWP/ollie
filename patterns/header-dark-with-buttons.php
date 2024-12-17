@@ -16,12 +16,12 @@
 <div class="wp-block-group alignwide"><!-- wp:site-title {"level":0} /-->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"main","style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-main-color has-base-background-color has-text-color has-background has-link-color wp-element-button">Download Now</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-brand"} -->
+<div class="wp-block-button is-style-button-brand"><a class="wp-block-button__link wp-element-button">Download Now</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"textColor":"base","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"color":{"background":"#ffffff2e"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-base-color has-text-color has-background has-link-color wp-element-button" style="background-color:#ffffff2e">Learn More</a></div>
+<!-- wp:button {"className":"is-style-button-light"} -->
+<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link wp-element-button">Learn More</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></header>

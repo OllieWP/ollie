@@ -29,8 +29,8 @@
 <div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Free Download</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"backgroundColor":"tertiary","textColor":"main","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"borderColor":"tertiary"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-main-color has-tertiary-background-color has-text-color has-background has-link-color has-border-color has-tertiary-border-color wp-element-button">Explore Ollie</a></div>
+<!-- wp:button {"className":"is-style-secondary-button","borderColor":"tertiary"} -->
+<div class="wp-block-button is-style-secondary-button"><a class="wp-block-button__link has-border-color has-tertiary-border-color wp-element-button">Explore Ollie</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->
