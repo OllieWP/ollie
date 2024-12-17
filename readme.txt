@@ -1,8 +1,8 @@
 === Ollie WordPress Block Theme ===
-Contributors: mmcalister, patrickposner, buildwithollie
+Contributors: mmcalister, patrickposner
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 5.8
-Tested up to: 6.6
+Tested up to: 6.7.1
 Requires PHP: 7.2
 Stable tag: 1.3.0
 License: GNU General Public License v3.0 (or later)
@@ -19,7 +19,8 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 * Refine existing color palettes with updated colors and new color slot.
 * Add new Agency color palette for upcoming Agency pattern collection.
 * Add style variation for quickly changing button colors.
-* Minor pattern improvements
+* Add layer names to patterns
+* Refine pattern layouts with simpler markup where possible
 
 = 1.2.5 - 11/25/24 =
 * Fix issue where some font weights aren't being applied
@@ -156,7 +157,7 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 
 == Copyright ==
 
-Ollie Theme, (C) 2023 Mike McAlister
+Ollie Theme, (C) 2025 Mike McAlister
 Ollie is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
