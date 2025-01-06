@@ -15,12 +15,12 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 == Changelog ==
 
 = 1.3.0 - 12/16/24 =
-* Refine color palette names to map better to their contextual use. Full post/video coming on color palette strategy.
+* Refine color palette names to map better to their contextual use. Read more about the change here: https://olliewp.com/docs/color-palette/
 * Refine existing color palettes with updated colors and new color slot.
+* Refine pattern layouts with simpler markup where possible
 * Add new Agency color palette for upcoming Agency pattern collection.
 * Add style variation for quickly changing button colors.
 * Add layer names to patterns
-* Refine pattern layouts with simpler markup where possible
 
 = 1.2.5 - 11/25/24 =
 * Fix issue where some font weights aren't being applied
