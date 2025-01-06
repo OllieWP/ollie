@@ -27,7 +27,6 @@ header .wp-block-navigation .wp-block-navigation__submenu-container {
 /* Drop nav submenu */
 header .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container {
 	margin-left: 0;
-	margin-top: calc(var(--wp--preset--spacing--small) * -1);
 	top: 0 !important;
 }
 
