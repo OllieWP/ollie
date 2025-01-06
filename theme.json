@@ -141,7 +141,7 @@
 				{
 					"name": "Brand Accent",
 					"slug": "primary-accent",
-					"color": "#DDDAFB"
+					"color": "#e9e7ff"
 				},
 				{
 					"name": "Brand Alt",
@@ -151,7 +151,7 @@
 				{
 					"name": "Brand Alt Accent",
 					"slug": "primary-alt-accent",
-					"color": "#575094"
+					"color": "#3d386b"
 				},
 				{
 					"name": "Contrast",
@@ -171,7 +171,7 @@
 				{
 					"name": "Base Accent",
 					"slug": "secondary",
-					"color": "#5F5F82"
+					"color": "#545473"
 				},
 				{
 					"name": "Tint",
