@@ -548,23 +548,6 @@
 					}
 				}
 			},
-			"core/post-excerpt": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						"color": {
-							"text": "var:preset|color|primary-accent"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
-				}
-			},
 			"core/read-more": {
 				"elements": {
 					"link": {
