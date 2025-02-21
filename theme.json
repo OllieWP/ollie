@@ -334,6 +334,31 @@
 					]
 				},
 				{
+					"fontFamily": "Open Sans, sans-serif",
+					"name": "Open Sans",
+					"slug": "open-sans",
+					"fontFace": [
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300 800",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/Open-Sans.woff2"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "italic",
+							"fontWeight": "300 800",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/Open-Sans-Italic.woff2"
+							]
+						}
+					]
+				},
+				{
 					"fontFamily": "Mona Sans Expanded, sans-serif",
 					"name": "Mona Sans Expanded",
 					"slug": "expanded",
