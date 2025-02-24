@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Minimal
- * Slug: ollie/footer-minimal
+ * Slug: ollie/footer-dark-minimal
  * Description: 
  * Categories: footer
  * Keywords: 

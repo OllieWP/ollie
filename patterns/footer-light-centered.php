@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Centered Light
- * Slug: ollie/footer-centered-light
+ * Slug: ollie/footer-light-centered
  * Description: 
  * Categories: footer
  * Keywords: 
