@@ -38,7 +38,7 @@
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-accent"}}}},"textColor":"primary-accent","fontSize":"x-small"} -->
-<p class="has-text-align-center has-primary-accent-color has-text-color has-link-color has-x-small-font-size"><a href="#"><?php echo wp_kses_post( _x( 'or view on <a href="#">WordPress.org</a>', 'Link to WordPress.org', 'ollie' ) ); ?></a></p>
+<p class="has-text-align-center has-primary-accent-color has-text-color has-link-color has-x-small-font-size"><?php echo wp_kses_post( _x( 'or view on <a href="#">WordPress.org</a>', 'Link to WordPress.org', 'ollie' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
