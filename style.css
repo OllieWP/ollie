@@ -89,9 +89,10 @@ textarea,
 .wp-block-post-comments-form textarea {
 	color: var(--wp--preset--color--main);
 	border-radius: 5px;
-	border: solid 1px var(--wp--preset--color--main-accent);
+	border: solid 1px var(--wp--preset--color--border-light);
 	padding: .5em 1em;
 	font-size: var(--wp--preset--font-size--small);
+	background-color: #fff;
 }
 
 input:focus-visible,

@@ -23,5 +23,6 @@ node_modules/
 *.sqlite
 .DS_Store
 fsestudio-data.json
+composer.lock
 
 /vendor/
