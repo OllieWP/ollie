@@ -17,24 +17,24 @@
 
 <!-- wp:group {"metadata":{"name":"Navs"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group has-small-font-size"><!-- wp:paragraph -->
-<p>Download</p>
+<p><?php esc_html_e('Download', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Visit Ollie</p>
+<p><?php esc_html_e('Visit Ollie', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Twitter</p>
+<p><?php esc_html_e('Twitter', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Visit Mike</p>
+<p><?php esc_html_e('Visit Mike', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main-accent","fontSize":"small"} -->
-<p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size">© 2024 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a></p>
+<p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size"><?php echo wp_kses_post(_x('© 2024 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a>', 'Copyright text', 'ollie')); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"main","iconColorValue":"#150E29","iconBackgroundColor":"base","iconBackgroundColorValue":"#fff","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","justifyContent":"center"}} -->

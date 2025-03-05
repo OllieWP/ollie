@@ -15,7 +15,7 @@
 <div class="wp-block-group alignfull has-tertiary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-group"><!-- wp:query-title {"type":"search","fontSize":"medium"} /-->
 
-<!-- wp:search {"label":"","placeholder":"Search site...","buttonText":"Search"} /--></div>
+<!-- wp:search {"label":"","placeholder":"<?php esc_attr_e('Search site...', 'ollie'); ?>","buttonText":"<?php esc_attr_e('Search', 'ollie'); ?>"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
@@ -39,7 +39,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results.","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-<p style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Sorry, nothing was found for that search term.</p>
+<p style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><?php esc_html_e('Sorry, nothing was found for that search term.', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></main>

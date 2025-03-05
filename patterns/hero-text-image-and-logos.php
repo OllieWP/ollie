@@ -14,24 +14,24 @@
 <!-- wp:group {"metadata":{"name":"Hero Text, Image, and Logos"},"align":"full","backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-tertiary-background-color has-background"><!-- wp:group {"tagName":"section","metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|medium","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Ollie</p>
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:500"><?php esc_html_e('Welcome to Ollie', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Design faster and publish sooner with Ollie</h2>
+<h2 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php esc_html_e('Design faster and publish sooner with Ollie', 'ollie'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required.</p>
+<p class="has-text-align-center has-secondary-color has-text-color"><?php esc_html_e('Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required.', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Free Download</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Free Download', 'ollie'); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-button-light","borderColor":"tertiary"} -->
-<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link has-border-color has-tertiary-border-color wp-element-button">Explore Ollie</a></div>
+<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link has-border-color has-tertiary-border-color wp-element-button"><?php esc_html_e('Explore Ollie', 'ollie'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->
@@ -41,13 +41,13 @@
 <div class="wp-block-cover alignwide is-light has-custom-content-position is-position-bottom-center is-style-blur-image is-style-default" style="border-radius:5px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);min-height:40vw"><span aria-hidden="true" class="wp-block-cover__background has-main-background-color has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3024" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/desktop.webp" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"metadata":{"name":"CTA Row"},"align":"wide","className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"border":{"radius":{"topLeft":"5px","topRight":"5px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide is-style-default" style="border-top-left-radius:5px;border-top-right-radius:5px"><!-- wp:group {"metadata":{"name":"Tagline"},"layout":{"type":"constrained","wideSize":"500px"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"base"} -->
-<p class="has-text-align-left has-primary-color has-text-color has-link-color has-base-font-size" style="font-style:normal;font-weight:600">✴︎ Built for the future, but ready to use today </p>
+<p class="has-text-align-left has-primary-color has-text-color has-link-color has-base-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('✴︎ Built for the future, but ready to use today', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-light"} -->
-<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link wp-element-button">Get Started Today</a></div>
+<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Get Started Today', 'ollie'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>

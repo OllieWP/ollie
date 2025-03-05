@@ -20,11 +20,11 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
-<p class="has-text-align-center has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Performance</p>
+<p class="has-text-align-center has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('Performance', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"primary-accent","fontSize":"small"} -->
-<p class="has-text-align-center has-primary-accent-color has-text-color has-small-font-size">Blazing-fast performance out of the box. No caching plugins needed.</p>
+<p class="has-text-align-center has-primary-accent-color has-text-color has-small-font-size"><?php esc_html_e('Blazing-fast performance out of the box. No caching plugins needed.', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -34,11 +34,11 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
-<p class="has-text-align-center has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">SEO Boost</p>
+<p class="has-text-align-center has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('SEO Boost', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"primary-accent","fontSize":"small"} -->
-<p class="has-text-align-center has-primary-accent-color has-text-color has-small-font-size">Built with SEO best practices in mind to help you rank in search engines.</p>
+<p class="has-text-align-center has-primary-accent-color has-text-color has-small-font-size"><?php esc_html_e('Built with SEO best practices in mind to help you rank in search engines.', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -48,11 +48,11 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
-<p class="has-text-align-center has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Accessibility</p>
+<p class="has-text-align-center has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('Accessibility', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"primary-accent","fontSize":"small"} -->
-<p class="has-text-align-center has-primary-accent-color has-text-color has-small-font-size">Accessibility compliant to ensure equal access to content and functionality.</p>
+<p class="has-text-align-center has-primary-accent-color has-text-color has-small-font-size"><?php esc_html_e('Accessibility compliant to ensure equal access to content and functionality.', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

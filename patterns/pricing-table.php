@@ -14,15 +14,15 @@
 <!-- wp:group {"metadata":{"name":"Pricing Tables"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xxx-large","bottom":"var:preset|spacing|xxx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|x-large"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xxx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xxx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"metadata":{"name":"Titles"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Simple Pricing</p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Simple Pricing', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","className":"wp-block-heading"} -->
-<h2 class="wp-block-heading has-text-align-center">Small prices, huge value</h2>
+<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e('Small prices, huge value', 'ollie'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with Ollie patterns. Connect your eCommerce solution and start making bank.</p>
+<p class="has-text-align-center"><?php esc_html_e('Easily create beautiful and responsive pricing tables with Ollie patterns. Connect your eCommerce solution and start making bank.', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -40,17 +40,17 @@
 
 <!-- wp:group {"metadata":{"name":"Price Description"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Beginner</p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('Beginner', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"x-small"} -->
-<p class="has-secondary-color has-text-color has-x-small-font-size">Great for beginners who want to give your product a trial run and see if it fits their workflow.</p>
+<p class="has-secondary-color has-text-color has-x-small-font-size"><?php esc_html_e('Great for beginners who want to give your product a trial run and see if it fits their workflow.', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}}}} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><?php esc_html_e('Get Started', 'ollie'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -61,7 +61,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Publishing Suite</p>
+<p><?php esc_html_e('Publishing Suite', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -75,7 +75,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Advanced Tools</p>
+<p><?php esc_html_e('Advanced Tools', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -89,7 +89,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Priority Support</p>
+<p><?php esc_html_e('Priority Support', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -103,7 +103,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Blazing-Fast Performance</p>
+<p><?php esc_html_e('Blazing-Fast Performance', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -122,17 +122,17 @@
 
 <!-- wp:group {"metadata":{"name":"Price Description"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Professional</p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('Professional', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"x-small"} -->
-<p class="has-main-accent-color has-text-color has-x-small-font-size">Great for professionals who are building a lot of WordPress websites and need all the tools.</p>
+<p class="has-main-accent-color has-text-color has-x-small-font-size"><?php esc_html_e('Great for professionals who are building a lot of WordPress websites and need all the tools.', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-light","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}}}} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-light"><a class="wp-block-button__link wp-element-button" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-light"><a class="wp-block-button__link wp-element-button" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><?php esc_html_e('Get Started', 'ollie'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -143,7 +143,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Everything in Essential plus...</p>
+<p><?php esc_html_e('Everything in Essential plus...', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -157,7 +157,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Video Course</p>
+<p><?php esc_html_e('Video Course', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -171,7 +171,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Private Coaching</p>
+<p><?php esc_html_e('Private Coaching', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -185,7 +185,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Access to Slack</p>
+<p><?php esc_html_e('Access to Slack', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -193,6 +193,12 @@
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary","fontSize":"small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-small-font-size">Not convinced? We offer a <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">100% money back guarantee</mark></strong> for all purchases. Try our product with confidence, and if you don't like it, we'll make it right. </p>
+<p class="has-text-align-center has-secondary-color has-text-color has-small-font-size"><?php 
+/* translators: %s: Link to money back guarantee */
+echo sprintf(
+    esc_html__('Not convinced? We offer a %s for all purchases. Try our product with confidence, and if you don\'t like it, we\'ll make it right.', 'ollie'),
+    '<strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">' . esc_html__('100% money back guarantee', 'ollie') . '</mark></strong>'
+); 
+?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

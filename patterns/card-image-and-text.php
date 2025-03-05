@@ -18,21 +18,21 @@
 
 <!-- wp:group {"metadata":{"name":"Text"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Image and Text Card</p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('Image and Text Card', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I love using WordPress but traditionally it has been hard to design in. Not any more! Now, I can quickly build full page designs with beautiful patterns!</p>
+<p><?php esc_html_e('I love using WordPress but traditionally it has been hard to design in. Not any more! Now, I can quickly build full page designs with beautiful patterns!', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}},"layout":{"type":"flex","justifyContent":"left","flexWrap":"wrap"}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--medium)"><!-- wp:button {"width":50,"className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-fill"><a class="wp-block-button__link wp-element-button">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-fill"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Get Started', 'ollie'); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"width":50,"className":"is-style-secondary-button"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Read More</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-secondary-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Read More', 'ollie'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

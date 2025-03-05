@@ -16,15 +16,15 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"metadata":{"name":"Titles"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Explore Ollie</p>
+<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Explore Ollie', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Design with a few clicks. No code required.</h2>
+<h2 class="wp-block-heading"><?php esc_html_e('Design with a few clicks. No code required.', 'ollie'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ollie is a block theme for the next generation of WordPress creators. With beautiful patterns and templates built right in, you can get a site launched in record time.</p>
+<p><?php esc_html_e('Ollie is a block theme for the next generation of WordPress creators. With beautiful patterns and templates built right in, you can get a site launched in record time.', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -39,11 +39,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">“Working with Ollie has been a delight from start to finish.”</p>
+<p style="font-style:normal;font-weight:600"><?php esc_html_e('"Working with Ollie has been a delight from start to finish."', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"secondary","fontSize":"x-small"} -->
-<p class="has-secondary-color has-text-color has-x-small-font-size" style="font-style:normal;font-weight:500">Rated 5/5 stars by 1,420 happy reviewers</p>
+<p class="has-secondary-color has-text-color has-x-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Rated 5/5 stars by 1,420 happy reviewers', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -52,11 +52,11 @@
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}},"border":{"radius":"5px"}},"backgroundColor":"primary"} -->
 <div class="wp-block-column is-vertically-aligned-center has-primary-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
-<p class="has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Download Ollie</p>
+<p class="has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('Download Ollie', 'ollie'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color">Version 1.0</p>
+<p class="has-primary-accent-color has-text-color"><?php echo esc_html_x('Version 1.0', 'Theme version number', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -67,19 +67,19 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. Anyone can do it! No coding skills required.</p>
+<p class="has-base-color has-text-color"><?php esc_html_e('Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. Anyone can do it! No coding skills required.', 'ollie'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-light"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-light"><a class="wp-block-button__link wp-element-button" href="https://olliewp.com">Download Now</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-light"><a class="wp-block-button__link wp-element-button" href="https://olliewp.com"><?php esc_html_e('Download Now', 'ollie'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-accent"}}},"typography":{"textDecoration":"underline"}},"textColor":"primary-accent","fontSize":"x-small"} -->
-<p class="has-text-align-center has-primary-accent-color has-text-color has-link-color has-x-small-font-size" style="text-decoration:underline">or view on WordPress.org</p>
+<p class="has-text-align-center has-primary-accent-color has-text-color has-link-color has-x-small-font-size" style="text-decoration:underline"><?php echo wp_kses_post(_x('or view on <a href="#">WordPress.org</a>', 'Link to WordPress.org', 'ollie')); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
