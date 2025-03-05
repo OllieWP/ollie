@@ -6,8 +6,8 @@
  * Categories: ollie/call-to-action, ollie/card
  * Keywords: download, button, cta, email, card
  * Viewport Width: 800
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>
@@ -23,20 +23,20 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"66.66%","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Download Ollie', 'ollie'); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Download Ollie', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e('Start using the powerful new WordPress editor with Ollie', 'ollie'); ?></p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Start using the powerful new WordPress editor with Ollie', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('Start creating beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme.', 'ollie'); ?></p>
+<p class="has-small-font-size"><?php esc_html_e( 'Start creating beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme.', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--medium)"><!-- wp:button {"width":100,"className":"lemonsqueezy-button"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 lemonsqueezy-button"><a class="wp-block-button__link wp-element-button" href="https://olliewp.com"><?php esc_html_e('Download Ollie for free!', 'ollie'); ?></a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 lemonsqueezy-button"><a class="wp-block-button__link wp-element-button" href="https://olliewp.com"><?php esc_html_e( 'Download Ollie for free!', 'ollie' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

@@ -2,12 +2,12 @@
 /**
  * Title: Post Loop List
  * Slug: ollie/post-loop-list
- * Description: 
+ * Description:
  * Categories: ollie/posts
  * Keywords: blog, posts, query, loop
  * Viewport Width: 1280
  * Block Types: core/query
- * Post Types: 
+ * Post Types:
  * Inserter: true
  */
 ?>

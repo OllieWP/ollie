@@ -2,12 +2,12 @@
 /**
  * Title: Image and Numbered Features
  * Slug: ollie/image-and-numbered-features
- * Description: 
+ * Description:
  * Categories: ollie/features
  * Keywords: number, list, features, bullet
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>
@@ -31,11 +31,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><?php esc_html_e('Super simple customization', 'ollie'); ?></h3>
+<h3 class="wp-block-heading"><?php esc_html_e( 'Super simple customization', 'ollie' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Add your splash of colors, pick your header, choose your favorite font — all with a few quick clicks. No coding skills required.', 'ollie'); ?></p>
+<p><?php esc_html_e( 'Add your splash of colors, pick your header, choose your favorite font — all with a few quick clicks. No coding skills required.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -49,11 +49,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><?php esc_html_e('Pixel-perfect patterns', 'ollie'); ?></h3>
+<h3 class="wp-block-heading"><?php esc_html_e( 'Pixel-perfect patterns', 'ollie' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Your website deserves to look pixel-perfect on every device. Ollie ensures your entire design scales down gracefully automagically.', 'ollie'); ?></p>
+<p><?php esc_html_e( 'Your website deserves to look pixel-perfect on every device. Ollie ensures your entire design scales down gracefully automagically.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -67,11 +67,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><?php esc_html_e('Blazing fast by default', 'ollie'); ?></h3>
+<h3 class="wp-block-heading"><?php esc_html_e( 'Blazing fast by default', 'ollie' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('We obsess over performance so you don\'t have to. Ollie is super lightweight and scores top marks on Google PageSpeed Insights.', 'ollie'); ?></p>
+<p><?php esc_html_e( 'We obsess over performance so you don\'t have to. Ollie is super lightweight and scores top marks on Google PageSpeed Insights.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -6,8 +6,8 @@
  * Categories: ollie/pages
  * Keywords: page, layout, design, template, download
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>

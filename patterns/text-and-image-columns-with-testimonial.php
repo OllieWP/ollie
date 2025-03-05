@@ -2,12 +2,12 @@
 /**
  * Title: Text and Image Columns With Testimonial
  * Slug: ollie/text-and-image-columns-with-testimonial
- * Description: 
+ * Description:
  * Categories: ollie/features, ollie/testimonial
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>
@@ -24,21 +24,21 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"metadata":{"name":"Titles"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Build on WordPress', 'ollie'); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Build on WordPress', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Ollie is built for the new WordPress Site Editor', 'ollie'); ?></h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'Ollie is built for the new WordPress Site Editor', 'ollie' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Did you know you can build a blazing-fast, fully-customizable website with the native WordPress editor now? Download the Ollie block theme to start learning the new WordPress today!', 'ollie'); ?></p>
+<p><?php esc_html_e( 'Did you know you can build a blazing-fast, fully-customizable website with the native WordPress editor now? Download the Ollie block theme to start learning the new WordPress today!', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Get Started Today', 'ollie'); ?></a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Get Started Today', 'ollie' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -53,11 +53,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php esc_html_e("The WordPress Site Editor is a total game changer. It's blazing fast and I don't need a page builder anymore. 😍", 'ollie'); ?></p>
+<p class="has-x-small-font-size"><?php esc_html_e( "The WordPress Site Editor is a total game changer. It's blazing fast and I don't need a page builder anymore. 😍", 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="font-style:normal;font-weight:500"><?php echo wp_kses_post(_x('— Mandi Alpine, Brandwich', 'Testimonial author', 'ollie')); ?></p>
+<p class="has-x-small-font-size" style="font-style:normal;font-weight:500"><?php echo wp_kses_post( _x( '— Mandi Alpine, Brandwich', 'Testimonial author', 'ollie' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

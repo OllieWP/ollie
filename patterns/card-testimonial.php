@@ -2,18 +2,18 @@
 /**
  * Title: Testimonial Card
  * Slug: ollie/card-testimonial
- * Description: 
+ * Description:
  * Categories: ollie/card, ollie/testimonial
  * Keywords: testimonial, card, avatar, text, quote, review, rating
  * Viewport Width: 600
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonial Card"},"className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px","color":"#e2e2ef","width":"1px"}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default has-border-color has-base-background-color has-background" style="border-color:#e2e2ef;border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph -->
-<p><?php esc_html_e('I love using WordPress but traditionally it has been hard to design in. Not any more! Now, I can quickly build full page designs with beautiful patterns!', 'ollie'); ?></p>
+<p><?php esc_html_e( 'I love using WordPress but traditionally it has been hard to design in. Not any more! Now, I can quickly build full page designs with beautiful patterns!', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"is-style-separator-dotted","style":{"spacing":{"margin":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}}},"backgroundColor":"main-accent"} -->
@@ -27,7 +27,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php esc_html_e('Alex Glacier', 'ollie'); ?></p>
+<p style="font-style:normal;font-weight:500"><?php esc_html_e( 'Alex Glacier', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

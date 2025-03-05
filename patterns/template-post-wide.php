@@ -45,7 +45,7 @@
 <div class="wp-block-comments alignfull wp-block-comments-query-loop has-tertiary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"metadata":{"name":"Comments Inside"},"style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-right:0;padding-left:0"><!-- wp:group {"metadata":{"name":"Comments Title"},"style":{"spacing":{"blockGap":"0.5rem"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Comments', 'ollie'); ?></h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'Comments', 'ollie' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:comments-title {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"base"} /--></div>

@@ -17,11 +17,11 @@
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-brand"} -->
-<div class="wp-block-button is-style-button-brand"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Download Now', 'ollie'); ?></a></div>
+<div class="wp-block-button is-style-button-brand"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Download Now', 'ollie' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-button-light"} -->
-<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Learn More', 'ollie'); ?></a></div>
+<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Learn More', 'ollie' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></header>

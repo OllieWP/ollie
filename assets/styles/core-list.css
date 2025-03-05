@@ -58,9 +58,9 @@ ul.is-style-list-check-circle li:before {
 	color: var(--wp--preset--color--base);
 	border-radius: 100px;
 	height: 1.5rem;
-    width: 1.5rem;
+	width: 1.5rem;
 	line-height: 1.5rem;
-    text-align: center;
+	text-align: center;
 	font-size: var(--wp--preset--font-size--base);
 	transform: scale(.8);
 }

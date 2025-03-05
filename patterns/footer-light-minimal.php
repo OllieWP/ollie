@@ -2,9 +2,9 @@
 /**
  * Title: Footer Minimal Light
  * Slug: ollie/footer-light-minimal
- * Description: 
+ * Description:
  * Categories: footer
- * Keywords: 
+ * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Post Types: wp_template
@@ -16,7 +16,7 @@
 <div class="wp-block-group alignwide"><!-- wp:site-title {"level":0,"isLink":false,"style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"textColor":"main"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo wp_kses_post(_x('© 2025 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a>', 'Copyright text', 'ollie')); ?></p>
+<p class="has-small-font-size"><?php echo wp_kses_post( _x( '© 2025 · Powered by WordPress and <a href="https://olliewp.com">Ollie</a>', 'Copyright text', 'ollie' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></footer>
 <!-- /wp:group -->

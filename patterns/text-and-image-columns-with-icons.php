@@ -2,12 +2,12 @@
 /**
  * Title: Text and Image Columns With Icons
  * Slug: ollie/text-and-image-columns-with-icons
- * Description: 
+ * Description:
  * Categories: ollie/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
- * Block Types: 
- * Post Types: 
+ * Block Types:
+ * Post Types:
  * Inserter: true
  */
 ?>
@@ -16,21 +16,21 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"metadata":{"name":"Titles"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Pick Your Pattern', 'ollie'); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Pick Your Pattern', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Beautiful design just got a whole lot easier', 'ollie'); ?></h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'Beautiful design just got a whole lot easier', 'ollie' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Ollie ships with a growing collection of design patterns that cohesively click together. Drag, drop, mix, and match patterns to create stunning designs in just a few minutes.', 'ollie'); ?></p>
+<p><?php esc_html_e( 'Ollie ships with a growing collection of design patterns that cohesively click together. Drag, drop, mix, and match patterns to create stunning designs in just a few minutes.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('View Ollie Patterns', 'ollie'); ?></a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'View Ollie Patterns', 'ollie' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -46,7 +46,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php esc_html_e('All patterns are designed with mobile and tablet in mind. All designs and typography scale down to pixel-perfect perfection.', 'ollie'); ?></p>
+<p class="has-x-small-font-size"><?php esc_html_e( 'All patterns are designed with mobile and tablet in mind. All designs and typography scale down to pixel-perfect perfection.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -58,7 +58,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php esc_html_e('With a growing pattern collection, you can create 100\'s of different page designs without repeating the same design.', 'ollie'); ?></p>
+<p class="has-x-small-font-size"><?php esc_html_e( 'With a growing pattern collection, you can create 100\'s of different page designs without repeating the same design.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -67,7 +67,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/computer-hands.webp","id":33151,"dimRatio":0,"isDark":false,"className":"is-style-rounded-cover","style":{"color":{"duotone":["#462CFF","#ECE8FF"]},"dimensions":{"aspectRatio":"1"}}} -->
-<div class="wp-block-cover is-light is-style-rounded-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-33151" alt="<?php esc_attr_e('Hands typing on computer', 'ollie'); ?>" src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/computer-hands.webp" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…"} -->
+<div class="wp-block-cover is-light is-style-rounded-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-33151" alt="<?php esc_attr_e( 'Hands typing on computer', 'ollie' ); ?>" src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/computer-hands.webp" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…"} -->
 <p class="has-text-align-center"></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
