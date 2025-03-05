@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 6.7.1
 Requires PHP: 7.2
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,12 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 50 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with global styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
 
 == Changelog ==
+
+= 1.3.4 - 3/5/24 =
+* Rename header and footer parts for consistency
+* Update page templates to use patterns so we can translate strings
+* Add translation strings to all patterns
+* Linting improvements on all files
 
 = 1.3.3 - 1/31/24 =
 * Improve standalone color palettes to match style variations
