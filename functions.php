@@ -126,6 +126,24 @@ add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
 
 
 /**
+ * Enqueue WooCommerce specific stylesheet
+ */
+function enqueue_woocommerce_styles() {
+
+	// Only enqueue if WooCommerce is active
+	if ( class_exists( 'WooCommerce' ) ) {
+		wp_enqueue_style(
+			'theme-woocommerce-style',
+			get_template_directory_uri() . '/assets/styles/woocommerce.css',
+			array(),
+			'1.0.0'
+		);
+	}
+}
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_woocommerce_styles' );
+
+
+/**
  * Register pattern categories.
  */
 function pattern_categories() {

@@ -1,0 +1,18 @@
+/* WooCommerce styles
+--------------------------------------------- */
+
+.woocommerce div.product form.cart .variations select {
+	background-color: #fff;
+	height: auto;
+	padding: .5em 2em .5em 1em;
+}
+
+.woocommerce div.product form.cart .variations label {
+	margin: 0;
+}
+
+.wp-block-woocommerce-add-to-cart-form .variations_button>.quantity:not(.wc-block-components-quantity-selector) .qty {
+	height: auto;
+	padding: .6em;
+	width: 4em;
+}
