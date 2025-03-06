@@ -1,0 +1,65 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "Preset 3",
+	"slug": "typography-preset-3",
+	"styles": {
+		"typography": {
+			"fontFamily":"var(--wp--preset--font-family--host-grotesk)"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--afacad-flux)",
+					"lineHeight": "var:custom|line-height|tight"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var:preset|font-size|x-large",
+					"lineHeight": "var:custom|line-height|tight"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var:preset|font-size|large",
+					"lineHeight": "var:custom|line-height|tight"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Afacad Flux, sans-serif",
+					"name": "Afacad Flux",
+					"slug": "afacad-flux",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Afacad Flux",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/afacad-flux/AfacadFlux-VariableFont_slnt,wght.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "Host Grotesk, serif",
+					"name": "Host Grotesk",
+					"slug": "host-grotesk",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/host-grotesk/HostGrotesk-VariableFont_wght.woff2"]
+						}
+					]
+				}
+			]
+		}
+	}
+}

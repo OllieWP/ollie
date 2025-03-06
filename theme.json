@@ -329,7 +329,7 @@
 							"fontStretch": "75% 125%",
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/Mona-Sans.woff2"]
+							"src": [ "file:./assets/fonts/mona-sans/Mona-Sans.woff2"]
 						}
 					]
 				},
@@ -345,7 +345,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
 							"src": [
-								"file:./assets/fonts/Mona-Sans.woff2"
+								"file:./assets/fonts/mona-sans/Mona-Sans.woff2"
 							]
 						}
 					]
@@ -362,7 +362,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
 							"src": [
-								"file:./assets/fonts/Mona-Sans.woff2"
+								"file:./assets/fonts/mona-sans/Mona-Sans.woff2"
 							]
 						}
 					]
@@ -379,7 +379,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
 							"src": [
-								"file:./assets/fonts/Mona-Sans.woff2"
+								"file:./assets/fonts/mona-sans/Mona-Sans.woff2"
 							]
 						}
 					]
