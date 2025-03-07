@@ -5,13 +5,15 @@
 	"slug": "typography-preset-5",
 	"styles": {
 		"typography": {
-			"fontFamily":"var(--wp--preset--font-family--host-grotesk)"
+			"fontFamily":"var(--wp--preset--font-family--host-grotesk)",
+			"fontWeight": "400"
 		},
 		"elements": {
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--host-grotesk)",
-					"fontWeight": "700"
+					"fontWeight": "700",
+					"letterSpacing": ".5px"
 				}
 			}
 		}

@@ -5,7 +5,8 @@
 	"slug": "typography-preset-8",
 	"styles": {
 		"typography": {
-			"fontFamily":"var(--wp--preset--font-family--source-serif)"
+			"fontFamily":"var(--wp--preset--font-family--source-serif)",
+			"fontWeight": "400"
 		},
 		"elements": {
 			"heading": {
@@ -29,7 +30,7 @@
 							"fontFamily": "'Source Serif 4'",
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/source-serif/SourceSerif4-VariableFont_opsz,wght.ttf"]
+							"src": [ "file:./assets/fonts/source-serif/SourceSerif4-VariableFont_opsz,wght.woff2"]
 						}
 					]
 				}
