@@ -5,12 +5,15 @@
 	"slug": "typography-preset-4",
 	"styles": {
 		"typography": {
-			"fontFamily":"var(--wp--preset--font-family--mona-sans)"
+			"fontFamily":"var(--wp--preset--font-family--host-grotesk)",
+			"fontWeight": "400"
 		},
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--big-shoulders)"
+					"fontFamily": "var(--wp--preset--font-family--host-grotesk)",
+					"fontWeight": "700",
+					"letterSpacing": ".5px"
 				}
 			}
 		}
@@ -19,30 +22,16 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "Mona Sans, sans-serif",
-					"name": "Mona Sans",
-					"slug": "mona-sans",
+					"fontFamily": "Host Grotesk, serif",
+					"name": "Host Grotesk",
+					"slug": "host-grotesk",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Mona Sans",
+							"fontFamily": "Host Grotesk",
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/mona-sans/Mona-Sans.woff2"]
-						}
-					]
-				},
-				{
-					"fontFamily": "Big Shoulders, sans-serif",
-					"name": "Big Shoulders",
-					"slug": "big-shoulders",
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Big Shoulders",
-							"fontStyle": "normal",
-							"fontWeight": "100 900",
-							"src": [ "file:./assets/fonts/big-shoulders/BigShoulders-VariableFont_opsz,wght.woff2"]
+							"src": [ "file:./assets/fonts/host-grotesk/HostGrotesk-VariableFont_wght.woff2"]
 						}
 					]
 				}

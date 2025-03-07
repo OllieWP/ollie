@@ -2,15 +2,16 @@
 	"version": 3,
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"title": "Preset 2",
-	"slug": "typography-preset-1",
+	"slug": "typography-preset-2",
 	"styles": {
 		"typography": {
-			"fontFamily":"var(--wp--preset--font-family--mona-sans)"
+			"fontFamily": "var(--wp--preset--font-family--outfit)",
+			"fontWeight": "350"
 		},
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--mona-sans-narrow)"
+					"fontFamily": "var(--wp--preset--font-family--outfit)"
 				}
 			}
 		}
@@ -19,35 +20,83 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "Mona Sans, sans-serif",
-					"name": "Mona Sans",
-					"slug": "mona-sans",
+					"fontFamily": "Outfit, sans-serif",
+					"name": "Outfit",
+					"slug": "outfit",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Mona Sans",
+							"fontFamily": "Outfit",
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/mona-sans/Mona-Sans.woff2"]
+							"src": [ "file:./assets/fonts/outfit/Outfit-VariableFont_wght.woff2"]
 						}
 					]
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"min": "0.925rem",
+						"max": "1.075rem"
+					},
+					"size": "1.075rem",
+					"slug": "x-small",
+					"name": "Extra Small"
 				},
 				{
-					"fontFamily": "Mona Sans Narrow, sans-serif",
-					"name": "Mona Sans Narrow",
-					"slug": "mona-sans-narrow",
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Mona Sans Narrow",
-							"fontStretch": "75%",
-							"fontStyle": "normal",
-							"fontWeight": "300 900",
-							"src": [
-								"file:./assets/fonts/mona-sans/Mona-Sans.woff2"
-							]
-						}
-					]
+					"fluid": {
+						"min": "1.075rem",
+						"max": "1.17rem"
+					},
+					"size": "1.17rem",
+					"slug": "small",
+					"name": "Small"
+				},
+				{
+					"fluid": {
+						"min": "1.165rem",
+						"max": "1.265rem"
+					},
+					"size": "1.265rem",
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"fluid": {
+						"min": "1.365rem",
+						"max": "1.765rem"
+					},
+					"size": "1.765rem",
+					"slug": "medium",
+					"name": "Medium"
+				},
+				{
+					"fluid": {
+						"min": "1.665rem",
+						"max": "2.9rem"
+					},
+					"size": "2.9rem",
+					"slug": "large",
+					"name": "Large"
+				},
+				{
+					"fluid": {
+						"min": "2.05rem",
+						"max": "3.7rem"
+					},
+					"size": "3.7rem",
+					"slug": "x-large",
+					"name": "Extra Large"
+				},
+				{
+					"fluid": {
+						"min": "2.425rem",
+						"max": "4.65rem"
+					},
+					"size": "4.65rem",
+					"slug": "xx-large",
+					"name": "Extra Extra Large"
 				}
 			]
 		}

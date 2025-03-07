@@ -5,14 +5,14 @@
 	"slug": "typography-preset-6",
 	"styles": {
 		"typography": {
-			"fontFamily":"var(--wp--preset--font-family--source-serif)",
+			"fontFamily":"var(--wp--preset--font-family--mona-sans)",
 			"fontWeight": "400"
 		},
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--montagu-slab)",
-					"letterSpacing": "-1px"
+					"fontFamily": "var(--wp--preset--font-family--fraunces)",
+					"fontWeight": "700"
 				}
 			}
 		}
@@ -21,30 +21,30 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "Montagu Slab, serif",
-					"name": "Montagu Slab",
-					"slug": "montagu-slab",
+					"fontFamily": "Fraunces, serif",
+					"name": "Fraunces",
+					"slug": "fraunces",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Montagu Slab",
+							"fontFamily": "Fraunces",
 							"fontStyle": "normal",
-							"fontWeight": "300 700",
-							"src": [ "file:./assets/fonts/montagu-slab/MontaguSlab-VariableFont_opsz,wght.woff2"]
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.woff2"]
 						}
 					]
 				},
 				{
-					"fontFamily": "'Source Serif 4'",
-					"name": "Source Serif 4",
-					"slug": "source-serif",
+					"fontFamily": "Mona Sans, sans-serif",
+					"name": "Mona Sans",
+					"slug": "mona-sans",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "'Source Serif 4'",
+							"fontFamily": "Mona Sans",
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/source-serif/SourceSerif4-VariableFont_opsz,wght.woff2"]
+							"src": [ "file:./assets/fonts/mona-sans/Mona-Sans.woff2"]
 						}
 					]
 				}

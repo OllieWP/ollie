@@ -5,15 +5,14 @@
 	"slug": "typography-preset-5",
 	"styles": {
 		"typography": {
-			"fontFamily":"var(--wp--preset--font-family--host-grotesk)",
+			"fontFamily":"var(--wp--preset--font-family--source-serif)",
 			"fontWeight": "400"
 		},
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--host-grotesk)",
-					"fontWeight": "700",
-					"letterSpacing": ".5px"
+					"fontFamily": "var(--wp--preset--font-family--montagu-slab)",
+					"letterSpacing": "-1px"
 				}
 			}
 		}
@@ -22,16 +21,30 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "Host Grotesk, serif",
-					"name": "Host Grotesk",
-					"slug": "host-grotesk",
+					"fontFamily": "Montagu Slab, serif",
+					"name": "Montagu Slab",
+					"slug": "montagu-slab",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Host Grotesk",
+							"fontFamily": "Montagu Slab",
+							"fontStyle": "normal",
+							"fontWeight": "300 700",
+							"src": [ "file:./assets/fonts/montagu-slab/MontaguSlab-VariableFont_opsz,wght.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "'Source Serif 4'",
+					"name": "Source Serif 4",
+					"slug": "source-serif",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "'Source Serif 4'",
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/host-grotesk/HostGrotesk-VariableFont_wght.woff2"]
+							"src": [ "file:./assets/fonts/source-serif/SourceSerif4-VariableFont_opsz,wght.woff2"]
 						}
 					]
 				}
