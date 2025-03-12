@@ -1,0 +1,54 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "Preset 6",
+	"slug": "typography-preset-6",
+	"styles": {
+		"typography": {
+			"fontFamily":"var(--wp--preset--font-family--mona-sans)",
+			"fontWeight": "400"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--fraunces)",
+					"fontWeight": "700"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Fraunces, serif",
+					"name": "Fraunces",
+					"slug": "fraunces",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Fraunces",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "Mona Sans, sans-serif",
+					"name": "Mona Sans",
+					"slug": "mona-sans",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/mona-sans/Mona-Sans.woff2"]
+						}
+					]
+				}
+			]
+		}
+	}
+}

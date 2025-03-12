@@ -1,0 +1,40 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "Preset 7",
+	"slug": "typography-preset-7",
+	"styles": {
+		"typography": {
+			"fontFamily":"var(--wp--preset--font-family--source-serif)",
+			"fontWeight": "400"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--source-serif)",
+					"fontWeight": "800"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "'Source Serif 4'",
+					"name": "Source Serif 4",
+					"slug": "source-serif",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "'Source Serif 4'",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/source-serif/SourceSerif4-VariableFont_opsz,wght.woff2"]
+						}
+					]
+				}
+			]
+		}
+	}
+}

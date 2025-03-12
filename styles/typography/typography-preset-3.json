@@ -1,0 +1,52 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "Preset 3",
+	"slug": "typography-preset-3",
+	"styles": {
+		"typography": {
+			"fontFamily":"var(--wp--preset--font-family--mona-sans)"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--big-shoulders)"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Mona Sans, sans-serif",
+					"name": "Mona Sans",
+					"slug": "mona-sans",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/mona-sans/Mona-Sans.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "Big Shoulders, sans-serif",
+					"name": "Big Shoulders",
+					"slug": "big-shoulders",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Big Shoulders",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/fonts/big-shoulders/BigShoulders-VariableFont_opsz,wght.woff2"]
+						}
+					]
+				}
+			]
+		}
+	}
+}

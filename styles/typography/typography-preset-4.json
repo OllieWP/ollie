@@ -1,0 +1,41 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "Preset 4",
+	"slug": "typography-preset-4",
+	"styles": {
+		"typography": {
+			"fontFamily":"var(--wp--preset--font-family--host-grotesk)",
+			"fontWeight": "400"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--host-grotesk)",
+					"fontWeight": "700",
+					"letterSpacing": ".5px"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Host Grotesk, serif",
+					"name": "Host Grotesk",
+					"slug": "host-grotesk",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/host-grotesk/HostGrotesk-VariableFont_wght.woff2"]
+						}
+					]
+				}
+			]
+		}
+	}
+}
