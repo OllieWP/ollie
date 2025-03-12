@@ -76,7 +76,7 @@
 	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
 		border-radius: 0;
 		margin: 0;
-		padding: 5px 0 0 15px;
+		padding: 5px 0 0 20px;
 		align-items: flex-start;
 		flex-direction: column;
 		gap: 5px;
@@ -87,7 +87,7 @@
 		display: block;
         position: absolute;
         right: 0;
-		top: 6px;
+		top: 5px;
         height: auto;
         width: 60px;
 		padding: 15px 0;
@@ -116,7 +116,7 @@
 	/* Mobile menu links */
 	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content {
 		width: 100%;
-		font-size: var(--wp--preset--font-size--medium);
+		font-size: var(--wp--preset--font-size--base);
 		padding: 15px 60px 15px 15px;
 		border-radius: 5px;
 	}
@@ -159,7 +159,7 @@
 	}
 
 	.is-menu-open.has-modal-open .wp-block-buttons .wp-block-button__link {
-		font-size: var(--wp--preset--font-size--medium);
+		font-size: var(--wp--preset--font-size--base);
 		flex-basis: 100%;
     	width: 100%;
 		padding: 15px;
