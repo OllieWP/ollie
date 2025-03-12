@@ -30,7 +30,7 @@
 <!-- wp:post-date /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-featured-image {"style":{"color":{"duotone":"unset"},"spacing":{"margin":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} /-->
+<!-- wp:post-featured-image {"style":{"spacing":{"margin":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} /-->
 
 <!-- wp:post-content {"align":"wide","layout":{"type":"constrained"}} /--></div>
 <!-- /wp:group --></div>

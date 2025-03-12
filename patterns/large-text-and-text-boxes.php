@@ -11,14 +11,14 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Large Text and Text Boxes"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xxx-large","bottom":"var:preset|spacing|xxx-large"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|x-large"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xxx-large);padding-bottom:var(--wp--preset--spacing--xxx-large)"><!-- wp:group {"metadata":{"name":"Titles"},"align":"wide","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Large Text and Text Boxes"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|x-large"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:group {"metadata":{"name":"Titles"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
 <p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Built For The Future', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.3"}},"fontSize":"large"} -->
-<p class="has-large-font-size" style="font-style:normal;font-weight:600;line-height:1.3">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">
 <?php
 /* translators: %s: Highlighted text */
 echo sprintf(
@@ -26,8 +26,8 @@ echo sprintf(
 	'<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">' . esc_html__( 'No coding skills required.', 'ollie' ) . '</mark>'
 );
 ?>
-</p>
-<!-- /wp:paragraph --></div>
+</h2>
+<!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Feature Grid"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"grid","minimumColumnWidth":"18rem"}} -->
