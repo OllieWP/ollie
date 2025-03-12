@@ -197,7 +197,7 @@ avatar-3.webp       - https://stocksnap.io/photo/woman-glasses-7RKWHUXLMQ
 avatar-4.webp       - https://stocksnap.io/photo/smiling-woman-KS92MVGSXY
 avatar-5.webp       - https://stocksnap.io/photo/male-professional-6QXAIH13O6
 avatar-7.webp       - https://stocksnap.io/photo/woman-business-LERRJPTMHP
-desktop.webp        - https://startupstockphotos.com/photos/workspace-desk-office/
+desktop.webp        - https://stocksnap.io/photo/top-workspace-ZUQSBU4E5B
 guy-laptop.webp     - https://startupstockphotos.com/photos/office-worker-computer/
 
 logo-1.webp, logo-2.webp, logo-3.webp, logo-4.webp, logo-5.webp - created by Mike McAlister and available via CC0.
