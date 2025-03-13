@@ -26,3 +26,12 @@ fsestudio-data.json
 composer.lock
 
 /vendor/
+
+# ignore package.json
+package.json
+
+# ignore package-lock.json
+package-lock.json
+
+# ignore node_modules
+node_modules/
