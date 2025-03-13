@@ -5,13 +5,14 @@
 	"slug": "typography-preset-2",
 	"styles": {
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--outfit)",
-			"fontWeight": "350"
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)",
+			"fontWeight": "400"
 		},
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--outfit)"
+					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
+					"fontWeight": "700"
 				}
 			}
 		}
@@ -20,83 +21,18 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "Outfit, sans-serif",
-					"name": "Outfit",
-					"slug": "outfit",
+					"fontFamily": "DM Sans, sans-serif",
+					"name": "DM Sans",
+					"slug": "dm-sans",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Outfit",
+							"fontFamily": "DM Sans",
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/outfit/Outfit-VariableFont_wght.woff2"]
+							"src": [ "file:./assets/fonts/dm-sans/DMSans-VariableFont_opsz,wght.woff2"]
 						}
 					]
-				}
-			],
-			"fontSizes": [
-				{
-					"fluid": {
-						"min": "0.925rem",
-						"max": "1.075rem"
-					},
-					"size": "1.075rem",
-					"slug": "x-small",
-					"name": "Extra Small"
-				},
-				{
-					"fluid": {
-						"min": "1.075rem",
-						"max": "1.17rem"
-					},
-					"size": "1.17rem",
-					"slug": "small",
-					"name": "Small"
-				},
-				{
-					"fluid": {
-						"min": "1.165rem",
-						"max": "1.265rem"
-					},
-					"size": "1.265rem",
-					"slug": "base",
-					"name": "Base"
-				},
-				{
-					"fluid": {
-						"min": "1.365rem",
-						"max": "1.765rem"
-					},
-					"size": "1.765rem",
-					"slug": "medium",
-					"name": "Medium"
-				},
-				{
-					"fluid": {
-						"min": "1.665rem",
-						"max": "2.9rem"
-					},
-					"size": "2.9rem",
-					"slug": "large",
-					"name": "Large"
-				},
-				{
-					"fluid": {
-						"min": "2.05rem",
-						"max": "3.7rem"
-					},
-					"size": "3.7rem",
-					"slug": "x-large",
-					"name": "Extra Large"
-				},
-				{
-					"fluid": {
-						"min": "2.425rem",
-						"max": "4.65rem"
-					},
-					"size": "4.65rem",
-					"slug": "xx-large",
-					"name": "Extra Extra Large"
 				}
 			]
 		}
