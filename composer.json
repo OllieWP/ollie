@@ -21,10 +21,9 @@
 		"squizlabs/php_codesniffer": "^3.11"
 	},
 	"scripts": {
-		"lint": "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor .",
-		"wpcs:scan": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --ignore=*/vendor/* --standard=WordPress-Extra .",		
-		"wpcs:fix": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --ignore=*/vendor/* --standard=WordPress-Extra ."
-		
+		"lint": "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor --exclude node_modules .",
+		"wpcs:scan": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --ignore=*/vendor/*,*/node_modules/* --standard=WordPress-Extra .",		
+		"wpcs:fix": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --ignore=*/vendor/*,*/node_modules/* --standard=WordPress-Extra ."
 	},
 	"config": {
 		"allow-plugins": {
