@@ -14,7 +14,7 @@
 <!-- wp:group {"metadata":{"name":"Pricing Table Card"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"5px","width":"1px"}},"borderColor":"border-light","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-border-color has-border-light-border-color" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"metadata":{"name":"Price"},"style":{"spacing":{"blockGap":"10px"}},"fontSize":"base","layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal"}} -->
 <div class="wp-block-group has-base-font-size"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"}},"fontSize":"x-large","fontFamily":"primary"} -->
-<p class="has-primary-font-family has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1">$9</p>
+<p class="has-primary-font-family has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1"><?php esc_html_e( '$9', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.4rem"}}},"textColor":"secondary","fontSize":"small","fontFamily":"primary"} -->
@@ -41,7 +41,7 @@
 <!-- wp:group {"metadata":{"name":"Features"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group has-small-font-size"><!-- wp:group {"metadata":{"name":"Feature"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>✓</strong></p>
+<p><strong><?php esc_html_e( '✓', 'ollie' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -55,7 +55,7 @@
 
 <!-- wp:group {"metadata":{"name":"Feature"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>✓</strong></p>
+<p><strong><?php esc_html_e( '✓', 'ollie' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -69,7 +69,7 @@
 
 <!-- wp:group {"metadata":{"name":"Feature"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>✓</strong></p>
+<p><strong><?php esc_html_e( '✓', 'ollie' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -83,7 +83,7 @@
 
 <!-- wp:group {"metadata":{"name":"Feature"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p><strong>✓</strong></p>
+<p><strong><?php esc_html_e( '✓', 'ollie' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

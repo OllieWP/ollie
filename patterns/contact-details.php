@@ -44,7 +44,7 @@
 
 <!-- wp:group {"metadata":{"name":"Testimonial"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color">★★★★★</p>
+<p class="has-primary-color has-text-color"><?php esc_html_e( '★★★★★', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
@@ -85,7 +85,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">mail@example.com</p>
+<p class="has-base-color has-text-color"><?php esc_html_e( 'mail@example.com', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -99,7 +99,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">815-420-2024</p>
+<p class="has-base-color has-text-color"><?php esc_html_e( '815-420-2024', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -113,7 +113,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">1234 Theme Street<br>San Francisco, CA 94070</p>
+<p class="has-base-color has-text-color"><?php esc_html_e( '1234 Theme Street', 'ollie' ); ?><br><?php esc_html_e( 'San Francisco, CA 94070', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

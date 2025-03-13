@@ -80,7 +80,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>33,240</p>
+<p><?php esc_html_e( '33,240', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -90,7 +90,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>1.1.0</p>
+<p><?php esc_html_e( '1.1.0', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -100,7 +100,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>★★★★★</p>
+<p><?php esc_html_e( '★★★★★', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -110,7 +110,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>2.2MB</p>
+<p><?php esc_html_e( '2.2MB', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -120,7 +120,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>50+</p>
+<p><?php esc_html_e( '50+', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

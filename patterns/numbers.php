@@ -16,7 +16,7 @@
 <div class="wp-block-group alignfull has-base-color has-text-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-text-align-center has-x-large-font-size">100%</h3>
+<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php esc_html_e( '100%', 'ollie' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
@@ -30,7 +30,7 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-text-align-center has-x-large-font-size">100%</h3>
+<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php esc_html_e( '100%', 'ollie' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
@@ -44,7 +44,7 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-text-align-center has-x-large-font-size">100%</h3>
+<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php esc_html_e( '100%', 'ollie' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->

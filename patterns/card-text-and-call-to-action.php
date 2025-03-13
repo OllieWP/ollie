@@ -11,7 +11,7 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Text and Call To Action Card"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Text and Call To Action Card","categories":["ollie/card"],"patternName":"ollie/card-text-and-call-to-action"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-tertiary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"metadata":{"name":"Titles"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
@@ -35,7 +35,7 @@
 <!-- wp:group {"metadata":{"name":"Testimonial"},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary"} -->
-<p class="has-primary-color has-text-color">★★★★★</p>
+<p class="has-primary-color has-text-color"><?php esc_html_e( '★★★★★', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
@@ -56,7 +56,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color"><?php echo esc_html_x( 'Version 1.0', 'Theme version number', 'ollie' ); ?></p>
+<p class="has-primary-accent-color has-text-color"><?php esc_html_e( 'Version 1.0', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -79,7 +79,7 @@
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-accent"}}},"typography":{"textDecoration":"underline"}},"textColor":"primary-accent","fontSize":"x-small"} -->
-<p class="has-text-align-center has-primary-accent-color has-text-color has-link-color has-x-small-font-size" style="text-decoration:underline"><?php echo wp_kses_post( _x( 'or view on <a href="#">WordPress.org</a>', 'Link to WordPress.org', 'ollie' ) ); ?></p>
+<p class="has-text-align-center has-primary-accent-color has-text-color has-link-color has-x-small-font-size" style="text-decoration:underline"><?php esc_html_e( 'or view on', 'ollie' ); ?><a href="#"><?php esc_html_e( 'WordPress.org', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

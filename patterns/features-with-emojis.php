@@ -15,7 +15,7 @@
 <div class="wp-block-group alignfull has-base-color has-primary-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"grid","minimumColumnWidth":"29rem"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Feature"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">😍</p>
+<p class="has-large-font-size"><?php esc_html_e( '😍', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -29,7 +29,7 @@
 
 <!-- wp:group {"metadata":{"name":"Feature"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">😎</p>
+<p class="has-large-font-size"><?php esc_html_e( '😎', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -43,7 +43,7 @@
 
 <!-- wp:group {"metadata":{"name":"Feature"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">🤓</p>
+<p class="has-large-font-size"><?php esc_html_e( '🤓', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -57,7 +57,7 @@
 
 <!-- wp:group {"metadata":{"name":"Feature"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">🤣</p>
+<p class="has-large-font-size"><?php esc_html_e( '🤣', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
