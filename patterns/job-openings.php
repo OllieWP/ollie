@@ -6,23 +6,23 @@
  * Categories: ollie/features, ollie/call-to-action
  * Keywords: employment, hiring, job, apply
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Job Openings"},"align":"full","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|x-large"}},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"metadata":{"name":"Titles"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( "We're Hiring", 'ollie' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'We\'re Hiring', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( "Let's work together!", 'ollie' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Let\'s work together!', 'ollie' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( "We're currently hiring for several different roles. All of our positions are remote flexible and our salaries are above competitive in the industry.", 'ollie' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'We\'re currently hiring for several different roles. All of our positions are remote flexible and our salaries are above competitive in the industry.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -48,8 +48,8 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"main-accent"} -->
-<hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-light"} -->
+<hr class="wp-block-separator has-text-color has-border-light-color has-alpha-channel-opacity has-border-light-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
 
@@ -72,8 +72,8 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"main-accent"} -->
-<hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-light"} -->
+<hr class="wp-block-separator has-text-color has-border-light-color has-alpha-channel-opacity has-border-light-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
 
@@ -96,8 +96,8 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"main-accent"} -->
-<hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-light"} -->
+<hr class="wp-block-separator has-text-color has-border-light-color has-alpha-channel-opacity has-border-light-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
 

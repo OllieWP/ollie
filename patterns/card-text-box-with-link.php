@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: 
- * Slug: ollie/card-text-box-with-arrow
+ * Title: Text Box Card
+ * Slug: ollie/text-box-with-link-card
  * Description: 
- * Categories: 
- * Keywords: 
- * Viewport Width: 1280
+ * Categories: ollie/card, ollie/call-to-action
+ * Keywords: box, text, link, icon, card
+ * Viewport Width: 600
  * Block Types: 
  * Post Types: 
  * Inserter: true

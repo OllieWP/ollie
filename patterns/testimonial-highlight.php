@@ -2,12 +2,12 @@
 /**
  * Title: Testimonial Highlight
  * Slug: ollie/testimonial-highlight
- * Description:
+ * Description: 
  * Categories: ollie/testimonial
  * Keywords: testimonial, review, rating, case study, text, heading
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
@@ -16,8 +16,8 @@
 <h2 class="wp-block-heading has-base-color has-text-color"><?php esc_html_e( 'I\'m super impressed with how powerful the WordPress Site Editor is. I can design my site so quickly with patterns!', 'ollie' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
-<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-dark"} -->
+<hr class="wp-block-separator has-text-color has-border-dark-color has-alpha-channel-opacity has-border-dark-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Cite"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

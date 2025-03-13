@@ -6,8 +6,8 @@
  * Categories: ollie/testimonial, ollie/call-to-action, ollie/hero
  * Keywords: contact, testimonial, about, columns, ratings, email, phone
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
@@ -38,8 +38,8 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","style":{"spacing":{"margin":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"main-accent"} -->
-<hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:var(--wp--preset--spacing--large)"/>
+<!-- wp:separator {"className":"is-style-separator-thin","style":{"spacing":{"margin":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"border-light"} -->
+<hr class="wp-block-separator has-text-color has-border-light-color has-alpha-channel-opacity has-border-light-background-color has-background is-style-separator-thin" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:var(--wp--preset--spacing--large)"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Testimonial"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
@@ -75,8 +75,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Text"},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
-<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
+<div class="wp-block-group"><!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-dark"} -->
+<hr class="wp-block-separator has-text-color has-border-dark-color has-alpha-channel-opacity has-border-dark-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Entry"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
@@ -89,8 +89,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
-<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-dark"} -->
+<hr class="wp-block-separator has-text-color has-border-dark-color has-alpha-channel-opacity has-border-dark-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Entry"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
@@ -103,8 +103,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
-<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-dark"} -->
+<hr class="wp-block-separator has-text-color has-border-dark-color has-alpha-channel-opacity has-border-dark-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Entry"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->

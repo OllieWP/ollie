@@ -2,12 +2,12 @@
 /**
  * Title: Text and Call To Action Card
  * Slug: ollie/card-text-and-call-to-action
- * Description:
+ * Description: 
  * Categories: ollie/testimonial, ollie/hero, ollie/card, ollie/call-to-action
  * Keywords: download, box, cta, rating, review, testimonial
  * Viewport Width: 1500
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
@@ -28,8 +28,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","style":{"spacing":{"margin":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"main-accent"} -->
-<hr class="wp-block-separator has-text-color has-main-accent-color has-alpha-channel-opacity has-main-accent-background-color has-background is-style-separator-dotted" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:var(--wp--preset--spacing--large)"/>
+<!-- wp:separator {"className":"is-style-separator-thin","style":{"spacing":{"margin":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"border-light"} -->
+<hr class="wp-block-separator has-text-color has-border-light-color has-alpha-channel-opacity has-border-light-background-color has-background is-style-separator-thin" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:var(--wp--preset--spacing--large)"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Testimonial"},"layout":{"type":"constrained"}} -->
@@ -61,11 +61,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"primary-accent"} -->
-<hr class="wp-block-separator has-text-color has-primary-accent-color has-alpha-channel-opacity has-primary-accent-background-color has-background is-style-separator-dotted"/>
-<!-- /wp:separator -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"base"} -->
 <p class="has-base-color has-text-color"><?php esc_html_e( 'Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. Anyone can do it! No coding skills required.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>

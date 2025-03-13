@@ -2,12 +2,12 @@
 /**
  * Title: Call To Action Card
  * Slug: ollie/card-call-to-action
- * Description:
+ * Description: 
  * Categories: ollie/card, ollie/call-to-action
  * Keywords: card, download, box, link, button, cta, call to action
  * Viewport Width: 600
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
@@ -23,11 +23,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Text"},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"primary-accent"} -->
-<hr class="wp-block-separator has-text-color has-primary-accent-color has-alpha-channel-opacity has-primary-accent-background-color has-background is-style-separator-dotted"/>
-<!-- /wp:separator -->
-
-<!-- wp:paragraph {"textColor":"base"} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"base"} -->
 <p class="has-base-color has-text-color"><?php esc_html_e( 'Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Ollie block theme. No coding skills required. Anyone can do it!', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 

@@ -2,9 +2,9 @@
 /**
  * Title: Footer
  * Slug: ollie/footer-dark
- * Description:
+ * Description: 
  * Categories: footer
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Post Types: wp_template
@@ -108,8 +108,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:separator {"align":"wide","className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
-<hr class="wp-block-separator alignwide has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"align":"wide","className":"is-style-separator-thin","backgroundColor":"border-dark"} -->
+<hr class="wp-block-separator alignwide has-text-color has-border-dark-color has-alpha-channel-opacity has-border-dark-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Footer Subnav"},"align":"wide"} -->
@@ -134,3 +134,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --></footer>
 <!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->

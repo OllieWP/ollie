@@ -2,12 +2,12 @@
 /**
  * Title: Single Testimonial
  * Slug: ollie/single-testimonial
- * Description:
+ * Description: 
  * Categories: ollie/testimonial, ollie/features, ollie/card
  * Keywords: testimonial, text, review, rating, avatar, card
  * Viewport Width: 600
- * Block Types:
- * Post Types:
+ * Block Types: 
+ * Post Types: 
  * Inserter: true
  */
 ?>
@@ -16,8 +16,8 @@
 <p class="has-base-color has-text-color has-large-font-size" style="line-height:1.3"><?php esc_html_e( 'Wow, I really can\'t believe how powerful the WordPress Site Editor is combined with Ollie. I don\'t even need a page builder anymore!', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
-<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
+<!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-dark"} -->
+<hr class="wp-block-separator has-text-color has-border-dark-color has-alpha-channel-opacity has-border-dark-background-color has-background is-style-separator-thin"/>
 <!-- /wp:separator -->
 
 <!-- wp:group {"metadata":{"name":"Cite"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
