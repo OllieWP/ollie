@@ -19,18 +19,18 @@
 
 <!-- wp:group {"metadata":{"name":"Titles"},"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
-<p class="has-text-align-center has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Eric Voyager</p>
+<p class="has-text-align-center has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Eric Voyager', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"tertiary"} -->
-<p class="has-text-align-center has-tertiary-color has-text-color">Creator and Product Director at IdeaFlow</p>
+<p class="has-text-align-center has-tertiary-color has-text-color"><?php esc_html_e( 'Creator and Product Director at IdeaFlow', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Bio and Links"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":{"bottomLeft":"5px","bottomRight":"5px"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-tertiary-background-color has-background" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">Use this profile box as a LinkTree alternative. Link your social media accounts to this page so your followers can find all of your important links.</p>
+<p class="has-text-align-center has-secondary-color has-text-color"><?php esc_html_e( 'Use this profile box as a LinkTree alternative. Link your social media accounts to this page so your followers can find all of your important links.', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","iconBackgroundColor":"main","iconBackgroundColorValue":"#1E1E26","align":"center","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"var:preset|spacing|medium"}}}} -->
