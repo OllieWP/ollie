@@ -54,8 +54,8 @@
 <p class="has-main-accent-color has-text-color has-x-small-font-size"><?php esc_html_e( 'The WordPress Site Editor is a total game changer. It\'s blazing fast and I don\'t need a page builder anymore. 😍', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( '— Mandi Alpine, Brandwich', 'ollie' ); ?></p>
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"x-small"} -->
+<p class="has-base-color has-text-color has-link-color has-x-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( '— Mandi Alpine, Brandwich', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
