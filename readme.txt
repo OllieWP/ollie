@@ -215,7 +215,7 @@ desktop.webp        - https://stocksnap.io/photo/top-workspace-ZUQSBU4E5B
 guy-laptop.webp     - https://startupstockphotos.com/photos/office-worker-computer/
 
 logo-1.webp, logo-2.webp, logo-3.webp, logo-4.webp, logo-5.webp - created by Mike McAlister and available via CC0.
-All images in /inc/settings/build/images/ created by Mike McAlister and available via CC0. 
+All images in /inc/dashboard/build/images/ created by Mike McAlister and available via CC0. 
 
 Other assets: 
 
