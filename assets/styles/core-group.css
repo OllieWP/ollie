@@ -34,3 +34,13 @@
 .wp-block-group.ollie-sticky-top {
 	top: calc(20px + var(--wp-admin--admin-bar--position-offset, 0px))
 }
+
+/* Helper class to swap order on mobile */
+@media (max-width: 781px) {
+	.ollie-swap-order {
+		flex-direction: column-reverse;
+	}
+	.ollie-row-reverse {
+		flex-direction: row-reverse;
+	}
+}
