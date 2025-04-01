@@ -14,18 +14,18 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 
 == Changelog ==
 
-= 1.4.3 - 4/1/24 =
+= 1.4.3 - 4/1/25 =
 * Add flexbox helper class to group blocks
 * Remove space gap from blog index
 * RTL improvements for mobile menu
 
-= 1.4.2 - 3/17/24 =
+= 1.4.2 - 3/17/25 =
 * Fix social icons on mobile menu
 
-= 1.4.1 - 3/13/24 =
+= 1.4.1 - 3/13/25 =
 * Remove duplicate card pattern
 
-= 1.4.0 - 3/13/24 =
+= 1.4.0 - 3/13/25 =
 * Add small style fixes for WooCommerce
 * Add 7 new typography presets
 * New mobile navigation design with drop downs
@@ -33,21 +33,21 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 * Automate pattern translations
 * Improve pricing table pattern designs
 
-= 1.3.4 - 3/5/24 =
+= 1.3.4 - 3/5/25 =
 * Rename header and footer parts for consistency
 * Update page templates to use patterns so we can translate strings
 * Add translation strings to all patterns
 * Linting improvements on all files
 
-= 1.3.3 - 1/31/24 =
+= 1.3.3 - 1/31/25 =
 * Improve standalone color palettes to match style variations
 * Add standalone Neon color palette from Agency style variation
 * Add Brand Alt color variation for buttons
 
-= 1.3.2 - 1/29/24 =
+= 1.3.2 - 1/29/25 =
 * Improve responsive typography for smaller screens
 
-= 1.3.1 - 1/29/24 =
+= 1.3.1 - 1/29/25 =
 * Remove extra styles in /styles folder
 
 = 1.3.0 - 12/16/24 =
