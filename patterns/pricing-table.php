@@ -193,6 +193,6 @@
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary","fontSize":"small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'Not convinced? We offer a&nbsp;', 'ollie' ); ?><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color"><?php esc_html_e( '100% money back guarantee', 'ollie' ); ?></mark></strong><?php esc_html_e( '&nbsp;for all purchases. Try our product with confidence, and if you don\'t like it, we\'ll make it right.', 'ollie' ); ?></p>
+<p class="has-text-align-center has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'Not convinced? We offer a', 'ollie' ); ?> <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color"><?php esc_html_e( '100% money back guarantee', 'ollie' ); ?></mark></strong> <?php esc_html_e( 'for all purchases. Try our product with confidence, and if you don\'t like it, we\'ll make it right.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

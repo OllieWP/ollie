@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 6.7.1
 Requires PHP: 7.2
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,11 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 50 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with global styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
 
 == Changelog ==
+
+= 1.4.3 - 4/1/24 =
+* Add flexbox helper class to group blocks
+* Remove space gap from blog index
+* RTL improvements for mobile menu
 
 = 1.4.2 - 3/17/24 =
 * Fix social icons on mobile menu
@@ -215,9 +220,7 @@ desktop.webp        - https://stocksnap.io/photo/top-workspace-ZUQSBU4E5B
 guy-laptop.webp     - https://startupstockphotos.com/photos/office-worker-computer/
 
 logo-1.webp, logo-2.webp, logo-3.webp, logo-4.webp, logo-5.webp - created by Mike McAlister and available via CC0.
-All images in /inc/settings/build/images/ created by Mike McAlister and available via CC0. 
 
 Other assets: 
 
 - The Mona Sans font is available via the SIL Open Font License 1.1: https://github.com/github/mona-sans/blob/main/LICENSE
-- Icons available from Iconnoir via the MIT License: https://github.com/iconoir-icons/iconoir/blob/main/LICENSE

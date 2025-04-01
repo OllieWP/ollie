@@ -1,0 +1,23 @@
+{
+	"name": "Ollie",
+	"version": "1.0",
+	"description": "Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme.",
+	"scripts": {
+	  "translate:patterns": "node theme-utils.mjs escape-patterns --text-domain=ollie",
+	  "dev": "node theme-utils.mjs watch --text-domain=ollie"
+	},
+	"keywords": [
+	  "wordpress",
+	  "theme",
+	  "block-theme",
+	  "translation"
+	],
+	"author": "Mike McAlister",
+	"license": "GPL-2.0-or-later",
+	"dependencies": {
+	  "parse5-html-rewriting-stream": "^7.0.0",
+	  "fast-glob": "^3.3.2",
+	  "chokidar": "^3.5.3"
+	},
+	"type": "module"
+  }
