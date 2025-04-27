@@ -10,7 +10,8 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--mona-sans-expanded)"
+					"fontFamily": "var(--wp--preset--font-family--mona-sans-expanded)",
+					"fontWeight": "500"
 				}
 			}
 		}

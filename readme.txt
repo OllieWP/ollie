@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 6.7.1
 Requires PHP: 7.2
-Stable tag: 1.4.6
+Stable tag: 1.4.7
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,8 +14,12 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 
 == Changelog ==
 
+= 1.4.7 - 4/27/25 =
+* Minor style adjustments for WordPress 6.8
+* Fix text underline rendering bug for Firefox
+
 = 1.4.6 - 4/13/25 =
-* Update Mona Sans font with better support for multilingual characters.
+* Update Mona Sans font with better support for multilingual characters
 
 = 1.4.5 - 4/9/25 =
 * Fix loop query bug that prevented cateories from showing correctly

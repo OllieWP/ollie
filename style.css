@@ -7,7 +7,7 @@ Description: Launch a blazing-fast, pixel-perfect website with the Ollie WordPre
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Tested up to: 6.7.1
 Requires PHP: 7.3
-Version: 1.4.6
+Version: 1.4.7
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ollie
@@ -60,6 +60,13 @@ img,
 figure {
 	max-width: 100%;
 	height: auto;
+}
+
+/* Temporary fix for text-decoration-thickness in Firefox */
+@-moz-document url-prefix() {
+	a {
+		text-decoration-thickness: .1rem !important;
+	}
 }
 
 /* Standardize form styling
@@ -131,6 +138,10 @@ a.more-link {
 	padding: 3px 5px;
 	position: relative;
 	border-radius: 3px;
+}
+
+.wp-block-categories {
+	position: relative;
 }
 
 /* Adjust terms at bottom of posts */
