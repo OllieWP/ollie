@@ -715,6 +715,9 @@
 					"padding": {
 						"left": "var:preset|spacing|large",
 						"right": "var:preset|spacing|large"
+					},
+					"margin": {
+						"left": "0"
 					}
 				},
 				"typography": {
