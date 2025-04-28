@@ -1,0 +1,122 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "Preset 9",
+	"slug": "typography-preset-9",
+	"styles": {
+		"typography": {
+			"fontFamily":"var(--wp--preset--font-family--mona-sans)"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mona-sans-narrow)",
+					"fontWeight": "700",
+					"lineHeight": "var(--wp--custom--line-height--tight)"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Mona Sans, sans-serif",
+					"name": "Mona Sans",
+					"slug": "mona-sans",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/mona-sans/Mona-Sans.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "Mona Sans Narrow, sans-serif",
+					"name": "Mona Sans Narrow",
+					"slug": "mona-sans-narrow",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans Narrow",
+							"fontStretch": "75%",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [
+								"file:./assets/fonts/mona-sans/Mona-Sans.woff2"
+							]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"min": ".825rem",
+						"max": ".95rem"
+					},
+					"size": ".95rem",
+					"slug": "x-small",
+					"name": "Extra Small"
+				},
+				{
+					"fluid": {
+						"min": ".9rem",
+						"max": "1.05rem"
+					},
+					"size": "1.05rem",
+					"slug": "small",
+					"name": "Small"
+				},
+				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.125rem"
+					},
+					"size": "1.125rem",
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"fluid": {
+					  "min": "1.25rem",
+					  "max": "1.75rem"
+					},
+					"size": "1.75rem",
+					"slug": "medium",
+					"name": "Medium"
+				  },
+				  {
+					"fluid": {
+					  "min": "1.85rem",
+					  "max": "2.75rem"
+					},
+					"size": "2.75rem",
+					"slug": "large",
+					"name": "Large"
+				  },
+				  {
+					"fluid": {
+					  "min": "2.85rem",
+					  "max": "4.25rem"
+					},
+					"size": "4.25rem",
+					"slug": "x-large",
+					"name": "Extra Large"
+				  },
+				  {
+					"fluid": {
+					  "min": "4.5rem",
+					  "max": "6.5rem"
+					},
+					"size": "6.5rem",
+					"slug": "xx-large",
+					"name": "Extra Extra Large"
+				  }
+			]
+		}
+	}
+}
