@@ -1,0 +1,67 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "Preset 8",
+	"slug": "typography-preset-8",
+	"styles": {
+		"typography": {
+			"fontFamily":"var(--wp--preset--font-family--mona-sans)"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mona-sans)",
+					"fontWeight": "800",
+					"lineHeight": "var(--wp--custom--line-height--snug)"
+				}
+			},
+			"h1": {
+				"typography": {
+					"letterSpacing": "-1px"
+				}
+			},
+			"h2": {
+				"typography": {
+					"letterSpacing": "-1px"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Mona Sans, sans-serif",
+					"name": "Mona Sans",
+					"slug": "mona-sans",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/mona-sans/Mona-Sans.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "Mona Sans Expanded, sans-serif",
+					"name": "Mona Sans Expanded",
+					"slug": "mona-sans-expanded",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans Expanded",
+							"fontStretch": "125%",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [
+								"file:./assets/fonts/mona-sans/Mona-Sans.woff2"
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}
