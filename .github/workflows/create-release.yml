@@ -1,23 +1,62 @@
-name: Create theme release
+name: Create Release from Readme
 
 on:
-  release:
-    types: [published, edited]
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Zip Folder
-      run: zip -r ${{ github.event.repository.name }}.zip . -x ".git/*" ".github/*" "phpcs.xml" "composer.json" "composer.lock" ".gitignore" "node_modules" "package-lock.json" "inc/dashboard/src"
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-    - name: Release
-      uses: softprops/action-gh-release@v1
-      if: startsWith(github.ref, 'refs/tags/')
-      with:
-        files: ${{ github.event.repository.name }}.zip
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Extract version and changelog
+        id: extract_info
+        run: |
+          # Extract stable tag
+          STABLE_TAG=$(grep -Po 'Stable tag: \K(.*)' readme.txt)
+          echo "STABLE_TAG=$STABLE_TAG" >> $GITHUB_ENV
+          
+          # Extract latest changelog entry
+          CHANGELOG_TITLE=$(grep -Po '= [0-9.]+ - [0-9/]+ =' readme.txt | head -1)
+          
+          # Get all bullet points under the latest changelog entry
+          CHANGELOG_START_LINE=$(grep -n "$CHANGELOG_TITLE" readme.txt | cut -d ':' -f 1)
+          NEXT_SECTION_LINE=$(tail -n +$((CHANGELOG_START_LINE+1)) readme.txt | grep -n "=" | head -1 | cut -d ':' -f 1)
+          
+          if [ -z "$NEXT_SECTION_LINE" ]; then
+            # If there's no next section, read until end of changelog section
+            NEXT_SECTION_LINE=$(tail -n +$((CHANGELOG_START_LINE+1)) readme.txt | grep -n "==" | head -1 | cut -d ':' -f 1)
+          fi
+          
+          CHANGELOG_CONTENT=$(tail -n +$((CHANGELOG_START_LINE+1)) readme.txt | head -n $((NEXT_SECTION_LINE-1)))
+          
+          # Format the release notes
+          RELEASE_NOTES="${CHANGELOG_TITLE}\n${CHANGELOG_CONTENT}"
+          echo "RELEASE_NOTES<<EOF" >> $GITHUB_ENV
+          echo -e "$RELEASE_NOTES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Create ZIP archive
+        run: |
+          zip -r ollie-pro.zip . -x "*.git*" -x "*.github*"
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ env.STABLE_TAG }}
+          name: Release v${{ env.STABLE_TAG }}
+          body: ${{ env.RELEASE_NOTES }}
+          draft: false
+          prerelease: false
+          files: ollie-pro.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
