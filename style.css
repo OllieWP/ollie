@@ -7,7 +7,7 @@ Description: Launch a blazing-fast, pixel-perfect website with the Ollie WordPre
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Tested up to: 6.7.1
 Requires PHP: 7.3
-Version: 1.4.8
+Version: 1.4.9
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ollie
@@ -134,7 +134,6 @@ a.more-link {
 /* Inline code */
 *:not(.wp-block-code) > code {
 	background-color: var(--wp--preset--color--tertiary);
-	font-weight: var(--wp--custom--font-weight--medium);;
 	padding: 3px 5px;
 	position: relative;
 	border-radius: 3px;
@@ -173,12 +172,34 @@ a.more-link {
 	flex-shrink: 1 !important;
 }
 
+/* Sticky header */
+
+header:has(>.is-position-sticky) {
+	position: sticky;
+	top: calc( 0px + var( --wp-admin--admin-bar--height, 0px ) );
+	z-index: 100;
+}
+
+/* Account for admin bar on mobile */
+
+@media (max-width: 600px) {
+	header:has(>.is-position-sticky) {
+		top: 0;
+	}
+}
+
+/* Mobile helper classes */
+
 @media (max-width: 781px) {
 	.ollie-hide-on-mobile {
 		display: none;
 	}
 
 	.ollie-unstick-mobile {
+		position: static;
+	}
+
+	header:has(>.ollie-unstick-mobile) {
 		position: static;
 	}
 }
