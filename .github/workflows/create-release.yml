@@ -46,7 +46,7 @@ jobs:
 
       - name: Create ZIP archive
         run: |
-          zip -r ollie-pro.zip . -x "*.git*" -x "*.github*"
+          zip -r ollie.zip . -x "*.git*" -x "*.github*"
 
       - name: Create Release
         id: create_release
@@ -57,6 +57,6 @@ jobs:
           body: ${{ env.RELEASE_NOTES }}
           draft: false
           prerelease: false
-          files: ollie-pro.zip
+          files: ollie.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
