@@ -3,7 +3,7 @@ Contributors: mmcalister, patrickposner
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 5.8
 Tested up to: 6.7.1
-Requires PHP: 7.2
+Requires PHP: 7.3
 Stable tag: 1.4.9
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
