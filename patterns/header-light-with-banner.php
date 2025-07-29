@@ -11,16 +11,16 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"tagName":"header","metadata":{"name":"Header"},"align":"full","layout":{"type":"constrained"}} -->
-<header class="wp-block-group alignfull"><!-- wp:group {"metadata":{"name":"CTA Bar"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|small","left":"var:preset|spacing|medium"}}},"backgroundColor":"primary","textColor":"base","layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Header"},"align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"metadata":{"name":"CTA Bar"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|small","left":"var:preset|spacing|medium"}}},"backgroundColor":"primary","textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-base-color has-primary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"fontSize":"x-small"} -->
-<p class="has-link-color has-x-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( "We've just launched a new product!", 'ollie' ); ?></p>
+<p class="has-link-color has-x-small-font-size" style="font-style:normal;font-weight:500">We've just launched a new product!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-light","fontSize":"x-small"} -->
-<div class="wp-block-button has-custom-font-size is-style-button-light has-x-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Download Now', 'ollie' ); ?></a></div>
+<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link has-x-small-font-size has-custom-font-size wp-element-button">Download Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -32,5 +32,5 @@
 
 <!-- wp:navigation {"openSubmenusOnClick":true,"icon":"menu","style":{"spacing":{"blockGap":"var:preset|spacing|small"},"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"small"} /--></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></header>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
