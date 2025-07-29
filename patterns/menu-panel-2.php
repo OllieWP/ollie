@@ -4,8 +4,8 @@
  * Slug: ollie/menu-panel-2
  * Description: Menu with columns with icons and text and case study
  * Categories: ollie/menu
- * Keywords: menu, columns, case study, drop down
- * Viewport Width: 800
+ * Keywords: menu, drop down, mobile, mega menu
+ * Viewport Width: 1260
  * Block Types: core/template-part/menu
  * Inserter: true
  */

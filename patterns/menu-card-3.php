@@ -4,7 +4,7 @@
  * Slug: ollie/menu-card-3
  * Description: 
  * Categories: ollie/menu
- * Keywords: 
+ * Keywords: menu, drop down, mobile, card
  * Viewport Width: 800
  * Block Types: core/template-part/menu
  * Post Types: 
