@@ -108,7 +108,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"id":31,"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="https://olliedev.local/wp-content/uploads/2025/07/computer-hands-1024x809.webp" alt="" class="wp-image-31" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/computer-hands.webp" alt="" class="wp-image-31" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:buttons -->
