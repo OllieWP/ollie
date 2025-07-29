@@ -20,11 +20,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size"><strong>Margo Middleton</strong></p>
+<p class="has-medium-font-size"><strong><?php esc_html_e( 'Margo Middleton', 'ollie' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
-<p class="has-secondary-color has-text-color has-link-color">Director of AI</p>
+<p class="has-secondary-color has-text-color has-link-color"><?php esc_html_e( 'Director of AI', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -36,7 +36,7 @@
 
 <!-- wp:group {"metadata":{"name":"Section"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|medium","left":"var:preset|spacing|medium","top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|small"}},"fontSize":"medium","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-medium-font-size" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:paragraph -->
-<p><a href="#">Pre-designed Patterns</a></p>
+<p><a href="#"><?php esc_html_e( 'Pre-designed Patterns', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-light"} -->
@@ -44,7 +44,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p><a href="#"></a><a href="#">Built for the Future</a></p>
+<p><a href="#"></a><a href="#"><?php esc_html_e( 'Built for the Future', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-light"} -->
@@ -52,7 +52,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p><a href="#"></a><a href="#">Easy to Extend</a></p>
+<p><a href="#"></a><a href="#"><?php esc_html_e( 'Easy to Extend', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-light"} -->
@@ -60,7 +60,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p><a href="#"></a><a href="#">Developer Friendly</a></p>
+<p><a href="#"></a><a href="#"><?php esc_html_e( 'Developer Friendly', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"is-style-separator-thin","backgroundColor":"border-light"} -->
@@ -68,7 +68,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p><a href="#"></a><a href="#">Publish Faster</a></p>
+<p><a href="#"></a><a href="#"><?php esc_html_e( 'Publish Faster', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -88,7 +88,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small"} -->
-<p class="has-secondary-color has-text-color has-link-color has-x-small-font-size">Check out my new podcast, VectorAI. <a href="#">Learn more</a></p>
+<p class="has-secondary-color has-text-color has-link-color has-x-small-font-size"><?php esc_html_e( 'Check out my new podcast, VectorAI.', 'ollie' ); ?><a href="#"><?php esc_html_e( 'Learn more', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

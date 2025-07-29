@@ -20,30 +20,30 @@
 
 <!-- wp:group {"metadata":{"name":"Name and Title"},"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-<p class="has-text-align-center has-medium-font-size"><strong>Margo Middleton</strong></p>
+<p class="has-text-align-center has-medium-font-size"><strong><?php esc_html_e( 'Margo Middleton', 'ollie' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-link-color">Director of AI</p>
+<p class="has-text-align-center has-secondary-color has-text-color has-link-color"><?php esc_html_e( 'Director of AI', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small"}}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-secondary-button"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Built for the Future</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Built for the Future', 'ollie' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"width":100,"className":"is-style-secondary-button"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Easy to Extend</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Easy to Extend', 'ollie' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"width":100,"className":"is-style-secondary-button"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Developer Friendly</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Developer Friendly', 'ollie' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"width":100,"className":"is-style-secondary-button"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary-button"><a class="wp-block-button__link wp-element-button">Publish Faster</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Publish Faster', 'ollie' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -55,12 +55,12 @@
 <!-- wp:group {"metadata":{"name":"Section"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|medium","left":"var:preset|spacing|medium","top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"ollie-no-shrink"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 ollie-no-shrink"><a class="wp-block-button__link wp-element-button">Get started today!</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 ollie-no-shrink"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Get started today!', 'ollie' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size">Find out how we can help you scale. <a href="#">Learn more</a></p>
+<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size"><?php esc_html_e( 'Find out how we can help you scale.', 'ollie' ); ?><a href="#"><?php esc_html_e( 'Learn more', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

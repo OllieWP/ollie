@@ -15,55 +15,55 @@
 <div class="wp-block-group is-style-default has-base-color has-main-background-color has-text-color has-background has-link-color" style="border-radius:10px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"metadata":{"name":"Section"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Title"},"style":{"spacing":{"blockGap":"0px"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size"><strong>Prism AI</strong></p>
+<p class="has-medium-font-size"><strong><?php esc_html_e( 'Prism AI', 'ollie' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|main-accent"}}}},"textColor":"main-accent"} -->
-<p class="has-main-accent-color has-text-color has-link-color">Design solutions that scale</p>
+<p class="has-main-accent-color has-text-color has-link-color"><?php esc_html_e( 'Design solutions that scale', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Section"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"textColor":"main-accent","fontSize":"medium","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-main-accent-color has-text-color has-medium-font-size"><!-- wp:paragraph {"style":{"typography":{"textDecoration":"none"}}} -->
-<p style="text-decoration:none"><a href="#">Pre-designed Patterns</a></p>
+<p style="text-decoration:none"><a href="#"><?php esc_html_e( 'Pre-designed Patterns', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"></a><a href="#">Built for the Future</a></p>
+<p><a href="#"></a><a href="#"><?php esc_html_e( 'Built for the Future', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"></a><a href="#">Easy to Extend</a></p>
+<p><a href="#"></a><a href="#"><?php esc_html_e( 'Easy to Extend', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"></a><a href="#">Developer Friendly</a></p>
+<p><a href="#"></a><a href="#"><?php esc_html_e( 'Developer Friendly', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"></a><a href="#">Publish Faster</a></p>
+<p><a href="#"></a><a href="#"><?php esc_html_e( 'Publish Faster', 'ollie' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"fontSize":"x-small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-x-small-font-size has-custom-font-size wp-element-button">Get Started Today</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-x-small-font-size has-custom-font-size wp-element-button"><?php esc_html_e( 'Get Started Today', 'ollie' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:group {"metadata":{"name":"Section"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|main-accent"}}},"typography":{"textTransform":"uppercase"}},"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase">Contact Us</p>
+<p class="has-main-accent-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'Contact Us', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Links"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"base"} -->
-<p class="has-base-font-size">hello@example.com</p>
+<p class="has-base-font-size"><?php esc_html_e( 'hello@example.com', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>support@example.com</p>
+<p><?php esc_html_e( 'support@example.com', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -80,7 +80,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|main-accent"}}}},"textColor":"main-accent","fontSize":"x-small"} -->
-<p class="has-main-accent-color has-text-color has-link-color has-x-small-font-size">We're hiring! Join our growing team today.</p>
+<p class="has-main-accent-color has-text-color has-link-color has-x-small-font-size"><?php esc_html_e( 'We\'re hiring! Join our growing team today.', 'ollie' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
