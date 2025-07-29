@@ -29,7 +29,7 @@ My goal with [OllieWP.com](https://olliewp.com) and this theme is to help educat
 | ------------- | ------------- |
 | [View Ollie Demo](https://demo.olliewp.com)  | Check out a full live demo of the Ollie theme.  |
 | [Download Ollie Theme Zip](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip)  | Download the latest Ollie theme zip to install on your WordPress site.  |
-| [Download Ollie Child Theme Zip](https://github.com/OllieWP/ollie/releases/latest/download/ollie-child.zip)  | Download the Ollie child theme zip for customizations  |
+| [Download Ollie Child Theme Zip](https://github.com/OllieWP/ollie-child/releases/latest/download/ollie-child.zip)  | Download the Ollie child theme zip for customizations  |
 
 Ollie is built for modern WordPress features and requires WordPress 6.0 or later. To get started, [download the theme](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip) and install it into your WordPress website by going to `Appearance → Themes → Add New`.
 

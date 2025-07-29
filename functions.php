@@ -173,6 +173,9 @@ function pattern_categories() {
 		'ollie/testimonial'    => array(
 			'label' => __( 'Testimonials', 'ollie' ),
 		),
+		'ollie/menu'    => array(
+			'label' => __( 'Menu', 'ollie' ),
+		)
 	);
 
 	foreach ( $block_pattern_categories as $name => $properties ) {

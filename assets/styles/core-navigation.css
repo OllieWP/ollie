@@ -154,19 +154,3 @@ body.rtl .wp-block-navigation__responsive-container.is-menu-open .wp-block-navig
 	background: var(--wp--preset--color--tertiary);
 	color: var(--wp--preset--color--main);
 }
-
-.wp-block-navigation__responsive-container.is-menu-open.has-modal-open .wp-block-buttons {
-	width: 100%;
-}
-
-.wp-block-navigation__responsive-container.is-menu-open.has-modal-open .wp-block-buttons .wp-block-button {
-	flex-basis: 100%;
-	width: 100%;
-}
-
-.wp-block-navigation__responsive-container.is-menu-open.has-modal-open .wp-block-buttons .wp-block-button__link {
-	font-size: var(--wp--preset--font-size--base);
-	flex-basis: 100%;
-	width: 100%;
-	padding: 15px;
-}
