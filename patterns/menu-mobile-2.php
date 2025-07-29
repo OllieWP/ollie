@@ -15,7 +15,7 @@
 <div class="wp-block-group is-style-default has-base-background-color has-background" style="border-radius:10px;padding-right:0;padding-left:0"><!-- wp:group {"metadata":{"name":"Section"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|large","left":"var:preset|spacing|large","top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|large"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"metadata":{"name":"Profile Info"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":244,"width":"75px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px"}}} -->
-<figure class="wp-block-image size-large is-resized has-custom-border"><img src="https://patterns.olliewp.com/creator/wp-content/uploads/2024/05/creator-person-1-1008x1024.webp" alt="" class="wp-image-244" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:75px"/></figure>
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/avatar-3.webp" alt="" class="wp-image-244" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:75px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"Name and Title"},"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
