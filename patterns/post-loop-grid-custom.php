@@ -22,7 +22,7 @@
 <div class="wp-block-group has-secondary-color has-text-color has-link-color has-x-small-font-size" style="margin-top:1.5rem"><!-- wp:post-author {"showAvatar":false} /-->
 
 <!-- wp:paragraph -->
-<p>·</p>
+<p><?php esc_html_e( '·', 'ollie' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-date /--></div>
