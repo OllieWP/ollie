@@ -154,3 +154,7 @@ body.rtl .wp-block-navigation__responsive-container.is-menu-open .wp-block-navig
 	background: var(--wp--preset--color--tertiary);
 	color: var(--wp--preset--color--main);
 }
+
+.wp-block-ollie-mega-menu__menu-container {
+	font-weight: 400;
+}

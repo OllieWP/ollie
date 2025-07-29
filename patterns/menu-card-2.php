@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Menu Card 2
- * Slug: ollie/menu-card-two
+ * Slug: ollie/menu-card-2
  * Description: 
  * Categories: ollie/menu
  * Keywords: 
