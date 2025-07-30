@@ -11,8 +11,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Menu"},"className":"is-style-default","style":{"spacing":{"blockGap":"0","padding":{"right":"0","left":"0"}},"position":{"type":""},"color":{"background":"#ffffffe0"},"border":{"radius":"10px"},"shadow":"var:preset|shadow|small-light"},"layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-group is-style-default has-background" style="border-radius:10px;background-color:#ffffffe0;padding-right:0;padding-left:0;box-shadow:var(--wp--preset--shadow--small-light)"><!-- wp:group {"metadata":{"name":"Title"},"align":"wide","className":"ollie-row-stack","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"metadata":{"name":"Menu"},"className":"is-style-default","style":{"spacing":{"blockGap":"0","padding":{"right":"0","left":"0"}},"position":{"type":""},"border":{"radius":"10px"},"shadow":"var:preset|shadow|small-light"},"backgroundColor":"base","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-group is-style-default has-base-background-color has-background" style="border-radius:10px;padding-right:0;padding-left:0;box-shadow:var(--wp--preset--shadow--small-light)"><!-- wp:group {"metadata":{"name":"Title"},"align":"wide","className":"ollie-row-stack","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide ollie-row-stack" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"fontSize":"medium"} -->
 <p class="has-medium-font-size"><strong><?php esc_html_e( 'How we can help', 'ollie' ); ?></strong></p>
 <!-- /wp:paragraph --></div>
