@@ -1,104 +1,196 @@
 
-# Ollie — A WordPress Block Theme
+# Ollie — WordPress's Most Popular Block Theme for Full Site Editing
 
 ![Image](https://user-images.githubusercontent.com/1415737/217930880-5d019715-f0c2-4f2f-9d24-dd466abf531b.jpg)
 
-Ollie is a modern WordPress block theme by [Mike McAlister](https://mikemcalister.com). Ollie is built to work seamlessly with the WordPress block editor and site editor, where you can create beautiful, fully-customizable websites with WordPress's built-in page builder — no page builder or coding skills required.
+**Design better, build faster, publish sooner.** Ollie is a blazing-fast WordPress block theme that makes professional website design accessible to everyone — no coding or expensive page builders required.
 
-Ollie ships with over 50 beautifully-designed patterns, page templates, block styles, and style variations so you can design stunning pages quickly with drag and drop instead of code. Ollie is also blazing fast, fully customizable via the WordPress UI, fully responsive out of the box, and scores 100% across the board on performance.
+## ✨ Why Choose Ollie?
 
-My goal with [OllieWP.com](https://olliewp.com) and this theme is to help educate both long-time and new WordPress creators about the many powerful, new features WordPress has to offer. Please feel free to dig through the code and learn a bit more about how to make WordPress block themes. ✌️
+- **🚀 Lightning Fast**: Scores 100% on Core Web Vitals with optimized performance out of the box
+- **🎨 50+ Beautiful Patterns**: Pre-designed sections and full-page layouts for instant professional designs
+- **🎯 True No-Code Solution**: Seamlessly integrated with WordPress's native site editor — drag, drop, and publish
+- **📱 Mobile-First Design**: Every pattern and layout is responsive and optimized for all devices
+- **🛠️ Developer Friendly**: Clean, semantic code with modern build tools and translation support
+- **🎪 Endless Customization**: 7 style variations, 9 typography presets, and unlimited color combinations
 
-## Table of Contents
+Built by [Mike McAlister](https://mikemcalister.com) and [Patrick Posner](https://patrickposner.com), Ollie empowers both beginners and professionals to create stunning WordPress websites using the latest Full Site Editing features.
 
-- [Getting Started with Ollie](#getting-started-with-ollie)
-- [Working with Block Themes](#working-with-block-themes)
-  - [Site Editor](#site-editor)
-  - [Patterns](#patterns)
-  - [Global Styles](#global-styles)
-  - [Template Parts](#template-parts)
-  - [Export Your Site](#export-your-site)
-- [Developer Notes](#developer-notes)
-- [License](#license)
-- [Beta Feedback](#beta-feedback)
-- [About the Creator](#about-the-creator)
+## 🚀 Quick Start
 
-## Getting Started with Ollie
+| Action | Link |
+| --- | --- |
+| **View Demo** | [demo.olliewp.com](https://demo.olliewp.com) |
+| **Download Theme** | [Latest Release](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip) |
+| **Child Theme** | [Download Child Theme](https://github.com/OllieWP/ollie-child/releases/latest/download/ollie-child.zip) |
+| **Documentation** | [olliewp.com/docs](https://olliewp.com/docs) |
 
-| Links  | Description |
-| ------------- | ------------- |
-| [View Ollie Demo](https://demo.olliewp.com)  | Check out a full live demo of the Ollie theme.  |
-| [Download Ollie Theme Zip](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip)  | Download the latest Ollie theme zip to install on your WordPress site.  |
-| [Download Ollie Child Theme Zip](https://github.com/OllieWP/ollie-child/releases/latest/download/ollie-child.zip)  | Download the Ollie child theme zip for customizations  |
+### Requirements
+- WordPress 6.0 or later
+- PHP 7.2 or later
 
-Ollie is built for modern WordPress features and requires WordPress 6.0 or later. To get started, [download the theme](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip) and install it into your WordPress website by going to `Appearance → Themes → Add New`.
+## 📦 Installation
 
-## Working with Block Themes
+Ollie is available directly from the WordPress theme directory:
 
-Once you activate Ollie, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Ollie also supports powerful new features like the site editor, patterns, global styles, and more. 
+1. In your WordPress admin, go to **Appearance → Themes → Add New**
+2. Search for "Ollie"
+3. Click **Install** and then **Activate**
+4. Start designing in **Appearance → Editor**
 
-A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site — headers, footers, templates, and more.
+## 🎨 Features & Capabilities
+
+### Pattern Library
+Ollie includes **50+ professionally designed patterns** organized into categories:
+
+- **Full Page Layouts**: Home, About, Features, Pricing, Blog, Contact, Profile
+- **Headers & Footers**: Light/Dark variations with different layouts
+- **Hero Sections**: Multiple styles with calls-to-action
+- **Content Cards**: Testimonials, pricing tables, team members, FAQs
+- **Feature Sections**: Service boxes, numbered features, icon grids
+- **Blog Components**: Post grids, author boxes, comment sections
+
+### Style Variations
+Switch your entire site's look with one click:
+
+- **Default**: Clean, modern design
+- **Agency**: Bold, professional styling
+- **Creator**: Content-focused layout
+- **Startup**: Tech-inspired design
+- **Studio**: Minimal, elegant aesthetic
+
+### Color Palettes
+Pre-configured color schemes:
+- Blue, Green, Neon, Orange, Pink, Red, Teal
+
+### Typography System
+**9 typography presets** with carefully selected font pairings using the Mona Sans font family.
+
+## 🛠️ For Developers
+
+
+### Project Structure
+```
+ollie/
+├── patterns/          # 50+ block patterns
+├── parts/            # Template parts (headers, footers)
+├── templates/        # Page templates
+├── styles/           # Style variations and presets
+│   ├── blocks/       # Block-specific styles
+│   ├── colors/       # Color palette variations
+│   └── typography/   # Typography presets
+├── theme.json        # Global styles and settings
+└── functions.php     # Theme setup and configuration
+```
+
+### Theme Features
+- **Translation Ready**: Full internationalization support
+- **Pattern Translation**: Automated pattern text extraction
+- **Child Theme Support**: Extend without modifying core
+- **Modern PHP**: Clean, well-documented code
+- **No Build Required**: Works out of the box
+
+### Customization Tips
+
+1. **Create a Child Theme**: Best practice for customizations
+2. **Use Global Styles**: Modify colors, typography, and spacing in the Site Editor
+3. **Extend Patterns**: Copy and modify existing patterns for your needs
+4. **Custom CSS**: Add via Additional CSS in the Customizer or theme.json
+
+## 📚 Working with Full Site Editing
+
+New to Full Site Editing? We've got you covered! Check out our [YouTube channel](https://www.youtube.com/@OllieWP) for helpful tutorials on block themes, site editing, and getting the most out of Ollie.
 
 ### Site Editor
+Access the visual site builder at **Appearance → Editor** to:
+- Edit headers, footers, and templates
+- Customize global styles
+- Create custom templates
+- Build with patterns
 
-The WordPress site editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder.
-
-To edit your site via the site editor, go to `Appearance → Editor`. Here, you can create and edit templates, create menus, customize your website styles, color palette, typography, block styles, and much more. This interface is where you'll design and build your site before exporting it later.
-
-https://user-images.githubusercontent.com/1415737/226261553-0bb0a6f9-2c5a-4f84-ac29-9bbce067c98c.mp4
-
-### Patterns
-
-Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor.
-
-You can access Ollie's patterns via the block inserter on posts, pages, or in the site editor. 
-
-#### Creating page designs with patterns
-
-To create the pages you see on the [Ollie theme demo](https://demo.olliewp.com), simply insert Ollie's full-page patterns onto any page, and apply the No Page Title template via the editor sidebar. This template removes the default page title, which better accommodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices.
-
-https://user-images.githubusercontent.com/1415737/226257588-c2777dfc-b6af-40fd-b997-70fc78bdd88e.mp4
+### Creating Pages with Patterns
+1. Create a new page
+2. Insert a full-page pattern from the Ollie collection
+3. Apply the "No Title" template for full-width layouts
+4. Customize content and publish
 
 ### Global Styles
+Powered by `theme.json`, customize:
+- Color palettes
+- Typography scales
+- Spacing and layout
+- Block defaults
 
-Global styles is the user interface in the Site Editor where you can modify all the styles associated with your site. This could be typography, fonts, button colors, link colors, layout defaults, and more. 
+### Exporting Your Design
+Share your customizations by exporting from the Site Editor:
+**Options menu → Tools → Export**
 
-Global styles is powered by a `theme.json` in the root of the theme folder. This configuration file lets you define site-wide and block-specific styles to be used by the global styles interface.
+## 🧪 Development
 
-https://user-images.githubusercontent.com/1415737/226260411-f911f8aa-30ae-48c1-9ea0-0a0512b6dd73.mp4
+### Build Tools
+Ollie includes modern development tools configured in `package.json`:
 
-### Template Parts
+```bash
+# Watch for pattern changes and auto-escape for translations
+npm run dev
 
-A template part is a part of your site that appears across most or all pages. The most common template parts are for the header, footer, and sidebar of a website. Template parts let you easily make global changes to the design or markup of global site elements.
+# Prepare patterns for translation
+npm run translate:patterns
+```
 
-https://github.com/OllieWP/ollie/assets/1415737/ccffbd01-0176-4c38-adf3-3ba2d5100a72
+### Code Quality
+Ollie includes Composer scripts for maintaining code standards:
 
-### Export Your Site
+```bash
+# Check PHP syntax
+composer run lint
 
-Once you've finished building and customizing your site with the site editor, you can export a zip to install on another site. While in the site editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file.
+# Scan for WordPress coding standards
+composer run wpcs:scan
 
-https://user-images.githubusercontent.com/1415737/226259166-d0e3f676-ebe4-4c42-86e0-f9cf175fa0bd.mp4
+# Auto-fix coding standard issues
+composer run wpcs:fix
+```
 
-## Developer Notes
+## 🚀 Ollie Pro
 
-The Ollie theme works out of the box, so no build steps are required. However, I have included a Composer file that is used for linting to PHP and WordPress core standards. 
+Take your website to the next level with [Ollie Pro](https://olliewp.com/pro/):
 
-- `composer run lint`
-- `composer run wpcs:scan`
-- `composer run wpcs:fix`
+- **Setup Wizard**: Get started quickly with guided setup
+- **One-Click Starter Sites**: Import complete website designs instantly
+- **Premium Pattern Library**: Access exclusive pro patterns
+- **Priority Support**: Get help when you need it
+- **Regular Updates**: New patterns and features added regularly
 
-## License
+[Get Ollie Pro →](https://olliewp.com/pro/)
+
+## 📄 License
 
 Ollie is licensed under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html).
 
-## Beta Feedback
+## 🤝 Community & Support
 
-Ollie is currently in beta and looking for any and all feedback. Please [open a new issue](https://github.com/OllieWP/ollie/issues/new/choose) for bug reports, feature requests, or general feedback.
+- **Documentation**: [olliewp.com/docs](https://olliewp.com/docs)
+- **Support Forum**: [wordpress.org/support/theme/ollie](https://wordpress.org/support/theme/ollie)
+- **Bug Reports**: [GitHub Issues](https://github.com/OllieWP/ollie/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/OllieWP/ollie/discussions)
 
-## About the Creator
-Ollie was created by [Mike McAlister](https://mikemcalister.com), a code-slinging, pixel-pushing, team-building, award-winning creator from Planet Earth. 
+## 👨‍💻 About
 
-- Check out my [website](https://mikemcalister.com)
-- Find me on [Twitter](https://twitter.com/mikemcalister)
-- Read my writings at [Ollie](https://olliewp.com) and [Liftoff](https://liftoffcourse.com)
-- Watch Ollie video tutorials on [YouTube](https://www.youtube.com/@OllieWP)
+Ollie is created and maintained by [Mike McAlister](https://mikemcalister.com) and [Patrick Posner](https://patrickposner.com).
+
+### Mike McAlister
+- 🌐 [Website](https://mikemcalister.com)
+- 🐦 [Twitter](https://twitter.com/mikemcalister)
+
+### Patrick Posner
+- 🌐 [Website](https://patrickposner.com)
+- 🐦 [Twitter](https://x.com/patrickposner_)
+
+### Ollie Resources
+- 📺 [YouTube Tutorials](https://www.youtube.com/@OllieWP)
+- ✍️ [Blog](https://olliewp.com)
+
+---
+
+**[Download Ollie](https://github.com/OllieWP/ollie/releases/latest/download/ollie.zip)** | **[View Demo](https://demo.olliewp.com)** | **[Get Ollie Pro](https://olliewp.com)**
