@@ -107,7 +107,8 @@ body.rtl .wp-block-navigation__responsive-container.is-menu-open .wp-block-navig
 	display: none;
 }
 
-.wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation-submenu {
+.wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation-submenu,
+.wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container {
 	display: flex;
 }
 
