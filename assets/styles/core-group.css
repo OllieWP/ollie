@@ -6,6 +6,12 @@
 	backdrop-filter: blur(20px);
 }
 
+@media (max-width: 600px) {
+	header div.is-style-background-blur {
+		backdrop-filter: none;
+	}
+}
+
 /* Improvements for row group */
 @media (max-width: 781px) {
 	.ollie-row-stack {
