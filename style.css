@@ -174,7 +174,7 @@ a.more-link {
 
 /* Sticky header */
 
-header:has(>.is-position-sticky) {
+body:not(.wp-admin) header:has(>.is-position-sticky) {
 	position: sticky;
 	top: calc( 0px + var( --wp-admin--admin-bar--height, 0px ) );
 	z-index: 100;
