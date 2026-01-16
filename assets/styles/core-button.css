@@ -9,6 +9,6 @@
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link:hover {
-	color: var(--wp--preset--color--main) !important;
-	outline-color: var(--wp--preset--color--main);
+	color: currentColor;
+	outline-color: currentColor;
 }
