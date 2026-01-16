@@ -3,6 +3,46 @@
 	"version": 3,
 	"settings": {
 		"appearanceTools": true,
+		"border": {
+			"radius": true,
+			"radiusSizes": [
+				{
+					"name": "XS",
+					"slug": "xs",
+					"size": "0.25rem"
+				},
+				{
+					"name": "Small",
+					"slug": "sm",
+					"size": "0.5rem"
+				},
+				{
+					"name": "Medium",
+					"slug": "md",
+					"size": "0.75rem"
+				},
+				{
+					"name": "Large",
+					"slug": "lg",
+					"size": "1.25rem"
+				},
+				{
+					"name": "XL",
+					"slug": "xl",
+					"size": "2rem"
+				},
+				{
+					"name": "2XL",
+					"slug": "2-xl",
+					"size": "3rem"
+				},
+				{
+					"name": "Full",
+					"slug": "full",
+					"size": "100rem"
+				}
+			]
+		},
 		"color": {
 			"defaultDuotone": false,
 			"defaultGradients": false,
