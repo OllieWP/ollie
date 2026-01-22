@@ -16,3 +16,62 @@
 	padding: .6em;
 	width: 4em;
 }
+
+.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pills label {
+	width: auto;
+	background-color: var(--wp--preset--color--tertiary);
+	border: none;
+	padding: 8px 15px;
+	font-size: var(--wp--preset--font-size--small);
+	border-radius: 5px;
+}
+
+.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pills label:hover {
+	background-color: color-mix(in srgb, var(--wp--preset--color--tertiary) 80%, var(--wp--preset--color--main) 5%);
+}
+
+.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill:has(.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill-input:checked) {
+	--pill-color: var(--wp--preset--color--main);
+    --pill-background-color: var(--wp--preset--color--main);
+	background-color: var(--wp--preset--color--main);
+	color: var(--wp--preset--color--base);
+}
+
+:where(.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill):where(:focus-within:has(.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill-input:checked)) {
+	outline-color: transparent;
+}
+
+.wp-block-add-to-cart-with-options .wc-block-components-product-button {
+	flex: 1;
+	max-width: 300px;
+}
+
+.wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button {
+	width: 100%;
+}
+
+.wp-block-group-is-layout-flex:has(.wc-block-components-product-button) {	
+	gap: 15px;
+}
+
+.wc-block-product-gallery-large-image__container {
+	padding: 0;
+}
+
+.woocommerce .quantity .qty {
+	width: 2em;
+	margin: 0 5px;
+	border-radius: 6px;
+}
+
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button,
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:disabled {
+	background-color: var(--wp--preset--color--tertiary);
+	opacity: 1;
+	border-radius: 6px;
+    width: 42px;
+}
+
+.wc-block-components-quantity-selector:after {
+	display: none;
+}
