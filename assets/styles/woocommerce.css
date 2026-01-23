@@ -99,3 +99,26 @@
 :where(.wc-block-next-previous-buttons__icon) {
     padding: 0;
 }
+
+.wp-block-woocommerce-add-to-cart-with-options-variation-selector-attribute-options {
+	width: 100%;
+}
+
+.wp-block-woocommerce-add-to-cart-with-options-variation-selector-attribute-options select {
+	min-width: 50%;
+}
+
+.wp-block-woocommerce-add-to-cart-with-options-variation-selector,
+.block-editor-block-list__block.wp-block-woocommerce-add-to-cart-with-options-variation-selector-attribute {
+	gap: var(--wp--preset--spacing--small);
+    display: flex;
+    flex-direction: column;
+}
+
+label.wp-block-woocommerce-add-to-cart-with-options-variation-selector-attribute-name {
+	margin: 0;
+}
+
+.woocommerce .wc-block-components-product-price bdi {
+	font-weight: normal;
+}
