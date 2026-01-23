@@ -103,14 +103,25 @@ textarea,
 }
 
 input:focus-visible,
-textarea:focus-visible {
-	outline-color: var(--wp--preset--color--primary);
+textarea:focus-visible,
+select:focus-visible {
+	outline-color: var(--wp--preset--color--main);
+	outline-offset: 1px;
 }
 
 input[type="checkbox"],
 input[type="image"],
 input[type="radio"] {
 	width: auto;
+}
+
+select {
+	-webkit-appearance: none;
+	appearance: none;
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2hldnJvbi1kb3duIj48cG9seWxpbmUgcG9pbnRzPSI2IDkgMTIgMTUgMTggOSI+PC9wb2x5bGluZT48L3N2Zz4=) no-repeat;
+    background-size: 16px;
+    background-position: calc(100% - 12px) 50%;
+	padding-right: 2.2em;
 }
 
 label {
