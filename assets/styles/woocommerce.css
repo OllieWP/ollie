@@ -59,7 +59,7 @@
 }
 
 .woocommerce .quantity .qty {
-	width: 2em;
+	width: 1em;
 	margin: 0 5px;
 	border-radius: 6px;
 }
@@ -74,4 +74,28 @@
 
 .wc-block-components-quantity-selector:after {
 	display: none;
+}
+
+.woocommerce div.product {
+	margin: 0;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+	margin: 0;
+}
+
+.wp-block-post-terms a:hover {
+	text-decoration: underline;
+}
+
+.wc-block-product-gallery-thumbnails__thumbnail img {
+	border-radius: 5px;
+}
+
+:where(.wc-block-next-previous-buttons__button) {
+	border-radius: 5px;
+}
+
+:where(.wc-block-next-previous-buttons__icon) {
+    padding: 0;
 }
