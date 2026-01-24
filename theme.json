@@ -842,9 +842,6 @@
 					"color": {
 						"background": "var:preset|color|main",
 						"text": "var:preset|color|base"
-					},
-					"typography": {
-						"textDecoration": "underline"
 					}
 				}
 			},

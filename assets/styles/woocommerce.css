@@ -24,6 +24,8 @@
 	padding: 8px 15px;
 	font-size: var(--wp--preset--font-size--small);
 	border-radius: 5px;
+	margin-bottom: 0;
+	transition: .2s ease;
 }
 
 .wc-block-add-to-cart-with-options-variation-selector-attribute-options__pills label:hover {
@@ -121,4 +123,99 @@ label.wp-block-woocommerce-add-to-cart-with-options-variation-selector-attribute
 
 .woocommerce .wc-block-components-product-price bdi {
 	font-weight: normal;
+}
+
+.wc-block-components-notice-banner {
+	padding: 10px !important;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.wc-block-components-notice-banner svg {
+	width: 20px;
+}
+
+.wc-block-components-notice-banner.is-error {
+	color: #cc1818;
+	border-color: #e9afaf;
+}
+
+.wc-block-components-notice-banner.is-success {
+	color: #29683a;
+	border-color: #95caa2;
+}
+
+.wc-block-components-notice-banner.is-warning {
+	color: #7d5c0c;
+	border-color: #e3cea3;
+}
+
+.wc-block-components-notice-banner>.wc-block-components-button {
+	margin-top: 0 !important;
+}
+
+.wp-block-woocommerce-product-stock-indicator:empty {
+	display: none;
+}
+
+.product-meta-row:has(.wp-block-woocommerce-product-stock-indicator:empty) .wp-block-outermost-icon-block {
+	display: none;
+}
+
+.wp-block-woocommerce-product-gallery {
+	gap: var(--wp--preset--spacing--small);
+}
+
+.woocommerce div.product .woocommerce-tabs .panel,
+.woocommerce table.shop_attributes {
+	margin: 0;
+}
+
+table.woocommerce-product-attributes {
+	background: #fff;
+	border-radius: 5px;
+	border: none;
+	border-spacing: 0;
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.woocommerce table.shop_attributes th,
+.woocommerce table.shop_attributes td {
+	border: none;
+}
+
+.woocommerce table.shop_attributes th {
+	padding: 10px 15px;
+	text-align: left;
+}
+
+.woocommerce table.shop_attributes tr:nth-child(even) td, .woocommerce table.shop_attributes tr:nth-child(even) th {
+    background: rgba(0, 0, 0, .025);
+}
+
+.woocommerce div.product .woocommerce-tabs .panel p:last-of-type {
+	margin-bottom: 0;
+}
+
+.woocommerce-Tabs-panel h2 {
+	font-size: var(--wp--preset--font-size--medium);
+}
+
+.html body .wp-block-woocommerce-product-details.is-style-minimal ul.tabs.wc-tabs li {
+	border: none !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+	font-weight: 500;
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+	background: var(--wp--preset--color--main) !important;
+	color: var(--wp--preset--color--base) !important;
+	border-radius: 5px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:hover {
+	border: none !important;
 }
