@@ -470,27 +470,27 @@
 				{
 					"fluid": {
 						"min": "1.5rem",
-						"max": "2.75rem"
+						"max": "2.35rem"
 					},
-					"size": "2.75rem",
+					"size": "2.35rem",
 					"slug": "large",
 					"name": "Large"
 				},
 				{
 					"fluid": {
 						"min": "1.875rem",
-						"max": "3.5rem"
+						"max": "2.9rem"
 					},
-					"size": "3.5rem",
+					"size": "2.9rem",
 					"slug": "x-large",
 					"name": "Extra Large"
 				},
 				{
 					"fluid": {
 						"min": "2.25rem",
-						"max": "4.3875rem"
+						"max": "3.75rem"
 					},
-					"size": "4.3875rem",
+					"size": "3.75rem",
 					"slug": "xx-large",
 					"name": "Extra Extra Large"
 				}
