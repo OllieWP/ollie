@@ -1,0 +1,67 @@
+<!-- wp:template-part {"slug":"header","theme":"ollie"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull has-tertiary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium)"><!-- wp:woocommerce/breadcrumbs /-->
+	
+	<!-- wp:query-title {"type":"archive","showPrefix":false,"align":"wide","fontSize":"large"} /-->
+	
+	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group"><!-- wp:woocommerce/product-categories {"isDropdown":true} /-->
+	
+	<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search products…","buttonText":"Search","buttonUseIcon":true,"query":{"post_type":"product"},"namespace":"woocommerce/product-search"} /-->
+	
+	<!-- wp:group {"style":{"spacing":{"blockGap":"6px"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+	<div class="wp-block-group has-secondary-color has-text-color has-link-color has-x-small-font-size"><!-- wp:paragraph -->
+	<p>Explore:</p>
+	<!-- /wp:paragraph -->
+	
+	<!-- wp:terms-query {"termQuery":{"perPage":5,"taxonomy":"product_cat","order":"asc","orderBy":"name","include":[],"hideEmpty":true,"showNested":false,"inherit":false}} -->
+	<div class="wp-block-terms-query"><!-- wp:term-template {"className":"ollie-search-category-list","ollieCustomClasses":["ollie-search-category-list"]} -->
+	<!-- wp:group {"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group"><!-- wp:term-name {"isLink":true} /--></div>
+	<!-- /wp:group -->
+	<!-- /wp:term-template --></div>
+	<!-- /wp:terms-query --></div>
+	<!-- /wp:group --></div>
+	<!-- /wp:group -->
+	
+	<!-- wp:term-description {"align":"wide"} /-->
+	
+	<!-- wp:woocommerce/store-notices /--></div>
+	<!-- /wp:group -->
+	
+	<!-- wp:group {"className":"alignwide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+	<div class="wp-block-group alignwide"><!-- wp:woocommerce/product-results-count /-->
+	
+	<!-- wp:woocommerce/catalog-sorting /--></div>
+	<!-- /wp:group -->
+	
+	<!-- wp:woocommerce/product-collection {"queryId":1,"query":{"woocommerceAttributes":[],"woocommerceStockStatus":["instock","outofstock","onbackorder"],"taxQuery":[],"isProductCollectionBlock":true,"perPage":10,"pages":0,"offset":0,"postType":"product","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":true},"tagName":"div","displayLayout":{"type":"flex","columns":4,"shrinkColumns":true},"dimensions":{"widthType":"fill","fixedWidth":""},"queryContextIncludes":["collection"],"__privatePreviewState":{"isPreview":false,"previewMessage":"Actual products will vary depending on the page being viewed."},"align":"wide"} -->
+	<div class="wp-block-woocommerce-product-collection alignwide"><!-- wp:woocommerce/product-template -->
+	<!-- wp:template-part {"slug":"product-card","theme":"ollie","area":"uncategorized"} /-->
+	<!-- /wp:woocommerce/product-template -->
+	
+	<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+	<!-- wp:query-pagination-previous /-->
+	
+	<!-- wp:query-pagination-numbers /-->
+	
+	<!-- wp:query-pagination-next /-->
+	<!-- /wp:query-pagination -->
+	
+	<!-- wp:woocommerce/product-collection-no-results -->
+	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"wrap"}} -->
+	<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
+	<p class="has-medium-font-size"><strong>No results found</strong></p>
+	<!-- /wp:paragraph -->
+	
+	<!-- wp:paragraph -->
+	<p>You can try <a class="wc-link-clear-any-filters" href="#">clearing any filters</a> or head to our <a class="wc-link-stores-home" href="#">store's home</a></p>
+	<!-- /wp:paragraph --></div>
+	<!-- /wp:group -->
+	<!-- /wp:woocommerce/product-collection-no-results --></div>
+	<!-- /wp:woocommerce/product-collection --></main>
+	<!-- /wp:group -->
+	
+	<!-- wp:template-part {"slug":"footer","theme":"ollie"} /-->
