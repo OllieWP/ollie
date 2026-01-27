@@ -56,10 +56,11 @@
 	font-size: var(--wp--preset--font-size--small);
 	border-radius: 5px;
 	margin-bottom: 0;
+	transition: .1s ease;
 }
 
 .wc-block-add-to-cart-with-options-variation-selector-attribute-options__pills label:hover {
-	background-color: color-mix(in srgb, var(--wp--preset--color--tertiary) 80%, var(--wp--preset--color--main) 5%);
+	background: color-mix(in srgb, var(--wp--preset--color--tertiary) 100%, var(--wp--preset--color--main) 3%);
 }
 
 .wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill:has(.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill-input:checked),
@@ -380,7 +381,7 @@ table.woocommerce-product-attributes {
 	margin: 0;
 	position: absolute;
 	bottom: 12px;
-	left: 12px;
+	right: 12px;
 	opacity: 0;
 }
 
@@ -437,4 +438,125 @@ body.block-editor-iframe__body .ollie-product-button-hover-group {
 
 .wc-block-product-categories__button svg {
 	width: 18px;
+}
+
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .wc-block-components-product-image .wc-block-components-product-sale-badge--align-right, 
+.wc-block-components-product-image .wc-block-components-product-sale-badge--align-right {
+	top: 12px;
+	right: 12px;
+}
+
+.wp-block-query-pagination-numbers a, 
+.wp-block-query-pagination-next, 
+.wp-block-query-pagination-previous {
+	background: var(--wp--preset--color--tertiary);
+	transition: .1s ease;
+}
+
+.wp-block-query-pagination-numbers a:hover, 
+.wp-block-query-pagination-next:hover, 
+.wp-block-query-pagination-previous:hover {
+	text-decoration: none;
+	background: color-mix(in srgb, var(--wp--preset--color--tertiary) 100%, var(--wp--preset--color--main) 3%);
+}
+
+
+.editor-styles-wrapper table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__image img, table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__image img {
+	border-radius: 5px;
+}
+
+.wc-block-mini-cart__items .wc-block-mini-cart__products-table .wc-block-cart-items__row {
+	border-bottom: 1px dotted var(--wp--preset--color--border-light);
+	padding: 25px 0 !important;
+}
+
+.editor-styles-wrapper table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name, 
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name,
+.wc-block-components-formatted-money-amount,
+.wc-block-components-product-price  {
+	font-weight: 500;
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.wc-block-cart-item__prices {
+	font-size: var(--wp--preset--font-size--x-small);
+}
+
+.wc-block-cart-item__wrap {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.wc-block-cart-item__wrap > *,
+.wc-block-components-product-metadata__description p,
+.wc-block-components-quantity-selector,
+.wc-block-components-product-details.wc-block-components-product-details:last-of-type {
+	margin: 0 !important;
+}
+
+.wc-block-cart-item__quantity {
+	align-self: flex-start !important;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+	padding-right: 0 !important;
+}
+
+.wc-block-components-quantity-selector {
+	transform: scale(.9);
+    transform-origin: left;
+}
+
+.wc-block-mini-cart__footer {
+	background: var(--wp--preset--color--tertiary);
+}
+
+.wc-block-mini-cart__footer:after {
+	display: none;
+}
+
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input:focus {
+	box-shadow: inset 0 0 0px 1.8px currentColor;
+	margin: 0 1px;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__total {
+	line-height: 1.4;
+}
+
+.wc-block-components-product-metadata__description p {
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+
+.wc-block-components-product-name:hover {
+	text-decoration: none;
+}
+
+h2.wc-block-mini-cart__title {
+	font-size: var(--wp--preset--font-size--base);
+}
+
+.wc-block-components-product-badge {
+	font-size: calc(var(--wp--preset--font-size--x-small) - 0.1rem);
+	background: var(--wp--preset--color--tertiary);
+	border-radius: 100px;
+	border: none;
+    padding: 4px 13px;
+	font-weight: 500;
+	width: fit-content;
+}
+
+.wc-block-components-sale-badge {
+	background: #e1fae8;
+    color: #32874a;
+}
+
+.wc-block-components-product-badge .wc-block-components-formatted-money-amount {
+	font-size: calc(var(--wp--preset--font-size--x-small) - 0.1rem);
+	font-weight: 500;
 }
