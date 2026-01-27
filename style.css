@@ -89,14 +89,14 @@ textarea {
 	appearance: none;
 }
 
-input:not([type="submit"]),
+input:not([type="submit"]):not([type="radio"]),
 select,
 textarea,
-.wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]),
+.wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
 .wp-block-post-comments-form textarea {
 	color: var(--wp--preset--color--main);
 	border-radius: 5px;
-	border: solid 1px color-mix(in srgb, var(--wp--preset--color--tertiary) 100%, var(--wp--preset--color--main) 20%);;
+	border: solid 1px color-mix(in srgb, var(--wp--preset--color--tertiary) 100%, var(--wp--preset--color--main) 20%);
 	padding: .5em 1em;
 	font-size: var(--wp--preset--font-size--small);
 	background-color: #fff;
