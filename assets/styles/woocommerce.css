@@ -633,7 +633,7 @@ h2.wc-block-mini-cart__title {
 .wc-block-components-sidebar-layout .wc-block-components-main {
 	background: var(--wp--preset--color--base);
 	padding: var(--wp--preset--spacing--large);
-	border-radius: 10px;
+	border-radius: 5px;
 	border: 1px solid hsla(0, 0%, 7%, .11);
 }
 
@@ -650,7 +650,7 @@ h2.wc-block-mini-cart__title {
 
 .wp-block-woocommerce-checkout-order-summary-block {
 	background: var(--wp--preset--color--base);
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .wc-block-components-order-summary .wc-block-components-order-summary-item__quantity {
@@ -725,14 +725,6 @@ h2.wc-block-mini-cart__title {
 	font-size: var(--wp--preset--font-size--small);
 }
 
-.wc-block-components-address-form__city input {
-	
-}
-
-.wc-block-components-address-form__city label {
-	
-}
-
 .wc-block-components-checkout-step__description {
 	color: var(--wp--preset--color--secondary);
 }
@@ -794,13 +786,14 @@ h2.wc-block-mini-cart__title {
 @container (max-width: 699px) {
     .wp-block-woocommerce-checkout-order-summary-block .wc-block-components-checkout-order-summary__title {
         border: 1px solid hsla(0,0%,7%,.11);
-		border-radius: 10px;
+		border-radius: 5px;
 		padding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--medium);
+		margin: 0;
     }
 
 	.wp-block-woocommerce-checkout-order-summary-block .wc-block-components-checkout-order-summary__content.is-open {
         border: 1px solid hsla(0,0%,7%,.11);
-		border-radius: 10px;
+		border-radius: 5px;
     }
 
 	.wp-block-woocommerce-checkout-order-summary-block .wc-block-components-checkout-order-summary__title.is-open {
@@ -822,4 +815,23 @@ h2.wc-block-mini-cart__title {
 		padding: 28px 0 0 0;
     	margin: 0 !important;
 	}
+}
+
+.wc-block-cart .wp-block-woocommerce-cart-order-summary-block,
+.wp-block-woocommerce-proceed-to-checkout-block {
+	background: var(--wp--preset--color--base);
+	padding: 16px;
+	margin: 0;
+    border: 1px solid hsla(0, 0%, 7%, .11);
+}
+
+.wc-block-cart .wp-block-woocommerce-cart-order-summary-block {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.wp-block-woocommerce-proceed-to-checkout-block {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
 }
