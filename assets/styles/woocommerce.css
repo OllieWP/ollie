@@ -18,10 +18,12 @@
 
 /* Quantity selector */
 .woocommerce .quantity .qty {
-	width: 1em;
 	margin: 0;
 	border-radius: 5px;
+	padding: .6em;
+	width: 3.2em;
 }
+
 
 .wp-block-woocommerce-add-to-cart-form .variations_button>.quantity:not(.wc-block-components-quantity-selector) .qty {
 	height: auto;
@@ -32,8 +34,13 @@
 .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button,
 .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:disabled {
 	opacity: 1;
-	border-radius: 6px;
+	border-radius: 5px;
 	width: 42px;
+	transition: .2s ease;
+}
+
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:hover {
+	background: var(--wp--preset--color--tertiary);
 }
 
 .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:focus {
@@ -57,6 +64,7 @@ div[data-block-name="woocommerce/add-to-cart-with-options-grouped-product-select
 	width: auto;
 	gap: 5px;
 	margin: 0 !important;
+	border: none;
 }
 
 
@@ -74,7 +82,7 @@ div[data-block-name="woocommerce/add-to-cart-with-options-grouped-product-select
 /* Variation pills */
 .wc-block-add-to-cart-with-options-variation-selector-attribute-options__pills label {
 	width: auto;
-	background-color: var(--wp--preset--color--base);
+	background-color: var(--wp--preset--color--tertiary);
 	border: none;
 	padding: 8px 15px;
 	font-size: var(--wp--preset--font-size--small);
@@ -83,15 +91,11 @@ div[data-block-name="woocommerce/add-to-cart-with-options-grouped-product-select
 	transition: .1s ease;
 }
 
-.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pills label:hover {
-	/* background: color-mix(in srgb, var(--wp--preset--color--tertiary) 100%, var(--wp--preset--color--main) 1%); */
-}
-
 .wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill:has(.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill-input:checked),
 :where(.wc-block-add-to-cart-with-options-variation-selector-attribute-options__pill):where(:focus-within) {
 	--pill-color: var(--wp--preset--color--main);
 	--pill-background-color: var(--wp--preset--color--main);
-	background-color: var(--wp--preset--color--base);
+	background-color: var(--wp--preset--color--tertiary);
 	color: var(--wp--preset--color--contrast);
 	outline: solid 2px var(--wp--preset--color--main);
 	outline-offset: 0;
@@ -184,7 +188,6 @@ label.wp-block-woocommerce-add-to-cart-with-options-variation-selector-attribute
 	display: none;
 }
 
-
 .wp-block-woocommerce-add-to-cart-with-options-grouped-product-selector {
 	font-size: var(--wp--preset--font-size--small);
 	margin-bottom: var(--wp--preset--spacing--medium);
@@ -215,17 +218,9 @@ label.wp-block-woocommerce-add-to-cart-with-options-variation-selector-attribute
 	padding-bottom: 0;
 }
 
-/* .wp-block-woocommerce-add-to-cart-with-options-grouped-product-item-label {
-	order: 1;
+.wp-block-post-terms__prefix {
+	font-weight: 600;
 }
-
-.wp-block-woocommerce-add-to-cart-with-options-grouped-product-item > .wp-block-group > *:first-child {
-	order: 2;
-}
-
-.wp-block-woocommerce-add-to-cart-with-options-grouped-product-item > .wp-block-group > *:last-child {
-	order: 3;
-} */
 
 /* ============================================
    Product Details & Tabs
@@ -688,6 +683,14 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__total {
 	margin-top: var(--wp--preset--spacing--small);
 }
 
+.wc-block-cart-link {
+	gap: 4px;
+}
+
+.wc-block-cart-link svg {
+	width: 28px;
+}
+
 /* Classic table styles */
 
 .woocommerce-page table.shop_table_responsive {
@@ -760,6 +763,10 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__total {
    Mini Cart
    ============================================ */
 
+.wc-block-mini-cart[aria-hidden="true"] {
+	display: none !important;
+}
+
 h2.wc-block-mini-cart__title {
 	font-size: var(--wp--preset--font-size--base);
 }
@@ -775,6 +782,11 @@ h2.wc-block-mini-cart__title {
 
 .wc-block-mini-cart__footer:after {
 	display: none;
+}
+
+.wc-block-mini-cart__badge {
+	font-size: 12px;
+	margin-left: -40%;
 }
 
 /* ============================================
@@ -795,6 +807,11 @@ h2.wc-block-mini-cart__title {
 .wc-block-components-sidebar-layout .wc-block-components-main {
 	padding: var(--wp--preset--spacing--medium);
 	border-right: solid 1px hsla(0, 0%, 7%, .11);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.wc-block-components-address-card {
+	font-size: var(--wp--preset--font-size--small);
 }
 
 .wc-block-cart__sidebar,
@@ -867,17 +884,14 @@ h2.wc-block-mini-cart__title {
 	font-size: var(--wp--preset--font-size--small);
 }
 
-.wc-block-components-totals-footer-item .wc-block-components-totals-item__label {
-	font-size: var(--wp--preset--font-size--base);
+.wc-block-components-totals-footer-item .wc-block-components-totals-item__label,
+.wc-block-components-totals-item__value .wc-block-formatted-money-amount {
+	font-size: var(--wp--preset--font-size--small);
 	font-weight: 600;
 }
 
 .wc-block-components-totals-footer-item .wc-block-components-totals-item__value {
 	line-height: 1;
-}
-
-.wc-block-components-totals-item__value .wc-block-formatted-money-amount {
-	font-weight: 600;
 }
 
 /* Checkout steps */
@@ -954,6 +968,22 @@ p.ppcp-place-order-description {
 #ppcp-checkout-paylater-messages {
 	margin-top: 10px;
 }
+
+/* ============================================
+   Order Confirmation
+   ============================================ */
+
+.wp-block-woocommerce-order-confirmation-status {
+	display: flex;
+	flex-direction: column;
+	gap: var(--wp--preset--spacing--small);
+}
+
+.wp-block-woocommerce-order-confirmation-status h1 {
+	font-size: var(--wp--preset--font-size--large);
+	margin: 0;
+}
+
 
 /* ============================================
    Form Inputs
