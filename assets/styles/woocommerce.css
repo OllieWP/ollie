@@ -1072,6 +1072,10 @@ p.ppcp-place-order-description {
 	color: var(--wp--preset--color--secondary);
 }
 
+#ppcp-recaptcha-v2-container:empty {
+	display: none;
+}
+
 /* ============================================
    Responsive Styles
    ============================================ */
@@ -1107,10 +1111,6 @@ p.ppcp-place-order-description {
 
 	.wc-block-cart__sidebar .wp-block-woocommerce-cart-order-summary-block {
 		margin-bottom: var(--wp--preset--spacing--large);
-	}
-
-	#ppcp-recaptcha-v2-container:empty {
-		display: none;
 	}
 
 	/* Terms */
