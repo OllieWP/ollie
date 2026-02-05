@@ -468,7 +468,7 @@ body.block-editor-iframe__body .ollie-product-button-hover-group {
 	transform: translateY(0);
 	position: absolute !important;
 }
-
+/* 
 body.block-editor-iframe__body .ollie-product-button-hover {
 	padding: 50px;
 }
@@ -476,7 +476,7 @@ body.block-editor-iframe__body .ollie-product-button-hover {
 body.block-editor-iframe__body .ollie-product-button-hover .wc-block-components-product-price__value:empty::before {
 	content: "$9.99";
 	font-size: inherit;
-}
+} */
 
 /* Mobile: Always show hover group */
 @media (max-width: 722px) {
@@ -585,10 +585,10 @@ body.block-editor-iframe__body .ollie-product-button-hover .wc-block-components-
 	width: fit-content;
 }
 
-.wc-block-components-product-badge .wc-block-components-formatted-money-amount {
+/* .wc-block-components-product-badge .wc-block-components-formatted-money-amount {
 	font-size: calc(var(--wp--preset--font-size--x-small) - 0.2rem);
 	font-weight: 500;
-}
+} */
 
 .wc-block-components-sale-badge {
 	background: #effcee;
@@ -639,7 +639,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__image i
 
 .editor-styles-wrapper table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name,
 table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name,
-.wc-block-components-formatted-money-amount,
+
 
 .wc-block-components-order-summary-item__description .wc-block-components-product-name,
 .wp-block-woocommerce-checkout-order-summary-block .wc-block-components-formatted-money-amount {

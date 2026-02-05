@@ -212,3 +212,25 @@ function template_part_areas( array $areas ) {
 	return $areas;
 }
 add_filter( 'default_wp_template_part_areas', __NAMESPACE__ . '\template_part_areas' );
+
+
+// /**
+//  * Modify WooCommerce product collection block attributes before rendering.
+//  * Changes default fontSize from 'medium' to 'base' for product titles.
+//  * This modifies the attribute itself so WordPress outputs the correct preset class.
+//  */
+// function modify_product_collection_defaults( $parsed_block, $source_block, $parent_block ) {
+// 	// Target post-title blocks within WooCommerce product context
+// 	if ( 'core/post-title' === $parsed_block['blockName'] &&
+// 		 isset( $parsed_block['attrs']['__woocommerceNamespace'] ) &&
+// 		 'woocommerce/product-collection/product-title' === $parsed_block['attrs']['__woocommerceNamespace'] ) {
+
+// 		// Change fontSize from medium to base
+// 		if ( isset( $parsed_block['attrs']['fontSize'] ) && 'medium' === $parsed_block['attrs']['fontSize'] ) {
+// 			$parsed_block['attrs']['fontSize'] = 'base';
+// 		}
+// 	}
+
+// 	return $parsed_block;
+// }
+// add_filter( 'render_block_data', __NAMESPACE__ . '\modify_product_collection_defaults', 10, 3 );
