@@ -1,6 +1,10 @@
 /* WooCommerce styles
 --------------------------------------------- */
 
+/* CSS Cascade Layers - Allows overriding WooCommerce !important styles
+   while still allowing editor customization via inline styles */
+@layer woocommerce-default, theme-overrides;
+
 /* ============================================
    Product Forms & Add to Cart
    ============================================ */
@@ -488,6 +492,24 @@ body.block-editor-iframe__body .ollie-product-button-hover .wc-block-components-
 }
 
 /* ============================================
+   Product Collection Title Override
+   ============================================ */
+
+/* Override WooCommerce's medium font size for product titles in collections
+   Using cascade layers to override !important without blocking editor customization.
+   Cascade layers allow our styles to override WooCommerce's !important styles,
+   while inline styles from the editor will still take precedence. */
+@layer theme-overrides {
+	/* Target product titles within product collection blocks with high specificity */
+	.wp-block-woocommerce-product-collection .wp-block-post-title.has-medium-font-size,
+	.wp-block-woocommerce-product-collection .wp-block-post-title[class*="has-medium-font-size"],
+	.wp-block-woocommerce-product-template .wp-block-post-title.has-medium-font-size,
+	.wp-block-woocommerce-product-template .wp-block-post-title[class*="has-medium-font-size"] {
+		font-size: var(--wp--preset--font-size--small) !important;
+	}
+}
+
+/* ============================================
    Product Categories
    ============================================ */
 
@@ -560,6 +582,29 @@ body.block-editor-iframe__body .ollie-product-button-hover .wc-block-components-
 	background: var(--wp--preset--color--tertiary);
 	color: var(--wp--preset--color--main);
 }
+
+:where(.wc-block-product-template .wc-block-product)>:not(:last-child) {
+    margin-bottom: var(--wp--preset--spacing--small);
+    margin-top: 0;
+}
+
+.wc-block-product-template .wc-block-product .wp-block-post-title {
+	margin-bottom: 0;
+}
+
+.wc-block-product-template .wc-block-product .add_to_cart_button {
+	font-size: var(--wp--preset--font-size--x-small);
+}
+
+.wc-block-product-template .wc-block-product .wc-block-components-product-sale-badge {
+	background: var(--wp--preset--color--main);
+	color: var(--wp--preset--color--base);
+	font-size: 0.75rem;
+	padding: .25em .75em;
+	border: none;
+	border-radius: 100px;
+}
+
 
 /* ============================================
    Sale Badge
@@ -1233,4 +1278,20 @@ p.ppcp-place-order-description {
 		flex-wrap: wrap;
 		display: flex;
 	}
+}
+
+/* ============================================
+   Product Collection Title Override (Final)
+   ============================================ */
+
+/* Final override at end of file to ensure it loads after WooCommerce styles.
+   Uses high specificity and !important to override WooCommerce's !important styles.
+   Inline styles from the editor will still take precedence over this. */
+.wp-block-woocommerce-product-collection .wp-block-post-title.has-medium-font-size,
+.wp-block-woocommerce-product-collection .wp-block-post-title[class*="has-medium-font-size"],
+.wp-block-woocommerce-product-template .wp-block-post-title.has-medium-font-size,
+.wp-block-woocommerce-product-template .wp-block-post-title[class*="has-medium-font-size"],
+.wc-block-product-template__responsive .wp-block-post-title.has-medium-font-size,
+.wc-block-product-template__responsive .wp-block-post-title[class*="has-medium-font-size"] {
+	font-size: var(--wp--preset--font-size--small) !important;
 }

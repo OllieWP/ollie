@@ -817,14 +817,6 @@
 				},
 				"css": "& img { aspect-ratio: 3/4; object-fit: cover; }"
 			},
-			"woocommerce/product-collection": {
-				"typography": {
-					"fontSize":  "var(--wp--preset--font-size--base)",
-					"lineHeight": "1.18"
-				},
-				"css": "& .wp-block-post-title { font-size: var(--wp--preset--font-size--base) }"
-			},
-			
 			"woocommerce/product-button": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
