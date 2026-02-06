@@ -454,8 +454,8 @@ table.woocommerce-product-attributes {
 	border-radius: 5px;
 	transform: translateY(100%);
 	transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-	margin: 0;
-	position: absolute;
+	margin: 0 !important;
+	position: absolute !important;
 	bottom: 12px;
 	right: 12px;
 	opacity: 0;
@@ -466,21 +466,25 @@ table.woocommerce-product-attributes {
 	opacity: 1;
 }
 
-/* Editor preview */
-body.block-editor-iframe__body .ollie-product-button-hover-group {
-	opacity: 1;
-	transform: translateY(0);
-	position: absolute !important;
-}
-/* 
-body.block-editor-iframe__body .ollie-product-button-hover {
-	padding: 50px;
+.ollie-product-button-full-width {
+	width: 100%;
+	border-radius: 0;
+	left: 0;
+	bottom: 0;
 }
 
-body.block-editor-iframe__body .ollie-product-button-hover .wc-block-components-product-price__value:empty::before {
-	content: "$9.99";
-	font-size: inherit;
-} */
+/* Editor preview */
+.editor-styles-wrapper .ollie-product-button-hover-group {
+	opacity: 1 !important;
+	transform: translateY(0) !important;
+	position: absolute !important;
+}
+
+.editor-styles-wrapper .ollie-product-button-hover-group.is-selected {
+	opacity: 1 !important;
+	transform: translateY(0) !important;
+	position: absolute !important;
+}
 
 /* Mobile: Always show hover group */
 @media (max-width: 722px) {
@@ -605,6 +609,16 @@ body.block-editor-iframe__body .ollie-product-button-hover .wc-block-components-
 	border-radius: 100px;
 }
 
+.wc-block-product-template .wc-block-product div:not(.wc-block-components-product-image) a.added_to_cart {
+	margin-top: 0;
+	font-size: var(--wp--preset--font-size--x-small);
+}
+
+.wp-block-button.wc-block-components-product-button.is-style-outline .wp-block-button__link {
+	border-width: 1px;
+	outline-width: 1px;
+    outline-offset: -2px;
+}
 
 /* ============================================
    Sale Badge

@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: Product Card 1
- * Slug: ollie/woo-product-card
+ * Title: Product Card 5
+ * Slug: ollie/woo-product-card-5
  * Description: 
  * Categories: ollie-card, ollie-ecommerce,  ollie-product-template
  * Keywords: product,  card,  image,  text,  button,  woocommerce
- * Block Types: 
+ * Block Types:
  * Inserter: false
  */
 ?>
@@ -17,8 +17,8 @@
 <!-- /wp:group -->
 <!-- /wp:woocommerce/product-image -->
 
-<!-- wp:group {"metadata":{"name":"Add to Cart Button"},"className":"ollie-product-button-hover-group is-style-background-blur","style":{"color":{"background":"#29292930"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}},"typography":{"fontSize":"0.8rem"}},"textColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group ollie-product-button-hover-group is-style-background-blur has-base-color has-text-color has-background has-link-color" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;background-color:#29292930;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8rem"><!-- wp:woocommerce/product-button {"textAlign":"center","width":100,"isDescendentOfQueryLoop":true,"className":"is-style-fill","textColor":"base","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"typography":{"fontSize":"0.8rem"},"color":{"background":"#ffffff00"}}} /--></div>
+<!-- wp:group {"metadata":{"name":"Add to Cart Button"},"className":"is-style-background-blur ollie-product-button-hover-group ollie-product-button-full-width","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":{"bottomLeft":"10px","bottomRight":"10px"}},"color":{"background":"#14100e59"}},"textColor":"base","layout":{"type":"constrained"},"ollieCustomClasses":["ollie-product-button-hover-group","ollie-product-button-full-width"]} -->
+<div class="wp-block-group is-style-background-blur ollie-product-button-hover-group ollie-product-button-full-width has-base-color has-text-color has-background has-link-color" style="border-bottom-left-radius:10px;border-bottom-right-radius:10px;background-color:#14100e59"><!-- wp:woocommerce/product-button {"textAlign":"center","width":100,"isDescendentOfQueryLoop":true,"className":"is-style-fill","textColor":"base","fontSize":"x-small","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"left":"var:preset|spacing|small","right":"var:preset|spacing|small","top":"0.8rem","bottom":"0.8rem"}},"color":{"background":"#ffffff00"}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
