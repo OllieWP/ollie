@@ -7,6 +7,7 @@
  * Keywords: product,  card,  image,  text,  button,  woocommerce
  * Block Types:
  * Inserter: false
+ * Viewport Width: 600
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Product Card"},"className":"ollie-product-button-hover","style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"},"ollieCustomClasses":["ollie-product-button-hover"]} -->

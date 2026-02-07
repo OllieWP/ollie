@@ -490,6 +490,10 @@ table.woocommerce-product-attributes {
 	position: absolute !important;
 }
 
+.block-editor-block-list__layout .ollie-product-button-hover .wp-block-woocommerce-product-price .wc-block-components-product-price__value:empty:before {
+	content: "$9.99";
+}
+
 /* Mobile: Always show hover group */
 @media (max-width: 722px) {
 	.ollie-product-button-hover-group {

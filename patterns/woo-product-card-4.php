@@ -7,6 +7,7 @@
  * Keywords: product,  card,  image,  text,  button,  woocommerce
  * Block Types:
  * Inserter: false
+ * Viewport Width: 600
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Product Card"},"className":"","style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
