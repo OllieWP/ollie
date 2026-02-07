@@ -225,6 +225,10 @@ label.wp-block-woocommerce-add-to-cart-with-options-variation-selector-attribute
 	font-weight: 600;
 }
 
+.single-product .wp-block-post-excerpt__excerpt {
+	max-width: 525px;
+}
+
 /* ============================================
    Product Details & Tabs
    ============================================ */
@@ -630,6 +634,10 @@ table.woocommerce-product-attributes {
 	right: 12px;
 }
 
+.wc-block-cart-item__total-price-and-sale-badge-wrapper .wc-block-components-sale-badge {
+	margin-top: 8px;
+}
+
 /* ============================================
    Product Badges
    ============================================ */
@@ -949,9 +957,11 @@ h2.wc-block-mini-cart__title {
 	font-weight: 500;
 }
 
-.wc-block-components-order-summary .wc-block-components-order-summary-item__individual-prices {
+.wc-block-components-order-summary .wc-block-components-order-summary-item__individual-prices,
+.wc-block-cart .wc-block-components-product-price {
 	padding-top: 0;
 	line-height: 1;
+	font-size: var(--wp--preset--font-size--x-small);
 }
 
 .wc-block-components-order-summary .wc-block-components-order-summary-item__image {

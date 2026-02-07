@@ -12,9 +12,6 @@
  */
 ?>
 <!-- wp:pattern {"slug":"ollie/card-text-and-call-to-action"} /-->
-
 <!-- wp:pattern {"slug":"ollie/feature-boxes-with-button"} /-->
-
 <!-- wp:pattern {"slug":"ollie/features-with-emojis"} /-->
-
 <!-- wp:pattern {"slug":"ollie/testimonial-highlight"} /-->

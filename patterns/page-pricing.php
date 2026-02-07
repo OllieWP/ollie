@@ -12,7 +12,5 @@
  */
 ?>
 <!-- wp:pattern {"slug":"ollie/pricing-table-with-testimonials"} /-->
-
 <!-- wp:pattern {"slug":"ollie/faq"} /-->
-
 <!-- wp:pattern {"slug":"ollie/numbers"} /-->

@@ -12,11 +12,7 @@
  */
 ?>
 <!-- wp:pattern {"slug":"ollie/text-and-details-card"} /-->
-
 <!-- wp:pattern {"slug":"ollie/faq"} /-->
-
 <!-- wp:pattern {"slug":"ollie/testimonials-with-social-links"} /-->
-
 <!-- wp:pattern {"slug":"ollie/image-and-numbered-features"} /-->
-
 <!-- wp:pattern {"slug":"ollie/text-call-to-action-buttons"} /-->

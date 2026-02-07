@@ -12,19 +12,11 @@
  */
 ?>
 <!-- wp:pattern {"slug":"ollie/hero-text-image-and-logos"} /-->
-
 <!-- wp:pattern {"slug":"ollie/large-text-and-text-boxes"} /-->
-
 <!-- wp:pattern {"slug":"ollie/text-and-image-columns-with-icons"} /-->
-
 <!-- wp:pattern {"slug":"ollie/numbers"} /-->
-
 <!-- wp:pattern {"slug":"ollie/testimonials-and-logos"} /-->
-
 <!-- wp:pattern {"slug":"ollie/text-and-image-columns-with-testimonial"} /-->
-
 <!-- wp:pattern {"slug":"ollie/pricing-table"} /-->
-
 <!-- wp:pattern {"slug":"ollie/blog-post-columns"} /-->
-
 <!-- wp:pattern {"slug":"ollie/text-call-to-action"} /-->
