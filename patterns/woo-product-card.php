@@ -5,7 +5,7 @@
  * Description: 
  * Categories: ollie-card, ollie-ecommerce,  ollie-product-template
  * Keywords: product,  card,  image,  text,  button,  woocommerce
- * Block Types: 
+ * Block Types: core/query/woocommerce/product-query 
  * Inserter: false
  * Viewport Width: 600
  */

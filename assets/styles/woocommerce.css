@@ -574,6 +574,10 @@ table.woocommerce-product-attributes {
 	background: color-mix(in srgb, var(--wp--preset--color--tertiary) 100%, var(--wp--preset--color--main) 3%);
 }
 
+.wc-block-product-template__responsive + .wp-block-group:empty {
+	display: none;
+}
+
 /* ============================================
    Product Grid & Template
    ============================================ */
@@ -619,13 +623,61 @@ table.woocommerce-product-attributes {
 
 .wc-block-product-template .wc-block-product div:not(.wc-block-components-product-image) a.added_to_cart {
 	margin-top: 0;
-	font-size: var(--wp--preset--font-size--x-small);
+	font-size: 0.8rem;
 }
 
 .wp-block-button.wc-block-components-product-button.is-style-outline .wp-block-button__link {
 	border-width: 1px;
 	outline-width: 1px;
     outline-offset: -2px;
+}
+
+.wp-block-woocommerce-product-collection h2.wp-block-heading,
+.editor-styles-wrapper .wp-block-woocommerce-product-collection h2.wp-block-heading {
+    font-size: var(--wp--preset--font-size--large);
+    line-height: var(--wp--custom--line-height--snug);
+}
+
+input[type=checkbox].wc-block-product-filter-checkbox-list__input[type="checkbox"] {
+	width: auto;
+	min-width: auto;
+	padding: 8px;
+	height: 18px;
+	width: 18px;
+}
+
+input[type=checkbox].wc-block-product-filter-checkbox-list__input:checked+.wc-block-product-filter-checkbox-list__mark {
+	background: var(--wp--preset--color--main);
+	color: var(--wp--preset--color--base);
+	border-radius: 5px;
+	height: 18px;
+	width: 18px;
+}
+
+.wc-block-product-filter-checkbox-list__input-wrapper:before {
+	border-radius: 5px;
+	display: none;
+}
+
+.wc-block-product-filter-removable-chips__items .wc-block-product-filter-removable-chips__item {
+	border-radius: 100px;
+	background: var(--wp--preset--color--tertiary);
+	border: none;
+	width: 100%;
+	padding: 8px 10px 8px 15px;
+}
+
+.wc-block-product-filter-removable-chips__items {
+	gap: 8px;
+	width: 100%;
+}
+
+.wp-block-woocommerce-product-filter-clear-button button {
+	padding: var(--wp--preset--spacing--medium);
+}
+
+.wc-block-product-filter-price-slider .text input[type=text] {
+	max-width: 70px;
 }
 
 /* ============================================
@@ -1161,10 +1213,90 @@ p.ppcp-place-order-description {
 	transform: translateY(4px) scale(.75);
 	font-size: var(--wp--preset--font-size--small);
 	color: var(--wp--preset--color--secondary);
+	transform-origin: left;
 }
 
 #ppcp-recaptcha-v2-container:empty {
 	display: none;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li {
+	padding: 0;
+	margin-bottom: 6px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li a {
+	padding: .8em 1em;
+    border-radius: 5px;
+	width: 100%;
+	display: block;
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li.is-active a {
+    background: var(--wp--preset--color--tertiary);
+	font-weight: 600;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li.is-active a {
+	text-decoration: none;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li a:hover {
+	background: var(--wp--preset--color--tertiary);
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.woocommerce-account .woocommerce-MyAccount-content {
+		width: 65%;
+	}
+}
+
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+	background: var(--wp--preset--color--tertiary);
+	border: none;
+	padding: var(--wp--preset--spacing--medium);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.woocommerce table.shop_table th {
+	padding: 10px 15px;
+}
+
+.woocommerce table.my_account_orders td, .woocommerce table.my_account_orders th {
+	padding: 10px 15px;
+}
+
+.woocommerce-page table.shop_table_responsive .button, .woocommerce-page table.shop_table_responsive input.button {
+	font-size: var(--wp--preset--font-size--x-small);
+	margin: 0;
+}
+
+.wc-block-components-notice-banner>.wc-block-components-notice-banner__content .wc-forward {
+	font-size: var(--wp--preset--font-size--x-small);
+}
+
+.woocommerce-Address-title h2 {
+	font-size: var(--wp--preset--font-size--medium);
+	margin-top: 0;
+}
+
+.woocommerce-account .addresses .title .edit {
+	float: none;
+}
+
+.woocommerce-Address,
+.woocommerce-EditAccountForm {
+	background: var(--wp--preset--color--tertiary);
+	padding: var(--wp--preset--spacing--medium);
+	border-radius: 5px;
+	border: none;
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.woocommerce-EditAccountForm {
+	padding: var(--wp--preset--spacing--large);
 }
 
 /* ============================================
