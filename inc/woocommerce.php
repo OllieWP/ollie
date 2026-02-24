@@ -60,7 +60,6 @@ function filter_woocommerce_templates( $query_result, $query, $template_type ) {
 		'page-checkout',
 		'product-search-results',
 		'single-product',
-		'single-product-sidebar',
 	);
 
 	return array_filter(
