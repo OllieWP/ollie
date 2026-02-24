@@ -157,12 +157,6 @@ a.more-link {
 	position: relative;
 }
 
-/* Adjust terms at bottom of posts */
-.single .wp-block-group .wp-block-post-terms,
-.blog .wp-block-group .wp-block-post-terms {
-	margin-bottom: -8px !important;
-}
-
 /* Remove margin on term description on archive pages */
 .wp-block-term-description p:last-child {
 	margin-bottom: 0;

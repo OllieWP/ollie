@@ -3,7 +3,7 @@
  * Title: Product Card 3
  * Slug: ollie/woo-product-card-3
  * Description: 
- * Categories: ollie-card, ollie-ecommerce,  ollie-product-template
+ * Categories: ollie/card, ollie/product-card
  * Keywords: product,  card,  image,  text,  button,  woocommerce
  * Block Types:
  * Inserter: false

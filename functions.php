@@ -126,24 +126,6 @@ add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
 
 
 /**
- * Enqueue WooCommerce specific stylesheet
- */
-function enqueue_woocommerce_styles() {
-
-	// Only enqueue if WooCommerce is active
-	if ( class_exists( 'WooCommerce' ) ) {
-		wp_enqueue_style(
-			'theme-woocommerce-style',
-			get_template_directory_uri() . '/assets/styles/woocommerce.css',
-			array(),
-			'1.0.0'
-		);
-	}
-}
-add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_woocommerce_styles' );
-
-
-/**
  * Register pattern categories.
  */
 function pattern_categories() {
@@ -213,24 +195,7 @@ function template_part_areas( array $areas ) {
 }
 add_filter( 'default_wp_template_part_areas', __NAMESPACE__ . '\template_part_areas' );
 
-
-// /**
-//  * Modify WooCommerce product collection block attributes before rendering.
-//  * Changes default fontSize from 'medium' to 'base' for product titles.
-//  * This modifies the attribute itself so WordPress outputs the correct preset class.
-//  */
-// function modify_product_collection_defaults( $parsed_block, $source_block, $parent_block ) {
-// 	// Target post-title blocks within WooCommerce product context
-// 	if ( 'core/post-title' === $parsed_block['blockName'] &&
-// 		 isset( $parsed_block['attrs']['__woocommerceNamespace'] ) &&
-// 		 'woocommerce/product-collection/product-title' === $parsed_block['attrs']['__woocommerceNamespace'] ) {
-
-// 		// Change fontSize from medium to base
-// 		if ( isset( $parsed_block['attrs']['fontSize'] ) && 'medium' === $parsed_block['attrs']['fontSize'] ) {
-// 			$parsed_block['attrs']['fontSize'] = 'base';
-// 		}
-// 	}
-
-// 	return $parsed_block;
-// }
-// add_filter( 'render_block_data', __NAMESPACE__ . '\modify_product_collection_defaults', 10, 3 );
+/**
+ * Load WooCommerce specific functions.
+ */
+require_once get_template_directory() . '/inc/woocommerce.php';
