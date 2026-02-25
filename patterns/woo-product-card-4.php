@@ -2,7 +2,7 @@
 /**
  * Title: Product Card 4
  * Slug: ollie/woo-product-card-4
- * Description: 
+ * Description: Product card with title and rating in row layout
  * Categories: ollie/card, ollie/product-card
  * Keywords: product,  card,  image,  text,  button,  woocommerce
  * Block Types:

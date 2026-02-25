@@ -2,7 +2,7 @@
 /**
  * Title: Product Card 5
  * Slug: ollie/woo-product-card-5
- * Description: 
+ * Description: Product card with hover add to cart button overlay
  * Categories: ollie/card, ollie/product-card
  * Keywords: product,  card,  image,  text,  button,  woocommerce
  * Block Types:

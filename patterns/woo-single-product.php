@@ -2,7 +2,7 @@
 /**
  * Title: Single Product
  * Slug: ollie/woo-single-product
- * Description: 
+ * Description: Single product page with gallery, details, add to cart, and related products
  * Categories: ollie/woocommerce
  * Keywords: product, single, woocommerce, grid
  * Template Types: single-product

@@ -2,7 +2,7 @@
 /**
  * Title: Product Card 2
  * Slug: ollie/woo-product-card-2
- * Description: 
+ * Description: Simple centered product card with add to cart button
  * Categories: ollie/card, ollie/product-card
  * Keywords: product,  card,  image,  text,  button,  woocommerce
  * Block Types: 

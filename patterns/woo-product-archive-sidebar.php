@@ -2,7 +2,7 @@
 /**
  * Title: Product Archive Sidebar
  * Slug: ollie/woo-product-archive-sidebar
- * Description: 
+ * Description: Product archive with sidebar filters, product grid, and pagination
  * Categories: ollie/woocommerce
  * Keywords: product, archive, sidebar, woocommerce
  * Template Types: archive-product

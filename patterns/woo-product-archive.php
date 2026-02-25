@@ -2,7 +2,7 @@
 /**
  * Title: Product Archive
  * Slug: ollie/woo-product-archive
- * Description: 
+ * Description: Product archive with header, sorting, product grid, and pagination
  * Categories: ollie/woocommerce
  * Keywords: product, archive, woocommerce, grid
  * Template Types: archive-product

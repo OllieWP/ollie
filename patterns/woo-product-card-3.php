@@ -2,7 +2,7 @@
 /**
  * Title: Product Card 3
  * Slug: ollie/woo-product-card-3
- * Description: 
+ * Description: Centered product card with star rating and add to cart button
  * Categories: ollie/card, ollie/product-card
  * Keywords: product,  card,  image,  text,  button,  woocommerce
  * Block Types:

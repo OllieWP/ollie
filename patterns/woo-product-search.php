@@ -2,7 +2,7 @@
 /**
  * Title: Product Search Results
  * Slug: ollie/woo-product-search
- * Description: 
+ * Description: Product search results page with grid layout and pagination
  * Categories: ollie/woocommerce
  * Keywords: product, search, woocommerce, grid
  * Template Types: product-search-results
