@@ -37,3 +37,6 @@ node_modules/
 ############
 .claude/
 
+# Formatting script
+format-templates.mjs
+

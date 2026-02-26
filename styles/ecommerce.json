@@ -1,0 +1,107 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "eCommerce",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Brand",
+					"slug": "primary",
+					"color": "#FF6637"
+				},
+				{
+					"name": "Brand Accent",
+					"slug": "primary-accent",
+					"color": "#FFEBE1"
+				},
+				{
+					"name": "Brand Alt",
+					"slug": "primary-alt",
+					"color": "#FFB281"
+				},
+				{
+					"name": "Brand Alt Accent",
+					"slug": "primary-alt-accent",
+					"color": "#453029"
+				},
+				{
+					"name": "Contrast",
+					"slug": "main",
+					"color": "#15110F"
+				},
+				{
+					"name": "Contrast Accent",
+					"slug": "main-accent",
+					"color": "#DDD1CB"
+				},
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#fff"
+				},
+				{
+					"name": "Base Accent",
+					"slug": "secondary",
+					"color": "#645048"
+				},
+				{
+					"name": "Tint",
+					"slug": "tertiary",
+					"color": "#FAF6F4"
+				},
+				{
+					"name": "Border Base",
+					"slug": "border-light",
+					"color": "#e7deda"
+				},
+				{
+					"name": "Border Contrast",
+					"slug": "border-dark",
+					"color": "#60514B"
+				}
+			]
+		},
+		"typography": {
+			"dropCap": false,
+			"defaultFontSizes": false,
+			"fluid": true,
+			"writingMode": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "Geist, sans-serif",
+					"name": "Geist",
+					"slug": "primary",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Geist",
+							"fontStretch": "75% 125%",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/geist/Geist-VariableFont_wght.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "monospace",
+					"name": "Monospace",
+					"slug": "monospace"
+				}
+			],
+			"lineHeight": true
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--primary)",
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold)",
+					"lineHeight": "var(--wp--custom--line-height--snug)",
+					"letterSpacing": "-.5px"
+				}
+			}
+		}
+	}
+}

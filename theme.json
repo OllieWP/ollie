@@ -3,6 +3,46 @@
 	"version": 3,
 	"settings": {
 		"appearanceTools": true,
+		"border": {
+			"radius": true,
+			"radiusSizes": [
+				{
+					"name": "XS",
+					"slug": "xs",
+					"size": "0.25rem"
+				},
+				{
+					"name": "Small",
+					"slug": "sm",
+					"size": "0.5rem"
+				},
+				{
+					"name": "Medium",
+					"slug": "md",
+					"size": "0.75rem"
+				},
+				{
+					"name": "Large",
+					"slug": "lg",
+					"size": "1.25rem"
+				},
+				{
+					"name": "XL",
+					"slug": "xl",
+					"size": "2rem"
+				},
+				{
+					"name": "2XL",
+					"slug": "2-xl",
+					"size": "3rem"
+				},
+				{
+					"name": "Full",
+					"slug": "full",
+					"size": "100rem"
+				}
+			]
+		},
 		"color": {
 			"defaultDuotone": false,
 			"defaultGradients": false,
@@ -430,27 +470,27 @@
 				{
 					"fluid": {
 						"min": "1.5rem",
-						"max": "2.75rem"
+						"max": "2.35rem"
 					},
-					"size": "2.75rem",
+					"size": "2.35rem",
 					"slug": "large",
 					"name": "Large"
 				},
 				{
 					"fluid": {
 						"min": "1.875rem",
-						"max": "3.5rem"
+						"max": "2.9rem"
 					},
-					"size": "3.5rem",
+					"size": "2.9rem",
 					"slug": "x-large",
 					"name": "Extra Large"
 				},
 				{
 					"fluid": {
 						"min": "2.25rem",
-						"max": "4.3875rem"
+						"max": "3.75rem"
 					},
-					"size": "4.3875rem",
+					"size": "3.75rem",
 					"slug": "xx-large",
 					"name": "Extra Extra Large"
 				}
@@ -536,17 +576,21 @@
 					}
 				}
 			},
-			"core/details": {
-				"css": ".wp-block-details summary { font-weight: 600 }"
-			},
 			"core/post-comments-form": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				},
 				"elements": {
-					"heading": {
+					"button": {
 						"typography": {
-							"fontSize": "var:preset|font-size|medium"
+							"fontSize": "var:preset|font-size|x-small"
 						}
 					}
-				}
+				},
+				"css": "& .comment-reply-title { font-size: var(--wp--preset--font-size--base) }"
+			},
+			"core/details": {
+				"css": ".wp-block-details summary { font-weight: 600 }"
 			},
 			"core/read-more": {
 				"elements": {
@@ -584,7 +628,8 @@
 							"fontSize": "var:preset|font-size|medium"
 						}
 					}
-				}
+				},
+				"css": "& li:last-child:not(:only-child) > .wp-block-separator:last-child { display: none; }"
 			},
 			"core/post-terms": {
 				"elements": {
@@ -770,6 +815,29 @@
 						"top": "0px !important"
 					}
 				}
+			},
+			"woocommerce/product-image": {
+				"border": {
+					"radius": "5px"
+				},
+				"css": "& img { aspect-ratio: 3/4; object-fit: cover; }"
+			},
+			"woocommerce/product-button": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "500"
+				}
+			},
+			"woocommerce/category-title": {
+				"typography": {
+					"fontSize": "var:preset|font-size|base",
+					"letterSpacing": "0"
+				}
+			},
+			"woocommerce/category-description": {
+				"typography": {
+					"fontSize": "var:preset|font-size|x-small"
+				}
 			}
 		},
 		"color": {
@@ -802,9 +870,6 @@
 					"color": {
 						"background": "var:preset|color|main",
 						"text": "var:preset|color|base"
-					},
-					"typography": {
-						"textDecoration": "underline"
 					}
 				}
 			},

@@ -12,9 +12,6 @@
  */
 ?>
 <!-- wp:pattern {"slug":"ollie/contact-details"} /-->
-
 <!-- wp:pattern {"slug":"ollie/team-members"} /-->
-
 <!-- wp:pattern {"slug":"ollie/numbers-stacked"} /-->
-
 <!-- wp:pattern {"slug":"ollie/job-openings"} /-->

@@ -1,10 +1,6 @@
 /* Post Template
 --------------------------------------------- */
 
-ul[class*="columns-"].wp-block-post-template .wp-block-post > .wp-block-group {
-	height: 100%;
-}
-
 /* Hide empty pagination container */
 .wp-block-post-template + .wp-block-group:empty {
 	display: none;

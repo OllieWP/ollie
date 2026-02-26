@@ -7,12 +7,12 @@ Description: Launch a blazing-fast, pixel-perfect website with the Ollie WordPre
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Tested up to: 6.7.1
 Requires PHP: 7.3
-Version: 1.5.4
+Version: 1.6.0
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ollie
 
-Ollie WordPress Theme, (C) 2025 Mike McAlister.
+Ollie WordPress Theme, (C) 2026 Mike McAlister.
 Ollie is distributed under the terms of the GNU GPL.
 */
 
@@ -89,28 +89,42 @@ textarea {
 	appearance: none;
 }
 
-input:not([type="submit"]),
+input:not([type="submit"]):not([type="radio"]),
 select,
 textarea,
-.wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]),
+.wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
 .wp-block-post-comments-form textarea {
 	color: var(--wp--preset--color--main);
 	border-radius: 5px;
-	border: solid 1px var(--wp--preset--color--border-light);
+	border: solid 1px color-mix(in srgb, var(--wp--preset--color--tertiary) 100%, var(--wp--preset--color--main) 20%);
 	padding: .5em 1em;
 	font-size: var(--wp--preset--font-size--small);
 	background-color: #fff;
+	box-shadow: 
+		0 1px 2px rgba(0, 0, 0, 0.02),
+		0 0.5px 1px rgba(0, 0, 0, 0.04);
 }
 
 input:focus-visible,
-textarea:focus-visible {
-	outline-color: var(--wp--preset--color--primary);
+textarea:focus-visible,
+select:focus-visible {
+	outline-color: var(--wp--preset--color--main);
+	outline-offset: 1px;
 }
 
 input[type="checkbox"],
 input[type="image"],
 input[type="radio"] {
 	width: auto;
+}
+
+select {
+	-webkit-appearance: none;
+	appearance: none;
+	background: var(--wp--preset--color--base) url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2hldnJvbi1kb3duIj48cG9seWxpbmUgcG9pbnRzPSI2IDkgMTIgMTUgMTggOSI+PC9wb2x5bGluZT48L3N2Zz4=) no-repeat;
+    background-size: 16px;
+    background-position: calc(100% - 12px) 50%;
+	padding-right: 2.2em;
 }
 
 label {
@@ -141,12 +155,6 @@ a.more-link {
 
 .wp-block-categories {
 	position: relative;
-}
-
-/* Adjust terms at bottom of posts */
-.single .wp-block-group .wp-block-post-terms,
-.blog .wp-block-group .wp-block-post-terms {
-	margin-bottom: -8px !important;
 }
 
 /* Remove margin on term description on archive pages */
@@ -202,4 +210,47 @@ body:not(.wp-admin) header:has(>.is-position-sticky) {
 	header:has(>.ollie-unstick-mobile) {
 		position: static;
 	}
+}
+
+/* Table
+--------------------------------------------- */
+
+.wp-block-table table {
+	background: var(--wp--preset--color--base);
+	border-radius: 5px;
+	border: solid 1px var(--wp--preset--color--border-light);
+	font-size: var(--wp--preset--font-size--x-small);
+}
+.wp-block-table.is-style-stripes {
+	border-bottom: none;
+}
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+	background-color: var(--wp--preset--color--tertiary);
+}
+
+.wp-block-table td, 
+.wp-block-table th,
+.wp-block-table thead {
+	border: none;
+	border-bottom: solid 1px color-mix(in srgb, var(--wp--preset--color--border-light) 50%, var(--wp--preset--color--base) 5%);
+}
+
+.wp-block-table th,
+.wp-block-table tfoot {
+	text-align: left;
+	background-color: color-mix(in srgb, var(--wp--preset--color--tertiary) 75%, var(--wp--preset--color--base) 5%);
+}
+
+.wp-block-table td, 
+.wp-block-table th {
+	padding: .8em 1em;
+}
+
+.wp-block-table tfoot {
+	border-top: solid 1px var(--wp--preset--color--border-light);
+}
+
+.wp-block-table tfoot td {
+	border-bottom: none;
 }

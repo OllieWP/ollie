@@ -1,0 +1,42 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "Preset 10",
+	"slug": "typography-preset-10",
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--geist)"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--geist)",
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold)",
+					"lineHeight": "var(--wp--custom--line-height--snug)",
+					"letterSpacing": "-.5px"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Geist, sans-serif",
+					"name": "Geist",
+					"slug": "geist",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Geist",
+							"fontStretch": "75% 125%",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": ["file:./assets/fonts/geist/Geist-VariableFont_wght.woff2"]
+						}
+					]
+				}
+			]
+		}
+	}
+}

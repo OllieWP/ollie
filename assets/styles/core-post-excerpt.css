@@ -1,7 +1,8 @@
 /* Post Excerpt
 --------------------------------------------- */
 
-ul[class*="columns-"].wp-block-post-template .wp-block-post-excerpt__more-text {
+ul[class*="columns-"].wp-block-post-template .wp-block-post-excerpt__more-text,
+.wp-block-post-excerpt__more-text {
 	margin-top: var(--wp--preset--spacing--small);
 }
 
