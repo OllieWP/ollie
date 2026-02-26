@@ -118,7 +118,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|main-accent"}}}},"textColor":"main-accent","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group has-main-accent-color has-text-color has-link-color">
 			<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><?php esc_html_e( '© 2025 · Powered by WordPress and ', 'ollie' ); ?><a href="https://olliewp.com"><?php esc_html_e( 'Ollie', 'ollie' ); ?></a></p>
+				<p class="has-small-font-size"><?php esc_html_e( '© 2026 · Powered by WordPress and ', 'ollie' ); ?><a href="https://olliewp.com"><?php esc_html_e( 'Ollie', 'ollie' ); ?></a></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 				<div class="wp-block-group has-small-font-size">
@@ -129,7 +129,7 @@
 					<p><?php esc_html_e( 'Visit Ollie', 'ollie' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-					<p><?php esc_html_e( 'Visit Mike', 'ollie' ); ?></p>
+					<p><?php esc_html_e( 'Visit YouTube', 'ollie' ); ?></p>
 				<!-- /wp:paragraph -->
 				</div>
 			<!-- /wp:group -->
