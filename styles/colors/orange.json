@@ -13,7 +13,7 @@
 				{
 					"name": "Brand Accent",
 					"slug": "primary-accent",
-					"color": "#FFEBE0"
+					"color": "#FFEBE1"
 				},
 				{
 					"name": "Brand Alt",
@@ -28,12 +28,12 @@
 				{
 					"name": "Contrast",
 					"slug": "main",
-					"color": "#211916"
+					"color": "#15110F"
 				},
 				{
 					"name": "Contrast Accent",
 					"slug": "main-accent",
-					"color": "#ECD7CF"
+					"color": "#DDD1CB"
 				},
 				{
 					"name": "Base",
@@ -48,12 +48,12 @@
 				{
 					"name": "Tint",
 					"slug": "tertiary",
-					"color": "#fff6f4"
+					"color": "#FAF6F4"
 				},
 				{
 					"name": "Border Base",
 					"slug": "border-light",
-					"color": "#EEE3DC"
+					"color": "#e7deda"
 				},
 				{
 					"name": "Border Contrast",
