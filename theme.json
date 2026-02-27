@@ -822,12 +822,6 @@
 				},
 				"css": "& img { aspect-ratio: 3/4; object-fit: cover; }"
 			},
-			"woocommerce/product-button": {
-				"typography": {
-					"fontSize": "var:preset|font-size|small",
-					"fontWeight": "500"
-				}
-			},
 			"woocommerce/category-title": {
 				"typography": {
 					"fontSize": "var:preset|font-size|base",
