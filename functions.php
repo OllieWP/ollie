@@ -199,3 +199,24 @@ add_filter( 'default_wp_template_part_areas', __NAMESPACE__ . '\template_part_ar
  * Load WooCommerce specific functions.
  */
 require_once get_template_directory() . '/inc/woocommerce.php';
+
+/**
+ * Remove empty avatar div from the post author block.
+ *
+ * @since 1.1.0
+ * @param string $block_content The block content.
+ * @param array  $block         The parsed block data.
+ * @return string The modified block content.
+ */
+function remove_empty_post_author_avatar( $block_content, $block ) {
+	$empty_avatar_div = '<div class="wp-block-post-author__avatar"></div>';
+
+	// When avatars are disabled in Settings > Discussion, or otherwise miss an image,
+	// the core block renders an empty div. We remove it entirely to prevent layout gaps.
+	if ( strpos( $block_content, $empty_avatar_div ) !== false ) {
+		$block_content = str_replace( $empty_avatar_div, '', $block_content );
+	}
+
+	return $block_content;
+}
+add_filter( 'render_block_core/post-author', __NAMESPACE__ . '\remove_empty_post_author_avatar', 10, 2 );
