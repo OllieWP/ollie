@@ -134,7 +134,6 @@ label {
 
 ::placeholder {
 	color: var(--wp--preset--color--secondary);
-	font-size: var(--wp--preset--font-size--small);
 	opacity: 0.75;
 }
 
