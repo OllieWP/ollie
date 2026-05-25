@@ -519,7 +519,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var:preset|font-family|monospace)",
+					"fontFamily": "var:preset|font-family|monospace",
 					"fontSize": "var:preset|font-size|small"
 				}
 			},
