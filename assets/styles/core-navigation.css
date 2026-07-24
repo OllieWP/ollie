@@ -160,3 +160,7 @@ body.rtl .wp-block-navigation__responsive-container.is-menu-open .wp-block-navig
 .wp-block-ollie-mega-menu__menu-container {
 	font-weight: 400;
 }
+
+.has-modal-open .admin-bar .is-menu-open .wp-block-navigation__responsive-dialog {
+	margin-top: 0;
+}

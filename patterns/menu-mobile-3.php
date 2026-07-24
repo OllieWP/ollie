@@ -6,7 +6,7 @@
  * Categories: ollie/menu
  * Keywords: menu, drop down, mobile, card
  * Viewport Width: 600
- * Block Types: core/template-part/menu 
+ * Block Types: core/template-part/menu, core/template-part/navigation-overlay 
  * Post Types: 
  * Inserter: true
  */

@@ -199,3 +199,35 @@ add_filter( 'default_wp_template_part_areas', __NAMESPACE__ . '\template_part_ar
  * Load WooCommerce specific functions.
  */
 require_once get_template_directory() . '/inc/woocommerce.php';
+
+
+
+
+function ollie_add_ancestor_class_to_nav_link( $block_content, $block ) {
+    if ( $block['blockName'] !== 'core/navigation-link' ) {
+        return $block_content;
+    }
+
+    $current_page_id = get_the_ID();
+    if ( ! $current_page_id ) {
+        return $block_content;
+    }
+
+    $ancestors = get_post_ancestors( $current_page_id );
+    if ( empty( $ancestors ) ) {
+        return $block_content;
+    }
+
+    $nav_page_id = isset( $block['attrs']['id'] ) ? intval( $block['attrs']['id'] ) : 0;
+
+    if ( $nav_page_id && in_array( $nav_page_id, $ancestors ) ) {
+        $block_content = str_replace(
+            'class="wp-block-navigation-item__content',
+            'style="text-decoration: underline !important;" class="wp-block-navigation-item__content',
+            $block_content
+        );
+    }
+
+    return $block_content;
+}
+add_filter( 'render_block', __NAMESPACE__ . '\ollie_add_ancestor_class_to_nav_link', 10, 2 );
