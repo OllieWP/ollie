@@ -17,7 +17,6 @@ Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block them
 = 1.6.1 - 7/24/26 =
 * Move list item spacing into theme.json so Global Styles can control it
 * Fix mobile menu overlay spacing when the admin bar is present
-* Underline ancestor navigation links on child pages
 * Register mobile menu patterns for the navigation overlay template part
 * Update blue and orange color palettes
 * Remove redundant product button styles and placeholder font size
