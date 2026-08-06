@@ -4,6 +4,7 @@
 .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container .current-menu-item > a,
 .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container .has-child button:hover {
 	text-decoration: underline;
+	text-decoration-thickness: 0.1rem;
 }
 
 /* Drop nav */
