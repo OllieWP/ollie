@@ -23,8 +23,8 @@
 	border-radius: 5px;
 }
 
-@media (max-width: 781px) {
+/* @media (max-width: 781px) {
 	.wp-block-cover:not(.has-aspect-ratio) {
 		min-height: 430px !important;
 	}
-}
+} */
