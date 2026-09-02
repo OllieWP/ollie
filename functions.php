@@ -196,6 +196,33 @@ function template_part_areas( array $areas ) {
 add_filter( 'default_wp_template_part_areas', __NAMESPACE__ . '\template_part_areas' );
 
 /**
+ * Restore per-submenu aria-expanded behavior in the navigation block.
+ *
+ * WordPress 7.1 binds submenu toggles to `state.isSubmenuOpen`, which reports
+ * true for every toggle while the mobile overlay is open. Ollie collapses
+ * submenus inside the overlay and keys their visibility off aria-expanded,
+ * so rebind the toggles to `state.isMenuOpen`, which tracks each submenu's
+ * own open state as core did before 7.1.
+ */
+function fix_submenu_toggle_binding( $block_content ) {
+	$tags = new \WP_HTML_Tag_Processor( $block_content );
+
+	while ( $tags->next_tag(
+		array(
+			'tag_name'   => 'BUTTON',
+			'class_name' => 'wp-block-navigation-submenu__toggle',
+		)
+	) ) {
+		if ( 'state.isSubmenuOpen' === $tags->get_attribute( 'data-wp-bind--aria-expanded' ) ) {
+			$tags->set_attribute( 'data-wp-bind--aria-expanded', 'state.isMenuOpen' );
+		}
+	}
+
+	return $tags->get_updated_html();
+}
+add_filter( 'render_block_core/navigation', __NAMESPACE__ . '\fix_submenu_toggle_binding' );
+
+/**
  * Load WooCommerce specific functions.
  */
 require_once get_template_directory() . '/inc/woocommerce.php';

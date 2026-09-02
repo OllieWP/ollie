@@ -2,9 +2,9 @@
 Contributors: mmcalister, patrickposner
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 5.8
-Tested up to: 6.9.1
+Tested up to: 7.1
 Requires PHP: 7.2
-Stable tag: 1.6.2
+Stable tag: 1.6.3
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,10 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 60 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with global styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
 
 == Changelog ==
+
+= 1.6.3 - 9/2/26 =
+* Fix mobile menu submenus opening already expanded on WordPress 7.1 by restoring per-submenu toggle behavior
+* Start the mobile menu overlay below the admin bar when it is present
 
 = 1.6.2 - 9/1/26 =
 * Support making a single header row sticky — set Position to Sticky on a row inside the header and it stays put while rows above it scroll away

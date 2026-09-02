@@ -164,3 +164,8 @@ body.rtl .wp-block-navigation__responsive-container.is-menu-open .wp-block-navig
 .has-modal-open .admin-bar .is-menu-open .wp-block-navigation__responsive-dialog {
 	margin-top: 0;
 }
+
+/* Start the mobile overlay below the admin bar instead of underneath it. */
+.admin-bar .wp-block-navigation__responsive-container.is-menu-open {
+	top: var(--wp-admin--admin-bar--height, 0px);
+}
