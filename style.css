@@ -7,7 +7,7 @@ Description: Launch a blazing-fast, pixel-perfect website with the Ollie WordPre
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Tested up to: 7.0.2
 Requires PHP: 7.3
-Version: 1.6.1
+Version: 1.6.2
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ollie
@@ -193,6 +193,27 @@ body:not(.wp-admin) header:has(>.is-position-sticky) {
 	header:has(>.is-position-sticky) {
 		top: 0;
 	}
+}
+
+/* Partial sticky header: when one row inside the header is sticky, dissolve
+   the header wrappers so that row can stick on its own while rows above
+   scroll away. Wrapper styling won't render while dissolved. */
+
+body:not(.wp-admin) header.wp-block-template-part:has(> .wp-block-group > .is-position-sticky):not(:has(> .is-position-sticky)),
+body:not(.wp-admin) header.wp-block-template-part:has(> .wp-block-group > .is-position-sticky):not(:has(> .is-position-sticky)) > .wp-block-group {
+	display: contents;
+}
+
+/* Cancel alignfull negative margins — the dissolved wrapper's compensating
+   padding no longer renders. */
+
+body:not(.wp-admin) header.wp-block-template-part:has(> .wp-block-group > .is-position-sticky):not(:has(> .is-position-sticky)) > .wp-block-group > .alignfull {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+body:not(.wp-admin) header.wp-block-template-part:has(> .wp-block-group > .is-position-sticky) .is-position-sticky {
+	z-index: 100;
 }
 
 /* Mobile helper classes */
