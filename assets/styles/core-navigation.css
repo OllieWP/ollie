@@ -142,9 +142,10 @@ body.rtl .wp-block-navigation__responsive-container.is-menu-open .wp-block-navig
 	background: transparent;
 }
 
-/* Mobile menu open button */
-.wp-block-navigation__responsive-container-close,
-.wp-block-navigation__responsive-container-open {
+/* Mobile menu open button. Only the icon variant gets the boxed treatment —
+   text toggles ("Menu"/"Close") stay plain. */
+.wp-block-navigation__responsive-container-close:has(svg),
+.wp-block-navigation__responsive-container-open:has(svg) {
 	padding: 4px;
 	border-radius: 3px;
 	background: var(--wp--preset--color--tertiary);
@@ -152,7 +153,7 @@ body.rtl .wp-block-navigation__responsive-container.is-menu-open .wp-block-navig
 }
 
 /* Mobile menu close button */
-.wp-block-navigation__responsive-container-close {
+.wp-block-navigation__responsive-container-close:has(svg) {
 	background: var(--wp--preset--color--tertiary);
 	color: var(--wp--preset--color--main);
 }
