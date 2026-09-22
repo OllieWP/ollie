@@ -1,7 +1,7 @@
 # Ollie Design Library — HTML-to-Pattern Pipeline
 
 **Date:** 2026-09-21
-**Status:** Approved, implementing
+**Status:** Implemented (first test set converted and reviewed)
 **Location:** `ollie/design-library/` in the Ollie theme repo
 
 ## Problem
@@ -27,7 +27,7 @@ ollie/design-library/
   build/test/             node:test fixtures
 ```
 
-Node 22, ES modules, no bundler. Dependencies: `parse5` (already an indirect dependency via `parse5-html-rewriting-stream`). Tailwind is loaded in each HTML file from the `@tailwindcss/browser` CDN build; nothing is compiled.
+Node 22, ES modules, no bundler. Dependencies: `parse5` (already an indirect dependency via `parse5-html-rewriting-stream`). Each HTML file loads `preview.js`, which fetches `tokens.css` into a `text/tailwindcss` style block and then loads the `@tailwindcss/browser` CDN build (that build cannot `@import` local files). Designs are viewed over HTTP (`npm run dl:preview`).
 
 ## Token vocabulary (tokens.css)
 
@@ -104,7 +104,7 @@ Viewport Width: 1500
 - Root block gets `metadata.name` = Title, plus `metadata.categories` and `metadata.patternName` like existing patterns.
 - Attribute JSON key order follows WordPress's serializer as seen in existing files (metadata, align, className, style, backgroundColor, textColor, fontSize, layout).
 - Inner HTML classes and inline styles are generated the way WordPress's block supports emit them (`has-x-background-color has-background`, `has-text-align-center`, `padding-top:var(--wp--preset--spacing--large)`).
-- Text is written plain. After conversion the converter shells out to `node theme-utils.mjs escape-patterns` on that file, which wraps strings in `esc_html_e()` / `esc_attr_e()` and rewrites image paths. We reuse it rather than duplicating it.
+- Text is wrapped in `esc_html_e()` / `esc_attr_e()` and image paths in `get_template_directory_uri()` by the serializer itself (not by `theme-utils.mjs escape-patterns`, whose per-text-node rewriting drops the spaces around inline `<strong>`/`<a>`). `--markup` reverses this to plain block markup for inserting into a post.
 
 ## Review flow
 

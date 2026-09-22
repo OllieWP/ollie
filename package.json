@@ -4,7 +4,11 @@
 	"description": "Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme.",
 	"scripts": {
 	  "translate:patterns": "node theme-utils.mjs escape-patterns --text-domain=ollie",
-	  "dev": "node theme-utils.mjs watch --text-domain=ollie"
+	  "dev": "node theme-utils.mjs watch --text-domain=ollie",
+	  "dl:tokens": "node design-library/build/gen-tokens.mjs",
+	  "dl:convert": "node design-library/build/convert.mjs",
+	  "dl:test": "node --test design-library/build/test/*.test.mjs",
+	  "dl:preview": "python3 -m http.server 8787"
 	},
 	"keywords": [
 	  "wordpress",
