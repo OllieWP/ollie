@@ -71,6 +71,7 @@ The front-matter comment becomes the pattern's PHP docblock. `Description`, `Blo
 | Radius | `rounded-card` (5px), `rounded-full` (images only) | `style.border.radius` / `is-style-rounded-full` |
 | Shadow | `shadow-small-light` … `shadow-extra-large-dark` | `style.shadow` |
 | Width | `max-w-wide`, `max-w-full`, `w-full`, `w-1/2` `w-1/3` `w-2/3` `w-1/4` `w-3/4`, `w-[60px]` `h-[60px]` (images) | `align`, button `width`, column `width`, image `width`/`height` |
+| Aspect ratio | `aspect-square`, `aspect-video`, `aspect-[4/3]` (images) | `aspectRatio` + `scale: cover` |
 | Alignment | `text-center` `text-left` `text-right`, `items-*`, `justify-*` | `align` / `textAlign` / layout alignment |
 | Misc | `uppercase`, `italic`, `min-h-full` | typography / `dimensions.minHeight` |
 

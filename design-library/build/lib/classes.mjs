@@ -74,6 +74,9 @@ export function parseClasses(classes, tokens) {
     if (c === 'gap-0') { p.gap = '0'; continue; }
 
     // ---- surface
+    if (c === 'aspect-square') { p.aspectRatio = '1'; continue; }
+    if (c === 'aspect-video') { p.aspectRatio = '16/9'; continue; }
+    if ((m = c.match(/^aspect-\[(\d+)\/(\d+)\]$/))) { p.aspectRatio = `${m[1]}/${m[2]}`; continue; }
     if (c === 'rounded-card') { p.radius = tokens.radius.card; continue; }
     if (c === 'rounded-full') { p.roundedFull = true; continue; }
     if ((m = c.match(/^shadow-(.+)$/)) && tokens.shadows[m[1]]) { p.shadow = `var:preset|shadow|${m[1]}`; continue; }

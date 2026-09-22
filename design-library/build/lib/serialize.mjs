@@ -161,6 +161,7 @@ export function serializeNode(node, depth = 0) {
       if (attrs.className) classes.push(attrs.className);
       const imgStyles = [];
       if (attrs.style?.border?.radius) imgStyles.push(`border-radius:${attrs.style.border.radius}`);
+      if (attrs.aspectRatio) imgStyles.push(`aspect-ratio:${attrs.aspectRatio}`, `object-fit:${attrs.scale ?? 'cover'}`);
       if (attrs.width) imgStyles.push(`width:${attrs.width}`);
       if (attrs.height) imgStyles.push(`height:${attrs.height}`);
       const alt = node.alt ? `<?php esc_attr_e( '${node.alt.replace(/'/g, "\\'")}', 'ollie' ); ?>` : '';

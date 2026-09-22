@@ -255,6 +255,7 @@ export class Mapper {
     const attrs = {};
     if (p.pxWidth) attrs.width = p.pxWidth;
     if (p.pxHeight) attrs.height = p.pxHeight;
+    if (p.aspectRatio) { attrs.aspectRatio = p.aspectRatio; attrs.scale = 'cover'; }
     attrs.sizeSlug = 'full';
     attrs.linkDestination = 'none';
     if (p.align) attrs.align = p.align;

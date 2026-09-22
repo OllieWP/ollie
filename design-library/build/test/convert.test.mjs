@@ -67,6 +67,12 @@ test('images: avatar sizing, rounded styles, theme URI rewrite, alt escaping', (
   assert.match(out, /<!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide","style":{"border":{"radius":"5px"}}} -->\n\t\t<figure class="wp-block-image alignwide size-full has-custom-border"><img [\s\S]*?style="border-radius:5px"\/>/);
 });
 
+test('image aspect ratio classes set aspectRatio + scale and the img style', () => {
+  const out = body('<div><img src="../../patterns/images/desktop.webp" class="aspect-square rounded-card"><img src="../../patterns/images/desktop.webp" class="aspect-[4/3]"></div>');
+  assert.match(out, /<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->\n\t\t<figure class="wp-block-image size-full has-custom-border"><img [\s\S]*?style="border-radius:5px;aspect-ratio:1;object-fit:cover"\/>/);
+  assert.match(out, /<!-- wp:image {"aspectRatio":"4\/3","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->\n\t\t<figure class="wp-block-image size-full"><img [\s\S]*?style="aspect-ratio:4\/3;object-fit:cover"\/>/);
+});
+
 test('columns, lists, quotes, separators', () => {
   const out = body('<div class="columns items-center gap-x-large max-w-wide"><div class="column w-1/3"><p>a</p></div><div class="column"><ul><li>one</li><li>two <strong>bold</strong></li></ul><blockquote><p>q</p><cite>Who</cite></blockquote><hr></div></div>');
   assert.match(out, /<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset\|spacing\|x-large","left":"var:preset\|spacing\|x-large"}}}} -->\n\t<div class="wp-block-columns alignwide are-vertically-aligned-center">/);

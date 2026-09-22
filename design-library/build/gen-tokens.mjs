@@ -72,6 +72,7 @@ export function generateTokensCss(tokens) {
   lines.push('  h4 { font-size: var(--text-base, 1.165rem); }');
   lines.push('  p { margin: 0; }');
   lines.push('  img { max-width: 100%; height: auto; display: block; }');
+  lines.push('  img[class*="aspect-"] { width: 100%; object-fit: cover; }');
   lines.push('  /* Buttons mirror theme.json + styles/blocks/button/*.json */');
   lines.push('  .btn, .btn-brand, .btn-brand-alt, .btn-dark, .btn-light, .btn-tint { display: inline-block; padding: .6em 1em; border-radius: var(--radius-card); font-size: var(--text-small); font-weight: 500; text-decoration: none; background: var(--color-main); color: var(--color-base); line-height: 1.4; text-align: center; }');
   lines.push('  .btn-brand { background: var(--color-primary); color: var(--color-base); }');
@@ -80,7 +81,8 @@ export function generateTokensCss(tokens) {
   lines.push('  .btn-tint { background: var(--color-tertiary); color: var(--color-main); }');
   lines.push('  .buttons { display: flex; flex-wrap: wrap; gap: var(--spacing-small); }');
   lines.push('  /* Section + layout scaffolding that mirrors WordPress block layout CSS */');
-  lines.push('  section { width: 100%; }');
+  lines.push('  /* Converter default section padding (py-xx-large px-medium); explicit p* classes override via utilities layer */');
+  lines.push('  section { width: 100%; padding: var(--spacing-xx-large) var(--spacing-medium); }');
   lines.push('  section > * { max-width: var(--container-content); margin-left: auto; margin-right: auto; }');
   lines.push('  section > .max-w-wide { max-width: var(--container-wide); }');
   lines.push('  section > .max-w-full { max-width: none; }');
