@@ -93,7 +93,7 @@ Anything else (`p-4`, `text-xl`, `bg-blue-500`, hex values) fails in both the pr
 | `data-name="Titles"` on any element | `metadata.name` (the label shown in List View). |
 | `data-block='{"name":"core/x","attrs":{...}}'` | **Escape hatch.** Merges attributes into the mapped block (or retargets it). Use it for anything the dialect lacks, and note the gap. |
 
-Flex axis mapping follows WordPress: on a horizontal flex, `justify-*` is `justifyContent` and `items-*` is `verticalAlignment`; on a vertical flex they swap.
+Flex axis mapping follows WordPress: on a horizontal flex, `justify-*` is `justifyContent` and `items-*` is `verticalAlignment`; on a vertical flex they swap. Defaults mirror WordPress too: a horizontal `flex` centers items vertically, a `flex-col` stretches them.
 
 ## Aesthetic rules (how a screenshot becomes an Ollie pattern)
 

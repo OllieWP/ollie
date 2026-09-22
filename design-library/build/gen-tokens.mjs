@@ -84,6 +84,8 @@ export function generateTokensCss(tokens) {
   lines.push('  section > * { max-width: var(--container-content); margin-left: auto; margin-right: auto; }');
   lines.push('  section > .max-w-wide { max-width: var(--container-wide); }');
   lines.push('  section > .max-w-full { max-width: none; }');
+  lines.push('  /* WordPress horizontal flex layouts default to align-items:center */');
+  lines.push('  .flex { align-items: center; }');
   lines.push('  .columns { display: flex; gap: var(--spacing-x-large); }');
   lines.push('  .columns > .column { flex: 1 1 0; min-width: 0; }');
   lines.push('  [data-stack], section, .column, div:not(.flex):not(.grid):not(.columns):not(.buttons) { display: flex; flex-direction: column; }');

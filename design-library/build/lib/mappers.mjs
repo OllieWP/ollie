@@ -130,7 +130,8 @@ export class Mapper {
       const main = { start: 'left', center: 'center', end: 'right', between: 'space-between', stretch: 'stretch' };
       const cross = { start: 'top', center: 'center', end: 'bottom', stretch: 'stretch' };
       if (vertical) {
-        if (p.items) out.justifyContent = main[p.items];
+        // CSS flex-col stretches children by default; WordPress defaults to flex-start, so say stretch explicitly.
+        out.justifyContent = p.items ? main[p.items] : 'stretch';
         if (p.justify) out.verticalAlignment = p.justify === 'between' ? 'space-between' : cross[p.justify];
       } else {
         if (p.justify) out.justifyContent = main[p.justify];

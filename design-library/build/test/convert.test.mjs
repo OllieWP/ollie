@@ -41,7 +41,7 @@ test('headings carry level and alignment', () => {
 test('grid of cards → grid group with minimumColumnWidth; cards get border/radius/min-height', () => {
   const out = body('<div class="grid grid-cols-3 gap-large max-w-wide"><div class="bg-base border border-border-light rounded-card p-medium min-h-full flex-col gap-small"><p>a</p></div></div>');
   assert.match(out, /<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset\|spacing\|large"}},"layout":{"type":"grid","minimumColumnWidth":"18rem"}} -->/);
-  assert.match(out, /<!-- wp:group {"style":{"border":{"width":"1px","radius":"5px"},"dimensions":{"minHeight":"100%"},"spacing":{"padding":{"top":"var:preset\|spacing\|medium","right":"var:preset\|spacing\|medium","bottom":"var:preset\|spacing\|medium","left":"var:preset\|spacing\|medium"},"blockGap":"var:preset\|spacing\|small"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"flex","orientation":"vertical"}} -->/);
+  assert.match(out, /<!-- wp:group {"style":{"border":{"width":"1px","radius":"5px"},"dimensions":{"minHeight":"100%"},"spacing":{"padding":{"top":"var:preset\|spacing\|medium","right":"var:preset\|spacing\|medium","bottom":"var:preset\|spacing\|medium","left":"var:preset\|spacing\|medium"},"blockGap":"var:preset\|spacing\|small"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->/);
   assert.match(body('<div class="grid grid-cols-2 grid-fixed"><p>a</p></div>'), /"layout":{"type":"grid","columnCount":2}/);
   assert.match(out, /class="wp-block-group has-base-background-color has-background has-border-color has-border-light-border-color" style="border-width:1px;border-radius:5px;min-height:100%;padding-top:var\(--wp--preset--spacing--medium\)/);
 });
@@ -49,6 +49,7 @@ test('grid of cards → grid group with minimumColumnWidth; cards get border/rad
 test('flex layouts map axes the way WordPress does', () => {
   assert.match(body('<div class="flex items-center justify-between"><p>a</p></div>'), /"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}/);
   assert.match(body('<div class="flex-col items-center"><p>a</p></div>'), /"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}/);
+  assert.match(body('<div class="flex-col justify-between"><p>a</p></div>'), /"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}/);
   assert.match(body('<div class="flex flex-wrap"><p>a</p></div>'), /"layout":{"type":"flex","flexWrap":"wrap"}/);
 });
 

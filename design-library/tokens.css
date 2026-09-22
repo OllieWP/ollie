@@ -115,6 +115,8 @@
   section > * { max-width: var(--container-content); margin-left: auto; margin-right: auto; }
   section > .max-w-wide { max-width: var(--container-wide); }
   section > .max-w-full { max-width: none; }
+  /* WordPress horizontal flex layouts default to align-items:center */
+  .flex { align-items: center; }
   .columns { display: flex; gap: var(--spacing-x-large); }
   .columns > .column { flex: 1 1 0; min-width: 0; }
   [data-stack], section, .column, div:not(.flex):not(.grid):not(.columns):not(.buttons) { display: flex; flex-direction: column; }
