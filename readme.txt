@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.2
-Stable tag: 1.6.4
+Stable tag: 1.6.5
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,10 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 60 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with global styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
 
 == Changelog ==
+
+= 1.6.5 - 10/8/26 =
+* Fix sidebar and product card template parts not loading in child themes by removing the hardcoded theme reference
+* Remove unused Box Shadow (Column, Group) and Background Blur (Group) block style options from the editor
 
 = 1.6.4 - 9/2/26 =
 * Only apply the boxed mobile menu toggle styling to icon toggles — text "Menu" and "Close" toggles now render as plain text
