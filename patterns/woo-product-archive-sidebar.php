@@ -135,7 +135,7 @@
 					<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 						<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 						<!-- wp:woocommerce/product-template -->
-							<!-- wp:template-part {"slug":"product-card","theme":"ollie"} /-->
+							<!-- wp:template-part {"slug":"product-card"} /-->
 						<!-- /wp:woocommerce/product-template -->
 						</div>
 					<!-- /wp:group -->

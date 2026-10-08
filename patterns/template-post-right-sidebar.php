@@ -38,7 +38,7 @@
 		<!-- /wp:column -->
 		<!-- wp:column {"width":"33.33%"} -->
 			<div class="wp-block-column" style="flex-basis:33.33%">
-			<!-- wp:template-part {"slug":"sidebar","theme":"ollie"} /-->
+			<!-- wp:template-part {"slug":"sidebar"} /-->
 			</div>
 		<!-- /wp:column -->
 		</div>
