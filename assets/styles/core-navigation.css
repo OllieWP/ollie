@@ -54,7 +54,8 @@
 /* Mobile Navigation
 --------------------------------------------- */
 
-.wp-block-navigation__responsive-container.is-menu-open.has-modal-open {
+/* An overlay template part (disable-default-overlay) brings its own spacing. */
+.wp-block-navigation__responsive-container.is-menu-open.has-modal-open:not(.disable-default-overlay) {
 	padding: var(--wp--preset--spacing--medium);
 }
 
