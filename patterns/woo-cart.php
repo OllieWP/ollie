@@ -28,7 +28,7 @@
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 					<div class="wp-block-buttons">
 					<!-- wp:button {"className":"is-style-button-light","style":{"border":{"bottom":{"color":"var:preset|color|border-light","width":"1px"},"top":{},"right":{},"left":{}}},"fontSize":"x-small","icon":"arrow-left","iconPositionLeft":true} -->
-						<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link has-x-small-font-size has-custom-font-size wp-element-button" href="/shop" style="border-bottom-color:var(--wp--preset--color--border-light);border-bottom-width:1px">Continue Shopping</a></div>
+						<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link has-x-small-font-size has-custom-font-size wp-element-button" href="<?php echo esc_url( function_exists( 'wc_get_page_permalink' ) ? wc_get_page_permalink( 'shop' ) : home_url( '/' ) ); ?>" style="border-bottom-color:var(--wp--preset--color--border-light);border-bottom-width:1px"><?php esc_html_e( 'Continue Shopping', 'ollie' ); ?></a></div>
 					<!-- /wp:button -->
 					</div>
 				<!-- /wp:buttons -->

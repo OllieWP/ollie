@@ -57,10 +57,10 @@
 						<div class="wp-block-outermost-icon-block"><div class="icon-container has-icon-color has-icon-background-color has-main-background-color has-base-color" style="background-color:#15110F;color:#fff;width:42px;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;border-radius:10px;transform:rotate(0deg) scaleX(1) scaleY(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg></div></div>
 					<!-- /wp:outermost/icon-block -->
 					<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-						<p class="has-text-align-center has-medium-font-size"><strong>No results found</strong></p>
+						<p class="has-text-align-center has-medium-font-size"><strong><?php esc_html_e( 'No results found', 'ollie' ); ?></strong></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
-						<p class="has-text-align-center has-secondary-color has-text-color has-link-color">You can try <a href="#" class="wc-link-clear-any-filters">clearing any filters</a> or head to our <a href="#" class="wc-link-stores-home">store's home</a>.</p>
+						<p class="has-text-align-center has-secondary-color has-text-color has-link-color"><?php echo wp_kses_post( sprintf( /* translators: 1: opening link tag, 2: closing link tag, 3: opening link tag, 4: closing link tag. */ __( 'You can try %1$sclearing any filters%2$s or head to our %3$sstore\'s home%4$s.', 'ollie' ), '<a href="#" class="wc-link-clear-any-filters">', '</a>', '<a href="#" class="wc-link-stores-home">', '</a>' ) ); ?></p>
 					<!-- /wp:paragraph -->
 					</div>
 				<!-- /wp:group -->

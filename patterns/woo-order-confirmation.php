@@ -25,7 +25,7 @@
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 				<div class="wp-block-buttons">
 				<!-- wp:button {"className":"is-style-button-light","fontSize":"x-small","icon":"arrow-left","iconPositionLeft":true} -->
-					<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link has-x-small-font-size has-custom-font-size wp-element-button">Return to Store</a></div>
+					<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link has-x-small-font-size has-custom-font-size wp-element-button" href="<?php echo esc_url( function_exists( 'wc_get_page_permalink' ) ? wc_get_page_permalink( 'shop' ) : home_url( '/' ) ); ?>"><?php esc_html_e( 'Return to Store', 'ollie' ); ?></a></div>
 				<!-- /wp:button -->
 				</div>
 			<!-- /wp:buttons -->
@@ -50,13 +50,13 @@
 				<!-- wp:woocommerce/order-confirmation-summary /-->
 				<!-- wp:woocommerce/order-confirmation-totals-wrapper {"align":"wide"} -->
 					<!-- wp:heading {"style":{"typography":{"fontSize":"24px"}}} -->
-						<h2 class="wp-block-heading" style="font-size:24px">Order details</h2>
+						<h2 class="wp-block-heading" style="font-size:24px"><?php esc_html_e( 'Order details', 'ollie' ); ?></h2>
 					<!-- /wp:heading -->
 					<!-- wp:woocommerce/order-confirmation-totals {"lock":{"remove":true}} /-->
 				<!-- /wp:woocommerce/order-confirmation-totals-wrapper -->
 				<!-- wp:woocommerce/order-confirmation-downloads-wrapper {"align":"wide"} -->
 					<!-- wp:heading {"style":{"typography":{"fontSize":"24px"}}} -->
-						<h2 class="wp-block-heading" style="font-size:24px">Downloads</h2>
+						<h2 class="wp-block-heading" style="font-size:24px"><?php esc_html_e( 'Downloads', 'ollie' ); ?></h2>
 					<!-- /wp:heading -->
 					<!-- wp:woocommerce/order-confirmation-downloads {"lock":{"remove":true}} /-->
 				<!-- /wp:woocommerce/order-confirmation-downloads-wrapper -->
@@ -66,7 +66,7 @@
 						<div class="wp-block-column">
 						<!-- wp:woocommerce/order-confirmation-shipping-wrapper {"align":"wide"} -->
 							<!-- wp:heading {"style":{"typography":{"fontSize":"24px"}}} -->
-								<h2 class="wp-block-heading" style="font-size:24px">Shipping address</h2>
+								<h2 class="wp-block-heading" style="font-size:24px"><?php esc_html_e( 'Shipping address', 'ollie' ); ?></h2>
 							<!-- /wp:heading -->
 							<!-- wp:woocommerce/order-confirmation-shipping-address {"lock":{"remove":true}} /-->
 						<!-- /wp:woocommerce/order-confirmation-shipping-wrapper -->
@@ -76,7 +76,7 @@
 						<div class="wp-block-column">
 						<!-- wp:woocommerce/order-confirmation-billing-wrapper {"align":"wide"} -->
 							<!-- wp:heading {"style":{"typography":{"fontSize":"24px"}}} -->
-								<h2 class="wp-block-heading" style="font-size:24px">Billing address</h2>
+								<h2 class="wp-block-heading" style="font-size:24px"><?php esc_html_e( 'Billing address', 'ollie' ); ?></h2>
 							<!-- /wp:heading -->
 							<!-- wp:woocommerce/order-confirmation-billing-address {"lock":{"remove":true}} /-->
 						<!-- /wp:woocommerce/order-confirmation-billing-wrapper -->
@@ -86,7 +86,7 @@
 				<!-- /wp:columns -->
 				<!-- wp:woocommerce/order-confirmation-additional-fields-wrapper {"align":"wide"} -->
 					<!-- wp:heading {"style":{"typography":{"fontSize":"24px"}}} -->
-						<h2 class="wp-block-heading" style="font-size:24px">Additional information</h2>
+						<h2 class="wp-block-heading" style="font-size:24px"><?php esc_html_e( 'Additional information', 'ollie' ); ?></h2>
 					<!-- /wp:heading -->
 					<!-- wp:woocommerce/order-confirmation-additional-fields /-->
 				<!-- /wp:woocommerce/order-confirmation-additional-fields-wrapper -->

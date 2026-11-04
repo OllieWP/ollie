@@ -54,7 +54,7 @@
 					<!-- wp:woocommerce/product-filters -->
 						<div class="wp-block-woocommerce-product-filters wc-block-product-filters" style="--wc-product-filters-text-color:#111;--wc-product-filters-background-color:#fff">
 						<!-- wp:heading {"style":{"margin":{"top":"0","bottom":"0"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"base"} -->
-							<h2 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0">Filters</h2>
+							<h2 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'Filters', 'ollie' ); ?></h2>
 						<!-- /wp:heading -->
 						<!-- wp:woocommerce/product-filter-active -->
 							<div class="wp-block-woocommerce-product-filter-active">
@@ -65,7 +65,7 @@
 								<!-- wp:buttons {"layout":{"type":"flex","verticalAlignment":"stretched"}} -->
 									<div class="wp-block-buttons">
 									<!-- wp:button {"textAlign":"center","width":100,"className":"wc-block-product-filter-clear-button is-style-button-dark","style":{"typography":{"textDecoration":"none"},"outline":"none","fontSize":"medium","spacing":{"padding":{"left":"0.6rem","right":"0.6rem","top":"0.6rem","bottom":"0.6rem"}}}} -->
-										<div class="wp-block-button has-custom-width wp-block-button__width-100 wc-block-product-filter-clear-button is-style-button-dark"><a class="wp-block-button__link has-text-align-center wp-element-button" style="padding-top:0.6rem;padding-right:0.6rem;padding-bottom:0.6rem;padding-left:0.6rem;text-decoration:none">Clear filters</a></div>
+										<div class="wp-block-button has-custom-width wp-block-button__width-100 wc-block-product-filter-clear-button is-style-button-dark"><a class="wp-block-button__link has-text-align-center wp-element-button" style="padding-top:0.6rem;padding-right:0.6rem;padding-bottom:0.6rem;padding-left:0.6rem;text-decoration:none"><?php esc_html_e( 'Clear filters', 'ollie' ); ?></a></div>
 									<!-- /wp:button -->
 									</div>
 								<!-- /wp:buttons -->
@@ -75,7 +75,7 @@
 						<!-- wp:woocommerce/product-filter-price -->
 							<div class="wp-block-woocommerce-product-filter-price">
 							<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"0.625rem","top":"0"}}},"fontSize":"base"} -->
-								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem">Price</h3>
+								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem"><?php esc_html_e( 'Price', 'ollie' ); ?></h3>
 							<!-- /wp:heading -->
 							<!-- wp:woocommerce/product-filter-price-slider -->
 								<div class="wp-block-woocommerce-product-filter-price-slider wc-block-product-filter-price-slider"></div>
@@ -85,7 +85,7 @@
 						<!-- wp:woocommerce/product-filter-rating -->
 							<div class="wp-block-woocommerce-product-filter-rating">
 							<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"0.625rem","top":"0"}}},"fontSize":"base"} -->
-								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem">Rating</h3>
+								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem"><?php esc_html_e( 'Rating', 'ollie' ); ?></h3>
 							<!-- /wp:heading -->
 							<!-- wp:woocommerce/product-filter-checkbox-list -->
 								<div class="wp-block-woocommerce-product-filter-checkbox-list wc-block-product-filter-checkbox-list"></div>
@@ -95,7 +95,7 @@
 						<!-- wp:woocommerce/product-filter-attribute -->
 							<div class="wp-block-woocommerce-product-filter-attribute">
 							<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"0.625rem","top":"0"}}},"fontSize":"base"} -->
-								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem">Brand</h3>
+								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem"><?php esc_html_e( 'Brand', 'ollie' ); ?></h3>
 							<!-- /wp:heading -->
 							<!-- wp:woocommerce/product-filter-checkbox-list -->
 								<div class="wp-block-woocommerce-product-filter-checkbox-list wc-block-product-filter-checkbox-list"></div>
@@ -105,7 +105,7 @@
 						<!-- wp:woocommerce/product-filter-taxonomy -->
 							<div class="wp-block-woocommerce-product-filter-taxonomy">
 							<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"0.625rem","top":"0"}}},"fontSize":"base"} -->
-								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem">Category</h3>
+								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem"><?php esc_html_e( 'Category', 'ollie' ); ?></h3>
 							<!-- /wp:heading -->
 							<!-- wp:woocommerce/product-filter-checkbox-list -->
 								<div class="wp-block-woocommerce-product-filter-checkbox-list wc-block-product-filter-checkbox-list"></div>
@@ -115,7 +115,7 @@
 						<!-- wp:woocommerce/product-filter-status -->
 							<div class="wp-block-woocommerce-product-filter-status">
 							<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"0.625rem","top":"0"}}},"fontSize":"base"} -->
-								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem">Status</h3>
+								<h3 class="wp-block-heading has-base-font-size" style="margin-top:0;margin-bottom:0.625rem"><?php esc_html_e( 'Status', 'ollie' ); ?></h3>
 							<!-- /wp:heading -->
 							<!-- wp:woocommerce/product-filter-checkbox-list -->
 								<div class="wp-block-woocommerce-product-filter-checkbox-list wc-block-product-filter-checkbox-list"></div>
@@ -155,10 +155,10 @@
 								<div class="wp-block-outermost-icon-block"><div class="icon-container has-icon-color has-icon-background-color has-main-background-color has-base-color" style="background-color:#15110F;color:#fff;width:42px;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;border-radius:10px;transform:rotate(0deg) scaleX(1) scaleY(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg></div></div>
 							<!-- /wp:outermost/icon-block -->
 							<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-								<p class="has-text-align-center has-medium-font-size"><strong>No results found</strong></p>
+								<p class="has-text-align-center has-medium-font-size"><strong><?php esc_html_e( 'No results found', 'ollie' ); ?></strong></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
-								<p class="has-text-align-center has-secondary-color has-text-color has-link-color">You can try <a href="#" class="wc-link-clear-any-filters">clearing any filters</a> or head to our <a href="#" class="wc-link-stores-home">store's home</a>.</p>
+								<p class="has-text-align-center has-secondary-color has-text-color has-link-color"><?php echo wp_kses_post( sprintf( /* translators: 1: opening link tag, 2: closing link tag, 3: opening link tag, 4: closing link tag. */ __( 'You can try %1$sclearing any filters%2$s or head to our %3$sstore\'s home%4$s.', 'ollie' ), '<a href="#" class="wc-link-clear-any-filters">', '</a>', '<a href="#" class="wc-link-stores-home">', '</a>' ) ); ?></p>
 							<!-- /wp:paragraph -->
 							</div>
 						<!-- /wp:group -->

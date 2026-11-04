@@ -15,7 +15,7 @@
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
 		<!-- wp:site-title {"level":0} /-->
-		<!-- wp:woocommerce/cart-link {"cartIcon":"bag","content":"Return to Cart","fontSize":"x-small","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}}} /-->
+		<!-- wp:woocommerce/cart-link {"cartIcon":"bag","content":"<?php esc_attr_e( 'Return to Cart', 'ollie' ); ?>","fontSize":"x-small","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}}} /-->
 		</div>
 	<!-- /wp:group -->
 	</header>

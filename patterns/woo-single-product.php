@@ -70,7 +70,7 @@
 									<div class="wp-block-outermost-icon-block"><div class="icon-container has-icon-color" style="color:#30b241;width:20px;transform:rotate(0deg) scaleX(1) scaleY(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,40H48A16,16,0,0,0,32,56v56c0,52.72,25.52,84.67,46.93,102.19,23.06,18.86,46,25.26,47,25.53a8,8,0,0,0,4.2,0c1-.27,23.91-6.67,47-25.53C198.48,196.67,224,164.72,224,112V56A16,16,0,0,0,208,40Zm0,72c0,37.07-13.66,67.16-40.6,89.42A129.3,129.3,0,0,1,128,223.62a128.25,128.25,0,0,1-38.92-21.81C61.82,179.51,48,149.3,48,112l0-56,160,0ZM82.34,141.66a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32l-56,56a8,8,0,0,1-11.32,0Z"></path></svg></div></div>
 								<!-- /wp:outermost/icon-block -->
 								<!-- wp:paragraph {"fontSize":"x-small"} -->
-									<p class="has-x-small-font-size">Safe and secure checkout</p>
+									<p class="has-x-small-font-size"><?php esc_html_e( 'Safe and secure checkout', 'ollie' ); ?></p>
 								<!-- /wp:paragraph -->
 								</div>
 							<!-- /wp:group -->
@@ -106,8 +106,8 @@
 				<!-- wp:group {"metadata":{"name":"Product Taxonomy Links"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"position":{"type":""}},"textColor":"secondary","fontSize":"x-small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group has-secondary-color has-text-color has-link-color has-x-small-font-size">
 					<!-- wp:woocommerce/product-sku /-->
-					<!-- wp:post-terms {"term":"product_cat","prefix":"Category: "} /-->
-					<!-- wp:post-terms {"term":"product_tag","prefix":"Tags: "} /-->
+					<!-- wp:post-terms {"term":"product_cat","prefix":"<?php esc_attr_e( 'Category: ', 'ollie' ); ?>"} /-->
+					<!-- wp:post-terms {"term":"product_tag","prefix":"<?php esc_attr_e( 'Tags: ', 'ollie' ); ?>"} /-->
 					</div>
 				<!-- /wp:group -->
 				</div>
@@ -120,7 +120,7 @@
 		<div class="wp-block-woocommerce-product-collection alignwide">
 		<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-medium-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">
-			Related products			</h2>
+			<?php esc_html_e( 'Related products', 'ollie' ); ?>			</h2>
 		<!-- /wp:heading -->
 		<!-- wp:woocommerce/product-template -->
 			<!-- wp:template-part {"slug":"product-card"} /-->
