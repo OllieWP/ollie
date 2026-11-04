@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.2
-Stable tag: 1.6.5
+Stable tag: 1.6.6
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,12 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Launch a blazing-fast, pixel-perfect website with the Ollie WordPress block theme! Ollie features over 60 beautiful pattern designs, 7 full-page pattern layouts, and a fully-customizable design system with global styles. Ollie integrates seamlessly with all of the powerful new WordPress editor features, giving you the most lightweight and powerful website builder on the planet — no expensive page builder plugin required! ✶ Full demo: https://demo.olliewp.com ✶
 
 == Changelog ==
+
+= 1.6.6 - 11/3/26 =
+* Make WooCommerce pattern strings translatable
+* Fix the Return to Store and Continue Shopping buttons to link to the shop page
+* Fix the open navigation overlay padding being applied to overlay template parts
+* Add padding to the Mobile Menu 1 pattern so it keeps its spacing as an overlay template part
 
 = 1.6.5 - 10/8/26 =
 * Fix sidebar and product card template parts not loading in child themes by removing the hardcoded theme reference
